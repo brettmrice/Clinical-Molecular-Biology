@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>PCR | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Oligonucleotide (Primer) Design &amp; Preparation and PCR Reaction Optimization are two processes intertwined and essential for achieving successful, reliable PCR amplification, especially in the...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="PCR | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Oligonucleotide (Primer) Design &amp; Preparation and PCR Reaction Optimization are two processes intertwined and essential for achieving successful, reliable PCR amplification, especially in the...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PCR | MB">
+<meta name="twitter:description" content="Oligonucleotide (Primer) Design &amp; Preparation and PCR Reaction Optimization are two processes intertwined and essential for achieving successful, reliable PCR amplification, especially in the...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="active" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="pcr" class="section level1 unnumbered">
+<h1>PCR<a class="anchor" aria-label="anchor" href="#pcr"><i class="fas fa-link"></i></a>
+</h1>
+<p><strong>Oligonucleotide (Primer) Design &amp; Preparation</strong> and <strong>PCR Reaction Optimization</strong> are two processes intertwined and essential for achieving successful, reliable PCR amplification, especially in the clinical setting where accuracy is paramount</p>
+<p>Think of it like planning a road trip:</p>
+<ul>
+<li>
+<strong>Primer Design &amp; Preparation:</strong> This is like choosing your precise destination address (specificity) and ensuring your GPS system (the primers) is programmed correctly and functioning well (good quality, stable)</li>
+<li>
+<strong>Reaction Optimization:</strong> This is like tuning your car’s engine (the PCR reaction mix) and adjusting your driving strategy (cycling conditions) to ensure you reach your destination efficiently, without detours (non-specific products), and without breaking down (reaction failure)</li>
+</ul>
+<div id="pcr-primer-design-prep-reaction-optimization" class="section level2 unnumbered">
+<h2>
+<strong>PCR: Primer Design &amp; Prep + Reaction Optimization</strong><a class="anchor" aria-label="anchor" href="#pcr-primer-design-prep-reaction-optimization"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Overall Goal</strong> To specifically, efficiently, and reproducibly amplify a target DNA sequence from a complex background</p>
+</div>
+<div id="primer-design-preparation-laying-the-foundation" class="section level2 unnumbered">
+<h2>
+<strong>Primer Design &amp; Preparation (Laying the Foundation)</strong><a class="anchor" aria-label="anchor" href="#primer-design-preparation-laying-the-foundation"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>The ‘What’:</strong> Creating and preparing the short DNA strands (primers) that dictate <em>where</em> amplification begins</li>
+<li>
+<strong>Key Goals of Design</strong>
+<ul>
+<li>
+<strong>Specificity:</strong> Primers must bind <em>only</em> to the intended target sites. Achieved by choosing unique sequences and <strong>BLASTing</strong> against relevant genomes to avoid off-target binding</li>
+<li>
+<strong>Efficiency:</strong> Primers should bind readily and promote effective polymerase extension</li>
+<li>
+<strong>Compatibility:</strong> Forward and reverse primers must work well <em>together</em> under the same conditions</li>
+</ul>
+</li>
+<li>
+<strong>Critical Design Factors</strong>
+<ul>
+<li>
+<strong>Length:</strong> Typically 18-25 bp</li>
+<li>
+<strong>Melting Temperature (Tm):</strong> Primers in a pair must have similar Tms (within ~5°C, ideally &lt;2°C). Tm dictates the annealing temperature (Ta)</li>
+<li>
+<strong>GC Content:</strong> Aim for 40-60%</li>
+<li>
+<strong>Avoid:</strong> Secondary structures (hairpins, self-dimers), primer-dimers (especially 3’ complementarity), runs/repeats</li>
+<li>
+<strong>GC Clamp:</strong> Prefer G/C at the 3’ end</li>
+</ul>
+</li>
+<li>
+<strong>Tools:</strong> Primer design software (e.g., Primer3, Primer-BLAST) is essential</li>
+<li>
+<strong>Preparation</strong>
+<ul>
+<li>
+<strong>Synthesis:</strong> Done chemically by vendors</li>
+<li>
+<strong>Purification:</strong> Removing failed synthesis products (Desalting, Cartridge, HPLC, PAGE – choice depends on application sensitivity)</li>
+<li>
+<strong>QC:</strong> Vendor checks (OD260, Mass Spec)</li>
+<li>
+<strong>Handling:</strong> Proper reconstitution (nuclease-free buffer/water), storage (-20°C, lyophilized or stock/working solutions), aliquoting to avoid contamination and freeze-thaw</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="reaction-optimization-fine-tuning-for-performance" class="section level2 unnumbered">
+<h2>
+<strong>Reaction Optimization (Fine-Tuning for Performance)</strong><a class="anchor" aria-label="anchor" href="#reaction-optimization-fine-tuning-for-performance"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>The ‘What’:</strong> Adjusting reagent concentrations and thermal cycling conditions to make the chosen primers work optimally</li>
+<li>
+<strong>Key Goals of Optimization</strong>
+<ul>
+<li>
+<strong>Maximize Specificity:</strong> Get only the desired product, no extra bands or primer-dimers</li>
+<li>
+<strong>Maximize Efficiency/Yield:</strong> Get a strong signal from the target, especially important for low-copy detection</li>
+<li>
+<strong>Ensure Reproducibility:</strong> Get consistent results run after run</li>
+</ul>
+</li>
+<li>
+<strong>Critical Parameters to Adjust</strong>
+<ul>
+<li>
+<strong>Annealing Temperature (Ta):</strong> THE key parameter for specificity. Optimized using <strong>Gradient PCR</strong> (test a range, typically 3-5°C below primer Tm)</li>
+<li>
+<strong>Magnesium Chloride (MgCl₂):</strong> Crucial polymerase cofactor; affects enzyme activity and primer binding stringency. Titrate carefully (e.g., 1.0-4.0 mM)</li>
+<li>
+<strong>Primer Concentration:</strong> Balance yield vs. primer-dimer formation (e.g., 100-1000 nM)</li>
+<li>
+<strong>Template Quality/Quantity:</strong> Ensure sufficient, intact template; watch for inhibitors</li>
+<li>
+<strong>Enzyme:</strong> Use <strong>Hot-Start polymerase</strong> to minimize non-specific setup amplification</li>
+<li>
+<strong>Cycling Conditions:</strong> Initial denaturation (activate hot-start), denaturation time/temp, annealing time, extension time (based on amplicon size), cycle number</li>
+</ul>
+</li>
+<li>
+<strong>Tools/Methods:</strong> Gradient thermal cyclers, careful experimental design (matrix titrations), use of controls (<strong>Positive, NTC</strong>)</li>
+<li>
+<strong>Evaluation:</strong> Agarose gel (single, bright band at correct size?), qPCR data (Cq, melt curve, efficiency)</li>
+</ul>
+<div id="the-interplay" class="section level3 unnumbered">
+<h3>
+<strong>The Interplay</strong><a class="anchor" aria-label="anchor" href="#the-interplay"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Design Influences Optimization:</strong> Well-designed primers (specific, matched Tms, no secondary structures) make optimization <em>much</em> easier and more likely to succeed</li>
+<li>
+<strong>Optimization Validates Design:</strong> Finding optimal conditions (especially a clean result across a reasonable Ta range) confirms the primers are behaving as intended in the reaction environment</li>
+<li>
+<strong>Troubleshooting:</strong> If optimization fails (e.g., persistent non-specific bands, no product), the problem often lies in the primer design itself (requiring redesign) or in the template quality</li>
+</ul>
+</div>
+<div id="clinical-significance" class="section level3 unnumbered">
+<h3>
+<strong>Clinical Significance</strong><a class="anchor" aria-label="anchor" href="#clinical-significance"><i class="fas fa-link"></i></a>
+</h3>
+<p>In a diagnostic lab, this combined process ensures:</p>
+<ul>
+<li>
+<strong>Accuracy:</strong> Avoiding false positives (non-specific products) and false negatives (failed amplification)</li>
+<li>
+<strong>Sensitivity:</strong> Detecting the target even at low levels</li>
+<li>
+<strong>Reliability:</strong> Consistent performance required for patient results and lab accreditation</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></div>
+<div class="next"><a href="oligonucleotides.html">Oligonucleotides</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#pcr">PCR</a></li>
+<li><a class="nav-link" href="#pcr-primer-design-prep-reaction-optimization">PCR: Primer Design &amp; Prep + Reaction Optimization</a></li>
+<li><a class="nav-link" href="#primer-design-preparation-laying-the-foundation">Primer Design &amp; Preparation (Laying the Foundation)</a></li>
+<li>
+<a class="nav-link" href="#reaction-optimization-fine-tuning-for-performance">Reaction Optimization (Fine-Tuning for Performance)</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#the-interplay">The Interplay</a></li>
+<li><a class="nav-link" href="#clinical-significance">Clinical Significance</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/02-C-01-_.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/02-C-01-_.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

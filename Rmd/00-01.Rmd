@@ -1,0 +1,32 @@
+# Content Areas {-}
+
+Source: <a href="https://www.ascp.org/content/board-of-certification/get-credentialed#" target="_blank">MLS(ASCP), MB(ASCP), and SMB(ASCP) Certifications > Applicant Resources > Content Guideline</a>
+
+Major content areas covered:
+
+## **Molecular Science** {-}
+
+*   [Nucleic Acid Chemistry](nucleic-acid-chemistry.html)
+*   [Basic Molecular Theory](basic-molecular-theory.html)
+*   [Biochemical Reagents](biochemical-reagents.html)
+*   [Genetics](genetics.html)
+
+## **Molecular Techniques** {-}
+
+*   [Nucleic Acid Isolation](nucleic-acid-isolation.html)
+*   [Separation and Detection](separation-and-detection.html)
+*   [Nucleic Acid Amplification](nucleic-acid-amplification.html)
+*   [Sequencing](sequencing.html)
+*   [Other Techniques](other-techniques.html)
+
+## **Applications of Molecular Testing** {-}
+
+*   [Infectious Disease](infectious-disease.html)
+*   [Oncology](oncology.html)
+*   [Genetics](genetics-1.html)
+*   [Other](other-2.html)
+
+## Last Updated {-}
+
+Last edit pushed to this site was on <span id="last_updated">`r Sys.Date()`</span>
+

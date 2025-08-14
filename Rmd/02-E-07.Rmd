@@ -1,0 +1,82 @@
+# Multiplex Ligation-Dependent Probe Amplification (MLPA) {-}
+
+**MLPA** is a highly sensitive and elegant technique used in the clinical lab to rapidly determine the copy number of specific DNA sequences. This is especially useful for detecting **copy number variations (CNVs)**, which are gains (duplications) or losses (deletions) of DNA regions, or for looking at the methylation status of a large number of targets simultaneously
+
+Think of MLPA as a specialized, sophisticated version of PCR. It allows you to analyze **50 to 60 targets in a single reaction**, making it incredibly efficient for diagnostics. It relies on three crucial components working in concert: ligation, amplification, and size separation
+
+## **The Core Principle: Counting DNA via Ligation and PCR** {-}
+
+MLPA's ingenious design allows it to measure the **quantity** of target DNA, rather than just its presence or absence. The key is to link two separate probe halves together only when both are perfectly hybridized to the target DNA. This linked sequence can then be amplified by PCR
+
+**Here is the MLPA magic in steps**
+
+### **1. Probe Hybridization** {-}
+
+The assay uses sets of special MLPA probes. Each probe consists of two separate, single-stranded oligonucleotides (a Left Probe Oligo and a Right Probe Oligo) that are designed to bind adjacently to a specific target sequence in the patient's DNA (which is added in excess)
+
+*   **Left Probe Oligo (LPO):** Contains a short sequence that binds to the target DNA. At its 3' end, it has a universal PCR primer site
+*   **Right Probe Oligo (RPO):** Contains a short sequence that binds to the target DNA immediately adjacent to the LPO. At its 5' end, it has a universal PCR primer site
+*   **Stuffer Sequence (unique to each probe pair):** This is a non-specific DNA segment located on either the LPO or RPO. Each pair of probes targeting a different gene has a *different length* stuffer sequence
+
+### **2. Ligation** {-}
+
+A **ligase enzyme** (the molecular glue) is added. Ligase can only join the LPO and RPO together if they are perfectly hybridized adjacent to each other on the patient's template DNA. Crucially, even a single-base mismatch prevents the ligation from occurring
+
+*   If the target sequence is present and complementary, the probes ligate into a single, contiguous molecule
+
+### **3. Amplification (PCR)** {-}
+
+Once the probes are ligated, they can be amplified using a **single, universal pair of PCR primers** that bind to the universal primer sites (added in step 1) on the 5' end of the LPO and the 3' end of the RPO
+
+*   All the different MLPA probes (even those targeting different genes) can be amplified by this one universal primer pair. This makes it a **multiplex PCR**
+
+### **4. Separation and Quantification** {-}
+
+The PCR products are then separated by size using **capillary electrophoresis (CE)**. Because each probe set has a unique-length stuffer sequence, the different ligated products (each representing a different gene target) will separate into distinct peaks
+
+*   The crucial insight: The **peak area** for each resulting PCR product is directly proportional to the amount of *starting* target DNA in the sample
+
+## **Interpreting MLPA Results: The Copy Number** {-}
+
+By analyzing the peak heights (or areas) on the electropherogram, we can determine the copy number of the target sequence
+
+*   **Normalization:** The peak areas from the patient sample are compared to a normal reference sample to account for minor variations in the reaction. We also include probes for sequences expected to be present in normal copy number
+*   **Copy Number Calculation**
+    *   **Normal Sample:** For an autosomal gene, we expect a copy number of 2
+    *   **Deletion (Loss):** If a target sequence has a deletion on one chromosome, the amount of template is halved, and the corresponding PCR peak will be about half the size of the normal controls. Copy number = 1
+    *   **Duplication (Gain):** If a target sequence has a duplication, the corresponding peak will be about 1.5 times the size of the normal controls. Copy number = 3
+
+## **Clinical Applications in the Molecular Lab** {-}
+
+MLPA is a powerful tool for analyzing targeted gene sequences and detecting CNVs that are too small to be seen by conventional karyotyping but too large to be efficiently picked up by high-throughput sequencing
+
+*   **Detection of Gene Deletions and Duplications:** This is the primary use of MLPA
+    *   **Examples:** Identifying deletions or duplications in genes like *DMD* (Duchenne Muscular Dystrophy), *BRCA1/BRCA2* (hereditary breast/ovarian cancer), or **MSH2** in Lynch syndrome
+    *   **Syndrome Diagnosis:** MLPA is frequently used for detecting microdeletion syndromes like **DiGeorge syndrome** or **Prader-Willi/Angelman syndrome** (for the latter, using specialized probes that detect methylation status)
+*   **Tumor-Specific Deletions/Amplifications:** Identifying chromosomal gains or losses associated with different types of cancers
+*   **Methylation Analysis:** Special MLPA probes (Methylation-sensitive MLPA or MS-MLPA) can detect epigenetic changes. These probes contain a restriction site that is only cut by a methylation-sensitive enzyme if the DNA is unmethylated. The presence or absence of a peak then indicates the methylation status
+
+## **Advantages vs. Limitations** {-}
+
+### **Advantages** {-}
+*   **High Throughput and Multiplexing:** Detects many targets in a single reaction (up to 60)
+*   **Quantitative:** Provides precise copy number data (1, 2, 3, etc.)
+*   **Cost-Effective:** Much cheaper than whole-exome or whole-genome sequencing for analyzing specific sets of genes
+*   **High Specificity:** Requires the ligation event for amplification to occur, making it very sensitive and specific. Even a single nucleotide difference prevents ligation
+
+### **Limitations** {-}
+*   **Limited Coverage:** It only provides information on the genes that have probes included in the mix. It cannot detect variants in genes not targeted by the probes
+*   **Cannot Detect SNVs:** It detects CNVs (deletions/duplications) but generally cannot detect point mutations (SNVs) or indels unless the mutation falls directly at the probe ligation site
+*   **Requires Specific Probe Design:** Designing effective MLPA probe sets requires careful selection and validation
+*   **Artifacts:** Can be sensitive to differences in sample quality, temperature variations, and impurities
+
+## **Key Terms** {-}
+
+*   **MLPA (Multiplex Ligation-Dependent Probe Amplification):** A molecular technique that allows for the simultaneous detection and quantification of up to 60 different DNA sequences in a single reaction
+*   **Copy Number Variation (CNV):** A segment of DNA that is 1 kilobase (kb) or larger and is present in variable copy numbers in different individuals. MLPA is a key method for detecting CNVs (deletions or duplications)
+*   **Probe (MLPA):** A pair of two short oligonucleotides (Left and Right Probe Oligos) designed to bind adjacently to a specific target sequence
+*   **Ligation:** The crucial enzymatic process where DNA ligase joins the two separate MLPA probes together when they are hybridized adjacent to each other on the template DNA
+*   **Stuffer Sequence:** A DNA segment of unique, defined length included in each probe pair. This allows different targets to be separated and distinguished by size on capillary electrophoresis
+*   **Universal Primer:** A single pair of primers that can amplify all of the ligated MLPA probes, regardless of the target sequence, as long as they contain the universal primer binding sites
+*   **Electropherogram (MLPA):** The graphical output of the capillary electrophoresis run, showing distinct peaks for each target sequence; the height or area of the peak corresponds to the copy number of that target in the sample
+*   **Methylation-Sensitive MLPA (MS-MLPA):** A variant of MLPA used to detect the methylation status of DNA, typically in regions associated with specific genetic disorders or cancers, using methylation-sensitive restriction enzymes

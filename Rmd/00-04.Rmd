@@ -1,0 +1,59 @@
+# Reading List {-}
+
+Source: <a href="https://www.ascp.org/content/board-of-certification/get-credentialed#" target="_blank">MB(ASCP) and SMB(ASCP) Certifications > Applicant Resources > Reading List</a>
+
+ASCP makes it clear that their suggested reading/reference list for the Technologist in Molecular Biology, MB(ASCP), and the Specialist in Molecular Biology, SMB(ASCP), certification exams "is intended only as a partial reference source". The suggested reading/reference list below was last revised on ASCP's website January 2025
+
+
+## **Journals** {-}
+*   Horak, P., et al. (2022). <a href="https://doi.org/10.1016/j.gim.2022.01.001" target="_blank">Standards for the classification of pathogenicity of somatic variants in cancer (oncogenicity): Joint recommendations of Clinical Genome Resource (ClinGen), Cancer Genomics Consortium (CGC), and Variant Interpretation for Cancer Consortium (VICC)</a>. Genetics in Medicine, 24(5), 986-998. <a href="https://doi.org/10.1016/j.gim.2022.01.001" target="_blank">https://doi.org/10.1016/j.gim.2022.01.001</a>
+*   Jennings, L.J., et al. (2017). <a href="https://doi.org/10.1016/j.jmoldx.2017.01.011" target="_blank">Guidelines for Validation of Next-Generation Sequencing-Based Oncology Panels: A Joint
+Consensus Recommendation of the Association for Molecular Pathology and College of American Pathologists</a>.
+The Journal of Molecular Diagnostics, 19(3), 341–365. <a href="https://doi.org/10.1016/j.jmoldx.2017.01.011" target="_blank">https://doi.org/10.1016/j.jmoldx.2017.01.011</a>
+*   Li, M.M., et al. (2017). <a href="https://doi.org/10.1016/j.jmoldx.2016.10.002" target="_blank">Standards and Guidelines for the Interpretation and Reporting of Sequence Variants in Cancer: A
+Joint Consensus Recommendation of the Association for Molecular Pathology, American Society of Clinical
+Oncology, and College of American Pathologists</a>. Journal of Molecular Diagnostics, 19(1), 4–23.
+<a href="https://doi.org/10.1016/j.jmoldx.2016.10.002" target="_blank">https://doi.org/10.1016/j.jmoldx.2016.10.002</a>
+*   Quan, P. L., Sauzade, M., & Brouzes, E. (2018). <a href="https://doi.org/10.3390/s18041271" target="_blank">dPCR: A Technology Review</a>. Sensors, 18(4).
+<a href="https://doi.org/10.3390/s18041271" target="_blank">https://doi.org/10.3390/s18041271</a>
+*   Rehm, H.L., et al. (2013). <a href="https://doi.org/10.1038/gim.2013.92" target="_blank">ACMG Cinical Laboratory Standards for Next-Generation Sequencing</a>. Genetics in
+Medicine, 15(9), 733–747. <a href="https://doi.org/10.1038/gim.2013.92" target="_blank">https://doi.org/10.1038/gim.2013.92</a>
+*   Richards, S., et al. (2015). <a href="https://doi.org/10.1038/gim.2015.30" target="_blank">Standards and Guidelines for the Interpretation of Sequence Variants: A Joint Consensus
+Recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular
+Pathology</a>. Genetics in Medicine, 17(5), 405–424. <a href="https://doi.org/10.1038/gim.2015.30" target="_blank">https://doi.org/10.1038/gim.2015.30</a>
+
+
+## **Texts** {-}
+
+### **General Molecular Biology** {-}
+*   Alberts, B., et al. (2022). <a href="https://www.amazon.com/Molecular-Biology-Cell-Bruce-Alberts/dp/0393884821" target="_blank">Molecular Biology of the Cell</a> (7 th ed.). New York: Garland Science.
+*   Buckingham, L. (2019). <a href="https://www.amazon.com/Molecular-Diagnostics-Fundamentals-Clinical-Applications/dp/0803668295" target="_blank">Molecular Diagnostics: Fundamentals, Methods, & Clinical Applications</a> (3 rd ed.). Philadelphia: F.A. Davis Company.
+*   Coleman, W.B. & Tsongalis, G.J. (Eds.). (2018). <a href="https://www.amazon.com/Molecular-Pathology-Second-Basis-Disease/dp/0128027614" target="_blank">Molecular Pathology: The Molecular Basis of Human Disease</a> (2 nd ed.). Elsevier Inc.
+*   Leonard, D.G.B. (Ed.). (2016). <a href="https://www.amazon.com/Molecular-Pathology-Clinical-Practice-Leonard/dp/3319196731" target="_blank">Molecular Pathology in Clinical Practice</a> (2 nd ed.). New York: Springer. (Chapters 1 – 2 ONLY)
+*   Rifai, N., et al. (Eds.). (2018). <a href="https://www.amazon.com/Principles-Applications-Molecular-Diagnostics-Nader/dp/0128160616" target="_blank">Principles and Applications of Molecular Diagnostics</a>. Elsevier Inc.
+
+### **Applications of Molecular Science** {-}
+*   Cohn, R., Scherer, S., & Hamosh, A. (Eds.). (2023). <a href="https://www.amazon.com/Thompson-Genetics-Genomics-Medicine-dp-0323547621/dp/0323547621" target="_blank">Thompson & Thompson Genetics and Genomics in Medicine</a> (9 th ed.). Philadelphia, PA: Elsevier Inc.
+*   Coleman W., & Tsongalis G. (Eds.). (2023). <a href="https://www.amazon.com/Diagnostic-Molecular-Pathology-Applied-Testing-dp-0128228245/dp/0128228245" target="_blank">Diagnostic Molecular Pathology: A Guide to Applied Molecular Testing</a> (2nd ed.). Academic Press.
+*   DeVita, V.T., et al. (2021). <a href="https://www.amazon.com/Cancer-Principles-Practice-Oncology-Molecular/dp/1975149114" target="_blank">DeVita, Hellman, and Rosenberg's Cancer: Principles and Practice of Oncology: Primer of the Molecular Biology of Cancer</a> (3 rd ed.). Philadelphia: Wolters Kluwer Health.
+*   Jorde, L.B., Carey, J.C., & Bamshad, M.J. (2019). <a href="https://www.amazon.com/Medical-Genetics-Lynn-Jorde-PhD/dp/0323597378" target="_blank">Medical Genetics</a> (6 th ed.). Philadelphia, PA: Elsevier Inc.
+*   Kulkarni, S., & Roy, S. (Eds.). (2015). <a href="https://www.amazon.com/Clinical-Genomics-Shashikant-Kulkarni/dp/0124047483" target="_blank">Clinical Genomics: A Guide to Clinical Next Generation Sequencing</a>. Elsevier Inc.
+*   Persing, D.H., et al. (Eds.). (2016). <a href="https://www.amazon.com/Molecular-Microbiology-Diagnostic-Principles-Practice/dp/1555819087" target="_blank">Molecular Microbiology: Diagnostic Principles and Practice</a> (3 rd ed.). Washington D.C.: ASM Press.
+
+### **Mathematics** {-}
+*   Doucette, L.J. (2021). <a href="https://www.amazon.com/Mathematics-Clinical-Laboratory-Lorraine-Doucette-dp-0323554822/dp/0323554822" target="_blank">Mathematics for the Clinical Laboratory</a> (4 th ed.). St. Louis: Elsevier.
+*   Stephenson, F.H. (2016). <a href="https://www.amazon.com/Calculations-Molecular-Biology-Biotechnology-Stephenson/dp/0128022116" target="_blank">Calculations for Molecular Biology and Biotechnology: A Guide to Mathematics in the Laboratory</a> (3 rd ed.). London: Academic Press.
+
+### **Management** {-}
+*   Garcia, L.S., et al. (Eds.). (2024). <a href="https://www.amazon.com/Clinical-Laboratory-Management-ASM-Books-dp-1683673913/dp/1683673913" target="_blank">Clinical Laboratory Management</a> (3 rd ed.). Washington D.C.: ASM Press.
+*   Harmening, D.M. (2020). <a href="https://www.amazon.com/Laboratory-Management-Principles-Processes-Fourth/dp/0943903181" target="_blank">Laboratory Management: Principles and Processes</a> (4 th ed.). St. Petersburg: D.H. Pub. & Consulting, Inc.
+
+
+## **Online** {-}
+*   <a href="https://www.acmg.net/ACMG/Medical-Genetics-Practice-Resources/Genetics_Lab_Standards/ACMG/Medical-Genetics-Practice-Resources/Genetics_Lab_Standards.aspx?hkey=0e473683-3910-420c-9efb-958707c59589" target="_blank">ACMG Technical Standards for Clinical Genetics Laboratories (2021 Revision)</a>
+*   <a href="https://www.amp.org/education/amp-review-resources/molecular-in-my-pocket-guides/" target="_blank">Association for Molecular Pathology (AMP) “Molecular in My Pocket TM” Reference Card Series</a>
+*   <a href="https://www.ashi-hla.org/page/educationresources" target="_blank">American Society for Histocompatibility and Immunogenetics (ASHI) Educational Resources</a>
+*   <a href="https://asm.org/search?q=molecular" target="_blank">American Society for Microbiology (ASM) Molecular Resources</a>
+*   <a href="http://www.clsi.org/" target="_blank">Clinical and Laboratory Standards Institute (CLSI)</a>
+*   <a href="http://www.cap.org/" target="_blank">College of American Pathologists (CAP)</a>
+*   <a href="https://tumourclassification.iarc.who.int/welcome/" target="_blank">WHO Classification of Tumors Online</a>

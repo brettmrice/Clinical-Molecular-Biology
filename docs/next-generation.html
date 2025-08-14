@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Next-Generation | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="If Sanger sequencing is like carefully reading one specific book cover-to-cover, Next-Generation Sequencing (NGS), also sometimes called Massively Parallel Sequencing, is like having millions of...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Next-Generation | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="If Sanger sequencing is like carefully reading one specific book cover-to-cover, Next-Generation Sequencing (NGS), also sometimes called Massively Parallel Sequencing, is like having millions of...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Next-Generation | MB">
+<meta name="twitter:description" content="If Sanger sequencing is like carefully reading one specific book cover-to-cover, Next-Generation Sequencing (NGS), also sometimes called Massively Parallel Sequencing, is like having millions of...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="active" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="next-generation" class="section level1 unnumbered">
+<h1>Next-Generation<a class="anchor" aria-label="anchor" href="#next-generation"><i class="fas fa-link"></i></a>
+</h1>
+<p>If Sanger sequencing is like carefully reading one specific book cover-to-cover, <strong>Next-Generation Sequencing (NGS)</strong>, also sometimes called <strong>Massively Parallel Sequencing</strong>, is like having millions of tiny robots simultaneously reading random short paragraphs from every book in an entire library, then using a supercomputer to piece it all back together. It revolutionized genomics and is becoming increasingly central to clinical molecular diagnostics</p>
+<div id="ngs-sequencing-millions-of-dna-molecules-at-once" class="section level2 unnumbered">
+<h2>
+<strong>NGS: Sequencing Millions of DNA Molecules at Once</strong><a class="anchor" aria-label="anchor" href="#ngs-sequencing-millions-of-dna-molecules-at-once"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>The Core Principle: Massively Parallel Sequencing</strong></p>
+<p>Unlike Sanger sequencing which analyzes one DNA fragment at a time, NGS technologies allow for the simultaneous sequencing of <strong>millions to billions</strong> of individual DNA fragments in a single run. This dramatically increases throughput and decreases the cost per base sequenced (especially for large amounts of sequence data)</p>
+</div>
+<div id="general-ngs-workflow-a-multi-stage-process" class="section level2 unnumbered">
+<h2>
+<strong>General NGS Workflow: A Multi-Stage Process</strong><a class="anchor" aria-label="anchor" href="#general-ngs-workflow-a-multi-stage-process"><i class="fas fa-link"></i></a>
+</h2>
+<p>While specific platforms differ, the general workflow involves these key stages:</p>
+<div id="library-preparation" class="section level3 unnumbered">
+<h3>
+<strong>Library Preparation</strong><a class="anchor" aria-label="anchor" href="#library-preparation"><i class="fas fa-link"></i></a>
+</h3>
+<p>Getting the DNA (or RNA converted to cDNA) ready for sequencing on a specific platform. This is a critical and often complex stage</p>
+<ul>
+<li>
+<strong>Fragmentation:</strong> The starting DNA (e.g., genomic DNA) is broken into smaller, manageable fragments (typically 150-500 bp for short-read platforms) using physical methods (sonication, nebulization) or enzymatic methods (e.g., transposases like in “tagmentation”)</li>
+<li>
+<strong>End Repair &amp; A-tailing:</strong> Fragment ends are enzymatically repaired to make them blunt, and then a single Adenine (A) base is added to the 3’ ends</li>
+<li>
+<strong>Adapter Ligation:</strong> Short, synthetic DNA sequences called <strong>adapters</strong> are ligated onto both ends of the fragments. Adapters serve multiple crucial purposes:
+<ul>
+<li>Allowing the fragments to bind to the sequencing platform’s solid surface (e.g., flow cell)</li>
+<li>Providing binding sites for sequencing primers</li>
+<li>Often containing <strong>indexes (barcodes)</strong> – unique sequences (~6-12 bp) added during ligation or PCR. Samples with different indexes can be pooled together and sequenced in the same run (<strong>multiplexing</strong>), then bioinformatically separated later based on their index sequence. This significantly increases efficiency and reduces cost per sample</li>
+</ul>
+</li>
+<li>
+<strong>(Optional but Common) Library Amplification:</strong> A few cycles of PCR are often performed to enrich for fragments that have adapters ligated correctly on both ends and to generate sufficient material for sequencing. This step can also add the indexes if not done during ligation</li>
+<li>
+<strong>(Optional but Crucial for Clinical Use) Target Enrichment:</strong> For many clinical applications (e.g., gene panels, exome sequencing), we don’t want to sequence the entire genome. Target enrichment methods selectively capture only the regions of interest <em>before</em> sequencing:
+<ul>
+<li>
+<strong>Hybrid Capture:</strong> Using biotinylated RNA or DNA probes (“baits”) complementary to the target regions. The probes hybridize to the library fragments containing the target sequences. Streptavidin-coated magnetic beads are then used to pull down the probe-bound fragments, washing away the non-target fragments</li>
+<li>
+<strong>Amplicon-Based:</strong> Using multiplex PCR to specifically amplify only the target regions of interest. Faster and requires less input DNA, but prone to amplification bias and difficulty amplifying certain regions</li>
+</ul>
+</li>
+<li>
+<strong>Library Quantification &amp; Quality Control (QC):</strong> Measuring the concentration and size distribution of the prepared library (e.g., using Qubit, Bioanalyzer/TapeStation) is essential before sequencing</li>
+</ul>
+</div>
+<div id="sequencing-1" class="section level3 unnumbered">
+<h3>
+<strong>Sequencing</strong><a class="anchor" aria-label="anchor" href="#sequencing-1"><i class="fas fa-link"></i></a>
+</h3>
+<p>Placing the prepared library onto the NGS instrument and performing the sequencing chemistry. The most dominant platform in clinical labs is <strong>Illumina</strong>, which uses <strong>Sequencing by Synthesis (SBS)</strong></p>
+<ul>
+<li>
+<strong>Cluster Generation (Illumina):</strong> The library fragments bind to complementary adapter sequences immobilized on the surface of a <strong>flow cell</strong>. An isothermal amplification process called <strong>bridge amplification</strong> occurs on the flow cell, creating millions of dense, clonal clusters, where each cluster contains many copies of the <em>same</em> original library fragment</li>
+<li>
+<strong>Sequencing by Synthesis (Illumina)</strong>
+<ol style="list-style-type: decimal">
+<li>A sequencing primer binds to the adapter sequence on the clustered fragments</li>
+<li>DNA polymerase and special <strong>fluorescently labeled reversible terminator nucleotides</strong> (A, T, C, G, each with a different color dye and a removable 3’-block) are added</li>
+<li>In each cycle, the polymerase incorporates <em>only one</em> complementary labeled terminator nucleotide onto each growing strand within a cluster</li>
+<li>Unincorporated nucleotides are washed away</li>
+<li>The flow cell is imaged. The color of the fluorescence emitted by each cluster indicates which base (A, T, C, or G) was incorporated in that cycle</li>
+<li>The fluorescent dye and the 3’-block are chemically cleaved, regenerating a 3’-OH group</li>
+<li>The cycle repeats (add polymerase/labeled terminators, image, cleave) for a defined number of cycles (determining the read length, e.g., 150 cycles = 150 bp read)</li>
+</ol>
+</li>
+<li>
+<strong>Paired-End Reads:</strong> Often, after sequencing one strand (Read 1), the process is repeated from the <em>other</em> end of the same fragment cluster to generate a second read (Read 2). Knowing the sequence from both ends of the original fragment is highly advantageous for alignment and variant detection, especially for structural variants and repetitive regions</li>
+</ul>
+</div>
+<div id="data-analysis-bioinformatics" class="section level3 unnumbered">
+<h3>
+<strong>Data Analysis (Bioinformatics)</strong><a class="anchor" aria-label="anchor" href="#data-analysis-bioinformatics"><i class="fas fa-link"></i></a>
+</h3>
+<p>Processing the massive amount of raw sequence data generated by the instrument into meaningful biological information. This is a major component and bottleneck of NGS</p>
+<ul>
+<li>
+<strong>Base Calling &amp; Quality Filtering:</strong> The instrument software converts the raw image data into base calls (A, T, C, G) and assigns quality scores (Phred scores) to each base. Low-quality reads or bases are often filtered out</li>
+<li>
+<strong>Demultiplexing:</strong> If samples were pooled using indexes, reads are sorted into sample-specific files based on their index sequence</li>
+<li>
+<strong>Alignment/Mapping:</strong> Reads are aligned to a known <strong>reference genome</strong> (e.g., human genome assembly hg19 or hg38) using sophisticated algorithms (e.g., BWA, Bowtie). This determines where each read originated from in the genome</li>
+<li>
+<strong>Variant Calling:</strong> Identifying differences (variants) between the sequenced sample’s reads and the reference genome. This includes:
+<ul>
+<li>
+<strong>Single Nucleotide Polymorphisms (SNPs) / Single Nucleotide Variants (SNVs):</strong> Single base changes</li>
+<li>
+<strong>Insertions/Deletions (Indels):</strong> Small insertions or deletions of bases</li>
+<li>
+<strong>Copy Number Variations (CNVs):</strong> Deletions or duplications of larger segments of DNA</li>
+<li>
+<strong>Structural Variations (SVs):</strong> Large-scale rearrangements like translocations, inversions</li>
+</ul>
+</li>
+<li>
+<strong>Annotation:</strong> Adding biological context to the identified variants. This involves querying databases (e.g., dbSNP, ClinVar, COSMIC) to determine:
+<ul>
+<li>Is the variant known or novel?</li>
+<li>What gene is it in? Does it change an amino acid? (e.g., missense, nonsense, frameshift)</li>
+<li>Has it been previously associated with disease?</li>
+<li>What is its frequency in the population?</li>
+</ul>
+</li>
+<li>
+<strong>Interpretation &amp; Reporting:</strong> The most critical step in the clinical setting. Evaluating the potential clinical significance of variants based on evidence (databases, literature, prediction algorithms, ACMG guidelines) and generating a clinical report</li>
+</ul>
+</div>
+</div>
+<div id="other-ngs-platformstechnologies" class="section level2 unnumbered">
+<h2>
+<strong>Other NGS Platforms/Technologies</strong><a class="anchor" aria-label="anchor" href="#other-ngs-platformstechnologies"><i class="fas fa-link"></i></a>
+</h2>
+<p>While Illumina dominates, other technologies exist:</p>
+<ul>
+<li>
+<strong>Ion Torrent (Thermo Fisher):</strong> Uses semiconductor sequencing. Detects the release of hydrogen ions (pH change) during nucleotide incorporation. Faster runs, but can struggle with accuracy in homopolymer regions (runs of the same base)</li>
+<li>
+<strong>Pacific Biosciences (PacBio):</strong> Single Molecule, Real-Time (SMRT) sequencing. Can generate very long reads (kilobases to megabases). Good for resolving complex genomic regions, structural variants, and de novo assembly. Historically higher error rate but improving (HiFi reads)</li>
+<li>
+<strong>Oxford Nanopore Technologies (ONT):</strong> Sequences DNA/RNA by passing the strand through a protein nanopore and measuring changes in electrical current. Also produces very long reads, portable devices available, allows direct RNA sequencing. Error rates have been higher but are continuously improving</li>
+</ul>
+</div>
+<div id="advantages-of-ngs" class="section level2 unnumbered">
+<h2>
+<strong>Advantages of NGS</strong><a class="anchor" aria-label="anchor" href="#advantages-of-ngs"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Massive Throughput/Scalability:</strong> Can sequence entire genomes, exomes, or large panels in a single run</li>
+<li>
+<strong>Lower Cost per Base (for large-scale projects):</strong> Much cheaper than Sanger for sequencing large amounts of DNA</li>
+<li>
+<strong>High Sensitivity:</strong> Can detect low-frequency variants (e.g., somatic mutations in tumors, mosaicism) by sequencing deeply (high coverage)</li>
+<li>
+<strong>Discovery Power:</strong> Can identify novel genes or variants without prior knowledge (unlike Sanger which needs specific primers)</li>
+<li>
+<strong>Comprehensive:</strong> Allows simultaneous analysis of many genes or regions</li>
+<li>
+<strong>Quantitative:</strong> Read counts can provide information about copy number or expression levels (RNA-Seq)</li>
+</ul>
+</div>
+<div id="disadvantageslimitations-of-ngs" class="section level2 unnumbered">
+<h2>
+<strong>Disadvantages/Limitations of NGS</strong><a class="anchor" aria-label="anchor" href="#disadvantageslimitations-of-ngs"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Shorter Read Lengths (typically for Illumina):</strong> ~50-300 bp reads can make aligning to complex/repetitive regions difficult and challenging for resolving large structural variants (though long-read tech addresses this)</li>
+<li>
+<strong>Complex Workflow:</strong> Library preparation can be intricate and requires expertise</li>
+<li>
+<strong>Bioinformatics Challenge:</strong> Data analysis requires significant computational resources, storage, and specialized bioinformatics expertise</li>
+<li>
+<strong>Cost:</strong> High initial instrument cost. While cost per base is low for large projects, cost per sample can still be high for small targeted panels compared to Sanger</li>
+<li>
+<strong>Error Rates:</strong> While per-base accuracy is high for Illumina, specific error profiles exist for different platforms. Errors can complicate variant calling</li>
+<li>
+<strong>Variants of Uncertain Significance (VUS):</strong> NGS often identifies many variants whose clinical significance is unknown, posing interpretation challenges</li>
+<li>
+<strong>Turnaround Time (TAT):</strong> While improving, the entire process from sample receipt to final report can take days to weeks, potentially longer than targeted Sanger for urgent single-gene tests</li>
+</ul>
+</div>
+<div id="clinical-applications-1" class="section level2 unnumbered">
+<h2>
+<strong>Clinical Applications</strong><a class="anchor" aria-label="anchor" href="#clinical-applications-1"><i class="fas fa-link"></i></a>
+</h2>
+<p>NGS has transformed many areas of clinical diagnostics:</p>
+<ul>
+<li>
+<strong>Inherited Disease Diagnosis:</strong> Whole Exome Sequencing (WES) or large gene panels for diagnosing rare Mendelian disorders</li>
+<li>
+<strong>Cancer Genomics:</strong> Sequencing tumor DNA (and matched normal) to identify driver mutations, resistance mechanisms, therapeutic targets, and prognostic markers. Used for solid tumors and hematologic malignancies. Includes liquid biopsy (ctDNA) analysis</li>
+<li>
+<strong>Non-Invasive Prenatal Testing (NIPT):</strong> Sequencing cell-free fetal DNA from maternal blood to screen for common aneuploidies (e.g., Trisomy 21, 18, 13)</li>
+<li>
+<strong>Pharmacogenomics (PGx):</strong> Identifying genetic variants that influence drug metabolism and response</li>
+<li>
+<strong>Infectious Disease:</strong> Metagenomic sequencing for identifying pathogens in complex samples, tracking outbreaks, surveillance, and determining antimicrobial resistance profiles</li>
+<li>
+<strong>HLA Typing:</strong> High-resolution typing for transplantation</li>
+</ul>
+</div>
+<div id="key-terms-33" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-33"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Massively Parallel Sequencing:</strong> Sequencing millions or billions of DNA fragments simultaneously</li>
+<li>
+<strong>Library Preparation:</strong> The process of preparing DNA/RNA for NGS, including fragmentation, adapter ligation, and potentially amplification/enrichment</li>
+<li>
+<strong>Adapter:</strong> Short synthetic DNA sequence ligated to fragments, containing sequences for binding to the platform, sequencing priming, and indexing</li>
+<li>
+<strong>Index (Barcode):</strong> A short, unique DNA sequence within the adapter used to identify samples pooled together in one run (multiplexing)</li>
+<li>
+<strong>Multiplexing:</strong> Pooling multiple indexed libraries together for sequencing in a single run</li>
+<li>
+<strong>Target Enrichment:</strong> Methods (hybrid capture, amplicon-based) to selectively sequence only specific regions of interest (e.g., genes, exons)</li>
+<li>
+<strong>Flow Cell:</strong> The solid surface (glass slide with channels) in Illumina sequencers where library fragments bind and cluster generation/sequencing occurs</li>
+<li>
+<strong>Cluster Generation (Bridge Amplification):</strong> Isothermal amplification on the flow cell surface creating dense clonal clusters of library fragments</li>
+<li>
+<strong>Sequencing by Synthesis (SBS):</strong> The method (used by Illumina) where fluorescently labeled reversible terminators are incorporated one base at a time, imaged, and cleaved cyclically to determine the sequence</li>
+<li>
+<strong>Read:</strong> A continuous sequence of bases generated from a single DNA fragment during sequencing</li>
+<li>
+<strong>Read Length:</strong> The number of bases sequenced from a single fragment (e.g., 150 bp)</li>
+<li>
+<strong>Paired-End Reads:</strong> Sequencing a fragment from both ends, providing more information for alignment and variant calling</li>
+<li>
+<strong>Bioinformatics:</strong> The application of computer science and statistics to analyze biological data, essential for processing NGS data</li>
+<li>
+<strong>Alignment (Mapping):</strong> The process of matching sequencing reads to their original location on a reference genome</li>
+<li>
+<strong>Reference Genome:</strong> A standard assembled sequence representing the genome of a species (e.g., human hg38)</li>
+<li>
+<strong>Variant Calling:</strong> Identifying differences (SNPs, indels, CNVs, SVs) between the sample’s sequence and the reference genome</li>
+<li>
+<strong>Coverage (Depth):</strong> The average number of times each base in a target region has been sequenced. Higher coverage increases confidence in variant calls</li>
+<li>
+<strong>Annotation:</strong> Adding biological information (gene, effect on protein, known disease association, frequency) to identified variants</li>
+<li>
+<strong>VUS (Variant of Uncertain Significance):</strong> A genetic variant whose association with disease risk is currently unknown</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="sanger.html">Sanger</a></div>
+<div class="next"><a href="other-1.html">Other</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#next-generation">Next-Generation</a></li>
+<li><a class="nav-link" href="#ngs-sequencing-millions-of-dna-molecules-at-once">NGS: Sequencing Millions of DNA Molecules at Once</a></li>
+<li>
+<a class="nav-link" href="#general-ngs-workflow-a-multi-stage-process">General NGS Workflow: A Multi-Stage Process</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#library-preparation">Library Preparation</a></li>
+<li><a class="nav-link" href="#sequencing-1">Sequencing</a></li>
+<li><a class="nav-link" href="#data-analysis-bioinformatics">Data Analysis (Bioinformatics)</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#other-ngs-platformstechnologies">Other NGS Platforms/Technologies</a></li>
+<li><a class="nav-link" href="#advantages-of-ngs">Advantages of NGS</a></li>
+<li><a class="nav-link" href="#disadvantageslimitations-of-ngs">Disadvantages/Limitations of NGS</a></li>
+<li><a class="nav-link" href="#clinical-applications-1">Clinical Applications</a></li>
+<li><a class="nav-link" href="#key-terms-33">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/02-D-02.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/02-D-02.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

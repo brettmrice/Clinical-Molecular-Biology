@@ -1,0 +1,122 @@
+# Translation {-}
+
+If transcription was about making an RNA *copy* of a gene's instructions, **Translation** is about actually *reading* that copy (specifically, the mRNA copy) and building the final product – a **protein**
+
+Think of it like this: DNA is the master blueprint locked away safely in the nucleus (in eukaryotes). Transcription makes a working copy (mRNA) of a specific section of the blueprint. Translation is the process where the construction crew (ribosomes and tRNA) reads the mRNA copy and assembles the building materials (amino acids) in the correct order to construct the final structure (the protein)
+
+It's the second major step in the central dogma of molecular biology: **DNA → RNA → Protein**
+
+## **The Core Concept: RNA to Protein** {-}
+
+Translation decodes the sequence of **codons** (three-nucleotide "words") in an mRNA molecule into a corresponding sequence of **amino acids**, creating a polypeptide chain that folds into a functional protein
+
+## **The Key Players: The Translation Machinery** {-}
+
+This is a complex operation requiring several essential components:
+
+*   **Messenger RNA (mRNA):** The template. It carries the genetic code transcribed from DNA in the form of codons. It dictates the sequence of amino acids
+*   **Ribosomes:** The protein synthesis factories. These are large complexes made of **ribosomal RNA (rRNA)** and **ribosomal proteins**. They have two subunits (large and small) that clamp around the mRNA. Ribosomes provide the framework for translation and, importantly, the rRNA component actually **catalyzes** the formation of peptide bonds between amino acids (acting as a **ribozyme**)
+    *   Ribosomes have key binding sites:
+        *   **A site (Aminoacyl site):** Where the incoming tRNA carrying the next amino acid binds
+        *   **P site (Peptidyl site):** Where the tRNA holding the growing polypeptide chain sits
+        *   **E site (Exit site):** Where the uncharged tRNA leaves the ribosome after donating its amino acid
+*   **Transfer RNA (tRNA):** The adapter molecules. These small RNA molecules act as interpreters between the mRNA codon language and the amino acid language. Each tRNA molecule has two crucial regions:
+    *   **Anticodon:** A three-nucleotide sequence that is complementary to a specific mRNA codon
+    *   **Amino Acid Attachment Site:** At the 3' end, where a specific amino acid is covalently attached. This "charging" of tRNA with the correct amino acid is done by highly specific enzymes called **aminoacyl-tRNA synthetases** (there's generally one synthetase for each type of amino acid)
+*   **Amino Acids:** The building blocks of proteins. There are 20 common types used in protein synthesis
+*   **Energy Source:** Primarily **Guanosine Triphosphate (GTP)**, used for binding factors and moving the ribosome along the mRNA. (ATP is needed for the initial charging of tRNA by aminoacyl-tRNA synthetases)
+*   **Protein Factors:** Various accessory proteins that help with the different stages:
+    *   **Initiation Factors (IFs in prokaryotes, eIFs in eukaryotes):** Help assemble the ribosome on the mRNA and position the first tRNA
+    *   **Elongation Factors (EFs in prokaryotes, eEFs in eukaryotes):** Assist in bringing charged tRNAs to the ribosome, peptide bond formation, and moving the ribosome along the mRNA (translocation)
+    *   **Release Factors (RFs):** Recognize stop codons and trigger the termination of translation and release of the polypeptide chain
+
+## **The Genetic Code: Translating the Language** {-}
+
+The set of rules by which information encoded in genetic material (DNA or RNA sequences) is translated into proteins (amino acid sequences) by living cells
+
+*   **Codons:** The code is read in groups of three consecutive nucleotides called codons. Each codon specifies either an amino acid or a stop signal
+*   **Triplet Code:** 3 bases = 1 codon
+*   **Specificity (Unambiguous):** Each codon specifies only ONE amino acid (or start/stop)
+*   **Degeneracy (Redundant):** Most amino acids are specified by MORE THAN ONE codon (e.g., Leucine is specified by 6 different codons). This provides some buffer against mutation
+*   **Start Codon:** **AUG** is the most common start codon. It signals the beginning of the protein-coding sequence and also codes for the amino acid **Methionine** (Met) (or N-formylmethionine, fMet, in prokaryotes)
+*   **Stop Codons (Nonsense Codons):** **UAA, UAG, UGA**. These codons do not code for any amino acid; instead, they signal the termination of translation
+*   **Reading Frame:** The codons are read continuously, without overlapping, from the start codon to the stop codon. Establishing the correct reading frame is crucial (a frameshift mutation completely alters it)
+*   **Near Universality:** The genetic code is largely conserved across almost all organisms, from bacteria to humans (with a few minor exceptions, e.g., in mitochondria)
+
+## **The Process: Initiation, Elongation, Termination** {-}
+
+### **1. Initiation** {-}
+
+*   The **small ribosomal subunit** binds to the mRNA near the 5' end. (In eukaryotes, this often involves recognizing the 5' cap and scanning for the first AUG. In prokaryotes, it involves binding to a specific sequence called the Shine-Dalgarno sequence upstream of the AUG)
+*   The **initiator tRNA** (carrying Met or fMet) binds to the **start codon (AUG)** in what will become the P site
+*   The **large ribosomal subunit** joins the complex, positioning the initiator tRNA in the P site. The A site is initially empty
+*   This process requires **Initiation Factors** and **GTP** hydrolysis
+
+### **2. Elongation (The Cycle)** {-}
+
+This is the repetitive process of adding amino acids to the growing polypeptide chain:
+
+*   **a. Codon Recognition:** A charged tRNA (aminoacyl-tRNA) with an anticodon complementary to the mRNA codon currently in the **A site** binds to the A site. This requires **Elongation Factors** and **GTP** hydrolysis
+*   **b. Peptide Bond Formation:** The ribosome (specifically, the rRNA in the large subunit) catalyzes the formation of a **peptide bond** between the amino acid attached to the tRNA in the A site and the amino acid (or growing polypeptide chain) attached to the tRNA in the **P site**. The polypeptide chain is transferred from the P-site tRNA to the A-site tRNA
+*   **c. Translocation:** The ribosome moves **one codon down** the mRNA (in the 5' to 3' direction). The tRNA that was in the P site (now uncharged) moves to the **E site** and exits. The tRNA that was in the A site (now carrying the growing polypeptide chain) moves into the **P site**. The A site is now empty and ready for the next incoming charged tRNA. This step also requires **Elongation Factors** and **GTP** hydrolysis
+*   This cycle repeats for each codon until a stop codon is reached
+
+### **3. Termination** {-}
+
+*   Elongation continues until a **stop codon (UAA, UAG, or UGA)** enters the **A site**
+*   There are no tRNAs with anticodons complementary to stop codons
+*   Instead, **Release Factors (RFs)** bind to the stop codon in the A site
+*   Binding of RFs triggers the **hydrolysis** of the bond between the completed polypeptide chain and the tRNA in the P site. The polypeptide is released from the ribosome
+*   The ribosome complex disassembles – the mRNA, tRNA, ribosomal subunits, and release factors all separate. This often requires **GTP**
+
+## **Key Differences: Prokaryotes vs. Eukaryotes Summary** {-}
+
+| Feature             | Prokaryotes (e.g., Bacteria)       | Eukaryotes (e.g., Humans)           |
+| :------------------ | :--------------------------------- | :---------------------------------- |
+| **Ribosome Size**   | 70S (30S + 50S subunits)           | 80S (40S + 60S subunits)            |
+| **Initiation Site** | Shine-Dalgarno sequence near AUG   | 5' Cap; scanning for first AUG      |
+| **Initiator tRNA**  | Carries N-formylmethionine (fMet)  | Carries Methionine (Met)            |
+| **mRNA Structure**  | Often Polycistronic (codes >1 protein)| Usually Monocistronic (codes 1 protein)|
+| **Location**        | Cytoplasm (coupled w/ transcription)| Cytoplasm (separate from transcription in nucleus)|
+| **Factors**         | IFs, EFs, RFs                      | eIFs, eEFs, eRFs                    |
+
+## **Clinical Laboratory Relevance** {-}
+
+Translation is a fundamental process with direct clinical implications:
+
+*   **Antibiotics:** Many antibiotics work by selectively inhibiting **bacterial translation** while leaving eukaryotic translation relatively unaffected. They target differences in the prokaryotic ribosome (70S) or translation factors. Examples:
+    *   **Tetracyclines:** Block binding of aminoacyl-tRNA to the A site
+    *   **Macrolides (e.g., Erythromycin):** Block the exit tunnel, inhibiting translocation
+    *   **Aminoglycosides (e.g., Streptomycin, Gentamicin):** Cause misreading of mRNA codons
+    *   **Chloramphenicol:** Inhibits peptidyl transferase activity
+*   **Genetic Diseases:** Mutations that affect translation can cause disease:
+    *   **Nonsense mutations:** Introduce premature stop codons, leading to truncated, usually non-functional proteins (e.g., in some forms of Cystic Fibrosis, Duchenne Muscular Dystrophy)
+    *   **Frameshift mutations:** Alter the reading frame, leading to incorrect amino acid sequences downstream and often premature stop codons
+    *   Mutations affecting tRNA genes or aminoacyl-tRNA synthetases (rarer)
+*   **Therapeutics Targeting Translation**
+    *   **Nonsense Suppression Therapy:** Drugs aimed at making the ribosome "read through" a premature stop codon (under investigation for certain genetic diseases)
+    *   Inhibiting translation initiation is explored as an anti-cancer strategy (as cancer cells often have high protein synthesis demands), but achieving specificity is challenging
+*   **Protein Analysis:** Techniques like Western blotting or immunoassays detect the protein products of translation, helping diagnose diseases or monitor protein levels
+*   **Recombinant Protein Production:** Understanding translation is key for expressing proteins of interest (e.g., insulin, antibodies) in host systems (like bacteria or yeast) for therapeutic or diagnostic purposes
+
+## **Key Terms** {-}
+
+*   **Translation:** The process of synthesizing a polypeptide from an mRNA template
+*   **mRNA (Messenger RNA):** Carries the genetic code in codons
+*   **Ribosome:** The RNA-protein complex that is the site of protein synthesis
+*   **rRNA (Ribosomal RNA):** The RNA component of the ribosome; catalyzes peptide bond formation
+*   **tRNA (Transfer RNA):** RNA molecule that acts as an adapter, matching mRNA codons to amino acids
+*   **Codon:** A three-nucleotide sequence on mRNA specifying an amino acid or stop signal
+*   **Anticodon:** A three-nucleotide sequence on tRNA complementary to an mRNA codon
+*   **Aminoacyl-tRNA Synthetase:** Enzyme that attaches the correct amino acid to its corresponding tRNA ("charges" the tRNA)
+*   **A Site (Aminoacyl Site):** Ribosomal site where incoming charged tRNA binds
+*   **P Site (Peptidyl Site):** Ribosomal site holding the tRNA with the growing polypeptide chain
+*   **E Site (Exit Site):** Ribosomal site where uncharged tRNA leaves
+*   **Genetic Code:** The set of rules defining how codons specify amino acids
+*   **Start Codon (AUG):** Signals the beginning of translation and codes for Methionine (or fMet)
+*   **Stop Codon (UAA, UAG, UGA):** Signals the termination of translation
+*   **Reading Frame:** The way codons are grouped into non-overlapping triplets for translation
+*   **Initiation, Elongation, Termination:** The three main stages of translation
+*   **Peptide Bond:** The covalent bond linking amino acids together in a polypeptide chain
+*   **Polypeptide:** A chain of amino acids linked by peptide bonds; folds to become a protein
+*   **Ribozyme:** An RNA molecule with catalytic activity (e.g., rRNA in the ribosome)

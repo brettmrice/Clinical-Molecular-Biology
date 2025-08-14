@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Melt-Curve Analysis | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Alright class, let’s talk about a clever technique that acts as a quality control officer and a screening detective all rolled into one, piggybacking right on the end of a real-time PCR run. We’re...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Melt-Curve Analysis | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Alright class, let’s talk about a clever technique that acts as a quality control officer and a screening detective all rolled into one, piggybacking right on the end of a real-time PCR run. We’re...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Melt-Curve Analysis | MB">
+<meta name="twitter:description" content="Alright class, let’s talk about a clever technique that acts as a quality control officer and a screening detective all rolled into one, piggybacking right on the end of a real-time PCR run. We’re...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="active" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="melt-curve-analysis-1" class="section level1 unnumbered">
+<h1>Melt-Curve Analysis<a class="anchor" aria-label="anchor" href="#melt-curve-analysis-1"><i class="fas fa-link"></i></a>
+</h1>
+<p>Alright class, let’s talk about a clever technique that acts as a quality control officer and a screening detective all rolled into one, piggybacking right on the end of a real-time PCR run. We’re diving into <strong>Melt-Curve Analysis</strong></p>
+<p>Think of it this way: after you’ve spent all that time amplifying a specific DNA target, melt-curve analysis is like a final interrogation under a heat lamp to make sure you’ve got the right product—and only the right product</p>
+<div id="melt-curve-analysis-dna-fingerprinting-by-temperature" class="section level2 unnumbered">
+<h2>
+<strong>Melt-Curve Analysis: DNA Fingerprinting by Temperature</strong><a class="anchor" aria-label="anchor" href="#melt-curve-analysis-dna-fingerprinting-by-temperature"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Melt-curve analysis</strong> is a technique performed immediately after a real-time PCR run to assess the characteristics of the amplified DNA products (amplicons). It works by slowly increasing the temperature of the sample and monitoring the rate at which the double-stranded DNA “melts” or denatures into single strands. Every unique DNA sequence has a specific melting temperature (Tm), just like every substance has a specific melting point. This allows us to “fingerprint” our PCR products</p>
+<div id="the-principle-the-fluorescent-dye-tells-the-story" class="section level3 unnumbered">
+<h3>
+<strong>The Principle: The Fluorescent Dye Tells the Story</strong><a class="anchor" aria-label="anchor" href="#the-principle-the-fluorescent-dye-tells-the-story"><i class="fas fa-link"></i></a>
+</h3>
+<p>The entire process hinges on the use of a specific type of fluorescent dye, most commonly <strong>SYBR Green I</strong>. This dye has a special property:</p>
+<ul>
+<li>It binds non-specifically to the minor groove of <strong>double-stranded DNA (dsDNA)</strong>
+</li>
+<li>When it’s bound to dsDNA, it <strong>fluoresces brightly</strong>
+</li>
+<li>When it’s free-floating in solution or near single-stranded DNA (ssDNA), it gives off very little fluorescence</li>
+</ul>
+<p>This dye is already in your real-time PCR master mix, reporting the accumulation of product during amplification. For the melt curve, we just re-purpose it</p>
+</div>
+<div id="the-step-by-step-process-1" class="section level3 unnumbered">
+<h3>
+<strong>The Step-by-Step Process</strong><a class="anchor" aria-label="anchor" href="#the-step-by-step-process-1"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p><strong>PCR Amplification Ends</strong> The real-time PCR run is complete. The reaction tube is full of your desired double-stranded amplicon, and because SYBR Green is bound to it, the fluorescence is at its maximum</p></li>
+<li><p><strong>Slow and Steady Heating</strong> The real-time PCR instrument then begins to slowly and precisely increase the temperature in the sample block, typically from around 60°C up to 95°C</p></li>
+<li><p><strong>The Melting Point</strong> As the temperature rises, it eventually reaches a critical point where the hydrogen bonds holding the two DNA strands together begin to break. The dsDNA starts to “melt” into ssDNA</p></li>
+<li><p><strong>Fluorescence Drops</strong> As the DNA denatures, the SYBR Green dye has nowhere to bind and is released into the solution. The instrument records a rapid decrease in fluorescence</p></li>
+<li><p><strong>The Melt Curve Is Born</strong> The instrument software plots this change in fluorescence against the increase in temperature. The raw data shows a curve that drops sharply at the melting point. However, to make this easier to interpret, the software typically displays a <strong>derivative plot</strong>. It plots the rate of change of fluorescence (dF/dT) versus temperature. This transforms the sharp drop into a clear, distinct <strong>peak</strong>. The top of this peak represents the <strong>Melting Temperature (Tm)</strong> of that specific DNA product</p></li>
+</ol>
+</div>
+<div id="interpreting-the-melt-curve-what-the-peaks-mean" class="section level3 unnumbered">
+<h3>
+<strong>Interpreting the Melt Curve: What the Peaks Mean</strong><a class="anchor" aria-label="anchor" href="#interpreting-the-melt-curve-what-the-peaks-mean"><i class="fas fa-link"></i></a>
+</h3>
+<p>The <strong>Melting Temperature (Tm)</strong> is the temperature at which 50% of a specific DNA duplex has denatured into single strands. The Tm is determined by two main factors:</p>
+<ul>
+<li>
+<strong>GC Content:</strong> G-C base pairs are held together by three hydrogen bonds, while A-T pairs have only two. Therefore, DNA products with a higher GC content are more stable and require more energy (a higher temperature) to melt, resulting in a higher Tm</li>
+<li>
+<strong>Amplicon Length:</strong> Longer DNA fragments are generally more stable and have a higher Tm</li>
+</ul>
+<p>This is where the detective work comes in:</p>
+<ul>
+<li>
+<strong>A Single, Sharp Peak:</strong> This is the result you want! It indicates that your PCR produced a single, specific product. The reaction was clean and efficient</li>
+<li>
+<strong>Multiple Peaks:</strong> This is a red flag. It tells you that your PCR amplified more than one product
+<ul>
+<li>A peak at a much lower temperature (e.g., 70-75°C) is often characteristic of <strong>primer-dimers</strong>—short, unwanted products formed by primers annealing to each other</li>
+<li>Other distinct peaks indicate non-specific amplification of other targets in your sample</li>
+</ul>
+</li>
+<li>
+<strong>A Shift in the Peak:</strong> This is the basis for using melt curves for mutation detection. A single nucleotide change (SNP) can alter the stability of the DNA duplex. If a patient has a mutation, their amplicon will have a slightly different sequence and GC content than the wild-type (normal) amplicon, causing its Tm to shift to a higher or lower temperature</li>
+</ul>
+</div>
+</div>
+<div id="clinical-applications-in-the-molecular-lab-1" class="section level2 unnumbered">
+<h2>
+<strong>Clinical Applications in the Molecular Lab</strong><a class="anchor" aria-label="anchor" href="#clinical-applications-in-the-molecular-lab-1"><i class="fas fa-link"></i></a>
+</h2>
+<p>Melt-curve analysis is a fast, inexpensive, and closed-tube method (reducing contamination risk) that is incredibly useful for:</p>
+<ul>
+<li><p><strong>PCR Specificity Check:</strong> This is the most common application. Before reporting a result, you check the melt curve to ensure the reaction amplified only the intended target and not junk like primer-dimers. It’s a fundamental QC step for any SYBR Green-based assay</p></li>
+<li>
+<p><strong>SNP Genotyping:</strong> Melt-curve analysis can distinguish between different alleles</p>
+<ul>
+<li>
+<strong>Homozygous Wild-Type (AA):</strong> Gives a single, sharp peak at the expected Tm</li>
+<li>
+<strong>Homozygous Mutant (BB):</strong> Gives a single, sharp peak at a slightly different, shifted Tm</li>
+<li>
+<strong>Heterozygous (AB):</strong> This is the interesting one! During the final denaturation and cooling step, four different duplexes can form: wild-type homoduplexes (A-A), mutant homoduplexes (B-B), and two types of <strong>heteroduplexes</strong> (A-B) where the strands are mismatched at the SNP site. These mismatched heteroduplexes are less stable and melt at a lower temperature, often resulting in a broader or uniquely shaped peak compared to the homozygotes</li>
+</ul>
+</li>
+<li><p><strong>Screening for Mutations:</strong> Used as a rapid screening tool to identify samples that have a sequence variation within the amplified region. If a sample’s melt curve looks different from the wild-type control, it is flagged for confirmation by a more definitive method like Sanger sequencing</p></li>
+<li><p><strong>DNA Methylation Analysis:</strong> In a technique called <strong>High Resolution Melting (HRM)</strong>, which is a more sensitive version of melt-curve analysis, it can be used to determine methylation status. DNA is first treated with sodium bisulfite, which converts unmethylated cytosines to uracil (which becomes thymine after PCR), but leaves methylated cytosines as they are. Methylated DNA will therefore retain a higher GC content and have a higher Tm than unmethylated DNA</p></li>
+</ul>
+</div>
+<div id="advantages-vs.-limitations" class="section level2 unnumbered">
+<h2>
+<strong>Advantages vs. Limitations</strong><a class="anchor" aria-label="anchor" href="#advantages-vs.-limitations"><i class="fas fa-link"></i></a>
+</h2>
+<div id="advantages-1" class="section level3 unnumbered">
+<h3>
+<strong>Advantages</strong><a class="anchor" aria-label="anchor" href="#advantages-1"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Fast:</strong> Adds only 10-20 minutes to the end of a real-time PCR run</li>
+<li>
+<strong>Cost-Effective:</strong> No additional reagents are needed beyond the SYBR Green master mix you’re already using. No expensive labeled probes are required</li>
+<li>
+<strong>Closed-Tube System:</strong> The entire process from amplification to analysis occurs in a sealed tube, minimizing the risk of post-PCR contamination</li>
+<li>
+<strong>Excellent Screening Tool:</strong> Quickly identifies non-specific products and samples with potential variants</li>
+</ul>
+</div>
+<div id="limitations-1" class="section level3 unnumbered">
+<h3>
+<strong>Limitations</strong><a class="anchor" aria-label="anchor" href="#limitations-1"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>It’s a Screening Tool, Not a Definitive Test:</strong> A melt curve can tell you <em>that</em> a sequence is different, but it cannot tell you <em>what</em> that difference is. You can’t distinguish a G&gt;A mutation from a G&gt;C mutation based on the curve alone; both might cause a similar shift. Any detected variants must be confirmed by sequencing</li>
+<li>
+<strong>Limited Resolution:</strong> May not be able to resolve very small Tm differences or detect certain types of SNPs</li>
+<li>
+<strong>Requires Careful Optimization:</strong> Assay design (especially primer design) is critical to getting clean, interpretable melt curves</li>
+</ul>
+<p>In summary, melt-curve analysis is an elegant and powerful extension of real-time PCR. It’s the MLS’s first line of defense for checking PCR quality and a rapid, low-cost way to screen for genetic variations before committing to more expensive and time-consuming sequencing methods</p>
+</div>
+</div>
+<div id="key-terms-36" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-36"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Melt-Curve Analysis:</strong> A technique performed immediately following real-time PCR that assesses the purity and identity of amplified DNA products by slowly heating them and measuring the change in fluorescence as the DNA denatures or “melts.”</li>
+<li>
+<strong>Melting Temperature (Tm):</strong> The temperature at which 50% of a specific double-stranded DNA molecule has separated into single strands. This value is determined by the length and GC content of the DNA and appears as the peak on a derivative melt curve plot, acting as a “fingerprint” for a specific PCR product</li>
+<li>
+<strong>SYBR Green:</strong> A fluorescent intercalating dye that binds strongly to the minor groove of double-stranded DNA (dsDNA) and fluoresces brightly only when bound. As DNA melts into single strands during the analysis, the dye is released, causing a measurable drop in fluorescence</li>
+<li>
+<strong>Derivative Plot:</strong> The standard graphical representation of melt-curve data, which plots the rate of change of fluorescence versus temperature (-dF/dT vs. T). This calculation transforms the sharp drop in raw fluorescence into a distinct, easy-to-interpret peak, where the highest point corresponds to the Tm</li>
+<li>
+<strong>Primer-Dimer:</strong> A small, non-specific PCR artifact formed when primers anneal to each other. On a melt curve, primer-dimers are easily identified as a distinct peak at a much lower temperature (e.g., 70-80°C) than the specific product’s peak due to their short length and instability</li>
+<li>
+<strong>Heteroduplex:</strong> A double-stranded DNA molecule formed from two strands that are not perfectly complementary, typically occurring in a heterozygous sample that contains both a wild-type and a mutant allele. These mismatched duplexes are less stable and melt at a lower temperature than their perfectly matched homoduplex counterparts, resulting in broader or additional peaks on the melt curve</li>
+<li>
+<strong>High Resolution Melting (HRM):</strong> A more sensitive and advanced version of melt-curve analysis that uses specialized instruments and saturating dyes to detect very subtle sequence differences between amplicons, often with single-nucleotide precision. It is powerful enough to reliably genotype SNPs and analyze methylation patterns</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="other-techniques.html">Other Techniques</a></div>
+<div class="next"><a href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#melt-curve-analysis-1">Melt-Curve Analysis</a></li>
+<li>
+<a class="nav-link" href="#melt-curve-analysis-dna-fingerprinting-by-temperature">Melt-Curve Analysis: DNA Fingerprinting by Temperature</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#the-principle-the-fluorescent-dye-tells-the-story">The Principle: The Fluorescent Dye Tells the Story</a></li>
+<li><a class="nav-link" href="#the-step-by-step-process-1">The Step-by-Step Process</a></li>
+<li><a class="nav-link" href="#interpreting-the-melt-curve-what-the-peaks-mean">Interpreting the Melt Curve: What the Peaks Mean</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#clinical-applications-in-the-molecular-lab-1">Clinical Applications in the Molecular Lab</a></li>
+<li>
+<a class="nav-link" href="#advantages-vs.-limitations">Advantages vs. Limitations</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#advantages-1">Advantages</a></li>
+<li><a class="nav-link" href="#limitations-1">Limitations</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#key-terms-36">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/02-E-01.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/02-E-01.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

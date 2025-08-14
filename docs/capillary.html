@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Capillary | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Think of Capillary Electrophoresis (CE) as taking the principles of gel electrophoresis and turbocharging them inside a tiny, sophisticated tube. CE is a powerhouse technique in clinical molecular...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Capillary | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Think of Capillary Electrophoresis (CE) as taking the principles of gel electrophoresis and turbocharging them inside a tiny, sophisticated tube. CE is a powerhouse technique in clinical molecular...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Capillary | MB">
+<meta name="twitter:description" content="Think of Capillary Electrophoresis (CE) as taking the principles of gel electrophoresis and turbocharging them inside a tiny, sophisticated tube. CE is a powerhouse technique in clinical molecular...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="active" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="capillary" class="section level1 unnumbered">
+<h1>Capillary<a class="anchor" aria-label="anchor" href="#capillary"><i class="fas fa-link"></i></a>
+</h1>
+<p>Think of <strong>Capillary Electrophoresis (CE)</strong> as taking the principles of gel electrophoresis and turbocharging them inside a tiny, sophisticated tube. CE is a powerhouse technique in clinical molecular labs, especially for applications demanding high resolution, automation, and speed, like sequencing and fragment analysis</p>
+<div id="capillary-electrophoresis-the-high-performance-racetrack" class="section level2 unnumbered">
+<h2>
+<strong>Capillary Electrophoresis: The High-Performance Racetrack</strong><a class="anchor" aria-label="anchor" href="#capillary-electrophoresis-the-high-performance-racetrack"><i class="fas fa-link"></i></a>
+</h2>
+<p>Instead of a flat, Jell-O-like slab, CE uses a very narrow (<strong>~25-100 µm inner diameter</strong>) fused-silica capillary tube, typically 30-100 cm long. This tiny tube is filled with a buffer solution and sometimes a polymer matrix. High voltage (we’re talking kilovolts!) is applied across the ends of the capillary, driving the migration of charged molecules</p>
+</div>
+<div id="core-principles-more-than-just-size" class="section level2 unnumbered">
+<h2>
+<strong>Core Principles: More Than Just Size</strong><a class="anchor" aria-label="anchor" href="#core-principles-more-than-just-size"><i class="fas fa-link"></i></a>
+</h2>
+<p>While slab gels primarily separate based on size due to the sieving effect of the matrix, CE separation is influenced by two main factors:</p>
+<ul>
+<li>
+<strong>Electrophoretic Mobility (µe):</strong> This is the inherent speed and direction a charged molecule moves in an electric field. It depends on the molecule’s <strong>charge-to-mass ratio</strong>. Higher charge = faster movement towards the opposite electrode. Larger size/friction = slower movement. Just like in slab gels, nucleic acids are negatively charged and move towards the positive electrode (anode)</li>
+<li>
+<strong>Electroosmotic Flow (EOF):</strong> This is a bulk flow of the buffer solution within the capillary. The inner surface of a fused-silica capillary has negatively charged silanol groups (<span class="math inline">\(Si-O^-\)</span>) at neutral or alkaline pH. Positive ions from the buffer accumulate near the capillary wall, forming a mobile layer. When the high voltage is applied, these hydrated positive ions are pulled towards the negative electrode (cathode), dragging the entire buffer solution along with them
+<ul>
+<li>
+<strong>Impact:</strong> EOF is often a <em>stronger</em> force than electrophoretic mobility. In many CE setups (especially for small molecule analysis), <em>all</em> species (positive, neutral, and even negative) get swept towards the cathode by the EOF. Faster-moving negative ions (like DNA) still move <em>electrophoretically</em> towards the anode, but the powerful EOF overrides this, resulting in slower migration towards the cathode compared to positive ions or neutral molecules</li>
+</ul>
+</li>
+</ul>
+<div id="the-key-for-dna-sizing" class="section level3 unnumbered">
+<h3>
+<strong>The Key for DNA Sizing</strong><a class="anchor" aria-label="anchor" href="#the-key-for-dna-sizing"><i class="fas fa-link"></i></a>
+</h3>
+<p>For separating DNA fragments <em>based on size</em> (like in sequencing or fragment analysis), we usually don’t want EOF interfering or we want it highly controlled. We also need a <strong>sieving matrix</strong> inside the capillary to separate fragments by size, similar to a traditional gel. This specific mode is often called <strong>Capillary Gel Electrophoresis (CGE)</strong>, even though the “gel” is usually a replaceable, pumpable <strong>linear polymer solution</strong> (like linear polyacrylamide, LPA, or others like POP™ - Performance Optimized Polymers)</p>
+<ul>
+<li>
+<strong>How the Matrix Works:</strong> These long polymer chains form a dynamic network or mesh within the capillary. DNA fragments must snake their way through this polymer network (a process called <strong>reptation</strong>). Larger fragments get entangled more and move slower, while smaller fragments navigate the mesh more quickly. This allows separation purely based on size, just like in a slab gel, but with higher efficiency and resolution</li>
+<li>
+<strong>Managing EOF:</strong> Often, the capillary inner surface is coated, or buffer additives are used, to suppress or minimize EOF, ensuring migration is primarily driven by electrophoretic mobility through the sieving matrix towards the positive electrode</li>
+</ul>
+</div>
+</div>
+<div id="the-setup-key-components" class="section level2 unnumbered">
+<h2>
+<strong>The Setup: Key Components</strong><a class="anchor" aria-label="anchor" href="#the-setup-key-components"><i class="fas fa-link"></i></a>
+</h2>
+<p>An automated CE instrument typically includes:</p>
+<ul>
+<li>
+<strong>Fused-Silica Capillary</strong> The narrow tube where separation occurs. Often coated internally. Can be single or in an array (e.g., 4, 16, 48, 96 capillaries for higher throughput)</li>
+<li>
+<strong>Buffer Reservoirs (Inlet &amp; Outlet)</strong> Vials containing the running buffer. The ends of the capillary are immersed in these. One also holds the sample for injection</li>
+<li>
+<strong>Electrodes (Platinum)</strong> Immersed in the buffer reservoirs to complete the electrical circuit</li>
+<li>
+<strong>High-Voltage Power Supply</strong> Provides the driving force (typically 10-30 kV)</li>
+<li>
+<strong>Injection System</strong> Introduces a tiny plug of the sample into the capillary. Common methods:
+<ul>
+<li>
+<strong>Electrokinetic Injection:</strong> Briefly applying voltage while the capillary tip is in the sample vial. Preferentially loads ions based on their mobility</li>
+<li>
+<strong>Hydrodynamic Injection:</strong> Using pressure or vacuum to force a small volume of sample into the capillary</li>
+</ul>
+</li>
+<li>
+<strong>Detector</strong> Positioned near the outlet end of the capillary to detect molecules as they pass by. For nucleic acids, this is almost always <strong>Laser-Induced Fluorescence (LIF)</strong>
+</li>
+<li>
+<strong>Autosampler</strong> Holds sample plates (e.g., 96-well) and buffer vials, moving them automatically to the capillary for injection</li>
+<li>
+<strong>Temperature Control</strong> Maintaining a stable temperature is crucial for reproducible migration times</li>
+<li>
+<strong>Computer System</strong> Controls the instrument, collects data, and performs analysis</li>
+</ul>
+</div>
+<div id="the-process-a-typical-run-cge-for-dna" class="section level2 unnumbered">
+<h2>
+<strong>The Process: A Typical Run (CGE for DNA)</strong><a class="anchor" aria-label="anchor" href="#the-process-a-typical-run-cge-for-dna"><i class="fas fa-link"></i></a>
+</h2>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Capillary Conditioning</strong> The capillary is flushed with buffer and the polymer sieving matrix is pumped in</li>
+<li>
+<strong>Sample Injection</strong> The autosampler moves a sample well to the capillary inlet. A small plug of the sample (containing fluorescently labeled DNA fragments) is injected (e.g., electrokinetically)</li>
+<li>
+<strong>Separation</strong> High voltage is applied. DNA fragments migrate through the polymer matrix towards the positive electrode, separating by size (smaller fragments move faster)</li>
+<li>
+<strong>Detection</strong> As the separated, fluorescently labeled fragments pass a small window in the capillary, a laser excites the fluorescent dyes attached to the DNA. The emitted light is captured by a detector (like a photomultiplier tube - PMT, or a CCD camera)</li>
+<li>
+<strong>Data Output</strong> The detector signal is recorded over time, generating an <strong>electropherogram</strong> – a plot of fluorescence intensity versus migration time. Each peak represents a DNA fragment (or population of fragments) of a specific size</li>
+</ol>
+</div>
+<div id="detection-laser-induced-fluorescence-lif" class="section level2 unnumbered">
+<h2>
+<strong>Detection: Laser-Induced Fluorescence (LIF)</strong><a class="anchor" aria-label="anchor" href="#detection-laser-induced-fluorescence-lif"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Sensitivity:</strong> LIF is incredibly sensitive, allowing detection of minute amounts of DNA</li>
+<li>
+<strong>Labeling:</strong> DNA fragments need to be labeled with fluorescent dyes. This can be done by:
+<ul>
+<li>Using fluorescently labeled PCR primers</li>
+<li>Using fluorescently labeled dideoxynucleotides (ddNTPs) in Sanger sequencing</li>
+<li>Using intercalating dyes in the buffer/matrix (less common for high-resolution CGE)</li>
+</ul>
+</li>
+<li>
+<strong>Multi-Color Detection:</strong> Modern CE instruments often use multiple lasers and detectors (or spectral deconvolution) to detect different fluorescent dyes simultaneously (e.g., 4-6 different colors). This is critical for:
+<ul>
+<li>
+<strong>Sanger Sequencing:</strong> Labeling each ddNTP (A, T, C, G) with a different color allows sequencing reactions to be run in a single capillary</li>
+<li>
+<strong>Fragment Analysis:</strong> Labeling different primer sets or size standards with different colors allows multiplexing and accurate sizing</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="key-applications-in-clinical-molecular-biology" class="section level2 unnumbered">
+<h2>
+<strong>Key Applications in Clinical Molecular Biology</strong><a class="anchor" aria-label="anchor" href="#key-applications-in-clinical-molecular-biology"><i class="fas fa-link"></i></a>
+</h2>
+<p>CE has become the gold standard for:</p>
+<ul>
+<li>
+<strong>Sanger Sequencing Fragment Analysis</strong> After cycle sequencing, the fluorescently labeled extension products (differing by one base) are separated by CE with single-base resolution. The order of the colored peaks detected corresponds directly to the DNA sequence</li>
+<li>
+<strong>Fragment Analysis</strong> Precisely sizing fluorescently labeled PCR products. Crucial for:
+<ul>
+<li>
+<strong>Short Tandem Repeat (STR) Analysis:</strong> Used in human identity testing, chimerism analysis (post-transplant monitoring), and cell line authentication. CE provides the high resolution needed to distinguish alleles that may differ by only a few base pairs</li>
+<li>
+<strong>Multiplex Ligation-Dependent Probe Amplification (MLPA):</strong> Sizing MLPA probes to detect copy number variations (deletions/duplications) in genes</li>
+<li>Certain types of <strong>mutation analysis</strong> where insertions/deletions change fragment size</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="advantages-of-capillary-electrophoresis" class="section level2 unnumbered">
+<h2>
+<strong>Advantages of Capillary Electrophoresis</strong><a class="anchor" aria-label="anchor" href="#advantages-of-capillary-electrophoresis"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>High Resolution:</strong> Can often resolve fragments differing by a single base pair</li>
+<li>
+<strong>High Speed:</strong> Separations are much faster than traditional slab gels (minutes vs. hours)</li>
+<li>
+<strong>Automation:</strong> Fully automated from sample injection to detection and data analysis. Minimal hands-on time</li>
+<li>
+<strong>Sensitivity:</strong> LIF detection requires very small sample amounts</li>
+<li>
+<strong>Quantitation:</strong> Peak height/area in the electropherogram correlates with the amount of DNA</li>
+<li>
+<strong>Reduced Reagent Consumption:</strong> Uses minimal volumes of buffer and polymer matrix</li>
+<li>
+<strong>Improved Safety:</strong> No need to handle potentially toxic acrylamide monomers for casting gels (though the polymer solutions still require care)</li>
+</ul>
+</div>
+<div id="disadvantages-of-capillary-electrophoresis" class="section level2 unnumbered">
+<h2>
+<strong>Disadvantages of Capillary Electrophoresis</strong><a class="anchor" aria-label="anchor" href="#disadvantages-of-capillary-electrophoresis"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>High Instrument Cost:</strong> CE sequencers/analyzers are expensive</li>
+<li>
+<strong>Sequential Analysis:</strong> In single-capillary systems, samples are run one after another (though multi-capillary arrays significantly increase throughput)</li>
+<li>
+<strong>Capillary Clogging/Degradation:</strong> Capillaries can become clogged or degrade over time, requiring maintenance or replacement</li>
+<li>
+<strong>Complexity:</strong> Requires skilled operators for operation, maintenance, and troubleshooting</li>
+<li>
+<strong>Sensitivity to Sample Quality:</strong> Impurities (salts, proteins) can interfere with injection and separation</li>
+</ul>
+</div>
+<div id="ce-vs.-slab-gel-electrophoresis-quick-comparison" class="section level2 unnumbered">
+<h2>
+<strong>CE vs. Slab Gel Electrophoresis: Quick Comparison</strong><a class="anchor" aria-label="anchor" href="#ce-vs.-slab-gel-electrophoresis-quick-comparison"><i class="fas fa-link"></i></a>
+</h2>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="18%">
+<col width="39%">
+<col width="42%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">Feature</th>
+<th align="left">Capillary Electrophoresis (CGE)</th>
+<th align="left">Slab Gel Electrophoresis (Agarose/PAGE)</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Format</strong></td>
+<td align="left">Narrow Capillary (Tube)</td>
+<td align="left">Flat Gel Slab</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Matrix</strong></td>
+<td align="left">Pumpable Polymer Solution</td>
+<td align="left">Cast Agarose or Polyacrylamide</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Separation</strong></td>
+<td align="left">Size (via Reptation)</td>
+<td align="left">Size (via Sieving)</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Resolution</strong></td>
+<td align="left">Very High (often 1 bp)</td>
+<td align="left">Moderate (Agarose) to High (PAGE)</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Speed</strong></td>
+<td align="left">Fast (Minutes)</td>
+<td align="left">Slower (Hours)</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Automation</strong></td>
+<td align="left">High (Fully Automated)</td>
+<td align="left">Low to Moderate</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Detection</strong></td>
+<td align="left">On-column LIF</td>
+<td align="left">Post-run Staining (e.g., EtBr, SYBR)</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Throughput</strong></td>
+<td align="left">High (with arrays)</td>
+<td align="left">Batch processing (multiple lanes/gel)</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Sample Volume</strong></td>
+<td align="left">Very Low (nL-µL injected)</td>
+<td align="left">Low (µL loaded)</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div id="key-terms-23" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-23"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Capillary Electrophoresis (CE):</strong> A separation technique that uses a narrow-bore fused-silica capillary tube and a high electric field to separate charged molecules based on their differential migration rates</li>
+<li>
+<strong>Fused-Silica Capillary:</strong> The thin, flexible glass (SiO₂) tube used in CE, typically with an inner diameter of 25-100 µm</li>
+<li>
+<strong>Electroosmotic Flow (EOF):</strong> The bulk flow of fluid towards the cathode (negative electrode) in a capillary, caused by the migration of positive ions from the buffer that accumulate near the negatively charged capillary wall under an electric field</li>
+<li>
+<strong>Electrophoretic Mobility (µe):</strong> The velocity of a charged particle per unit electric field strength, determined primarily by its charge-to-mass ratio and frictional drag</li>
+<li>
+<strong>Sieving Matrix (in CE):</strong> A solution of entangled polymers (e.g., linear polyacrylamide, POP™) filling the capillary, used specifically for separating macromolecules like DNA based on size. This mode is often called Capillary Gel Electrophoresis (CGE)</li>
+<li>
+<strong>Reptation:</strong> The snake-like movement of long polymer chains (like DNA) through the entangled mesh of a polymer sieving matrix during electrophoresis</li>
+<li>
+<strong>Laser-Induced Fluorescence (LIF):</strong> A highly sensitive detection method used in CE where a laser beam is focused on a small window of the capillary, exciting fluorescent dyes attached to the analyte molecules as they pass. The emitted fluorescence is detected and recorded</li>
+<li>
+<strong>Electrokinetic Injection:</strong> A common sample injection method in CE where voltage is briefly applied across the capillary while its inlet is immersed in the sample, causing ions to migrate into the capillary based on their electrophoretic mobility and the EOF</li>
+<li>
+<strong>Electropherogram:</strong> The graphical output of a CE separation, plotting detector response (e.g., fluorescence intensity) versus migration time. Peaks in the electropherogram represent separated analytes</li>
+<li>
+<strong>Fragment Analysis (via CE):</strong> The application of CE (specifically CGE with LIF detection) to precisely determine the size of fluorescently labeled DNA fragments, commonly used for STR analysis, MLPA, etc</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="gel.html">Gel</a></div>
+<div class="next"><a href="blotting-probing.html">Blotting &amp; Probing</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#capillary">Capillary</a></li>
+<li><a class="nav-link" href="#capillary-electrophoresis-the-high-performance-racetrack">Capillary Electrophoresis: The High-Performance Racetrack</a></li>
+<li>
+<a class="nav-link" href="#core-principles-more-than-just-size">Core Principles: More Than Just Size</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#the-key-for-dna-sizing">The Key for DNA Sizing</a></li></ul>
+</li>
+<li><a class="nav-link" href="#the-setup-key-components">The Setup: Key Components</a></li>
+<li><a class="nav-link" href="#the-process-a-typical-run-cge-for-dna">The Process: A Typical Run (CGE for DNA)</a></li>
+<li><a class="nav-link" href="#detection-laser-induced-fluorescence-lif">Detection: Laser-Induced Fluorescence (LIF)</a></li>
+<li><a class="nav-link" href="#key-applications-in-clinical-molecular-biology">Key Applications in Clinical Molecular Biology</a></li>
+<li><a class="nav-link" href="#advantages-of-capillary-electrophoresis">Advantages of Capillary Electrophoresis</a></li>
+<li><a class="nav-link" href="#disadvantages-of-capillary-electrophoresis">Disadvantages of Capillary Electrophoresis</a></li>
+<li><a class="nav-link" href="#ce-vs.-slab-gel-electrophoresis-quick-comparison">CE vs. Slab Gel Electrophoresis: Quick Comparison</a></li>
+<li><a class="nav-link" href="#key-terms-23">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/02-B-01-b.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/02-B-01-b.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

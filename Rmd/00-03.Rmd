@@ -1,0 +1,29 @@
+# ASCP BOC {-}
+
+Source: <a href="https://www.ascp.org/content/board-of-certification/get-credentialed#" target="_blank">MB(ASCP) and SMB(ASCP) Certifications > Applicant Resources > Content Guideline</a>
+
+ASCP BOC's Content Guideline for the Technologist in Molecular Biology, MB(ASCP), and the Specialist in Molecular Biology, SMB(ASCP), certification exams consists of five major content areas. The information below was last revised on ASCP's website June 2023
+
+## **Molecular Science** {-}
+
+**Exam Percentage:** MB(ASCP): 20% - 25% | SMB(ASCP): 5% - 10%
+
+**Description:** Nucleic acid chemistry, basic molecular theory, biochemical reagents, and human/microbial genetics
+
+## **Molecular Techniques** {-}
+
+**Exam Percentage:** MB(ASCP): 30% - 35% | SMB(ASCP): 30% - 35%
+
+**Description:** Nucleic acid isolation, separation and detection, nucleic acid amplification, sequencing, and other molecular techniques
+
+## **Applications of Molecular Testing** {-}
+
+**Exam Percentage:** MB(ASCP): 30% - 35% | SMB(ASCP): 35% - 40%
+
+**Description:** Infectious disease, oncology, genetic disorders, histocompatibility, genetic identity, engraftment, and pharmacogenomics
+
+## **Laboratory Operations** {-}
+
+**Exam Percentage:** MB(ASCP): 15% - 20% | SMB(ASCP): 25% - 30%
+
+**Description:** Contamination, specimen processing, reagents, assays (performance, validation, and troubleshooting), results (calculation, interpretation, and reporting), quality control, proficiency testing, instrumentation, guidelines and regulations, continuing education, competency, safety, and laboratory administration

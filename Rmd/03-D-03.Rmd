@@ -1,0 +1,44 @@
+# Engraftment {-}
+
+Let's tie together some concepts we've already discussed. We've seen how we use **Histocompatibility (HLA) typing** to find the best possible donor for a patient who needs a new immune system. We've also seen how we use **Genetic Identity (STR) testing** to create a unique DNA fingerprint for an individual. Now, we're going to see how these two fields merge in the critical post-transplant period to answer one simple, vital question: **"Did it work?"**
+
+This is the process of monitoring **engraftment**
+
+Imagine a garden that has been overrun by aggressive weeds (like leukemia or lymphoma). The only way to save the garden is to pull out all the weeds and the contaminated soil. This is the **conditioning regimen**, where a patient receives high-dose chemotherapy and/or radiation to wipe out their diseased bone marrow and their entire immune system. The garden is now empty
+
+Then comes transplant day, when the new, healthy "seeds"—the donor's **Hematopoietic Stem Cells (HSCs)**—are infused into the patient. **Engraftment** is the process of those donor stem cells traveling to the empty bone marrow, "planting" themselves, and starting to grow. They must successfully take root and begin the massive job of building a brand-new blood and immune system for the recipient. Our job in the molecular lab is to act as the gardener, carefully monitoring the soil to see how well the new seeds are growing and to check if any of the old weeds are trying to sprout back up
+
+## **Chimerism: The Post-Transplant Reality** {-}
+
+After an allogeneic (from another person) stem cell transplant, the recipient becomes a **chimera**. In mythology, a Chimera was a creature made of parts from different animals. In medicine, a transplant patient is a human chimera, an individual who has cells from two different people coexisting in their body. Our goal is to measure the proportion of donor vs. recipient cells in the patient's blood or bone marrow over time. This measurement is called chimerism analysis
+
+By using the same STR testing from our genetic identity lecture, we can get a precise, quantitative result. Before the transplant, we establish the unique DNA fingerprint of the recipient and the donor. After the transplant, we test the patient's blood and look for both profiles
+
+*   **Full Donor Chimerism:** This is the ideal outcome. We detect 100% donor DNA and 0% recipient DNA. This means the transplant has been a complete success. The new garden is flourishing with only the healthy, donor-derived plants
+*   **Mixed Chimerism:** We detect a mixture of both donor and recipient DNA. For example, the patient might be 80% donor and 20% recipient. This is a critical result that requires careful monitoring. It could be a stable state, or it could be an early sign of a problem
+*   **Graft Failure / Relapse:** We see the percentage of recipient DNA steadily increasing over time. This is a major warning sign. It means the donor cells are failing to maintain their hold and the original "weeds" (the patient's own cells, which may carry the original disease) are growing back
+
+## **The How: Quantitative STR Analysis** {-}
+
+We use the exact same technology as forensic and parentage testing—multiplex PCR of STR loci followed by fragment analysis—but with a quantitative twist
+
+1.  **Find Informative Loci** First, we compare the pre-transplant DNA profiles of the donor and recipient. We look for STR loci where the two individuals have different alleles (different numbers of repeats). These are our **informative** loci because they allow us to distinguish one person's cells from the other's
+2.  **Post-Transplant Analysis** We then test a post-transplant blood or bone marrow sample. At an informative locus, we will see peaks corresponding to both the recipient's and the donor's alleles
+3.  **Quantify the Peaks** This is the key step. We don't just look for presence or absence. The instrument software measures the area under the curve for each fluorescent peak. By comparing the peak area of the donor-specific alleles to the total peak area (donor + recipient), we can calculate the exact percentage of donor chimerism
+
+## **Clinical Importance: Why We Monitor** {-}
+
+Monitoring for engraftment isn't a one-time test. It's performed serially—for example, at day +30, +60, +100, and +365 post-transplant, and any time there is clinical concern. This provides a dynamic view of the new immune system's health
+
+*   **Early Warning System:** A drop in donor chimerism is often the very first sign of impending graft failure or disease relapse, appearing long before the patient has any symptoms. This gives the clinical team a crucial window of opportunity to intervene
+*   **Guiding Clinical Decisions:** The level of chimerism can guide treatment. For example, if a patient has persistent mixed chimerism, a physician might decide to reduce their immunosuppressive drugs to encourage the donor cells to fight off the remaining recipient cells (a "graft-versus-leukemia" effect). Or they might plan for a **donor lymphocyte infusion (DLI)**, a "booster shot" of donor T-cells to help complete the engraftment
+
+## **Key Terms** {-}
+
+*   **Engraftment:** The process by which transplanted hematopoietic stem cells migrate to the bone marrow, implant, and begin to produce new, healthy blood cells
+*   **Chimerism:** The state of having a population of cells from two or more different individuals coexisting within a single organism. In transplantation, it refers to the presence of both donor and recipient cells
+*   **Hematopoietic Stem Cell (HSC) Transplant:** A medical procedure that replaces a person's diseased or damaged bone marrow with healthy stem cells, which can be from the patient (autologous) or a donor (allogeneic)
+*   **Conditioning Regimen:** A course of high-dose chemotherapy and/or radiation given to a patient before a transplant to eliminate their existing bone marrow and immune system
+*   **Full Donor Chimerism:** The ideal post-transplant outcome where 100% of the hematopoietic cells in the recipient are derived from the donor
+*   **Mixed Chimerism:** A post-transplant state where both donor and recipient hematopoietic cells are present and detectable
+*   **Graft Failure:** A serious complication where the transplanted donor stem cells fail to engraft or lose their function over time, leading to a return of the recipient's own marrow and, potentially, their original disease

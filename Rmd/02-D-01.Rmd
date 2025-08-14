@@ -1,0 +1,90 @@
+# Sanger {-}
+
+**Sanger Sequencing**, also known as the **Chain-Termination Method**, is the cornerstone of DNA sequencing, the method that started it all and remains incredibly important in clinical labs. Developed by Frederick Sanger in 1977 (earning him his second Nobel Prize!), this technique allows us to determine the precise order of nucleotides (Adenine, Guanine, Cytosine, Thymine - A, G, C, T) within a specific fragment of DNA
+
+## **Sanger Sequencing: Reading the Book of Life, Letter by Letter** {-}
+
+**The Core Principle: Controlled Chain Termination**
+
+Imagine DNA polymerase happily copying a template strand of DNA. It adds regular nucleotides (dATP, dGTP, dCTP, dTTP - collectively dNTPs) one by one, using the 3'-hydroxyl (-OH) group of the last nucleotide to form a phosphodiester bond with the next incoming nucleotide
+
+Sanger's genius was to introduce modified nucleotides called **dideoxynucleotides (ddNTPs)** into the reaction. These ddNTPs (ddATP, ddGTP, ddCTP, ddTTP) are special because they **LACK the 3'-OH group.**
+
+*   **The Consequence:** If the DNA polymerase happens to incorporate a ddNTP instead of a regular dNTP, the chain can no longer be extended because there's no 3'-OH group to attach the next nucleotide to. Synthesis **terminates** at that specific base
+
+## **Key Ingredients for Sanger Sequencing** {-}
+
+You need the following components for the sequencing reaction itself:
+
+*   **DNA Template:** The DNA fragment you want to sequence (often a PCR product or a plasmid clone). Must be single-stranded for the polymerase to copy, which is achieved by heat denaturation during the reaction cycling
+*   **Sequencing Primer:** A short, single-stranded oligonucleotide that is complementary to the known sequence flanking *one end* of the region you want to sequence. This provides the necessary 3'-OH starting point for the DNA polymerase
+*   **DNA Polymerase:** An enzyme (usually a heat-stable one like *Taq* polymerase or modified versions optimized for sequencing) that synthesizes the complementary DNA strand
+*   **Regular Deoxynucleotides (dNTPs):** dATP, dGTP, dCTP, dTTP – the normal building blocks, present in excess
+*   **Labeled Dideoxynucleotides (ddNTPs):** ddATP, ddGTP, ddCTP, ddTTP – the chain terminators, present in **limiting amounts.** Critically, in modern Sanger sequencing, **each type of ddNTP (A, G, C, T) is labeled with a different colored fluorescent dye**
+
+## **The Workflow: From Reaction to Reading** {-}
+
+While the classic method involved 4 separate reactions and radioactive labels, modern clinical labs exclusively use **Dye-Terminator Cycle Sequencing** coupled with **Capillary Electrophoresis (CE)**
+
+1.  **Cycle Sequencing Reaction Setup** All the ingredients (template, *one* primer, polymerase, dNTPs, and all four differently colored fluorescently labeled ddNTPs) are combined in a **single tube**
+2.  **Thermal Cycling (Cycle Sequencing)** The reaction undergoes cycles similar to PCR, but crucially uses only *one* primer, leading to *linear* amplification of fragments starting from that primer
+    *   **Denaturation (~96°C):** Separates the template DNA strands
+    *   **Annealing (~50-60°C):** The sequencing primer binds to its complementary site on the template
+    *   **Extension/Termination (~60°C):** DNA polymerase extends from the primer, incorporating dNTPs. Occasionally, it incorporates a fluorescently labeled ddNTP instead, terminating synthesis
+    *   **Result of Cycling:** Over many cycles, this generates millions to billions of DNA fragments. All fragments start at the same primer site, but they end at different lengths, corresponding to every possible position where a specific ddNTP was incorporated. Each fragment carries a fluorescent label indicating which base (A, T, C, or G) terminated its synthesis
+3.  **Purification** After cycling, the reaction mix contains the labeled fragments, plus leftover primers, dNTPs, ddNTPs, and enzyme. These unincorporated components interfere with electrophoresis and must be removed. Common methods include:
+    *   **Spin Column Chromatography:** Binds DNA fragments, washes away contaminants
+    *   **Magnetic Bead Purification:** Binds DNA fragments, contaminants washed away
+    *   **Enzymatic Cleanup:** Using enzymes like ExoSAP-IT to degrade primers and dNTPs
+4.  **Capillary Electrophoresis (CE) Separation** The purified, fluorescently labeled fragments are loaded into an automated CE instrument
+    *   A very thin capillary tube is filled with a polymer matrix (acting like a high-resolution gel)
+    *   High voltage is applied, driving the negatively charged DNA fragments through the matrix towards the positive electrode
+    *   **Separation is based purely on size (length):** Shorter fragments move faster, longer fragments move slower. The system has the resolution to separate fragments differing by just **one nucleotide** in length!
+5.  **Detection** Near the end of the capillary, a laser excites the fluorescent dyes attached to the fragments as they pass by. A detector (like a CCD camera) records the color of the fluorescence for each fragment as it elides
+6.  **Data Analysis** The CE instrument software converts the raw fluorescence data into an **electropherogram**
+    *   This is a graph showing colored peaks plotted against time (or inferred size)
+    *   Each peak represents fragments of a specific size ending with a specific base (indicated by the peak's color)
+    *   The software performs **base calling**, reading the sequence of colored peaks from left (shortest fragments, closest to primer) to right (longest fragments) to directly determine the DNA sequence
+    *   **Quality Scores (Phred Scores):** The software also assigns a quality score to each base call, indicating the confidence in its accuracy
+
+## **Advantages of Sanger Sequencing** {-}
+
+*   **High Accuracy:** Still considered the "gold standard" for accuracy on a per-read basis, especially for verifying findings from other methods
+*   **Long Read Lengths:** Can reliably generate reads of ~500-800 base pairs (sometimes up to 1000 bp), useful for sequencing across larger exons or PCR products
+*   **Relatively Simple Data Analysis:** Analyzing single reads or contigs from Sanger is less computationally intensive than analyzing massive NGS datasets
+*   **Cost-Effective for Small Scale:** Ideal for sequencing single genes, specific mutations, PCR products, or plasmid inserts when only a few targets need analysis
+
+## **Disadvantages/Limitations of Sanger Sequencing** {-}
+
+*   **Low Throughput:** Cannot sequence millions of fragments simultaneously like Next-Generation Sequencing (NGS)
+*   **High Cost per Base (for large projects):** Becomes very expensive for sequencing whole genomes, exomes, or large gene panels compared to NGS
+*   **Requires Specific Primers:** Need to know the flanking sequence to design a primer for each region of interest
+*   **Difficulty with Complex Regions:** Can struggle with highly repetitive sequences, GC-rich regions, or sequences forming strong secondary structures
+*   **Limited Sensitivity for Heterogeneity:** Generally requires a variant allele to be present in at least 15-20% of the template molecules to be reliably detected (makes it difficult for detecting low-level mosaicism or somatic mutations in tumors compared to deep NGS)
+*   **Requires Amplified/Cloned Template:** Usually performed on purified PCR products or plasmids, not directly on complex genomic DNA
+
+## **Clinical Applications** {-}
+
+Despite the rise of NGS, Sanger sequencing remains valuable in the clinical lab for:
+
+*   **Confirmation of NGS Variants:** Often used to orthogonally confirm potentially disease-causing variants identified by NGS panels or exome sequencing
+*   **Single Gene Sequencing:** Investigating disorders caused by mutations in a single gene (e.g., Cystic Fibrosis - *CFTR*, some cardiomyopathies, inherited metabolic disorders) where NGS panels aren't necessary or available
+*   **Targeted Mutation Analysis:** Sequencing specific exons or known mutation hotspots in genes relevant to cancer (e.g., *EGFR*, *KRAS*, *BRAF*) or inherited conditions
+*   **Viral Genotyping:** Determining the genotype or identifying drug resistance mutations in viruses like HIV or Hepatitis C
+*   **Bacterial Identification:** Sequencing the 16S rRNA gene for identifying bacterial species
+*   **HLA Typing:** Sequencing specific HLA genes for transplantation matching (though NGS is increasingly used here too)
+*   **Gap Filling:** Sequencing regions that are difficult to cover with short-read NGS
+
+## **Key Terms** {-}
+
+*   **Chain Termination:** The core principle where DNA synthesis stops upon incorporation of a dideoxynucleotide (ddNTP)
+*   **Dideoxynucleotide (ddNTP):** A modified nucleotide lacking the 3'-hydroxyl group, preventing further chain elongation when incorporated by DNA polymerase
+*   **Deoxynucleotide (dNTP):** The normal building block of DNA (dATP, dGTP, dCTP, dTTP) possessing a 3'-hydroxyl group
+*   **Sequencing Primer:** A short oligonucleotide complementary to the sequence flanking the region to be sequenced, providing a start site for the polymerase
+*   **Cycle Sequencing:** A PCR-like method using one primer and ddNTPs to generate a population of chain-terminated fragments of varying lengths
+*   **Dye Terminator:** A fluorescent dye covalently attached to a ddNTP, allowing detection based on the terminating base
+*   **Capillary Electrophoresis (CE):** A high-resolution separation technique using narrow capillaries filled with a polymer matrix to separate DNA fragments by size, typically with single-base resolution for sequencing
+*   **Electropherogram (Chromatogram):** The graphical output of Sanger sequencing from a CE instrument, showing fluorescent peaks representing the sequence of bases
+*   **Base Calling:** The process by which software analyzes the electropherogram data to determine the nucleotide sequence
+*   **Phred Score:** A numerical score assigned to each base call, indicating the probability of an error in that call (higher score = higher confidence)
+*   **Read Length:** The number of contiguous, high-quality bases determined from a single sequencing reaction

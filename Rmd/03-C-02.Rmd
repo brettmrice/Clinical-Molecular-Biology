@@ -1,0 +1,45 @@
+# Coagulopathies {-}
+
+Welcome to the world of **hemostasis**, the body's incredibly elegant system for stopping bleeding. You can think of it as a biological construction project. When there's a break in a blood vessel wall, a complex cascade of clotting factors (proteins) is activated to rapidly build a fibrin "dam"—a blood clot—to plug the hole. Just as important is the clean-up crew, the anticoagulant proteins that dissolve the clot once the vessel is healed and prevent the dam from getting dangerously large
+
+Normally, this system is in perfect balance. But what if there's an inherited genetic quirk that tips the scale in favor of clotting? This leads to a state of **hypercoagulability**, or **thrombophilia**—an increased tendency to form dangerous and unnecessary blood clots in the veins (**venous thromboembolism, or VTE**) or arteries
+
+Our job in the molecular lab isn't to diagnose an active clot; that's done with imaging. Our role is to identify the underlying *hereditary risk factors* by reading the patient's DNA. This is particularly important for patients who have had a clot at a young age, in an unusual location, or have a strong family history of clotting
+
+## **The Big Players in Hereditary Thrombophilia** {-}
+
+We're looking for specific, common spelling mistakes in the DNA called **single nucleotide polymorphisms (SNPs)**. These are single-letter changes in the genetic code that alter the function of key clotting proteins. The two most important culprits we test for are Factor V Leiden and the Prothrombin gene mutation
+
+### **Factor V Leiden: The "Resistant" Clotting Factor** {-}
+This is, by far, the most common inherited cause of thrombophilia, especially in Caucasian populations
+
+*   **The Analogy:** Think of the clotting cascade as a team of workers building that fibrin dam. Activated Protein C (APC) is the safety inspector whose job is to tell a specific worker, Factor V, to stop working so the dam doesn't get too big
+*   **The Molecular Defect:** The **Factor V Leiden** mutation is a specific SNP (a G-to-A change) in the *F5* gene. This results in a single amino acid change (Arginine is replaced by Glutamine at position 506). This single change happens to be right where the "safety inspector" (APC) binds to Factor V to shut it down
+*   **The Consequence:** The mutated Factor V Leiden protein is **resistant** to being inactivated by APC. The "safety inspector" can't do its job. As a result, this hyperactive Factor V worker keeps building the clot for longer than it should, dramatically increasing the risk of thrombosis
+*   **How We Test:** Because we're looking for one specific SNP, we use targeted PCR-based methods. **Real-time PCR with melt-curve analysis** is a common and elegant approach. We can clearly distinguish the DNA melting patterns of a normal individual (homozygous wild-type), a carrier (heterozygous), and a rare affected individual (homozygous mutant)
+
+### **Prothrombin G20210A: The "Over-Producer"** {-}
+This is the second most common inherited clotting disorder. It works by a completely different mechanism
+
+*   **The Analogy:** If Factor V is a worker, think of Prothrombin (also called Factor II) as the raw material, the "concrete mix" for the dam
+*   **The Molecular Defect:** The Prothrombin G20210A mutation is a SNP (a G-to-A change) located in a non-coding part of the *F2* gene called the **3' untranslated region (3' UTR)**. This region helps control how much protein is made from the gene blueprint
+*   **The Consequence:** This mutation makes the prothrombin mRNA transcript more stable, preventing it from being broken down as quickly. The cell's protein-making machinery can therefore read this stable transcript over and over, leading to an **overproduction** of prothrombin protein. With too much "concrete mix" floating around, the balance is tipped towards clot formation
+*   **How We Test:** Just like with Factor V Leiden, this is a single SNP, making it perfect for targeted PCR assays
+
+## ***MTHFR*: The "Retired" Player** {-}
+
+You will undoubtedly see orders for, and hear discussions about, variants in a gene called ***MTHFR*** (*methylenetetrahydrofolate reductase*). This gene is involved in folate metabolism, and mutations can lead to elevated levels of an amino acid called homocysteine, which was historically linked to thrombosis
+
+*   **The Molecular Defect:** Two common variants are often tested: C677T and A1298C
+*   **The Current Clinical View:** This is a critical teaching point. Decades of research have shown that while *MTHFR* variants are common, their association with venous thromboembolism is **very weak to non-existent**. Major clinical practice guidelines, including those from the American College of Medical Genetics and Genomics (ACMG), now **strongly recommend *against* testing for *MTHFR* variants** as part of a thrombophilia workup. It does not change patient management and is not considered a reliable risk factor for VTE
+*   **Our Role as MLSs:** It's our job to understand the evidence. While we will run the test if a physician orders it, we must also be aware that its clinical utility for thrombophilia is no longer supported. This is a great example of how molecular diagnostics evolves with scientific evidence
+
+## **Key Terms** {-}
+
+*   **Thrombophilia:** An inherited or acquired condition that increases the tendency to form abnormal blood clots (thrombosis). Also known as hypercoagulability
+*   **Thrombosis:** The formation of a blood clot inside a blood vessel, obstructing the flow of blood through the circulatory system
+*   **Hemostasis:** The physiological process that causes bleeding to stop, meaning to keep blood within a damaged vessel. It is the first stage of wound healing
+*   **Factor V Leiden:** A specific mutation in the *F5* gene that makes the Factor V protein resistant to inactivation by Activated Protein C, leading to an increased risk of venous thrombosis
+*   **Prothrombin G20210A:** A specific mutation in the 3' untranslated region of the prothrombin (*F2*) gene that leads to increased levels of prothrombin protein, predisposing an individual to thrombosis
+*   **Activated Protein C (APC) Resistance:** The functional consequence of the Factor V Leiden mutation, where the mutated Factor V protein cannot be efficiently "turned off" by its natural inhibitor, Activated Protein C
+*   **Single Nucleotide Polymorphism (SNP):** A common type of genetic variation involving a change at a single position in a DNA sequence. Factor V Leiden and Prothrombin G20210A are classic examples of pathogenic SNPs

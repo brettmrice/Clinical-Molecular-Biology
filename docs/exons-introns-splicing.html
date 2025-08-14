@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Exons, Introns, &amp; Splicing | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Eukaryotic gene structure and processing, Exons, Introns, and Splicing, is a crucial concept because, in eukaryotes (like humans!), the coding information within a gene is often interrupted, like...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Exons, Introns, &amp; Splicing | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Eukaryotic gene structure and processing, Exons, Introns, and Splicing, is a crucial concept because, in eukaryotes (like humans!), the coding information within a gene is often interrupted, like...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Exons, Introns, &amp; Splicing | MB">
+<meta name="twitter:description" content="Eukaryotic gene structure and processing, Exons, Introns, and Splicing, is a crucial concept because, in eukaryotes (like humans!), the coding information within a gene is often interrupted, like...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="active" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="exons-introns-splicing" class="section level1 unnumbered">
+<h1>Exons, Introns, &amp; Splicing<a class="anchor" aria-label="anchor" href="#exons-introns-splicing"><i class="fas fa-link"></i></a>
+</h1>
+<p>Eukaryotic gene structure and processing, <strong>Exons, Introns, and Splicing</strong>, is a crucial concept because, in eukaryotes (like humans!), the coding information within a gene is often interrupted, like a sentence with irrelevant phrases inserted in the middle. Splicing is the editing process that removes the interruptions to create a coherent message</p>
+<div id="the-structure-exons-and-introns" class="section level2 unnumbered">
+<h2>
+<strong>The Structure: Exons and Introns</strong><a class="anchor" aria-label="anchor" href="#the-structure-exons-and-introns"><i class="fas fa-link"></i></a>
+</h2>
+<p>Imagine a gene on a chromosome as a segment of DNA that holds the instructions for building a protein (or a functional RNA molecule). In eukaryotes, this segment isn’t usually one continuous block of code. Instead, it’s composed of two types of sequences:</p>
+<ul>
+<li>
+<strong>Exons (Expressed Sequences):</strong> These are the segments of the gene that contain the actual <strong>coding information</strong> – the sequences that will ultimately be translated into amino acids or become part of a functional RNA (like rRNA or tRNA). Think of these as the <em>essential words</em> in the instruction manual</li>
+<li>
+<strong>Introns (Intervening Sequences):</strong> These are <strong>non-coding segments</strong> that lie <em>between</em> the exons within the gene sequence. They interrupt the flow of coding information. Think of these as <em>interrupting, non-essential phrases or commentary</em> scattered within the instructions. Introns can vary greatly in number and size, sometimes being much longer than the exons they separate</li>
+</ul>
+<p><strong>Important Note</strong> Prokaryotes (bacteria) generally <strong>lack introns</strong>. Their coding sequences are typically continuous</p>
+</div>
+<div id="the-initial-product-pre-mrna" class="section level2 unnumbered">
+<h2>
+<strong>The Initial Product: Pre-mRNA</strong><a class="anchor" aria-label="anchor" href="#the-initial-product-pre-mrna"><i class="fas fa-link"></i></a>
+</h2>
+<p>When a eukaryotic gene containing introns is transcribed by RNA Polymerase II, the initial RNA molecule produced is called <strong>pre-messenger RNA (pre-mRNA)</strong> or heterogeneous nuclear RNA (hnRNA). This pre-mRNA molecule is a direct copy of the entire gene sequence, including <strong>both exons and introns</strong></p>
+<p>This pre-mRNA is not yet ready to be translated into a protein. It needs to be processed, and the most critical processing step is splicing</p>
+</div>
+<div id="the-process-splicing" class="section level2 unnumbered">
+<h2>
+<strong>The Process: Splicing</strong><a class="anchor" aria-label="anchor" href="#the-process-splicing"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Splicing</strong> is the molecular editing process that <strong>removes the introns</strong> from the pre-mRNA and <strong>joins the exons together</strong> in the correct order. This creates a mature, continuous coding sequence in the messenger RNA (mRNA) molecule</p>
+<div id="the-machinery-the-spliceosome" class="section level3 unnumbered">
+<h3>
+<strong>The Machinery: The Spliceosome</strong><a class="anchor" aria-label="anchor" href="#the-machinery-the-spliceosome"><i class="fas fa-link"></i></a>
+</h3>
+<p>Splicing is carried out by a large and dynamic molecular machine called the <strong>spliceosome</strong>. The spliceosome is composed of:</p>
+<ul>
+<li>
+<strong>Small Nuclear RNAs (snRNAs):</strong> Several types (U1, U2, U4, U5, U6). These RNAs are the key players; they recognize the sequences signaling the intron boundaries and likely catalyze the splicing reactions</li>
+<li>
+<strong>Proteins:</strong> Numerous proteins combine with the snRNAs to form <strong>small nuclear ribonucleoprotein particles (snRNPs – pronounced “snurps”)</strong>. These snRNPs, along with other protein factors, assemble on the pre-mRNA to form the active spliceosome</li>
+</ul>
+</div>
+<div id="the-signals-splice-sites" class="section level3 unnumbered">
+<h3>
+<strong>The Signals: Splice Sites</strong><a class="anchor" aria-label="anchor" href="#the-signals-splice-sites"><i class="fas fa-link"></i></a>
+</h3>
+<p>How does the spliceosome know exactly where to cut? There are short, conserved <strong>consensus sequences</strong> at the boundaries of introns that act as signals:</p>
+<ul>
+<li>
+<strong>5’ Splice Site (Donor Site):</strong> Located at the 5’ end of the intron (the junction between the upstream exon and the intron). Typically contains a <strong>GU</strong> sequence in the RNA (GT in the DNA coding strand)</li>
+<li>
+<strong>3’ Splice Site (Acceptor Site):</strong> Located at the 3’ end of the intron (the junction between the intron and the downstream exon). Typically contains an <strong>AG</strong> sequence in the RNA (AG in the DNA coding strand)</li>
+<li>
+<strong>Branch Point:</strong> An <strong>Adenine (A)</strong> nucleotide located within the intron, usually 15-45 bases upstream of the 3’ splice site. This A plays a crucial role in the splicing chemistry</li>
+</ul>
+</div>
+<div id="the-mechanism-simplified" class="section level3 unnumbered">
+<h3>
+<strong>The Mechanism (Simplified)</strong><a class="anchor" aria-label="anchor" href="#the-mechanism-simplified"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Recognition</strong> snRNPs (like U1 and U2) bind to the 5’ splice site and the branch point, respectively</li>
+<li>
+<strong>Assembly</strong> Other snRNPs (U4/U6 and U5) join, bringing the splice sites and branch point close together, forming the active spliceosome</li>
+<li>
+<strong>First Cut</strong> The RNA is cleaved at the <strong>5’ splice site</strong>
+</li>
+<li>
+<strong>Lariat Formation</strong> The freed 5’ end of the intron loops around and forms a unique 2’-5’ phosphodiester bond with the <strong>branch point Adenine</strong>, creating a <strong>lariat</strong> (lasso-shaped) structure</li>
+<li>
+<strong>Second Cut</strong> The RNA is cleaved at the <strong>3’ splice site</strong>, releasing the intron lariat</li>
+<li>
+<strong>Ligation</strong> The two adjacent <strong>exons are joined (ligated)</strong> together by a standard 5’-3’ phosphodiester bond</li>
+<li>
+<strong>Release</strong> The mature mRNA (now containing only exons) is released, and the spliceosome disassembles. The intron lariat is degraded</li>
+</ol>
+</div>
+</div>
+<div id="alternative-splicing-generating-diversity" class="section level2 unnumbered">
+<h2>
+<strong>Alternative Splicing: Generating Diversity</strong><a class="anchor" aria-label="anchor" href="#alternative-splicing-generating-diversity"><i class="fas fa-link"></i></a>
+</h2>
+<p>One of the most significant consequences of the exon-intron structure is <strong>alternative splicing</strong>. This means that the exons of a single pre-mRNA transcript can be spliced together in <strong>different combinations</strong>. For example:</p>
+<ul>
+<li>An exon might be skipped entirely</li>
+<li>Mutually exclusive exons might be chosen (either exon A or exon B is included, but not both)</li>
+<li>Alternative 5’ or 3’ splice sites might be used, making an exon shorter or longer</li>
+</ul>
+<p><strong>Why is this important?</strong> Alternative splicing allows a single gene to produce multiple different mRNA transcripts, which in turn can be translated into different protein isoforms (variants). This vastly increases the coding potential of the genome, allowing complex organisms to produce a wide array of proteins from a relatively limited number of genes. Different protein isoforms can have different functions, localizations, or regulatory properties</p>
+</div>
+<div id="clinical-laboratory-relevance-6" class="section level2 unnumbered">
+<h2>
+<strong>Clinical Laboratory Relevance</strong><a class="anchor" aria-label="anchor" href="#clinical-laboratory-relevance-6"><i class="fas fa-link"></i></a>
+</h2>
+<p>Understanding exons, introns, and splicing is critical in the clinical molecular lab:</p>
+<ul>
+<li>
+<strong>Genetic Disease Diagnosis:</strong> A significant proportion of disease-causing mutations affect splicing. These mutations can occur:
+<ul>
+<li>Directly within the <strong>splice site consensus sequences (GU/AG)</strong>, destroying the signal</li>
+<li>Near splice sites, interfering with snRNP binding</li>
+<li>Within exons or introns, creating <strong>cryptic splice sites</strong> (sequences that resemble real splice sites and are mistakenly used by the spliceosome)</li>
+<li>In <strong>splicing regulatory elements (enhancers/silencers)</strong> within exons or introns</li>
+</ul>
+</li>
+<li>
+<strong>Consequences of Splicing Mutations:</strong> These mutations can lead to:
+<ul>
+<li>
+<strong>Exon skipping:</strong> An entire exon is left out of the mature mRNA</li>
+<li>
+<strong>Intron retention:</strong> An intron (or part of it) is included in the mature mRNA</li>
+<li>
+<strong>Use of cryptic splice sites:</strong> Leads to abnormally short or long exons, often causing frameshifts or incorporating incorrect amino acids</li>
+<li>Result: Often produces truncated, unstable, or non-functional proteins. Examples include some forms of <strong>cystic fibrosis, beta-thalassemia, spinal muscular atrophy (SMA), Duchenne muscular dystrophy, and many cancers</strong>
+</li>
+</ul>
+</li>
+<li>
+<strong>Diagnostic Testing:</strong> Molecular tests (like PCR amplification followed by sequencing) are used to identify mutations in splice sites or surrounding regions. RNA analysis (RT-PCR followed by sequencing or fragment analysis) can directly visualize the effects of a mutation on the splicing pattern (e.g., showing exon skipping)</li>
+<li>
+<strong>Therapeutics:</strong> Splicing modulation is an exciting area of drug development. <strong>Antisense oligonucleotides (ASOs)</strong> can be designed to bind to specific pre-mRNA sequences and alter splicing outcomes – for example, forcing the inclusion of a skipped exon (e.g., treatments for SMA like Spinraza and Duchenne muscular dystrophy like Exondys 51)</li>
+<li>
+<strong>Cancer Biology:</strong> Aberrant splicing patterns are increasingly recognized as hallmarks of cancer, contributing to tumor growth, metastasis, and drug resistance. Mutations in splicing factor genes themselves can also drive cancer</li>
+</ul>
+</div>
+<div id="key-terms-7" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-7"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Exon:</strong> A segment of a gene’s DNA or RNA molecule containing information coding for a protein or peptide sequence (or functional RNA); retained after splicing</li>
+<li>
+<strong>Intron:</strong> A non-coding segment of a gene’s DNA or RNA molecule that lies between exons; removed by splicing</li>
+<li>
+<strong>Splicing:</strong> The process of removing introns from pre-mRNA and joining exons together</li>
+<li>
+<strong>Pre-mRNA (Primary Transcript):</strong> The initial RNA molecule transcribed from a eukaryotic gene, containing both exons and introns</li>
+<li>
+<strong>Mature mRNA:</strong> The fully processed mRNA molecule, containing only exons, ready for translation</li>
+<li>
+<strong>Spliceosome:</strong> A large RNA-protein complex that catalyzes the removal of introns from pre-mRNA</li>
+<li>
+<strong>snRNP (Small Nuclear Ribonucleoprotein Particle):</strong> Complexes of small nuclear RNAs (snRNAs) and proteins that are components of the spliceosome</li>
+<li>
+<strong>5’ Splice Site (Donor Site):</strong> Consensus sequence (usually GU) marking the beginning of an intron</li>
+<li>
+<strong>3’ Splice Site (Acceptor Site):</strong> Consensus sequence (usually AG) marking the end of an intron</li>
+<li>
+<strong>Branch Point:</strong> An Adenine residue within the intron crucial for lariat formation</li>
+<li>
+<strong>Lariat:</strong> The looped structure formed by the intron during splicing after cleavage at the 5’ splice site and bonding to the branch point</li>
+<li>
+<strong>Alternative Splicing:</strong> A regulated process where different combinations of exons from the same gene are joined, producing multiple mRNA and protein isoforms from a single gene</li>
+<li>
+<strong>Cryptic Splice Site:</strong> A sequence within an exon or intron that resembles a consensus splice site and may be inappropriately used if the normal site is mutated</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="transcription.html">Transcription</a></div>
+<div class="next"><a href="translation.html">Translation</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#exons-introns-splicing">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="nav-link" href="#the-structure-exons-and-introns">The Structure: Exons and Introns</a></li>
+<li><a class="nav-link" href="#the-initial-product-pre-mrna">The Initial Product: Pre-mRNA</a></li>
+<li>
+<a class="nav-link" href="#the-process-splicing">The Process: Splicing</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#the-machinery-the-spliceosome">The Machinery: The Spliceosome</a></li>
+<li><a class="nav-link" href="#the-signals-splice-sites">The Signals: Splice Sites</a></li>
+<li><a class="nav-link" href="#the-mechanism-simplified">The Mechanism (Simplified)</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#alternative-splicing-generating-diversity">Alternative Splicing: Generating Diversity</a></li>
+<li><a class="nav-link" href="#clinical-laboratory-relevance-6">Clinical Laboratory Relevance</a></li>
+<li><a class="nav-link" href="#key-terms-7">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/01-B-03.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/01-B-03.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

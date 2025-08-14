@@ -1,0 +1,93 @@
+# Bioinformatics {-}
+
+**Bioinformatics**  lives at the intersection of biology, computer science, and statistics. But let's demystify it. In the clinical molecular lab, bioinformatics isn't about writing code from scratch; it's about using powerful software tools to transform the raw, chaotic output from a sequencer into a clear, accurate, and clinically actionable patient report
+
+Think of it this way: a DNA sequencer produces the equivalent of a massive, unreadable text file containing millions or billions of A's, T's, C's, and G's. Bioinformatics is the set of tools and processes we use to read that file, find the spelling mistakes (variants), and look up what those mistakes mean in the medical dictionary
+
+## **The Clinical Bioinformatics Pipeline: A Journey from Raw Data to Report** {-}
+
+Most clinical sequencing, especially Next-Generation Sequencing (NGS), follows a standardized workflow or "pipeline." While the specific software may vary, the logical steps are universal
+
+### **Step 1: Primary Analysis & Quality Control (QC)** {-}
+
+This happens right after the sequencing run finishes. The goal is to answer one simple question: **"Is the raw data good enough to analyze?"**
+
+*   **Raw Data Format:** The sequencer spits out raw data in a **FASTQ file**. This file contains two key pieces of information for each short sequence "read":
+    1.  The sequence of bases (e.g., ATTCGGTAC...)
+    2.  A **Phred Quality Score (Q-score)** for each base, indicating the probability that the base was called correctly. A high Q-score (e.g., Q30) means high confidence; a low score means the sequencer wasn't sure
+*   **What We Check:** The bioinformatics pipeline starts by generating QC reports. A technologist is often the first person to review these. We look for:
+    *   **High Average Quality Scores:** We want to see that most bases have a Q-score of 30 or higher (meaning a 1 in 1000 chance of being an error)
+    *   **Sufficient Number of Reads:** Did the run produce enough data to adequately cover the genes we're interested in?
+    *   **Adapter Contamination:** Are there leftover bits of sequencing adapters that need to be trimmed off?
+    *   **Expected Base Composition:** Does the percentage of A, T, C, and G look normal?
+
+If the data fails QC, it's garbage in, garbage out. The sample must be re-prepped or re-sequenced
+
+### **Step 2: Alignment / Mapping** {-}
+
+Once we have good quality data, we need to figure out where each of these millions of short reads belongs in the human genome
+
+*   **The Principle:** This step is like assembling a giant jigsaw puzzle. The short reads from our FASTQ file are the puzzle pieces, and the **human reference genome** (the "normal" sequence, e.g., GRCh38) is the picture on the box cover
+*   **The Process:** An "aligner" or "mapper" program takes each read and finds its most likely location in the reference genome
+*   **The Output:** This process generates a **Sequence Alignment/Map (SAM) file**, which is usually compressed into a **Binary Alignment/Map (BAM) file** to save space. A BAM file contains all the reads, now neatly stacked up against the part of the genome where they belong
+
+### **Step 3: Variant Calling** {-}
+
+This is the core discovery step. Now that our reads are aligned, we can systematically scan them to find where the patient's sequence differs from the reference genome
+
+*   **The Principle:** The variant caller software looks at each position in the genome. If the reference genome has a "G" at a certain spot, but the majority of the patient's aligned reads have an "A," the software "calls" a variant at that position
+*   **Types of Variants Detected**
+    *   **Single Nucleotide Polymorphisms (SNPs) / Single Nucleotide Variants (SNVs):** A change in a single base (e.g., G > A)
+    *   **Insertions/Deletions (Indels):** The addition or removal of one or more bases
+*   **The Output:** The list of all identified differences is stored in a **Variant Call Format (VCF) file**. This file is essentially a list of every position where the patient's DNA is different from the reference
+
+### **Step 4: Annotation & Interpretation** {-}
+
+A raw VCF file might contain thousands of variants, but most are benign or common polymorphisms. The next step is to figure out which ones, if any, are clinically important. This is **annotation**
+
+*   **The Principle:** The software takes each variant from the VCF file and cross-references it with massive public and private databases to add context
+*   **Key Questions Annotation Answers**
+    *   **Location:** What gene is this variant in? Is it in an exon (protein-coding region) or an intron?
+    *   **Effect:** What does this variant do to the protein? Is it a **missense** (changes one amino acid), **nonsense** (creates a premature stop codon), **frameshift**, or **silent** mutation?
+    *   **Prevalence:** How common is this variant in the general population? Databases like **gnomAD** tell us the allele frequency. A very common variant is unlikely to be the cause of a rare disease
+    *   **Clinical Significance:** Has this variant been reported before as benign, pathogenic, or of uncertain significance? This information is pulled from databases like **ClinVar**
+    *   **Functional Prediction:** In silico (computer-based) tools like SIFT and PolyPhen predict whether an amino acid change is likely to be damaging to the protein's function
+
+### **Step 5: Filtering, Review, and Reporting** {-}
+
+The final step is to filter the massively annotated list down to a handful of variants that are relevant to the patient's clinical picture
+
+*   **The Process:** A series of filters are applied. For example, in a cancer panel, we might filter to only show:
+    *   Variants inside the specific genes on our panel
+    *   Variants that are not silent
+    *   Variants with an allele frequency below 1% in the population
+    *   Variants previously classified as pathogenic or likely pathogenic
+*   **The Result:** This process yields a short list of potentially significant variants. A trained molecular pathologist or geneticist then reviews this evidence to make a final interpretation, which is then written into the patient's report
+
+## **The Role of the Medical Laboratory Scientist in Bioinformatics** {-}
+
+As an entry-level MLS, you are not expected to be a bioinformatics programmer. However, you are a crucial user and first-line-of-defense for the bioinformatics pipeline. Your role includes:
+
+*   **Initiating the Pipeline:** Loading the raw data from the sequencer and starting the analysis workflow on the lab's server or cloud platform
+*   **Monitoring QC:** Being the first person to look at the post-run QC reports (e.g., from FastQC or the instrument's software) to give a "go/no-go" for further analysis
+*   **Recognizing Failures:** Knowing what a successful pipeline run looks like and being able to identify error messages or reports that indicate a pipeline crash or a problem with the data
+*   **Data Management:** Understanding the key file types (FASTQ, BAM, VCF) and where they are stored. You are a custodian of patient data
+*   **Basic Troubleshooting:** Understanding the steps well enough to communicate a problem effectively to a bioinformatics specialist (e.g., "The alignment percentage for sample X was unusually low," or "The VCF file for this run is empty.")
+
+In short, bioinformatics is the essential final step that gives meaning to all the careful lab work of sample prep and sequencing. It's the sophisticated engine that turns a sea of letters into a diagnosis
+
+## **Key Terms** {-}
+
+*   **Bioinformatics:** The use of computational tools to acquire, store, analyze, and interpret biological data, especially large datasets like genomic sequences
+*   **FASTQ:** A text-based file format that stores both a nucleotide sequence and its corresponding quality scores. This is the raw output of most NGS platforms
+*   **Phred Quality Score (Q-score):** A numerical score assigned to each base in a sequence read that represents the estimated accuracy of that base call. Q30 is a common quality benchmark
+*   **Alignment (or Mapping):** The computational process of determining the original location of a DNA sequence read within a larger reference genome
+*   **Reference Genome:** A digitally assembled, high-quality "representative" genome sequence for a species (e.g., GRCh38/hg38 for humans) used as a standard for comparison
+*   **SAM/BAM File:** (Sequence Alignment/Map and its Binary version) File formats that store the results of aligning sequence reads to a reference genome
+*   **Variant Calling:** The process of identifying positions where the sequenced sample's DNA differs from the reference genome
+*   **VCF (Variant Call Format):** A standardized text file format for storing DNA sequence variations (SNPs, indels, etc.)
+*   **Annotation:** The process of adding relevant biological information to a list of variants, such as the gene affected, the predicted effect on the protein, population frequency, and known clinical significance
+*   **ClinVar:** A public, FDA-recognized archive that aggregates information about genomic variants and their relationship to human health
+*   **Allele Frequency:** A measure of how common a specific variant is in a given population
+*   **Indel:** A type of genetic variant characterized by the insertion or deletion of one or more nucleotides
+*   **SNP/SNV (Single Nucleotide Polymorphism/Variant):** A variation at a single position in a DNA sequence among individuals

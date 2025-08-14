@@ -1,0 +1,63 @@
+# Sequencing {-}
+
+Think of these methods as different ways of reading the book of life—each with its own purpose, speed, and level of detail
+
+## **Overview of Clinical Sequencing Technologies** {-}
+
+DNA sequencing is the process of determining the precise order of nucleotides (A, T, C, and G) within a DNA molecule. In the clinical lab, this isn't just an academic exercise; it's a powerful diagnostic tool that allows us to find the root cause of genetic diseases, guide cancer therapy, and identify pathogens. Let's explore the main tools in our sequencing toolbox
+
+### **Sanger Sequencing: The Gold Standard for Targeted Analysis** {-}
+
+Sanger sequencing is the classic, foundational method. If you need to read a single, specific "sentence" or "paragraph" of the genetic code with the highest possible accuracy, Sanger is your go-to technique
+
+*   **The Principle: Chain Termination**
+    The magic of Sanger sequencing lies in **dideoxynucleotides (ddNTPs)**. These are special nucleotide mimics that lack the 3'-OH group needed for DNA polymerase to continue building a DNA strand. In the sequencing reaction, we mix the patient's DNA template with a primer, DNA polymerase, regular nucleotides (dNTPs), and a small amount of fluorescently labeled ddNTPs (each base, A, T, C, and G, gets a different color). As the polymerase copies the DNA, it will occasionally incorporate a colored ddNTP, which stops the chain from growing further. This process creates a collection of DNA fragments of every possible length, each ending with a specific colored tag indicating the final base
+
+*   **The Workflow and Role in the Lab**
+    1.  The resulting fragments are separated by size with single-base resolution using **capillary electrophoresis**
+    2.  As the fragments pass a detector, a laser excites the colored tags, and the instrument records the sequence of colors
+    3.  The output is a clean, easy-to-read **electropherogram** showing the sequence
+
+    **Clinical Niche** Because it is highly accurate but has low throughput, Sanger is perfect for **confirming specific findings**. If an NGS panel finds a suspicious variant, Sanger sequencing is used to validate it. It's also the method of choice for single-gene testing, analyzing PCR products, or investigating known mutation hotspots
+
+### **Next-Generation Sequencing (NGS): Massively Parallel Discovery** {-}
+
+If Sanger is reading a single paragraph, NGS is like reading thousands or millions of sentences from every book in a library, all at the same time. It's a high-throughput approach designed to analyze huge amounts of DNA simultaneously
+
+*   **The Principle: Massively Parallel Sequencing by Synthesis**
+    NGS starts by taking a patient's DNA, fragmenting it into millions of small pieces, and attaching synthetic DNA "adapters" to the ends of each piece. This collection of prepared DNA is called a **library**. The library fragments are then loaded onto a special surface called a **flow cell**, where they are clonally amplified into dense clusters. The instrument then sequences all clusters at once using a "sequencing by synthesis" approach, where it adds one fluorescently labeled base at a time, takes a picture to see which base was added to each cluster, and then repeats the cycle
+
+*   **The Workflow and Role in the Lab**
+    This technology is the engine behind large-scale clinical tests
+    *   **Targeted Gene Panels:** Sequencing hundreds of genes related to a specific condition, like inherited cancers or cardiomyopathies
+    *   **Whole Exome Sequencing (WES):** Sequencing all the protein-coding regions (~2% of the genome) to diagnose complex or rare genetic disorders
+    *   **Cancer Genomics:** Analyzing tumor DNA to find targetable mutations, assess tumor mutational burden, and guide therapy
+    *   **Non-Invasive Prenatal Testing (NIPT):** Analyzing fetal DNA from a mother's blood sample
+
+### **Pyrosequencing: The Specialist for Quantitative Analysis** {-}
+
+Pyrosequencing is a unique "sequencing by synthesis" method that occupies a niche between Sanger and NGS. It's not for discovery but is exceptionally good at analyzing short, known DNA sequences with quantitative precision
+
+*   **The Principle: Detecting Light on Incorporation**
+    Instead of using chain terminators, pyrosequencing detects the release of **pyrophosphate (PPi)** each time DNA polymerase adds a correct nucleotide. This PPi kicks off an enzyme cascade that ultimately generates a flash of light via the **luciferase** enzyme (the same one in fireflies!). The instrument dispenses one nucleotide at a time (A, then T, then C, then G) and measures whether light is produced
+
+*   **The Workflow and Role in the Lab**
+    The key output is a **pyrogram**, where the height of the light peak is proportional to the number of identical bases incorporated. For example, if a "G" is added and the sequence is "...GG...", the light peak will be twice as high as a single "G" incorporation
+    **Clinical Niche** This quantitative ability is its superpower
+    *   **Allele Frequency Quantification:** Determining the percentage of a somatic mutation in a tumor sample (e.g., how much of the *KRAS* gene is mutated)
+    *   **Methylation Analysis:** Quantifying the percentage of methylation at specific CpG sites after bisulfite treatment, which is critical in epigenetics and cancer
+    *   **Antimicrobial Resistance Testing:** Quickly checking for known resistance mutations in pathogens
+
+### **Bioinformatics: Turning Raw Data into a Clinical Report** {-}
+
+Bioinformatics is the essential bridge between the massive data generated by sequencers (especially NGS) and a clinically meaningful result. It's a computational pipeline that processes, analyzes, and interprets the sequence data
+
+*   **The Principle: A Standardized Analysis Pipeline**
+    Without bioinformatics, NGS data is just billions of unorganized letters. The pipeline gives it structure and meaning
+    1.  **Quality Control (QC)** The pipeline first assesses the raw data (**FASTQ files**) to ensure it's high quality
+    2.  **Alignment** It then takes the millions of short sequence "reads" and aligns them to a human **reference genome**, like assembling a giant jigsaw puzzle. The aligned data is stored in a **BAM file**
+    3.  **Variant Calling** The software systematically compares the patient's aligned sequence to the reference, creating a list of all the differences (SNPs, indels, etc.). This list is stored in a **VCF file**
+    4.  **Annotation & Interpretation** This is the most critical step. The pipeline cross-references each variant against massive databases (e.g., ClinVar) to add context: What gene is it in? What does it do to the protein? Is it common or rare? Has it been linked to a disease before? This annotated list is then filtered down, and a molecular pathologist or geneticist performs the final review to write the patient report
+
+*   **The Role of the MLS**
+    As an MLS, you are a critical user of this pipeline. Your role includes initiating the analysis, performing the first-line QC checks on the run data, recognizing when a pipeline fails, and managing the large data files produced

@@ -1,0 +1,60 @@
+# Pharmacogenomics {-}
+
+Simply put, **pharmacogenomics**, or **PGx**, is the study of how a person's genes affect their response to drugs. For centuries, medicine has operated on a "one size fits all" or, at best, a "one size fits most" model. A standard dose of a drug is given, and we hope for the best. But we've all seen the reality: in some patients, the drug works perfectly; in others, it has no effect; and in a few, it causes a severe, even life-threatening, toxic reaction
+
+Pharmacogenomics gives us the power to move beyond this trial-and-error approach. By reading the patient's genetic "owner's manual," we can predict who is likely to benefit, who won't respond, and who is at risk for harm. It's the ultimate in personalized medicine, and our job in the lab is to provide this critical genetic information to make prescribing safer and more effective
+
+PGx testing generally falls into three main categories:
+
+1.  **Does the drug have a target?** (Mainly for oncology)
+2.  **How will the body process the drug?** (Drug metabolism)
+3.  **Will the body have a dangerous immune reaction to the drug?** (HLA-related hypersensitivity)
+
+Let's look at some key examples that illustrate these principles
+
+## **Targeting the Lock: The Companion Diagnostic Model** {-}
+
+This is most common in oncology. Many modern cancer drugs are "targeted therapies," designed like a specific key to fit a specific lock. If the patient's tumor doesn't have the right "lock," giving them the key is useless
+
+*   **Trastuzumab (Herceptin) and *HER2**
+    We've discussed this in our solid tumor lecture, but it's the quintessential PGx example. Trastuzumab is a drug that blocks the HER2 receptor on breast cancer cells. Molecular testing (*FISH* or *IHC*) is used to see if the patient's tumor has an **amplification** of the *HER2* gene, which leads to an overabundance of the HER2 protein receptor "locks."
+    *   **If *HER2* is amplified (positive):** The drug has a target. The patient is eligible for this life-saving therapy
+    *   **If *HER2* is not amplified (negative):** The drug has no target and will not work. It should not be given
+    This makes the *HER2* test a **companion diagnostic**: the test is an essential companion to the drug
+
+## **Adjusting the Factory Speed: Drug Metabolism** {-}
+
+This is the most common type of PGx testing. Most drugs are processed and cleared from the body by a family of liver enzymes called the **Cytochrome P450 (CYP)** system. Our genes determine how efficient these enzymes are. Based on their genetics, people can be classified into different "metabolizer phenotypes":
+
+*   **Poor Metabolizers (PM):** Their enzyme "factory" is slow or non-functional. The drug builds up in the body, leading to a high risk of toxicity
+*   **Intermediate Metabolizers (IM):** A sluggish factory. Still a risk of toxicity
+*   **Normal (Extensive) Metabolizers (NM/EM):** The factory runs at the expected speed. This is the "normal" group for whom standard doses are designed
+*   **Ultra-rapid Metabolizers (UM):** Their factory is in overdrive. The drug is cleared so quickly that it doesn't have time to work, leading to treatment failure
+
+*   **Warfarin (Coumadin) and *CYP2C9*/*VKORC1**
+    Warfarin is a blood thinner with a very narrow therapeutic window—too little and you clot, too much and you bleed. Dosing is notoriously difficult. PGx testing looks at two genes:
+    *   ***CYP2C9*:** The main enzyme that metabolizes warfarin. Poor metabolizers of *CYP2C9* need a **lower** dose
+    *   ***VKORC1*:** This is the *target* of the drug. Certain variants make the target more sensitive to warfarin, also requiring a **lower** dose
+    Dosing algorithms combine a patient's genetic information from both genes with clinical factors to recommend a starting dose, getting the patient to a stable level much faster and more safely
+
+*   **Clopidogrel (Plavix) and *CYP2C19***
+    This is a critically important case. Clopidogrel is an anti-platelet drug given to prevent clots after a cardiac stent procedure. It is a **prodrug**, meaning it's inactive when you take it. The *CYP2C19* enzyme is what must activate it in the body
+    *   A **poor metabolizer** of *CYP2C19* cannot effectively activate the drug. They are taking an ineffective drug, leaving them at high risk for stent thrombosis, heart attack, or stroke. PGx testing identifies these patients so their cardiologist can choose an alternative drug
+
+## **The Allergy Alert: HLA-Associated Hypersensitivity** {-}
+
+As we learned in our histocompatibility lecture, certain HLA types can trigger a dangerous immune response to specific drugs. Testing for these HLA alleles is a pure safety play
+
+*   **Carbamazepine and *HLA-B\*15:02***
+    Carbamazepine is an anti-seizure medication. In patients with the *HLA-B\*15:02* allele, the drug can trigger a catastrophic, life-threatening skin reaction called Stevens-Johnson Syndrome (SJS). This allele is common in Southeast Asian populations but rare in others
+    *   The FDA recommends that patients of Asian descent be screened for *HLA-B\*15:02* **before** starting the drug. A positive result means the drug is contraindicated and a different medication must be used
+
+## **Key Terms** {-}
+
+*   **Pharmacogenomics (PGx):** The study of how an individual's genetic makeup influences their response to drugs, aiming to optimize efficacy and minimize toxicity
+*   **Cytochrome P450 (CYP):** A large family of liver enzymes responsible for the metabolism and clearance of the majority of clinically used drugs
+*   **Metabolizer Phenotype:** A classification of how efficiently an individual processes drugs based on their genetic variants (e.g., Poor, Intermediate, Normal, or Ultra-rapid Metabolizer)
+*   **Prodrug:** A medication that is administered in an inactive form and must be converted to its active form by the body's metabolic processes (e.g., Clopidogrel)
+*   **Companion Diagnostic:** A molecular test that is required or considered essential for the safe and effective use of a corresponding therapeutic drug
+*   **Adverse Drug Reaction (ADR):** An injury or harmful event caused by taking a medication at a normal dose. PGx aims to prevent predictable, genetically-linked ADRs
+*   **Stevens-Johnson Syndrome (SJS):** A rare but severe and life-threatening skin reaction, often triggered by certain medications in genetically susceptible individuals (e.g., carbamazepine in *HLA-B\*15:02* carriers)

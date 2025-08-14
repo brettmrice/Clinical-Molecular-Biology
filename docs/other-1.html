@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Other | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Let’s dive into Pyrosequencing, a sequencing technique that sits in a unique niche between the classic Sanger method and modern Next-Generation Sequencing (NGS). While it may not sequence entire...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Other | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Let’s dive into Pyrosequencing, a sequencing technique that sits in a unique niche between the classic Sanger method and modern Next-Generation Sequencing (NGS). While it may not sequence entire...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Other | MB">
+<meta name="twitter:description" content="Let’s dive into Pyrosequencing, a sequencing technique that sits in a unique niche between the classic Sanger method and modern Next-Generation Sequencing (NGS). While it may not sequence entire...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="active" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="other-1" class="section level1 unnumbered">
+<h1>Other<a class="anchor" aria-label="anchor" href="#other-1"><i class="fas fa-link"></i></a>
+</h1>
+<p>Let’s dive into <strong>Pyrosequencing</strong>, a sequencing technique that sits in a unique niche between the classic Sanger method and modern Next-Generation Sequencing (NGS). While it may not sequence entire genomes, its precision and quantitative nature make it an incredibly powerful tool for specific clinical questions</p>
+<div id="pyrosequencing-sequencing-by-synthesis" class="section level2 unnumbered">
+<h2>
+<strong>Pyrosequencing: Sequencing by Synthesis</strong><a class="anchor" aria-label="anchor" href="#pyrosequencing-sequencing-by-synthesis"><i class="fas fa-link"></i></a>
+</h2>
+<p>Think of pyrosequencing as a “sequencing by synthesis” method that works in real-time. Instead of terminating chains like Sanger sequencing or creating millions of clusters like NGS, pyrosequencing detects the incorporation of each individual nucleotide as it happens by measuring a flash of light. The name itself is a clue: “<strong>pyro</strong>” refers to fire, hinting at the light-generating reaction at its core</p>
+<p>The main principle is this: <strong>one molecule of pyrophosphate (PPi) is released for every one nucleotide incorporated</strong> by DNA polymerase. This released PPi kicks off an enzyme cascade that ultimately produces a light signal. By controlling which nucleotide is available at any given time, we can determine the sequence</p>
+<div id="the-enzymatic-cascade-the-magic-behind-the-light" class="section level3 unnumbered">
+<h3>
+<strong>The Enzymatic Cascade: The Magic Behind the Light</strong><a class="anchor" aria-label="anchor" href="#the-enzymatic-cascade-the-magic-behind-the-light"><i class="fas fa-link"></i></a>
+</h3>
+<p>To understand pyrosequencing, you need to know the four key players in this biochemical relay race. Imagine you have your single-stranded DNA template primed and ready for sequencing</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>DNA Polymerase</strong> The builder. It adds the correct complementary nucleotide to the growing DNA strand</li>
+<li>
+<strong>ATP Sulfurylase</strong> The converter. When polymerase adds a nucleotide, pyrophosphate (PPi) is released. This enzyme immediately converts that PPi into ATP, using a substrate called adenosine 5’ phosphosulfate (APS)</li>
+<li>
+<strong>Luciferase</strong> The light bulb. This is the same enzyme that makes fireflies glow! It uses the ATP generated by sulfurylase to convert a substrate called <strong>luciferin</strong> into oxyluciferin, releasing a flash of visible light in the process</li>
+<li>
+<strong>Apyrase</strong> The cleanup crew. This enzyme degrades any unused nucleotides and excess ATP in the reaction. This is crucial because it “resets” the system, ensuring that the light signal from one step doesn’t carry over into the next</li>
+</ol>
+</div>
+<div id="the-step-by-step-process" class="section level3 unnumbered">
+<h3>
+<strong>The Step-by-Step Process</strong><a class="anchor" aria-label="anchor" href="#the-step-by-step-process"><i class="fas fa-link"></i></a>
+</h3>
+<p>Let’s walk through a single cycle:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Dispense a Nucleotide</strong> The instrument adds a single type of deoxynucleotide (e.g., dATP) into the reaction well containing the template DNA and the enzyme cocktail</li>
+<li>
+<strong>Check for a Match</strong>
+<ul>
+<li>
+<strong>If dATP is the correct complementary base:</strong> DNA polymerase incorporates it. PPi is released. The ATP sulfurylase and luciferase cascade is triggered, and a flash of light is produced. A detector measures the light</li>
+<li>
+<strong>If dATP is <em>not</em> the correct base:</strong> No incorporation occurs. No PPi is released. No light is produced</li>
+</ul>
+</li>
+<li>
+<strong>Wash and Reset</strong> The apyrase enzyme degrades the leftover dATP and any trace ATP. The system is now dark and ready for the next nucleotide</li>
+<li>
+<strong>Dispense the Next Nucleotide</strong> The instrument now adds the next nucleotide (e.g., dGTP). The process repeats</li>
+<li>
+<strong>Cycle Through</strong> This cycle continues, dispensing dCTP, dTTP, and then dATP again, in a predetermined order</li>
+</ol>
+</div>
+<div id="reading-the-pyrogram-the-output" class="section level3 unnumbered">
+<h3>
+<strong>Reading the Pyrogram: The Output</strong><a class="anchor" aria-label="anchor" href="#reading-the-pyrogram-the-output"><i class="fas fa-link"></i></a>
+</h3>
+<p>The data from a pyrosequencing run is displayed as a <strong>pyrogram</strong>. This is a simple but powerful graph</p>
+<ul>
+<li>
+<strong>X-axis:</strong> Shows the order in which the nucleotides were added</li>
+<li>
+<strong>Y-axis:</strong> Shows the intensity of the light signal produced</li>
+</ul>
+<p><strong>Interpreting the peaks is key</strong>
+* <strong>No Peak:</strong> The nucleotide added was not incorporated
+* <strong>A Peak of 1x Height:</strong> One molecule of that nucleotide was incorporated
+* <strong>A Peak of 2x Height:</strong> Two identical, consecutive nucleotides were incorporated (e.g., a “GG” in the sequence). The light signal is proportional to the amount of PPi released, so it will be twice as bright
+* <strong>A Peak of 3x Height:</strong> Three identical, consecutive nucleotides were incorporated (e.g., “AAA”), producing a peak three times the normal height</p>
+<p>This quantitative nature is a major strength of pyrosequencing!</p>
+</div>
+</div>
+<div id="clinical-applications-in-the-molecular-lab" class="section level2 unnumbered">
+<h2>
+<strong>Clinical Applications in the Molecular Lab</strong><a class="anchor" aria-label="anchor" href="#clinical-applications-in-the-molecular-lab"><i class="fas fa-link"></i></a>
+</h2>
+<p>Pyrosequencing isn’t for discovering new genes; it’s for analyzing short, specific, known sequences with high accuracy. This makes it perfect for:</p>
+<ul>
+<li>
+<strong>Antimicrobial Resistance Testing:</strong> A classic application is detecting mutations in genes that confer drug resistance
+<ul>
+<li>
+<strong>Example:</strong> Identifying mutations in the <em>rpoB</em> gene of <em>Mycobacterium tuberculosis</em> that cause resistance to rifampin, or mutations in HIV genes that confer resistance to antiviral drugs. The lab knows exactly what region to sequence to look for the specific mutation</li>
+</ul>
+</li>
+<li>
+<strong>Oncology (Somatic Mutation Detection):</strong> Used to detect specific mutations in cancer-related genes that guide therapy
+<ul>
+<li>
+<strong>Example:</strong> Checking for mutations in the <em>KRAS</em>, <em>BRAF</em>, or <em>EGFR</em> genes in tumor tissue. The presence or absence of a mutation can determine if a patient is a candidate for expensive targeted therapies</li>
+</ul>
+</li>
+<li>
+<strong>Single Nucleotide Polymorphism (SNP) Genotyping:</strong> Rapidly and accurately determining the genotype at a specific SNP locus. This is useful in pharmacogenomics to predict drug response</li>
+<li>
+<strong>Epigenetics (Methylation Analysis):</strong> This is a really clever application. DNA is first treated with <strong>bisulfite</strong>, which converts unmethylated cytosine (C) bases to uracil (U), while methylated cytosines remain unchanged. After PCR amplification (where U becomes T), pyrosequencing is performed. By comparing the ratio of C/T detected at a specific CpG site, the instrument can precisely quantify the percentage of methylation. This is critical in cancer diagnostics and research</li>
+<li>
+<strong>Microbial Identification:</strong> Used for short-read sequencing of conserved genes like the 16S rRNA gene in bacteria or ITS regions in fungi for rapid species-level identification</li>
+</ul>
+</div>
+<div id="advantages-vs.-limitations-for-the-mls" class="section level2 unnumbered">
+<h2>
+<strong>Advantages vs. Limitations for the MLS</strong><a class="anchor" aria-label="anchor" href="#advantages-vs.-limitations-for-the-mls"><i class="fas fa-link"></i></a>
+</h2>
+<div id="advantages" class="section level3 unnumbered">
+<h3>
+<strong>Advantages</strong><a class="anchor" aria-label="anchor" href="#advantages"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Speed and Real-Time Results:</strong> The assay is relatively fast, providing results much quicker than a full Sanger sequencing workflow</li>
+<li>
+<strong>High Accuracy for Short Reads:</strong> It is very precise for analyzing sequences in the 50-150 base pair range</li>
+<li>
+<strong>Quantitative Data:</strong> The ability to measure peak heights allows for determining allele frequencies (heterozygosity) in a pooled sample and quantifying methylation status</li>
+<li>
+<strong>No Labeled Primers/Dideoxynucleotides:</strong> Simplifies the reaction setup compared to Sanger sequencing</li>
+</ul>
+</div>
+<div id="limitations" class="section level3 unnumbered">
+<h3>
+<strong>Limitations</strong><a class="anchor" aria-label="anchor" href="#limitations"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>The Homopolymer Problem:</strong> This is the most significant drawback. It becomes difficult to accurately distinguish the light signal from, for example, seven A’s in a row (AAAAAAA) versus eight A’s (AAAAAAAA). The light response is not perfectly linear for long homopolymer stretches (&gt;5-6 bases)</li>
+<li>
+<strong>Short Read Length:</strong> It is not suitable for <em>de novo</em> sequencing or analyzing long, unknown regions of DNA. Its strength lies in interrogating known hotspots</li>
+<li>
+<strong>Reagent Sensitivity:</strong> The enzyme cascade can be sensitive to impurities and requires high-quality reagents and clean template DNA</li>
+</ul>
+<p>In summary, think of pyrosequencing as a highly specialized tool. It’s not designed to read the entire “book” (like NGS) or even a full chapter (like Sanger). Instead, it’s a master at quickly and accurately checking the spelling of a specific, critical word or quantifying how many times that word is misspelled in a population of cells. This targeted precision makes it an invaluable asset in the clinical molecular lab</p>
+</div>
+</div>
+<div id="key-terms-34" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-34"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Pyrosequencing:</strong> A “sequencing by synthesis” method that determines the order of bases in a DNA template by detecting the light released each time a nucleotide is successfully added</li>
+<li>
+<strong>Pyrogram:</strong> The graphical output of a pyrosequencing reaction, where the x-axis shows the order of nucleotide addition and the y-axis displays the intensity of the light signal, which is proportional to the number of nucleotides incorporated</li>
+<li>
+<strong>Enzyme Cascade:</strong> The sequence of four key enzyme reactions that link nucleotide incorporation to light production: DNA polymerase adds the base, ATP sulfurylase generates ATP from pyrophosphate, Luciferase uses that ATP to create light, and Apyrase cleans up unused nucleotides and ATP</li>
+<li>
+<strong>Pyrophosphate (PPi):</strong> A molecule released when DNA polymerase forms a phosphodiester bond to add a nucleotide to the growing DNA strand. The detection of PPi is the event that initiates the light-producing enzyme cascade</li>
+<li>
+<strong>Luciferase:</strong> The enzyme in the pyrosequencing cascade that generates a flash of visible light by oxidizing luciferin, a reaction powered by the ATP produced immediately following nucleotide incorporation</li>
+<li>
+<strong>Homopolymer:</strong> A contiguous stretch of identical bases in a DNA sequence (e.g., AAAAAA). This represents a key limitation for pyrosequencing, as accurately quantifying the light signal becomes difficult for very long homopolymer stretches</li>
+<li>
+<strong>Bisulfite Treatment:</strong> A chemical pre-treatment of DNA used for methylation analysis via pyrosequencing. It converts unmethylated cytosines to uracil (read as thymine after PCR) while leaving methylated cytosines unchanged, allowing the sequence to reveal the methylation status of specific sites</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="next-generation.html">Next-Generation</a></div>
+<div class="next"><a href="bioinformatics.html">Bioinformatics</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#other-1">Other</a></li>
+<li>
+<a class="nav-link" href="#pyrosequencing-sequencing-by-synthesis">Pyrosequencing: Sequencing by Synthesis</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#the-enzymatic-cascade-the-magic-behind-the-light">The Enzymatic Cascade: The Magic Behind the Light</a></li>
+<li><a class="nav-link" href="#the-step-by-step-process">The Step-by-Step Process</a></li>
+<li><a class="nav-link" href="#reading-the-pyrogram-the-output">Reading the Pyrogram: The Output</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#clinical-applications-in-the-molecular-lab">Clinical Applications in the Molecular Lab</a></li>
+<li>
+<a class="nav-link" href="#advantages-vs.-limitations-for-the-mls">Advantages vs. Limitations for the MLS</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#advantages">Advantages</a></li>
+<li><a class="nav-link" href="#limitations">Limitations</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#key-terms-34">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/02-D-03.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/02-D-03.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

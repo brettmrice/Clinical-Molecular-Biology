@@ -1,0 +1,112 @@
+# Capillary {-}
+
+Think of **Capillary Electrophoresis (CE)** as taking the principles of gel electrophoresis and turbocharging them inside a tiny, sophisticated tube. CE is a powerhouse technique in clinical molecular labs, especially for applications demanding high resolution, automation, and speed, like sequencing and fragment analysis
+
+## **Capillary Electrophoresis: The High-Performance Racetrack** {-}
+
+Instead of a flat, Jell-O-like slab, CE uses a very narrow (**~25-100 µm inner diameter**) fused-silica capillary tube, typically 30-100 cm long. This tiny tube is filled with a buffer solution and sometimes a polymer matrix. High voltage (we're talking kilovolts!) is applied across the ends of the capillary, driving the migration of charged molecules
+
+## **Core Principles: More Than Just Size** {-}
+
+While slab gels primarily separate based on size due to the sieving effect of the matrix, CE separation is influenced by two main factors:
+
+*   **Electrophoretic Mobility (µe):** This is the inherent speed and direction a charged molecule moves in an electric field. It depends on the molecule's **charge-to-mass ratio**. Higher charge = faster movement towards the opposite electrode. Larger size/friction = slower movement. Just like in slab gels, nucleic acids are negatively charged and move towards the positive electrode (anode)
+*   **Electroosmotic Flow (EOF):** This is a bulk flow of the buffer solution within the capillary. The inner surface of a fused-silica capillary has negatively charged silanol groups ($Si-O^-$) at neutral or alkaline pH. Positive ions from the buffer accumulate near the capillary wall, forming a mobile layer. When the high voltage is applied, these hydrated positive ions are pulled towards the negative electrode (cathode), dragging the entire buffer solution along with them
+    *   **Impact:** EOF is often a *stronger* force than electrophoretic mobility. In many CE setups (especially for small molecule analysis), *all* species (positive, neutral, and even negative) get swept towards the cathode by the EOF. Faster-moving negative ions (like DNA) still move *electrophoretically* towards the anode, but the powerful EOF overrides this, resulting in slower migration towards the cathode compared to positive ions or neutral molecules
+
+### **The Key for DNA Sizing** {-}
+
+For separating DNA fragments *based on size* (like in sequencing or fragment analysis), we usually don't want EOF interfering or we want it highly controlled. We also need a **sieving matrix** inside the capillary to separate fragments by size, similar to a traditional gel. This specific mode is often called **Capillary Gel Electrophoresis (CGE)**, even though the "gel" is usually a replaceable, pumpable **linear polymer solution** (like linear polyacrylamide, LPA, or others like POP™ - Performance Optimized Polymers)
+
+*   **How the Matrix Works:** These long polymer chains form a dynamic network or mesh within the capillary. DNA fragments must snake their way through this polymer network (a process called **reptation**). Larger fragments get entangled more and move slower, while smaller fragments navigate the mesh more quickly. This allows separation purely based on size, just like in a slab gel, but with higher efficiency and resolution
+*   **Managing EOF:** Often, the capillary inner surface is coated, or buffer additives are used, to suppress or minimize EOF, ensuring migration is primarily driven by electrophoretic mobility through the sieving matrix towards the positive electrode
+
+## **The Setup: Key Components** {-}
+
+An automated CE instrument typically includes:
+
+*   **Fused-Silica Capillary** The narrow tube where separation occurs. Often coated internally. Can be single or in an array (e.g., 4, 16, 48, 96 capillaries for higher throughput)
+*   **Buffer Reservoirs (Inlet & Outlet)** Vials containing the running buffer. The ends of the capillary are immersed in these. One also holds the sample for injection
+*   **Electrodes (Platinum)** Immersed in the buffer reservoirs to complete the electrical circuit
+*   **High-Voltage Power Supply** Provides the driving force (typically 10-30 kV)
+*   **Injection System** Introduces a tiny plug of the sample into the capillary. Common methods:
+    *   **Electrokinetic Injection:** Briefly applying voltage while the capillary tip is in the sample vial. Preferentially loads ions based on their mobility
+    *   **Hydrodynamic Injection:** Using pressure or vacuum to force a small volume of sample into the capillary
+*   **Detector** Positioned near the outlet end of the capillary to detect molecules as they pass by. For nucleic acids, this is almost always **Laser-Induced Fluorescence (LIF)**
+*   **Autosampler** Holds sample plates (e.g., 96-well) and buffer vials, moving them automatically to the capillary for injection
+*   **Temperature Control** Maintaining a stable temperature is crucial for reproducible migration times
+*   **Computer System** Controls the instrument, collects data, and performs analysis
+
+## **The Process: A Typical Run (CGE for DNA)** {-}
+
+1.  **Capillary Conditioning** The capillary is flushed with buffer and the polymer sieving matrix is pumped in
+2.  **Sample Injection** The autosampler moves a sample well to the capillary inlet. A small plug of the sample (containing fluorescently labeled DNA fragments) is injected (e.g., electrokinetically)
+3.  **Separation** High voltage is applied. DNA fragments migrate through the polymer matrix towards the positive electrode, separating by size (smaller fragments move faster)
+4.  **Detection** As the separated, fluorescently labeled fragments pass a small window in the capillary, a laser excites the fluorescent dyes attached to the DNA. The emitted light is captured by a detector (like a photomultiplier tube - PMT, or a CCD camera)
+5.  **Data Output** The detector signal is recorded over time, generating an **electropherogram** – a plot of fluorescence intensity versus migration time. Each peak represents a DNA fragment (or population of fragments) of a specific size
+
+## **Detection: Laser-Induced Fluorescence (LIF)** {-}
+
+*   **Sensitivity:** LIF is incredibly sensitive, allowing detection of minute amounts of DNA
+*   **Labeling:** DNA fragments need to be labeled with fluorescent dyes. This can be done by:
+    *   Using fluorescently labeled PCR primers
+    *   Using fluorescently labeled dideoxynucleotides (ddNTPs) in Sanger sequencing
+    *   Using intercalating dyes in the buffer/matrix (less common for high-resolution CGE)
+*   **Multi-Color Detection:** Modern CE instruments often use multiple lasers and detectors (or spectral deconvolution) to detect different fluorescent dyes simultaneously (e.g., 4-6 different colors). This is critical for:
+    *   **Sanger Sequencing:** Labeling each ddNTP (A, T, C, G) with a different color allows sequencing reactions to be run in a single capillary
+    *   **Fragment Analysis:** Labeling different primer sets or size standards with different colors allows multiplexing and accurate sizing
+
+## **Key Applications in Clinical Molecular Biology** {-}
+
+CE has become the gold standard for:
+
+*   **Sanger Sequencing Fragment Analysis** After cycle sequencing, the fluorescently labeled extension products (differing by one base) are separated by CE with single-base resolution. The order of the colored peaks detected corresponds directly to the DNA sequence
+*   **Fragment Analysis** Precisely sizing fluorescently labeled PCR products. Crucial for:
+    *   **Short Tandem Repeat (STR) Analysis:** Used in human identity testing, chimerism analysis (post-transplant monitoring), and cell line authentication. CE provides the high resolution needed to distinguish alleles that may differ by only a few base pairs
+    *   **Multiplex Ligation-Dependent Probe Amplification (MLPA):** Sizing MLPA probes to detect copy number variations (deletions/duplications) in genes
+    *   Certain types of **mutation analysis** where insertions/deletions change fragment size
+
+## **Advantages of Capillary Electrophoresis** {-}
+
+*   **High Resolution:** Can often resolve fragments differing by a single base pair
+*   **High Speed:** Separations are much faster than traditional slab gels (minutes vs. hours)
+*   **Automation:** Fully automated from sample injection to detection and data analysis. Minimal hands-on time
+*   **Sensitivity:** LIF detection requires very small sample amounts
+*   **Quantitation:** Peak height/area in the electropherogram correlates with the amount of DNA
+*   **Reduced Reagent Consumption:** Uses minimal volumes of buffer and polymer matrix
+*   **Improved Safety:** No need to handle potentially toxic acrylamide monomers for casting gels (though the polymer solutions still require care)
+
+## **Disadvantages of Capillary Electrophoresis** {-}
+
+*   **High Instrument Cost:** CE sequencers/analyzers are expensive
+*   **Sequential Analysis:** In single-capillary systems, samples are run one after another (though multi-capillary arrays significantly increase throughput)
+*   **Capillary Clogging/Degradation:** Capillaries can become clogged or degrade over time, requiring maintenance or replacement
+*   **Complexity:** Requires skilled operators for operation, maintenance, and troubleshooting
+*   **Sensitivity to Sample Quality:** Impurities (salts, proteins) can interfere with injection and separation
+
+## **CE vs. Slab Gel Electrophoresis: Quick Comparison** {-}
+
+| Feature          | Capillary Electrophoresis (CGE)     | Slab Gel Electrophoresis (Agarose/PAGE) |
+| :--------------- | :---------------------------------- | :------------------------------------ |
+| **Format**       | Narrow Capillary (Tube)             | Flat Gel Slab                         |
+| **Matrix**       | Pumpable Polymer Solution           | Cast Agarose or Polyacrylamide        |
+| **Separation**   | Size (via Reptation)                | Size (via Sieving)                    |
+| **Resolution**   | Very High (often 1 bp)              | Moderate (Agarose) to High (PAGE)     |
+| **Speed**        | Fast (Minutes)                      | Slower (Hours)                        |
+| **Automation**   | High (Fully Automated)              | Low to Moderate                       |
+| **Detection**    | On-column LIF                       | Post-run Staining (e.g., EtBr, SYBR)  |
+| **Throughput**   | High (with arrays)                  | Batch processing (multiple lanes/gel) |
+| **Sample Volume**| Very Low (nL-µL injected)           | Low (µL loaded)                       |
+
+## **Key Terms** {-}
+
+*   **Capillary Electrophoresis (CE):** A separation technique that uses a narrow-bore fused-silica capillary tube and a high electric field to separate charged molecules based on their differential migration rates
+*   **Fused-Silica Capillary:** The thin, flexible glass (SiO₂) tube used in CE, typically with an inner diameter of 25-100 µm
+*   **Electroosmotic Flow (EOF):** The bulk flow of fluid towards the cathode (negative electrode) in a capillary, caused by the migration of positive ions from the buffer that accumulate near the negatively charged capillary wall under an electric field
+*   **Electrophoretic Mobility (µe):** The velocity of a charged particle per unit electric field strength, determined primarily by its charge-to-mass ratio and frictional drag
+*   **Sieving Matrix (in CE):** A solution of entangled polymers (e.g., linear polyacrylamide, POP™) filling the capillary, used specifically for separating macromolecules like DNA based on size. This mode is often called Capillary Gel Electrophoresis (CGE)
+*   **Reptation:** The snake-like movement of long polymer chains (like DNA) through the entangled mesh of a polymer sieving matrix during electrophoresis
+*   **Laser-Induced Fluorescence (LIF):** A highly sensitive detection method used in CE where a laser beam is focused on a small window of the capillary, exciting fluorescent dyes attached to the analyte molecules as they pass. The emitted fluorescence is detected and recorded
+*   **Electrokinetic Injection:** A common sample injection method in CE where voltage is briefly applied across the capillary while its inlet is immersed in the sample, causing ions to migrate into the capillary based on their electrophoretic mobility and the EOF
+*   **Electropherogram:** The graphical output of a CE separation, plotting detector response (e.g., fluorescence intensity) versus migration time. Peaks in the electropherogram represent separated analytes
+*   **Fragment Analysis (via CE):** The application of CE (specifically CGE with LIF detection) to precisely determine the size of fluorescently labeled DNA fragments, commonly used for STR analysis, MLPA, etc

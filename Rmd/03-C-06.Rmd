@@ -1,0 +1,44 @@
+# Mitochondrial Disorders {-}
+
+For our next topic, we need to take a journey outside of the cell's nucleus and into the cytoplasm. We're going to visit the cell's power plants: the **mitochondria**. These tiny organelles are responsible for cellular respiration, the process that generates over 90% of the energy (in the form of ATP) that our body needs to function. A mitochondrial disorder occurs when these power plants fail, leading to an "energy crisis" that can have devastating effects
+
+Because every cell needs energy, these disorders can affect almost any part of thebody. However, the organs with the highest energy demands are the most vulnerable. Think about it—what parts of your body are always working? The brain, nerves, muscles, heart, kidneys, and eyes. This is why mitochondrial diseases often present with a complex mix of neurological and muscular symptoms (encephalomyopathy), as well as problems with vision, hearing, and heart function
+
+What makes these disorders so unique from a geneticist's and a lab scientist's perspective is that they don't follow the Mendelian inheritance patterns we've been studying. They play by a completely different set of rules
+
+## **The Unique Genetics: A Whole Different Genome** {-}
+
+Packed inside each of our hundreds of mitochondria is its own tiny, separate genome. This is the **mitochondrial DNA (mtDNA)**
+
+*   **Small and Compact:** While our nuclear DNA has over 20,000 genes on 23 pairs of chromosomes, mtDNA is a small, circular molecule containing only 37 genes. But these 37 genes are absolutely essential—they provide the critical blueprints for building the machinery of the cellular power plant
+*   **A "Maternal" Rulebook:** Here is the golden rule of mitochondrial genetics: **mtDNA is inherited exclusively from the mother.** The egg cell is huge and packed with thousands of mitochondria. The sperm, by contrast, is tiny, and while it has a few mitochondria to power its tail, they are systematically destroyed after fertilization. Therefore, a father cannot pass a mitochondrial disorder to his children. The inheritance pattern is strictly maternal
+
+## **The Key to Complexity: Heteroplasmy and the Threshold Effect** {-}
+
+This is the most critical concept for understanding mitochondrial disease. It's what explains why these disorders are so incredibly variable, even within the same family
+
+*   **Homoplasmy vs. Heteroplasmy:** In a normal person, all of the thousands of mtDNA copies in a cell are identical and healthy (**homoplasmy**). In an individual with a mitochondrial disorder, there is typically a mixture of normal (wild-type) mtDNA and mutated mtDNA within each cell. This mixture is called **heteroplasmy**
+*   **A Game of Percentages:** You can think of a cell's mitochondria as a fleet of delivery trucks. Heteroplasmy means some trucks have a good engine and some have a faulty one. The cell can still function pretty well if only 10% or 20% of the trucks are faulty. The disease doesn't become clinically apparent until the proportion of mutated mtDNA in a tissue reaches a certain critical level—this is the **threshold effect**
+*   **Why It Matters:** The threshold is different for different tissues based on their energy needs. The brain might have a threshold of 70% mutated mtDNA, while the skin might have a threshold of 95%. This explains why a patient might have severe neurological symptoms but no skin problems. It also explains the vast range of severity. A person with a low level of heteroplasmy might be asymptomatic, while their sibling who inherited a higher proportion of mutated mtDNA from their mother might be severely affected
+
+## **Case Files: Classic Mitochondrial Syndromes** {-}
+
+Molecular testing, most often **Next-Generation Sequencing (NGS) of the entire mitochondrial genome**, is used to identify the specific mutation and, importantly, can help quantify the level of heteroplasmy in the tested tissue
+
+*   **MELAS (Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes):** As the name suggests, this is a multi-system disorder affecting the brain and muscles. It's one of the most common mitochondrial diseases, most frequently caused by a specific point mutation (A3243G) in the *MT-TL1* gene
+*   **MERRF (Myoclonic Epilepsy with Ragged-Red Fibers):** This is characterized by muscle twitches (myoclonus), seizures, and a classic finding on muscle biopsy. When stained, the muscle fibers from these patients show clumps of diseased mitochondria, giving them a "ragged-red" appearance. It is also caused by a common point mutation, but in a different gene (*MT-TK*)
+*   **Leber's Hereditary Optic Neuropathy (LHON):** This disease primarily affects the eyes, causing rapid, painless, and usually severe vision loss, typically in young adulthood. Interestingly, many LHON mutations are **homoplasmic** or near-homoplasmic, meaning the "all or nothing" rule applies more here than in other mitochondrial disorders
+
+## **The Laboratory's Role** {-}
+
+When we get a sample for mitochondrial testing, one of the biggest considerations is **tissue type**. A blood sample is easy to get, but the level of heteroplasmy in the blood may not accurately reflect the mutation load in the affected tissue, like the brain or muscle. This is why a **muscle biopsy** is often considered the gold standard for diagnosis, as it allows us to test the tissue that is most affected and also to look for those characteristic ragged-red fibers
+
+## **Key Terms** {-}
+
+*   **Mitochondrial DNA (mtDNA):** The small, circular chromosome found inside mitochondria that contains 37 genes essential for mitochondrial function. It is separate from the nuclear DNA
+*   **Maternal Inheritance:** The strict pattern of inheritance for mitochondrial DNA, where it is passed from a mother to all of her offspring, but not from a father
+*   **Heteroplasmy:** The presence of a mixture of more than one type of mtDNA (e.g., normal and mutated) within a single cell or individual. This is the key reason for variable expressivity in mitochondrial diseases
+*   **Homoplasmy:** The presence of only one type of mtDNA within a cell or individual (either all normal or all mutated)
+*   **Threshold Effect:** The concept that clinical symptoms of a mitochondrial disorder only appear once the percentage of mutated mtDNA in a particular tissue surpasses a critical level
+*   **MELAS:** A classic mitochondrial syndrome anacronym for Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like Episodes
+*   **Ragged-Red Fibers:** A characteristic finding in a muscle biopsy from a patient with certain mitochondrial disorders (like MERRF), representing an accumulation of abnormal mitochondria under the cell membrane

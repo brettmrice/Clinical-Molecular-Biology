@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Assay Development | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Assay Development and Design is where we move from understanding the individual biochemical reagents (like polymerases, nucleases, ligases) to strategically using them to create a reliable test...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Assay Development | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Assay Development and Design is where we move from understanding the individual biochemical reagents (like polymerases, nucleases, ligases) to strategically using them to create a reliable test...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Assay Development | MB">
+<meta name="twitter:description" content="Assay Development and Design is where we move from understanding the individual biochemical reagents (like polymerases, nucleases, ligases) to strategically using them to create a reliable test...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="active" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="assay-development" class="section level1 unnumbered">
+<h1>Assay Development<a class="anchor" aria-label="anchor" href="#assay-development"><i class="fas fa-link"></i></a>
+</h1>
+<p><strong>Assay Development and Design</strong> is where we move from understanding the individual biochemical reagents (like polymerases, nucleases, ligases) to strategically <em>using</em> them to create a reliable test that answers a specific clinical question. Assay development is an iterative process, often requiring cycles of design, testing, optimization, and validation, all underpinned by a solid understanding of the biochemical reagents involved and the molecular biology principles at play</p>
+<p>Think of it like designing a recipe. You know what ingredients you have (the biochemical reagents), and you know what final dish you want (a specific diagnostic result). Assay development is figuring out the exact recipe – the right combination of ingredients, the precise steps, cooking times, temperatures, and importantly, how to know if you actually made the dish correctly and consistently every time!</p>
+<div id="the-goal-a-robust-clinical-molecular-assay" class="section level2 unnumbered">
+<h2>
+<strong>The Goal: A Robust Clinical Molecular Assay</strong><a class="anchor" aria-label="anchor" href="#the-goal-a-robust-clinical-molecular-assay"><i class="fas fa-link"></i></a>
+</h2>
+<p>The ultimate aim is to develop a molecular assay that is:</p>
+<ul>
+<li>
+<strong>Accurate:</strong> Measures the true presence/absence or quantity of the target analyte</li>
+<li>
+<strong>Reliable/Precise:</strong> Gives consistent results when repeated</li>
+<li>
+<strong>Sensitive:</strong> Can detect very small amounts of the target</li>
+<li>
+<strong>Specific:</strong> Detects <em>only</em> the target analyte, not other related or unrelated molecules</li>
+<li>
+<strong>Clinically Relevant:</strong> Provides useful information for patient diagnosis, prognosis, or treatment monitoring</li>
+<li>
+<strong>Practical:</strong> Feasible to perform within the constraints of a clinical lab (cost, time, workflow, equipment)</li>
+</ul>
+</div>
+<div id="key-stages-and-considerations-in-assay-development-design" class="section level2 unnumbered">
+<h2>
+<strong>Key Stages and Considerations in Assay Development &amp; Design</strong><a class="anchor" aria-label="anchor" href="#key-stages-and-considerations-in-assay-development-design"><i class="fas fa-link"></i></a>
+</h2>
+<div id="defining-the-clinical-need-target-selection" class="section level3 unnumbered">
+<h3>
+<strong>1. Defining the Clinical Need &amp; Target Selection</strong><a class="anchor" aria-label="anchor" href="#defining-the-clinical-need-target-selection"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>What question needs answering?:</strong> (e.g., Does the patient have pathogen X? Do they have mutation Y associated with cancer? What is the viral load? Is the gene expression level elevated?)</li>
+<li>
+<strong>What is the analyte?:</strong> DNA, RNA (mRNA, miRNA, viral RNA), specific gene sequence, mutation (SNP, indel, translocation, copy number variation), methylation pattern?</li>
+<li>
+<strong>Target Properties</strong>
+<ul>
+<li>
+<strong>Specificity:</strong> Is the chosen sequence unique to the target (e.g., specific to a pathogen, a specific gene variant)? Avoid sequences with high homology to other organisms or human genes if possible</li>
+<li>
+<strong>Stability:</strong> Is the target stable during sample collection, transport, and extraction (DNA is generally stable; RNA is much less so)?</li>
+<li>
+<strong>Abundance:</strong> How much target is expected in the clinical sample? This influences sensitivity requirements</li>
+<li>
+<strong>Structure:</strong> Are there features like high GC content, secondary structures (especially in RNA), or repetitive regions that might interfere with the assay?</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="choosing-the-core-technologymethodology" class="section level3 unnumbered">
+<h3>
+<strong>2. Choosing the Core Technology/Methodology</strong><a class="anchor" aria-label="anchor" href="#choosing-the-core-technologymethodology"><i class="fas fa-link"></i></a>
+</h3>
+<p>Based on the target and clinical need, select the appropriate platform:</p>
+<ul>
+<li>
+<strong>PCR (Endpoint):</strong> Good for qualitative detection (presence/absence)</li>
+<li>
+<strong>qPCR/Real-Time PCR:</strong> Excellent for quantification (viral load, gene expression) and sensitive detection. Requires specialized thermocyclers</li>
+<li>
+<strong>RT-PCR / RT-qPCR:</strong> Necessary when starting with an RNA target (requires Reverse Transcriptase)</li>
+<li>
+<strong>Digital PCR (dPCR):</strong> Provides absolute quantification without a standard curve; highly sensitive for rare targets or precise copy number determination</li>
+<li>
+<strong>Sanger Sequencing:</strong> Gold standard for determining the exact nucleotide sequence of relatively short fragments (e.g., confirming mutations found by other methods)</li>
+<li>
+<strong>Next-Generation Sequencing (NGS):</strong> For analyzing many genes/targets simultaneously (panels), whole exomes/genomes, complex mutation analysis, or discovering unknown variants</li>
+<li>
+<strong>Hybridization-Based Methods (FISH, Microarrays, Blotting - less common now for routine diagnostics):</strong> Detecting presence/absence or location of sequences using labeled probes</li>
+</ul>
+</div>
+<div id="designing-assay-components-the-reagents" class="section level3 unnumbered">
+<h3>
+<strong>3. Designing Assay Components (The Reagents!)</strong><a class="anchor" aria-label="anchor" href="#designing-assay-components-the-reagents"><i class="fas fa-link"></i></a>
+</h3>
+<p>This is where the specific biochemical reagents come into play:</p>
+<ul>
+<li>
+<strong>Primers (for PCR-based assays)</strong>
+<ul>
+<li>
+<strong>Specificity:</strong> Designed to bind <em>only</em> to the target sequence flanking the region to be amplified. Use BLAST or similar tools to check for potential off-target binding</li>
+<li>
+<strong>Length:</strong> Typically 18-30 bases</li>
+<li>
+<strong>Melting Temperature (Tm):</strong> Forward and reverse primers should have similar Tms (ideally within 5°C), usually between 55-65°C, to ensure efficient annealing at the same temperature</li>
+<li>
+<strong>GC Content:</strong> Aim for 40-60% GC content</li>
+<li>
+<strong>Avoidance:</strong> Minimize runs of identical bases, complementary sequences within or between primers (prevents primer-dimers), and hairpin structures</li>
+<li>
+<strong>Software Tools:</strong> Primer design software (e.g., Primer3, NCBI Primer-BLAST, vendor software) is essential</li>
+</ul>
+</li>
+<li>
+<strong>Probes (for qPCR, FISH)</strong>
+<ul>
+<li>
+<strong>Types:</strong> TaqMan (hydrolysis), Molecular Beacons, FRET probes, etc</li>
+<li>
+<strong>Specificity:</strong> Must bind specifically to the target sequence <em>between</em> the primer binding sites</li>
+<li>
+<strong>Tm:</strong> Probe Tm should typically be 5-10°C <em>higher</em> than primer Tms for hydrolysis probes</li>
+<li>
+<strong>Labeling:</strong> Appropriate fluorophore and quencher pairs selected based on instrument compatibility and multiplexing needs</li>
+<li>
+<strong>Design Rules:</strong> Avoid G at the 5’ end (can quench), minimize secondary structure, place on the strand that minimizes target secondary structure interference</li>
+</ul>
+</li>
+<li>
+<strong>Enzymes</strong>
+<ul>
+<li>
+<strong>DNA Polymerase:</strong> Choice depends on needs: <em>Taq</em> for routine detection, high-fidelity proofreading enzyme (<em>Pfu</em>, etc.) for sequencing/cloning, inhibitor-resistant enzyme for challenging samples, “Hot Start” versions for improved specificity</li>
+<li>
+<strong>Reverse Transcriptase (for RNA targets):</strong> Consider thermostability (for complex RNA structures), RNase H activity (reduced activity often preferred for long cDNA), processivity</li>
+<li>
+<strong>Ligase:</strong> Essential for NGS library prep (adapter ligation)</li>
+<li>
+<strong>Nucleases:</strong> Used in sample prep (DNase treatment of RNA) or specific assays</li>
+</ul>
+</li>
+<li>
+<strong>Buffers and Additives:</strong> Optimize concentrations of MgCl₂ (critical for polymerase activity and primer annealing), dNTPs, salts. Additives like Betaine or DMSO can sometimes help with high GC targets</li>
+</ul>
+</div>
+<div id="assay-optimization" class="section level3 unnumbered">
+<h3>
+<strong>4. Assay Optimization</strong><a class="anchor" aria-label="anchor" href="#assay-optimization"><i class="fas fa-link"></i></a>
+</h3>
+<p>Fine-tuning the “recipe” to get the best performance:</p>
+<ul>
+<li>
+<strong>Annealing Temperature:</strong> Critical for primer/probe specificity. Often optimized using a gradient PCR</li>
+<li>
+<strong>MgCl₂ Concentration:</strong> Affects enzyme activity and primer binding stringency</li>
+<li>
+<strong>Primer/Probe Concentrations:</strong> Balancing efficiency with minimizing non-specific interactions (e.g., primer-dimers)</li>
+<li>
+<strong>Enzyme Concentration:</strong> Affects reaction speed and cost</li>
+<li>
+<strong>Cycling Times/Temperatures:</strong> Ensuring complete denaturation, sufficient annealing/extension time</li>
+</ul>
+</div>
+<div id="designing-and-incorporating-controls" class="section level3 unnumbered">
+<h3>
+<strong>5. Designing and Incorporating Controls</strong><a class="anchor" aria-label="anchor" href="#designing-and-incorporating-controls"><i class="fas fa-link"></i></a>
+</h3>
+<p>Controls are NON-NEGOTIABLE in a clinical assay. They ensure the assay ran correctly and the results are valid:</p>
+<ul>
+<li>
+<strong>Positive Control:</strong> Contains the target sequence. Ensures the reagents and conditions <em>can</em> produce a positive result. Verifies assay sensitivity near the limit of detection</li>
+<li>
+<strong>Negative Control (No Template Control - NTC):</strong> Contains all reagents <em>except</em> the target nucleic acid (usually uses water or buffer). Detects contamination of reagents or the environment</li>
+<li>
+<strong>Internal Control (IC):</strong> A non-target nucleic acid sequence added to <em>each sample</em> before extraction OR a naturally occurring host gene (endogenous IC). It’s processed alongside the target and monitors the entire process (extraction efficiency, presence of inhibitors). <strong>Crucial for validating negative results.</strong> A negative target result is only valid if the IC is positive</li>
+<li>
+<strong>(Optional) Calibrators/Standards:</strong> Known quantities of the target used to generate a standard curve for quantitative assays (qPCR)</li>
+<li>
+<strong>(Optional) Uracil-N-Glycosylase (UNG) System:</strong> Used with dUTP instead of dTTP during PCR. UNG enzyme added before PCR degrades any contaminating PCR products from previous runs (which contain dU), preventing carryover contamination</li>
+</ul>
+</div>
+<div id="validation-and-performance-verification" class="section level3 unnumbered">
+<h3>
+<strong>6. Validation and Performance Verification</strong><a class="anchor" aria-label="anchor" href="#validation-and-performance-verification"><i class="fas fa-link"></i></a>
+</h3>
+<p>Before clinical use, assays (especially lab-developed tests - LDTs) must undergo rigorous validation to demonstrate they meet performance requirements (following guidelines like CLIA, CAP, ISO):</p>
+<ul>
+<li>
+<strong>Accuracy:</strong> Comparison to a gold standard method or reference materials</li>
+<li>
+<strong>Precision:</strong> Repeatability (intra-assay) and Reproducibility (inter-assay, inter-operator, inter-instrument)</li>
+<li>
+<strong>Analytical Sensitivity (Limit of Detection - LoD):</strong> Lowest amount/concentration reliably detected (e.g., copies/mL, ng)</li>
+<li>
+<strong>Analytical Specificity:</strong> Testing for cross-reactivity with related organisms/sequences and interference from substances in the sample matrix</li>
+<li>
+<strong>Reportable Range:</strong> The range of analyte concentrations over which the assay is accurate and precise (for quantitative assays)</li>
+<li>
+<strong>Robustness:</strong> How well the assay performs under slightly varied conditions</li>
+</ul>
+</div>
+<div id="implementation-and-quality-management" class="section level3 unnumbered">
+<h3>
+<strong>7. Implementation and Quality Management</strong><a class="anchor" aria-label="anchor" href="#implementation-and-quality-management"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Standard Operating Procedures (SOPs):</strong> Detailed, step-by-step instructions</li>
+<li>
+<strong>Quality Control (QC):</strong> Running controls with every batch of patient samples</li>
+<li>
+<strong>Proficiency Testing (PT):</strong> Analyzing blind samples from external agencies to verify ongoing accuracy</li>
+<li>
+<strong>Documentation:</strong> Meticulous record-keeping</li>
+</ul>
+</div>
+</div>
+<div id="the-role-of-biochemical-reagents-in-design" class="section level2 unnumbered">
+<h2>
+<strong>The Role of Biochemical Reagents in Design</strong><a class="anchor" aria-label="anchor" href="#the-role-of-biochemical-reagents-in-design"><i class="fas fa-link"></i></a>
+</h2>
+<p>The choice and quality of biochemical reagents are paramount:</p>
+<ul>
+<li>
+<strong>Enzyme choice:</strong> dictates fidelity, speed, sensitivity, and resistance to inhibitors</li>
+<li>
+<strong>Primer/probe design:</strong> determines specificity and efficiency</li>
+<li>
+<strong>dNTP/NTP quality:</strong> impacts synthesis</li>
+<li>
+<strong>Buffer composition:</strong> affects enzyme activity and stringency</li>
+<li>Careful reagent handling and storage are crucial to prevent degradation or contamination</li>
+</ul>
+</div>
+<div id="key-terms-17" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-17"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Analyte:</strong> The specific substance or target molecule (e.g., a particular DNA sequence, RNA transcript, mutation, pathogen nucleic acid) that the assay is designed to detect or measure in a patient sample</li>
+<li>
+<strong>Limit of Detection (LoD):</strong> The lowest concentration or amount of the analyte that can be reliably detected by the assay with a defined level of confidence (often 95%), distinguishing it from zero or background noise. It represents the analytical sensitivity of the assay</li>
+<li>
+<strong>Analytical Specificity:</strong> The ability of the assay to measure exclusively the intended analyte, without interference from other related or unrelated substances potentially present in the sample (e.g., closely related organisms, homologous host genes, sample matrix components). This includes assessing cross-reactivity</li>
+<li>
+<strong>Accuracy:</strong> The degree of closeness between the result obtained by the assay and the true or accepted reference value for the analyte. It reflects the lack of systematic error</li>
+<li>
+<strong>Precision:</strong> The degree of agreement among independent measurements of the same sample when the assay procedure is applied repeatedly under stipulated conditions. It reflects random error and is often expressed as repeatability (intra-assay) and reproducibility (inter-assay)</li>
+<li>
+<strong>Primer/Probe Design:</strong> The process of creating specific oligonucleotide sequences (primers for amplification, probes for detection) that will bind uniquely and efficiently to the target analyte sequence under the assay conditions, crucial for specificity and sensitivity</li>
+<li>
+<strong>Internal Control (IC):</strong> A non-target nucleic acid sequence added to each sample before processing, or an endogenous housekeeping gene, used to monitor the entire assay process (including sample extraction, amplification, and detection) for potential failures or inhibition. Essential for validating negative results</li>
+<li>
+<strong>Validation:</strong> The comprehensive process of evaluating an assay’s performance characteristics (accuracy, precision, sensitivity, specificity, reportable range, etc.) to ensure it is suitable for its intended clinical purpose, following established regulatory or laboratory guidelines (e.g., CLIA, CAP)</li>
+<li>
+<strong>Optimization:</strong> The systematic process of adjusting assay parameters (e.g., primer/probe concentrations, enzyme concentrations, annealing temperature, cycling times, buffer components like MgCl₂) to achieve the best possible performance in terms of sensitivity, specificity, and reliability</li>
+<li>
+<strong>Reportable Range:</strong> For quantitative assays, the span of analyte concentrations over which the method has been validated to perform with acceptable accuracy, precision, and linearity. Results outside this range cannot be reliably reported without dilution or qualification</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="dna-ligase.html">DNA Ligase</a></div>
+<div class="next"><a href="genetics.html">Genetics</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#assay-development">Assay Development</a></li>
+<li><a class="nav-link" href="#the-goal-a-robust-clinical-molecular-assay">The Goal: A Robust Clinical Molecular Assay</a></li>
+<li>
+<a class="nav-link" href="#key-stages-and-considerations-in-assay-development-design">Key Stages and Considerations in Assay Development &amp; Design</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#defining-the-clinical-need-target-selection">1. Defining the Clinical Need &amp; Target Selection</a></li>
+<li><a class="nav-link" href="#choosing-the-core-technologymethodology">2. Choosing the Core Technology/Methodology</a></li>
+<li><a class="nav-link" href="#designing-assay-components-the-reagents">3. Designing Assay Components (The Reagents!)</a></li>
+<li><a class="nav-link" href="#assay-optimization">4. Assay Optimization</a></li>
+<li><a class="nav-link" href="#designing-and-incorporating-controls">5. Designing and Incorporating Controls</a></li>
+<li><a class="nav-link" href="#validation-and-performance-verification">6. Validation and Performance Verification</a></li>
+<li><a class="nav-link" href="#implementation-and-quality-management">7. Implementation and Quality Management</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#the-role-of-biochemical-reagents-in-design">The Role of Biochemical Reagents in Design</a></li>
+<li><a class="nav-link" href="#key-terms-17">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/01-C-05.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/01-C-05.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

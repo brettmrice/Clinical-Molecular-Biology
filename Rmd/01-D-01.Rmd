@@ -1,0 +1,162 @@
+# Human {-}
+
+**Human Genetics** is where we connect the fundamental molecular theories we've been learning directly to human health, disease, inheritance, and variation. It's the "why" behind much of what we do in the diagnostic lab
+
+Think of human genetics as studying the instruction manual (the genome) specific to *Homo sapiens* – how it's written, how it's passed down, how variations in the text lead to different traits or diseases, and how we can "read" it in the lab
+
+## **The Basics: Genes, Alleles, and the Genome** {-}
+
+*   **Genome:** The complete set of genetic instructions in an organism. In humans, this comprises about 3 billion DNA base pairs organized into chromosomes
+*   **Gene:** The fundamental physical and functional unit of heredity. It's a specific sequence of nucleotides located on a chromosome that typically codes for a functional product, either RNA or protein
+*   **Locus:** The specific physical location of a gene on a chromosome
+*   **Allele:** One of two or more alternative forms of a gene that arise by mutation and are found at the same locus on homologous chromosomes. For example, the gene for blood type has alleles for A, B, and O
+*   **Genotype:** The specific combination of alleles an individual possesses at a particular locus or across multiple loci (e.g., AA, Aa, or aa)
+*   **Phenotype:** The observable characteristics or traits of an individual, resulting from the interaction of their genotype and the environment (e.g., having brown eyes, being tall, having cystic fibrosis)
+
+## **Chromosome Complement: The Karyotype** {-}
+
+*   Humans are **diploid (2n)**, meaning somatic cells contain two sets of chromosomes – one inherited from each parent
+*   The normal human karyotype consists of **46 chromosomes**:
+    *   **22 pairs of autosomes:** Chromosomes 1 through 22, homologous in both males and females
+    *   **1 pair of sex chromosomes:** XX in females, XY in males
+*   Gametes (sperm and egg) are **haploid (n)**, containing only one set (23 chromosomes)
+*   Analyzing the karyotype (chromosome number and structure) is a fundamental cytogenetic technique to detect large-scale abnormalities
+
+## **Patterns of Inheritance: How Traits are Passed Down** {-}
+
+Understanding how genetic traits and disorders are transmitted through families is crucial
+
+### **Mendelian Inheritance (Single-Gene Disorders)** {-}
+
+These follow predictable patterns based on the principles established by Gregor Mendel, involving dominant and recessive alleles at a single locus
+
+*   **Autosomal Dominant (AD)**
+    *   Requires only **one copy** of the mutated allele (heterozygous) to express the phenotype
+    *   Affected individuals are present in **every generation** (vertical transmission)
+    *   Affected individuals have a **50% chance** of passing the mutated allele (and the trait) to each child
+    *   Males and females are affected equally
+    *   Examples: Huntington's disease, Marfan syndrome, Achondroplasia
+*   **Autosomal Recessive (AR)**
+    *   Requires **two copies** of the mutated allele (homozygous) to express the phenotype
+    *   Phenotype often **skips generations**
+    *   Affected individuals usually have unaffected parents who are carriers (heterozygotes)
+    *   Parents who are both carriers have a **25% chance** of having an affected child, a 50% chance of having a carrier child, and a 25% chance of having an unaffected, non-carrier child with each pregnancy
+    *   Males and females are affected equally
+    *   Examples: Cystic Fibrosis (CF), Sickle Cell Anemia, Phenylketonuria (PKU), Tay-Sachs disease
+*   **X-Linked Recessive (XLR)**
+    *   Mutation is on the **X chromosome**; requires two copies in females (rare) but only **one copy in males** (hemizygous) to express the phenotype
+    *   Much **more common in males** than females
+    *   Affected males inherit the mutation from their carrier mothers
+    *   **No male-to-male transmission:** (fathers pass their Y chromosome to sons)
+    *   Affected males pass the mutation to all their daughters (making them carriers), but none of their sons
+    *   Examples: Hemophilia A and B, Duchenne Muscular Dystrophy, Red-Green Color Blindness
+*   **X-Linked Dominant (XLD)**
+    *   Mutation is on the **X chromosome**; requires only **one copy** to express the phenotype in both males and females
+    *   Affected males pass the trait to **all of their daughters** and **none of their sons**
+    *   Affected heterozygous females pass the trait to **50% of their children** (sons and daughters)
+    *   Often more severe in males
+    *   Examples: Rett syndrome (often lethal in males), Fragile X syndrome (complex inheritance, but often cited here)
+
+### **Non-Mendelian Inheritance** {-}
+
+Not all inheritance patterns fit neatly into the Mendelian categories:
+
+*   **Mitochondrial Inheritance**
+    *   Mutations occur in the **mitochondrial DNA (mtDNA)**, which is separate from the nuclear genome
+    *   Inherited **exclusively from the mother** (maternal inheritance), as mitochondria are passed down through the egg cytoplasm
+    *   Affected females pass the trait to **all** their children; affected males do **not** pass the trait to any children
+    *   Often affects tissues with high energy demands (muscle, nerve)
+    *   Examples: Leber Hereditary Optic Neuropathy (LHON), MELAS, MERRF
+*   **Genomic Imprinting**
+    *   Expression of a gene depends on whether it was inherited from the **mother or the father**
+    *   Only one allele (either maternal or paternal) is expressed, while the other is silenced (often by methylation)
+    *   Examples: Prader-Willi syndrome (paternal deletion/maternal silencing on Chr 15), Angelman syndrome (maternal deletion/paternal silencing on Chr 15)
+*   **Triplet Repeat Expansions**
+    *   Caused by the expansion of short, tandemly repeated DNA sequences (often 3 bp) within or near a gene
+    *   Above a certain threshold number of repeats, the gene becomes unstable and often non-functional or toxic
+    *   Can exhibit **anticipation** the severity increases and/or age of onset decreases in successive generations as the repeat number expands further
+    *   Examples: Huntington's disease (CAG repeats), Fragile X syndrome (CGG repeats), Myotonic Dystrophy (CTG repeats)
+*   **Mosaicism**
+    *   Presence of two or more genetically distinct cell lines within a single individual, derived from a single zygote
+    *   Can be **somatic** (affecting non-reproductive cells, not heritable) or **germline** (affecting sperm/eggs, heritable)
+    *   Can lead to milder phenotypes or patchy distribution of symptoms
+
+## **Genetic Variation and Mutation** {-}
+
+Variations are the raw material for evolution and individual differences, but some variations (mutations) cause disease
+
+*   **Types of Mutations:** (Recap from Nucleic Acid Chemistry)
+    *   Point Mutations (Substitutions: Silent, Missense, Nonsense)
+    *   Insertions/Deletions (Indels: Frameshift, In-frame)
+*   **Polymorphisms:** Variations found in >1% of the population (e.g., Single Nucleotide Polymorphisms - SNPs). Most are benign but some can influence disease risk or drug response (pharmacogenomics)
+*   **Copy Number Variations (CNVs):** Differences in the number of copies of larger DNA segments (deletions or duplications)
+
+## **Chromosomal Abnormalities** {-}
+
+Large-scale changes affecting chromosome number or structure, often detectable by cytogenetic methods:
+
+*   **Numerical Abnormalities (Aneuploidy):** Gain or loss of whole chromosomes, usually due to non-disjunction during meiosis
+    *   **Trisomy:** Three copies (e.g., Trisomy 21 - Down syndrome, Trisomy 18 - Edwards, Trisomy 13 - Patau)
+    *   **Monosomy:** One copy (e.g., Monosomy X - Turner syndrome)
+*   **Structural Abnormalities:** Rearrangements within or between chromosomes
+    *   **Deletions:** Loss of a segment
+    *   **Duplications:** Repetition of a segment
+    *   **Inversions:** Segment flipped
+    *   **Translocations:** Segment moved to another chromosome (e.g., Reciprocal, Robertsonian, Philadelphia chromosome in CML)
+
+## **Complex (Multifactorial) Inheritance** {-}
+
+*   Most common human traits (height, skin color) and many common diseases (diabetes, heart disease, asthma, some cancers) result from the interplay of **multiple genes (polygenic)** and **environmental factors**
+*   Inheritance patterns are not straightforward Mendelian; risk prediction is based on empirical data and family history
+
+## **Population Genetics** {-}
+
+*   Studies genetic variation within and between populations
+*   Concepts like **allele frequencies**, **genotype frequencies**, and the **Hardy-Weinberg equilibrium** (a principle describing stable frequencies in the absence of evolutionary influences) are used
+*   Factors like genetic drift, founder effect, and natural selection influence allele frequencies in specific populations, which can impact disease prevalence and carrier screening strategies
+
+## **Epigenetics** {-}
+
+*   Heritable changes in gene expression that do **not** involve alterations to the underlying DNA sequence
+*   Mechanisms include **DNA methylation** and **histone modifications**, which affect chromatin structure and gene accessibility
+*   Plays roles in development, imprinting, X-inactivation, and diseases like cancer
+
+## **Clinical Laboratory Relevance** {-}
+
+Understanding human genetics is the foundation for much of clinical molecular diagnostics:
+
+*   **Diagnosing Genetic Disorders:** Identifying mutations (via sequencing, PCR), deletions/duplications (via CMA, MLPA), repeat expansions (via PCR fragment analysis), or chromosomal abnormalities (via karyotyping, FISH, CMA) responsible for inherited conditions
+*   **Carrier Screening:** Identifying individuals who carry recessive alleles for specific disorders
+*   **Prenatal Diagnosis:** Testing fetal DNA for genetic abnormalities
+*   **Cancer Genetics:** Identifying inherited cancer predisposition syndromes (e.g., BRCA mutations) or somatic mutations in tumors that guide targeted therapy (e.g., EGFR, KRAS, BRAF mutations)
+*   **Pharmacogenomics:** Identifying genetic variations that influence a patient's response to specific drugs
+*   **Infectious Disease:** While focusing on the pathogen, understanding human genetic factors influencing susceptibility or response to infection is relevant
+*   **Genetic Counseling:** Explaining complex genetic information, inheritance patterns, risks, and testing options to patients and families requires a strong grasp of these principles
+
+## **Key Terms** {-}
+
+*   **Gene:** Unit of heredity coding for a product
+*   **Allele:** Alternative form of a gene
+*   **Locus:** Location of a gene on a chromosome
+*   **Genotype:** Genetic makeup at a locus
+*   **Phenotype:** Observable trait
+*   **Diploid (2n):** Two sets of chromosomes
+*   **Haploid (n):** One set of chromosomes
+*   **Karyotype:** An individual's chromosome complement
+*   **Autosome:** Non-sex chromosome (1-22)
+*   **Sex Chromosome:** X or Y chromosome
+*   **Dominant:** Allele expressed in heterozygote
+*   **Recessive:** Allele expressed only in homozygote
+*   **X-Linked:** Gene located on the X chromosome
+*   **Mitochondrial Inheritance:** Maternal inheritance of mtDNA mutations
+*   **Genomic Imprinting:** Parent-of-origin gene expression
+*   **Triplet Repeat Expansion:** Increase in copy number of a 3-bp repeat
+*   **Anticipation:** Worsening of a triplet repeat disorder in successive generations
+*   **Mosaicism:** Presence of multiple cell lines in one individual
+*   **Polymorphism:** Common genetic variation (>1%)
+*   **Copy Number Variation (CNV):** Variation in the number of copies of large DNA segments
+*   **Aneuploidy:** Abnormal chromosome number
+*   **Translocation:** Exchange of segments between non-homologous chromosomes
+*   **Multifactorial Trait:** Trait influenced by multiple genes and environment
+*   **Hardy-Weinberg Equilibrium:** Principle describing stable allele/genotype frequencies
+*   **Epigenetics:** Heritable changes in gene expression without DNA sequence change (e.g., methylation)

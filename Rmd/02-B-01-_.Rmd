@@ -1,0 +1,69 @@
+# Electrophoresis {-}
+
+The two main workhorses for separating nucleic acids in the molecular lab: traditional **Gel Electrophoresis** (using agarose or polyacrylamide slabs) and the more modern **Capillary Electrophoresis**. Both use electric fields to move negatively charged DNA/RNA, but they differ significantly in format, resolution, speed, and automation
+
+Think of it like comparing different ways to run a race:
+
+*   **Gel Electrophoresis:** Like running an obstacle course on an open field (the gel slab)
+*   **Capillary Electrophoresis:** Like running a high-speed race through a narrow, precisely engineered tunnel (the capillary)
+
+## **Electrophoresis: The Core Concept** {-}
+
+The fundamental principle for both is:
+*   **Negative Charge:** DNA and RNA have a negatively charged phosphate backbone
+*   **Electric Field:** When placed in an electric field, these molecules move towards the positive pole (anode)
+*   **Sieving Matrix:** A medium (the gel or polymer solution) impedes their movement
+*   **Size Separation:** Smaller molecules navigate the matrix faster and travel further than larger molecules in a given time
+
+## **Gel Electrophoresis (The Slab)** {-}
+
+This is the classic method, involving casting a slab of gel material and running samples through it in a buffer tank
+
+*   **Types & Characteristics**
+    *   **Agarose Gel**
+        *   **Matrix:** Natural polysaccharide (from seaweed), easy to prepare
+        *   **Format:** Horizontal ("submarine")
+        *   **Resolution:** Moderate; best for separating larger fragments (roughly 50 bp to >20 kb) that differ significantly in size. Pore size adjustable by % agarose
+        *   **Use:** Very common for checking PCR product size/presence, basic RFLP analysis
+        *   **Detection:** Post-run staining (e.g., Ethidium Bromide - *mutagen*, SYBR Safe - *safer*). Visualize under UV/blue light
+    *   **Polyacrylamide Gel (PAGE)**
+        *   **Matrix:** Synthetic polymer; more complex to prepare, monomer is toxic
+        *   **Format:** Vertical (thin slab between glass plates)
+        *   **Resolution:** High; excellent for separating small fragments (down to ~5 bp) and resolving single-base differences
+        *   **Use:** Historically vital for Sanger sequencing, mutation detection (SSCP), analysis of very small fragments
+        *   **Detection:** Staining (as above) or historically autoradiography
+
+*   **Workflow:** Prepare gel -> Load samples (mixed with loading dye) & ladder -> Run in buffer tank with power supply -> Stain gel -> Visualize bands
+*   **Pros:** Relatively inexpensive equipment, visually intuitive results, versatile for wide size ranges (especially agarose)
+*   **Cons:** More hands-on time, slower run times, lower resolution (agarose), potential safety hazards (EtBr, acrylamide monomer), results less quantitative, not easily automated
+
+## **Capillary Electrophoresis (CE) (The Tube)** {-}
+
+This technique performs electrophoresis inside a very narrow (capillary) tube filled with buffer and a polymer solution, offering significant advantages in speed, resolution, and automation
+
+*   **Matrix & Format**
+    *   **Matrix:** Typically a replaceable, pumpable **polymer solution** (e.g., linear polyacrylamide) inside a narrow fused-silica capillary. Acts as the sieving medium
+    *   **Format:** Automated instrument with single or multiple capillaries (arrays)
+*   **Separation:** Based on size as fragments reptate (snake) through the polymer matrix under high voltage. Electroosmotic flow (EOF) is another factor influencing migration, often suppressed or controlled for DNA sizing
+*   **Resolution:** Extremely high, often capable of resolving fragments differing by only **one base pair**
+*   **Use:** The gold standard for:
+    *   **Sanger Sequencing:** Separating fluorescently labeled fragments to read DNA sequence
+    *   **Fragment Analysis:** Precisely sizing PCR products for STR analysis (forensics, chimerism), MLPA (copy number variation)
+*   **Detection:** **Laser-Induced Fluorescence (LIF).** DNA fragments are fluorescently labeled (e.g., primers, ddNTPs). As they pass a detector window, a laser excites the dye, and emitted light is measured. Allows for multi-color detection (crucial for sequencing/multiplexing)
+*   **Workflow:** Prepare samples (often PCR products with fluorescent labels) -> Load onto autosampler plate -> Instrument automatically injects sample into capillary -> High voltage separation -> On-column LIF detection -> Data output as an **electropherogram** (peaks vs. time)
+*   **Pros:** Very high resolution, fast analysis time, fully automated (high throughput with arrays), highly sensitive (LIF), quantitative data (peak height/area), reduced reagent use
+*   **Cons:** Very high instrument cost, requires specialized reagents, capillaries can clog or degrade, requires skilled operation/maintenance
+
+## **Summary: Gel vs. Capillary** {-}
+
+| Feature        | Gel Electrophoresis (Slab)               | Capillary Electrophoresis (Tube)         |
+| :------------- | :--------------------------------------- | :--------------------------------------- |
+| **Format**     | Horizontal/Vertical Slab                 | Narrow Capillary                         |
+| **Matrix**     | Cast Agarose or Polyacrylamide           | Pumpable Polymer Solution                |
+| **Resolution** | Moderate (Agarose) to High (PAGE)        | Very High (often 1 bp)                   |
+| **Speed**      | Slower (Hours)                           | Faster (Minutes)                         |
+| **Automation** | Low                                      | High (Fully automated)                   |
+| **Detection**  | Post-run Staining (EtBr, SYBR)           | On-column Laser-Induced Fluorescence (LIF) |
+| **Primary Use**| PCR checks, RFLP, Prep work            | Sanger Sequencing, Fragment Analysis (STRs) |
+| **Cost**       | Lower Instrument Cost                    | High Instrument Cost                     |
+| **Output**     | Image of Bands                           | Electropherogram (Peaks)                 |

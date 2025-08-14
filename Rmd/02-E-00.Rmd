@@ -1,0 +1,39 @@
+# Other Techniques {-}
+
+The field of clinical molecular biology utilizes a wide array of specialized techniques beyond the core workflows of PCR and sequencing. This diverse toolkit allows laboratory scientists to answer highly specific questions—from checking the quality of a reaction to identifying the source of a hospital outbreak. Each of the following methods solves a unique diagnostic puzzle, providing information that would be difficult or impossible to obtain otherwise
+
+##  **Melt-Curve Analysis** {-}
+
+Think of this as a mandatory quality control step that piggybacks onto a real-time PCR run using intercalating dyes like SYBR Green. After amplification, the instrument slowly heats the sample, causing the double-stranded DNA to "melt" into single strands. This melting event causes a sharp drop in fluorescence that occurs at a specific temperature (the Tm), which is determined by the product's length and GC content. The resulting peak is a "fingerprint" of the PCR product. A single, sharp peak indicates a clean, specific reaction, while multiple peaks reveal the presence of unwanted products like primer-dimers, confirming the reliability of the test before results are reported
+
+##  **Nucleic Acid Labeling** {-}
+
+This is less a single technique and more a fundamental concept that makes most molecular assays possible. Since DNA and RNA are invisible, we must attach a detectable "tag" or "label" to them. This can be a **direct label** like a fluorophore (which glows under a laser) or an **indirect label** like a hapten (e.g., biotin, digoxigenin), which acts as a hook for a secondary detection molecule linked to an enzyme. Labeling is the core principle behind probes used in blotting, in situ hybridization (ISH), arrays, and real-time PCR, as well as the dye-terminators used in Sanger sequencing
+
+##  **In Situ Hybridization (ISH)** {-}
+
+ISH is a molecular GPS that allows us to visualize DNA or RNA sequences directly within the context of their cells and tissues. Instead of extracting nucleic acids, a labeled probe is applied to a fixed tissue slice or cell preparation on a glass slide. The probe diffuses into the cells and binds to its complementary target. When a fluorescent label is used (**FISH**), we can count glowing dots under a fluorescence microscope to detect gene amplifications (e.g., *HER2* in breast cancer), deletions, or translocations. When a color-producing enzyme is used (**CISH**), we can see the results with a standard bright-field microscope
+
+##  **Restriction Fragment Length Polymorphism (RFLP)** {-}
+
+This is a foundational, legacy technique that was one of the first forms of "DNA fingerprinting." It works by using "molecular scissors" called restriction enzymes to cut DNA at specific recognition sites. If a genetic mutation destroys a recognition site, the enzyme can no longer cut there, resulting in a different-sized DNA fragment. After separating these fragments by gel electrophoresis and visualizing them with a Southern blot, the resulting band patterns can distinguish between different alleles. While slow and largely replaced by PCR-based methods, RFLP established the core principles of using DNA variation for diagnostics
+
+##  **Epigenetic Modification Detection** {-}
+
+This field focuses on detecting heritable changes *on top of* the DNA sequence that regulate gene expression. The most clinically relevant modification is **DNA methylation**, where methyl groups are added to CpG sites in a gene's promoter region, effectively silencing it. To detect this, DNA is treated with **sodium bisulfite**, which converts unmethylated cytosines to uracil (read as thymine after PCR) but leaves methylated cytosines untouched. This creates a detectable sequence difference that can be analyzed by methylation-specific PCR (MSP) or pyrosequencing to determine if critical genes, like tumor suppressors, have been turned off in a patient's cells
+
+##  **Array Technology** {-}
+
+Arrays are masters of parallel analysis, allowing us to ask thousands of questions at once. The principle involves immobilizing thousands of known DNA probes onto a solid surface. In a **microarray**, these probes are spotted onto a glass slide ("chip"). In a **bead array**, they are attached to microscopic, color-coded beads. A patient's labeled DNA or RNA is hybridized to the array, and by detecting where it binds, we can simultaneously perform dozens to thousands of tests. This is ideal for pharmacogenomic (PGx) panels, detecting small genomic deletions/duplications (**Array CGH**), and analyzing gene expression patterns
+
+##  **Multiplex Ligation-Dependent Probe Amplification (MLPA)** {-}
+
+MLPA is a highly precise and efficient method for determining DNA copy number for up to 60 target sequences at once. It uses pairs of probes that bind adjacently on the target DNA. A DNA ligase will only join the two probes into a single molecule if they are perfectly bound. This new, ligated molecule is then amplified using a universal PCR primer pair. Because each probe set has a unique length, the resulting products can be separated by size, and the height of each peak corresponds directly to the copy number of that specific gene in the patient's sample. It is a workhorse for detecting deletions and duplications in genetic disorders like Duchenne Muscular Dystrophy
+
+##  **Mass Spectrometry (MALDI-TOF MS)** {-}
+
+This technique works like a hyper-accurate molecular scale to identify molecules based on their mass. In the clinical lab, MALDI-TOF has revolutionized microbiology by generating a unique protein fingerprint from a bacterial or yeast colony for near-instantaneous identification. In molecular diagnostics, it is used for high-precision SNP genotyping. A primer is extended by a single, mass-modified base corresponding to the SNP. The instrument then "weighs" the final product, and because each DNA base has a slightly different mass, it can definitively identify the allele
+
+##  **Multi-Locus Sequence Typing (MLST)** {-}
+
+MLST is a standardized method for "fingerprinting" bacterial strains, primarily used for epidemiology and outbreak tracking. The technique involves sequencing the internal fragments of 6-8 universally conserved **housekeeping genes**. Each unique sequence for a gene is assigned an allele number. The combination of allele numbers across all loci creates an "allelic profile," which is assigned a definitive Sequence Type (ST) number from a central online database. This gives each strain an unambiguous address, allowing public health labs worldwide to track the spread of virulent or antibiotic-resistant clones

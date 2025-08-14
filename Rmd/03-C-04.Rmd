@@ -1,0 +1,67 @@
+# Single Gene Disorders {-}
+
+Let's switch gears to what you might consider the "classic" genetic disorders. We've talked about complex cancers and unique repeat expansions, but now we're focusing on **single-gene disorders**, also known as **monogenic disorders**
+
+Think of the human genome as an enormous library of instruction manuals for building a person. A single-gene disorder is like having one, single faulty blueprint in that entire library. One gene is broken, leading to one missing or non-functional protein, which in turn causes a specific disease. Many of these conditions follow a predictable inheritance pattern, most commonly **autosomal recessive inheritance**, which is a crucial concept for all the examples we'll discuss today
+
+## **The Core Concept: Autosomal Recessive Inheritance** {-}
+
+This is the genetic lottery at its most straightforward
+
+*   **"Autosomal":** means the gene in question is on one of the non-sex chromosomes (autosomes 1-22)
+*   **"Recessive":** means that to have the disease, a person must inherit **two** faulty copies of the gene—one from each parent
+*   A **carrier** is an individual who has one normal copy and one faulty copy. They are generally healthy and asymptomatic because the one good copy is sufficient to produce enough functional protein to get the job done
+*   The classic scenario we test for is when two carriers have children. For each pregnancy, there is a:
+    *   25% chance the child will inherit two faulty copies and have the disease
+    *   50% chance the child will inherit one faulty and one normal copy, becoming a carrier like their parents
+    *   25% chance the child will inherit two normal copies and be completely unaffected
+
+Molecular testing for these disorders is a cornerstone of genetic counseling, family planning, and newborn screening programs
+
+## **Case Files: Three Common Single-Gene Disorders** {-}
+
+### **Cystic Fibrosis (CF)** {-}
+
+This is the poster child for single-gene disorders and a triumph of molecular diagnostics
+
+*   **The Gene:** ***CFTR*** (*Cystic Fibrosis Transmembrane Conductance Regulator*) on chromosome 7
+*   **The Protein and its Function:** The CFTR protein is a channel on the cell surface that moves chloride ions in and out of the cell. This is absolutely critical for maintaining the proper balance of salt and water in secretions like mucus, sweat, and digestive fluids
+*   **The Molecular Defect:** In CF, the CFTR channel is broken. The most common mutation by far is a three-base-pair deletion that removes a phenylalanine amino acid at position 508, known as **F508del**. However, over 2,000 different mutations in the *CFTR* gene have been identified that can cause CF. This leads to thick, sticky mucus that clogs the lungs (causing recurrent infections) and the pancreas (causing digestive issues)
+*   **Molecular Testing Strategy**
+    *   **Carrier Screening:** Because of the high number of mutations, testing often involves a targeted **mutation panel**. This panel tests for the 23 most common and severe *CFTR* mutations recommended by the ACMG. This is a cost-effective way to identify the vast majority of carriers
+    *   **Newborn Screening:** All states screen newborns for CF. An initial biochemical test (IRT) is followed by molecular testing from a dried blood spot, typically using one of these targeted panels
+    *   **Diagnostic Testing:** For a patient with a positive newborn screen or symptoms, we might use the panel first, followed by **full gene sequencing** if the panel is negative but suspicion remains high
+
+### **Hereditary Hemochromatosis (HH)** {-}
+
+This is one of the most common genetic disorders in people of Northern European descent, causing the body to absorb too much iron
+
+*   **The Gene:** ***HFE*** on chromosome 6
+*   **The Protein and its Function:** The HFE protein helps regulate the amount of iron absorbed from the diet
+*   **The Molecular Defect:** When the *HFE* gene is mutated, this regulation is lost, and the body essentially enters "iron overload" mode. Iron builds up in organs like the liver, heart, and pancreas, where it becomes toxic and can cause cirrhosis, heart failure, and diabetes. Unlike CF, the vast majority of HH cases are caused by just **two specific point mutations**
+    *   **C282Y:** The most common and severe mutation
+    *   **H63D:** A milder mutation
+    A person who is homozygous for C282Y (C282Y/C282Y) or a "compound heterozygote" (C282Y/H63D) is at the highest risk
+*   **Molecular Testing Strategy:** This is very straightforward. We don't need a big panel or sequencing. We perform a targeted **PCR-based assay** (like allele-specific PCR or PCR-RFLP) designed to detect only the C282Y and H63D mutations. It gives a clear, definitive genotype
+
+### **Gaucher Disease** {-}
+
+This is the most common **lysosomal storage disease**
+
+*   **The Gene:** ***GBA*** (*glucocerebrosidase*) on chromosome 1
+*   **The Protein and its Function:** The *GBA* gene provides the instructions for an enzyme called glucocerebrosidase. This enzyme works in the lysosomes (the cell's recycling centers) to break down a fatty substance called glucocerebroside
+*   **The Molecular Defect:** In Gaucher disease, a mutated *GBA* gene leads to a deficient or non-functional enzyme. As a result, glucocerebroside isn't broken down and it accumulates to toxic levels within cells, particularly immune cells called macrophages. These engorged "Gaucher cells" build up in the spleen, liver, and bone marrow, causing organ enlargement, anemia, and bone pain
+*   **Molecular Testing Strategy:** Similar to CF, there are several mutations, with four or five being particularly common, especially in the Ashkenazi Jewish population where the disease has a much higher prevalence. Testing often involves:
+    *   An initial **enzyme activity test** from blood
+    *   Molecular testing using a **targeted panel** for the most common mutations
+    *   **Full gene sequencing:** for a definitive diagnosis if the panel is inconclusive
+
+## **Key Terms** {-}
+
+*   **Single-Gene Disorder:** A condition caused by a mutation in one single gene. Also known as a monogenic disorder
+*   **Autosomal Recessive Inheritance:** An inheritance pattern where an individual must inherit two copies of a mutated gene (one from each parent) to be affected by the disorder
+*   **Carrier:** An individual who has one normal and one mutated copy of a gene for a recessive disorder. They are typically asymptomatic but can pass the mutated gene to their children
+*   **Cystic Fibrosis (*CFTR*):** A disease caused by mutations in the *CFTR* gene, leading to defective chloride ion transport and the production of thick, sticky mucus in multiple organs
+*   **Hereditary Hemochromatosis (*HFE*):** A common disorder caused by specific mutations in the *HFE* gene, leading to excessive iron absorption and organ-damaging iron overload
+*   **Lysosomal Storage Disease:** A group of inherited metabolic disorders caused by defects in lysosomal function, leading to the accumulation of undigested substances in the cell. Gaucher disease is a classic example
+*   **Newborn Screening:** A public health program that tests infants shortly after birth for a list of serious but treatable conditions, including cystic fibrosis and certain other single-gene disorders

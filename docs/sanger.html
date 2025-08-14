@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Sanger | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="Sanger Sequencing, also known as the Chain-Termination Method, is the cornerstone of DNA sequencing, the method that started it all and remains incredibly important in clinical labs. Developed by...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Sanger | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Sanger Sequencing, also known as the Chain-Termination Method, is the cornerstone of DNA sequencing, the method that started it all and remains incredibly important in clinical labs. Developed by...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sanger | MB">
+<meta name="twitter:description" content="Sanger Sequencing, also known as the Chain-Termination Method, is the cornerstone of DNA sequencing, the method that started it all and remains incredibly important in clinical labs. Developed by...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="active" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="sanger" class="section level1 unnumbered">
+<h1>Sanger<a class="anchor" aria-label="anchor" href="#sanger"><i class="fas fa-link"></i></a>
+</h1>
+<p><strong>Sanger Sequencing</strong>, also known as the <strong>Chain-Termination Method</strong>, is the cornerstone of DNA sequencing, the method that started it all and remains incredibly important in clinical labs. Developed by Frederick Sanger in 1977 (earning him his second Nobel Prize!), this technique allows us to determine the precise order of nucleotides (Adenine, Guanine, Cytosine, Thymine - A, G, C, T) within a specific fragment of DNA</p>
+<div id="sanger-sequencing-reading-the-book-of-life-letter-by-letter" class="section level2 unnumbered">
+<h2>
+<strong>Sanger Sequencing: Reading the Book of Life, Letter by Letter</strong><a class="anchor" aria-label="anchor" href="#sanger-sequencing-reading-the-book-of-life-letter-by-letter"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>The Core Principle: Controlled Chain Termination</strong></p>
+<p>Imagine DNA polymerase happily copying a template strand of DNA. It adds regular nucleotides (dATP, dGTP, dCTP, dTTP - collectively dNTPs) one by one, using the 3’-hydroxyl (-OH) group of the last nucleotide to form a phosphodiester bond with the next incoming nucleotide</p>
+<p>Sanger’s genius was to introduce modified nucleotides called <strong>dideoxynucleotides (ddNTPs)</strong> into the reaction. These ddNTPs (ddATP, ddGTP, ddCTP, ddTTP) are special because they <strong>LACK the 3’-OH group.</strong></p>
+<ul>
+<li>
+<strong>The Consequence:</strong> If the DNA polymerase happens to incorporate a ddNTP instead of a regular dNTP, the chain can no longer be extended because there’s no 3’-OH group to attach the next nucleotide to. Synthesis <strong>terminates</strong> at that specific base</li>
+</ul>
+</div>
+<div id="key-ingredients-for-sanger-sequencing" class="section level2 unnumbered">
+<h2>
+<strong>Key Ingredients for Sanger Sequencing</strong><a class="anchor" aria-label="anchor" href="#key-ingredients-for-sanger-sequencing"><i class="fas fa-link"></i></a>
+</h2>
+<p>You need the following components for the sequencing reaction itself:</p>
+<ul>
+<li>
+<strong>DNA Template:</strong> The DNA fragment you want to sequence (often a PCR product or a plasmid clone). Must be single-stranded for the polymerase to copy, which is achieved by heat denaturation during the reaction cycling</li>
+<li>
+<strong>Sequencing Primer:</strong> A short, single-stranded oligonucleotide that is complementary to the known sequence flanking <em>one end</em> of the region you want to sequence. This provides the necessary 3’-OH starting point for the DNA polymerase</li>
+<li>
+<strong>DNA Polymerase:</strong> An enzyme (usually a heat-stable one like <em>Taq</em> polymerase or modified versions optimized for sequencing) that synthesizes the complementary DNA strand</li>
+<li>
+<strong>Regular Deoxynucleotides (dNTPs):</strong> dATP, dGTP, dCTP, dTTP – the normal building blocks, present in excess</li>
+<li>
+<strong>Labeled Dideoxynucleotides (ddNTPs):</strong> ddATP, ddGTP, ddCTP, ddTTP – the chain terminators, present in <strong>limiting amounts.</strong> Critically, in modern Sanger sequencing, <strong>each type of ddNTP (A, G, C, T) is labeled with a different colored fluorescent dye</strong>
+</li>
+</ul>
+</div>
+<div id="the-workflow-from-reaction-to-reading" class="section level2 unnumbered">
+<h2>
+<strong>The Workflow: From Reaction to Reading</strong><a class="anchor" aria-label="anchor" href="#the-workflow-from-reaction-to-reading"><i class="fas fa-link"></i></a>
+</h2>
+<p>While the classic method involved 4 separate reactions and radioactive labels, modern clinical labs exclusively use <strong>Dye-Terminator Cycle Sequencing</strong> coupled with <strong>Capillary Electrophoresis (CE)</strong></p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Cycle Sequencing Reaction Setup</strong> All the ingredients (template, <em>one</em> primer, polymerase, dNTPs, and all four differently colored fluorescently labeled ddNTPs) are combined in a <strong>single tube</strong>
+</li>
+<li>
+<strong>Thermal Cycling (Cycle Sequencing)</strong> The reaction undergoes cycles similar to PCR, but crucially uses only <em>one</em> primer, leading to <em>linear</em> amplification of fragments starting from that primer
+<ul>
+<li>
+<strong>Denaturation (~96°C):</strong> Separates the template DNA strands</li>
+<li>
+<strong>Annealing (~50-60°C):</strong> The sequencing primer binds to its complementary site on the template</li>
+<li>
+<strong>Extension/Termination (~60°C):</strong> DNA polymerase extends from the primer, incorporating dNTPs. Occasionally, it incorporates a fluorescently labeled ddNTP instead, terminating synthesis</li>
+<li>
+<strong>Result of Cycling:</strong> Over many cycles, this generates millions to billions of DNA fragments. All fragments start at the same primer site, but they end at different lengths, corresponding to every possible position where a specific ddNTP was incorporated. Each fragment carries a fluorescent label indicating which base (A, T, C, or G) terminated its synthesis</li>
+</ul>
+</li>
+<li>
+<strong>Purification</strong> After cycling, the reaction mix contains the labeled fragments, plus leftover primers, dNTPs, ddNTPs, and enzyme. These unincorporated components interfere with electrophoresis and must be removed. Common methods include:
+<ul>
+<li>
+<strong>Spin Column Chromatography:</strong> Binds DNA fragments, washes away contaminants</li>
+<li>
+<strong>Magnetic Bead Purification:</strong> Binds DNA fragments, contaminants washed away</li>
+<li>
+<strong>Enzymatic Cleanup:</strong> Using enzymes like ExoSAP-IT to degrade primers and dNTPs</li>
+</ul>
+</li>
+<li>
+<strong>Capillary Electrophoresis (CE) Separation</strong> The purified, fluorescently labeled fragments are loaded into an automated CE instrument
+<ul>
+<li>A very thin capillary tube is filled with a polymer matrix (acting like a high-resolution gel)</li>
+<li>High voltage is applied, driving the negatively charged DNA fragments through the matrix towards the positive electrode</li>
+<li>
+<strong>Separation is based purely on size (length):</strong> Shorter fragments move faster, longer fragments move slower. The system has the resolution to separate fragments differing by just <strong>one nucleotide</strong> in length!</li>
+</ul>
+</li>
+<li>
+<strong>Detection</strong> Near the end of the capillary, a laser excites the fluorescent dyes attached to the fragments as they pass by. A detector (like a CCD camera) records the color of the fluorescence for each fragment as it elides</li>
+<li>
+<strong>Data Analysis</strong> The CE instrument software converts the raw fluorescence data into an <strong>electropherogram</strong>
+<ul>
+<li>This is a graph showing colored peaks plotted against time (or inferred size)</li>
+<li>Each peak represents fragments of a specific size ending with a specific base (indicated by the peak’s color)</li>
+<li>The software performs <strong>base calling</strong>, reading the sequence of colored peaks from left (shortest fragments, closest to primer) to right (longest fragments) to directly determine the DNA sequence</li>
+<li>
+<strong>Quality Scores (Phred Scores):</strong> The software also assigns a quality score to each base call, indicating the confidence in its accuracy</li>
+</ul>
+</li>
+</ol>
+</div>
+<div id="advantages-of-sanger-sequencing" class="section level2 unnumbered">
+<h2>
+<strong>Advantages of Sanger Sequencing</strong><a class="anchor" aria-label="anchor" href="#advantages-of-sanger-sequencing"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>High Accuracy:</strong> Still considered the “gold standard” for accuracy on a per-read basis, especially for verifying findings from other methods</li>
+<li>
+<strong>Long Read Lengths:</strong> Can reliably generate reads of ~500-800 base pairs (sometimes up to 1000 bp), useful for sequencing across larger exons or PCR products</li>
+<li>
+<strong>Relatively Simple Data Analysis:</strong> Analyzing single reads or contigs from Sanger is less computationally intensive than analyzing massive NGS datasets</li>
+<li>
+<strong>Cost-Effective for Small Scale:</strong> Ideal for sequencing single genes, specific mutations, PCR products, or plasmid inserts when only a few targets need analysis</li>
+</ul>
+</div>
+<div id="disadvantageslimitations-of-sanger-sequencing" class="section level2 unnumbered">
+<h2>
+<strong>Disadvantages/Limitations of Sanger Sequencing</strong><a class="anchor" aria-label="anchor" href="#disadvantageslimitations-of-sanger-sequencing"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Low Throughput:</strong> Cannot sequence millions of fragments simultaneously like Next-Generation Sequencing (NGS)</li>
+<li>
+<strong>High Cost per Base (for large projects):</strong> Becomes very expensive for sequencing whole genomes, exomes, or large gene panels compared to NGS</li>
+<li>
+<strong>Requires Specific Primers:</strong> Need to know the flanking sequence to design a primer for each region of interest</li>
+<li>
+<strong>Difficulty with Complex Regions:</strong> Can struggle with highly repetitive sequences, GC-rich regions, or sequences forming strong secondary structures</li>
+<li>
+<strong>Limited Sensitivity for Heterogeneity:</strong> Generally requires a variant allele to be present in at least 15-20% of the template molecules to be reliably detected (makes it difficult for detecting low-level mosaicism or somatic mutations in tumors compared to deep NGS)</li>
+<li>
+<strong>Requires Amplified/Cloned Template:</strong> Usually performed on purified PCR products or plasmids, not directly on complex genomic DNA</li>
+</ul>
+</div>
+<div id="clinical-applications" class="section level2 unnumbered">
+<h2>
+<strong>Clinical Applications</strong><a class="anchor" aria-label="anchor" href="#clinical-applications"><i class="fas fa-link"></i></a>
+</h2>
+<p>Despite the rise of NGS, Sanger sequencing remains valuable in the clinical lab for:</p>
+<ul>
+<li>
+<strong>Confirmation of NGS Variants:</strong> Often used to orthogonally confirm potentially disease-causing variants identified by NGS panels or exome sequencing</li>
+<li>
+<strong>Single Gene Sequencing:</strong> Investigating disorders caused by mutations in a single gene (e.g., Cystic Fibrosis - <em>CFTR</em>, some cardiomyopathies, inherited metabolic disorders) where NGS panels aren’t necessary or available</li>
+<li>
+<strong>Targeted Mutation Analysis:</strong> Sequencing specific exons or known mutation hotspots in genes relevant to cancer (e.g., <em>EGFR</em>, <em>KRAS</em>, <em>BRAF</em>) or inherited conditions</li>
+<li>
+<strong>Viral Genotyping:</strong> Determining the genotype or identifying drug resistance mutations in viruses like HIV or Hepatitis C</li>
+<li>
+<strong>Bacterial Identification:</strong> Sequencing the 16S rRNA gene for identifying bacterial species</li>
+<li>
+<strong>HLA Typing:</strong> Sequencing specific HLA genes for transplantation matching (though NGS is increasingly used here too)</li>
+<li>
+<strong>Gap Filling:</strong> Sequencing regions that are difficult to cover with short-read NGS</li>
+</ul>
+</div>
+<div id="key-terms-32" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-32"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Chain Termination:</strong> The core principle where DNA synthesis stops upon incorporation of a dideoxynucleotide (ddNTP)</li>
+<li>
+<strong>Dideoxynucleotide (ddNTP):</strong> A modified nucleotide lacking the 3’-hydroxyl group, preventing further chain elongation when incorporated by DNA polymerase</li>
+<li>
+<strong>Deoxynucleotide (dNTP):</strong> The normal building block of DNA (dATP, dGTP, dCTP, dTTP) possessing a 3’-hydroxyl group</li>
+<li>
+<strong>Sequencing Primer:</strong> A short oligonucleotide complementary to the sequence flanking the region to be sequenced, providing a start site for the polymerase</li>
+<li>
+<strong>Cycle Sequencing:</strong> A PCR-like method using one primer and ddNTPs to generate a population of chain-terminated fragments of varying lengths</li>
+<li>
+<strong>Dye Terminator:</strong> A fluorescent dye covalently attached to a ddNTP, allowing detection based on the terminating base</li>
+<li>
+<strong>Capillary Electrophoresis (CE):</strong> A high-resolution separation technique using narrow capillaries filled with a polymer matrix to separate DNA fragments by size, typically with single-base resolution for sequencing</li>
+<li>
+<strong>Electropherogram (Chromatogram):</strong> The graphical output of Sanger sequencing from a CE instrument, showing fluorescent peaks representing the sequence of bases</li>
+<li>
+<strong>Base Calling:</strong> The process by which software analyzes the electropherogram data to determine the nucleotide sequence</li>
+<li>
+<strong>Phred Score:</strong> A numerical score assigned to each base call, indicating the probability of an error in that call (higher score = higher confidence)</li>
+<li>
+<strong>Read Length:</strong> The number of contiguous, high-quality bases determined from a single sequencing reaction</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="sequencing.html">Sequencing</a></div>
+<div class="next"><a href="next-generation.html">Next-Generation</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#sanger">Sanger</a></li>
+<li><a class="nav-link" href="#sanger-sequencing-reading-the-book-of-life-letter-by-letter">Sanger Sequencing: Reading the Book of Life, Letter by Letter</a></li>
+<li><a class="nav-link" href="#key-ingredients-for-sanger-sequencing">Key Ingredients for Sanger Sequencing</a></li>
+<li><a class="nav-link" href="#the-workflow-from-reaction-to-reading">The Workflow: From Reaction to Reading</a></li>
+<li><a class="nav-link" href="#advantages-of-sanger-sequencing">Advantages of Sanger Sequencing</a></li>
+<li><a class="nav-link" href="#disadvantageslimitations-of-sanger-sequencing">Disadvantages/Limitations of Sanger Sequencing</a></li>
+<li><a class="nav-link" href="#clinical-applications">Clinical Applications</a></li>
+<li><a class="nav-link" href="#key-terms-32">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/02-D-01.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/02-D-01.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

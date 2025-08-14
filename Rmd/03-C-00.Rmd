@@ -1,0 +1,27 @@
+# Genetics {-}
+
+Think of the human genome as a vast and complex library of instruction manuals. Our job is to be expert proofreaders and librarians, knowing exactly what kind of error we're looking for and where to find it. Each category of disease represents a different *type* of error in that library. Here aare the major categories of genetic disorders we encounter in the molecular lab:
+
+##  **Hemoglobinopathies (e.g., Sickle Cell, Thalassemia)** {-}
+
+This is a problem with the blueprint for a single, crucial protein: hemoglobin, our oxygen carrier. The error falls into one of two bins. It's either a **qualitative** problem, like a "typo" in the instructions that creates a faulty, misshapen protein (Sickle Cell Anemia), or it's a **quantitative** problem, like a "supply chain issue" where the instructions are fine, but you can't produce enough of the protein (the Thalassemia). Our job is to find the exact DNA typo or deletion to confirm a diagnosis, identify carriers, and enable prenatal counseling
+
+##  **Coagulopathies (e.g., Factor V Leiden, Prothrombin)** {-}
+
+This is an issue of balance. The instruction manual for the blood clotting system has a specific mutation that tips the scales in favor of clotting, leading to thrombophilia. We're not looking for a broken gene, but rather a gene that works *too well* or is resistant to being shut off. For Factor V Leiden, a specific mutation makes it a "rogue employee" that won't listen to its supervisor (Activated Protein C). For the Prothrombin mutation, a change in a regulatory region of the gene leads to an "overproduction" of raw clotting material. Our role is to find these specific, common single-nucleotide polymorphisms (SNPs) to explain a patient's hereditary risk for forming clots
+
+##  **Trinucleotide Repeat Disorders (e.g., Fragile X, Huntington)** {-}
+
+This is one of the strangest errors in the library—a biological "stutter." A short, three-letter sequence of DNA gets stuck on repeat, expanding from one generation to the next. This expansion is the direct cause of the disease and explains the clinical phenomenon of **anticipation**, where the disease gets worse and appears earlier in successive generations. The mechanism of disease depends on *where* the repeat is: it can silence a gene (Fragile X), create a toxic protein (Huntington), or generate a toxic RNA molecule (Myotonic Dystrophy). We use specialized sizing assays to count these repeats and diagnose these complex neurodevelopmental and neurodegenerative conditions
+
+##  **Single Gene Disorders (e.g., Cystic Fibrosis, Hemochromatosis)** {-}
+
+These are the "classic" genetic disorders. One faulty blueprint in the library leads to one broken protein, causing one specific disease. The most common inheritance pattern we see is **autosomal recessive**, where an individual needs to inherit two bad copies—one from each carrier parent—to have the disease. From the faulty chloride channels in Cystic Fibrosis to the iron-overload of Hemochromatosis, our role is to perform carrier screening, newborn screening, and diagnostic testing by finding the specific mutations in that one critical gene
+
+##  **Epigenetic Disorders (e.g., Prader-Willi, Angelman)** {-}
+
+This is a truly unique category where the DNA sequence, the blueprint itself, is perfectly fine! The problem is with the "sticky notes" and "highlighter marks" placed on top of the DNA that tell the cell which copy to read. This is the world of **genomic imprinting**, where for certain genes, you only use the copy from one parent. Disease strikes when that single active copy is lost. Because the same region of chromosome 15 is involved, a loss of the father's copy causes Prader-Willi Syndrome, while a loss of the mother's copy causes the completely different Angelman Syndrome. Our testing can't just rely on sequencing; we must use methylation-specific assays to read these epigenetic marks
+
+##  **Mitochondrial Disorders (e.g., MELAS, LHON)** {-}
+
+For this category, we have to leave the main library (the nucleus) and go to the cell's power plants. The mitochondria have their own, separate instruction manual—a small, circular piece of DNA (**mtDNA**). These disorders follow their own unique rules. First, they are inherited **exclusively from the mother**. Second, the concept of **heteroplasmy** (a mixture of normal and mutated mtDNA in each cell) and the **threshold effect** explains why the severity can vary so dramatically between family members and why the highest-energy organs (brain, muscle, heart) are hit the hardest. Our job is to sequence this separate mitochondrial genome to find the mutation causing the body's energy crisis

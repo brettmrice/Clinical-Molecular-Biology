@@ -1,0 +1,117 @@
+# Other {-}
+
+While PCR is dominant, other **non-PCR nucleic acid amplification and detection methods** provide alternative techniques with unique advantages, such as isothermal amplification (no need for thermal cycling), direct RNA amplification, or different mechanisms for achieving specificity and sensitivity
+
+## **Hybrid Capture (HC) Technology (Primarily Signal Amplification/Detection)** {-}
+*   **Core Principle:** Uses specific RNA probes to bind to target DNA (or RNA). The resulting RNA:DNA hybrids are captured onto a solid phase and detected using antibodies specific for these hybrids, coupled with signal amplification
+*   **Mechanism**
+    1.  Release and denature target DNA from the sample
+    2.  Hybridize the target DNA in solution with single-stranded RNA probes complementary to the target sequence(s)
+    3.  Capture the RNA:DNA hybrids onto a solid surface (e.g., microplate well) coated with antibodies that specifically recognize these hybrid structures
+    4.  Wash away unbound material
+    5.  Add a second antibody conjugated to an enzyme (e.g., Alkaline Phosphatase - AP). This antibody also binds to the RNA:DNA hybrid
+    6.  Wash again
+    7.  Add a chemiluminescent substrate (e.g., dioxetane). The enzyme cleaves the substrate, producing light
+    8.  Detect the light signal using a luminometer. Signal intensity is proportional to the amount of target DNA present
+*   **Key Features:** Can detect multiple related targets (e.g., multiple high-risk HPV genotypes) using a cocktail of probes. FDA-approved assays are widely used. Relatively simple workflow compared to target amplification methods
+*   **Limitations:** Primarily semi-quantitative. Less sensitive than target amplification methods like PCR or TMA for very low copy numbers. Doesn't amplify the target itself, reducing carryover risk but limiting sensitivity
+*   **Clinical Applications:** Widely used for **HPV testing** (detecting high-risk genotypes associated with cervical cancer), also used for CMV, HBV, and other infectious agents
+
+## **Ligase Chain Reaction (LCR)** {-}
+*   **Core Principle:** Target amplification method using a **DNA ligase** enzyme and **thermal cycling** to join adjacent oligonucleotide probes hybridized to the target sequence
+*   **Mechanism**
+    1.  Requires **four** probes: Two designed to bind adjacently on one strand of the target DNA, and two designed to bind adjacently on the complementary strand
+    2.  **Denaturation:** Heat to separate target DNA strands
+    3.  **Annealing:** Cool to allow the pairs of probes to bind to their respective target strands immediately next to each other
+    4.  **Ligation:** DNA ligase joins the two adjacent probes *only if they are perfectly complementary* to the template at the ligation junction
+    5.  **Denaturation:** Heat again. The newly ligated probes now serve as templates for the next cycle
+    6.  Repeat cycles, leading to exponential amplification of the ligated probe product
+*   **Key Features:** High specificity due to the requirement for perfect matching at the ligation site. Good for detecting known point mutations (SNPs)
+*   **Limitations:** Requires thermal cycling. Can be prone to non-specific ligation if not well-optimized. Less commonly used now compared to PCR or isothermal methods
+*   **Clinical Applications:** Historically used for detecting *Chlamydia trachomatis*, *Neisseria gonorrhoeae*, and genetic mutations like sickle cell anemia
+
+## **Cleavase-Based Assays (e.g., Invader® Assay)** {-}
+*   **Core Principle:** Signal amplification method using a structure-specific **flap endonuclease (FEN)**, often called Cleavase®, which recognizes and cleaves specific overlapping DNA structures. Typically isothermal
+*   **Mechanism (Invader Assay Example)**
+    1.  Two probes hybridize to the target DNA in an overlapping manner: an **Invader® oligonucleotide** and a **signal probe** (which contains a sequence complementary to the target and a 5' "flap")
+    2.  The Cleavase enzyme recognizes this specific overlapping structure and cleaves the signal probe, releasing the flap sequence
+    3.  This released flap then serves as the "Invader" for a secondary reaction involving a **FRET (Förster Resonance Energy Transfer) cassette**. The FRET cassette is a hairpin structure with a fluorophore and quencher in close proximity
+    4.  The flap binds to the FRET cassette, creating another overlapping structure recognized by Cleavase
+    5.  Cleavase cleaves the FRET cassette, separating the fluorophore from the quencher, resulting in a detectable fluorescence signal
+    6.  Each target molecule can lead to the release of many flaps, which in turn lead to the cleavage of many FRET cassettes, resulting in signal amplification
+*   **Key Features:** Isothermal reaction. High specificity due to the enzyme's requirement for the precise structure. Good for SNP genotyping
+*   **Limitations:** Complex probe design. Indirect signal amplification, not target amplification
+*   **Clinical Applications:** Primarily used for **SNP genotyping** and detection of known mutations
+
+## **Branched DNA (bDNA) Technology** {-}
+*   **Core Principle:** Pure **signal amplification** method where the target nucleic acid itself is not replicated. Instead, a series of probes bind to the captured target, creating a complex branched structure that allows for the binding of a large number of labeled molecules
+*   **Mechanism**
+    1.  Capture target nucleic acid (DNA or RNA) onto a solid phase (e.g., microplate well) using capture probes
+    2.  Hybridize "target probes" (extender probes) to the captured nucleic acid. These probes have sequences complementary to the target and sequences complementary to "pre-amplifier" molecules
+    3.  Hybridize pre-amplifier molecules to the target probes
+    4.  Hybridize **amplifier molecules** (the branched DNA molecules) to the pre-amplifiers. Each amplifier molecule has multiple binding sites for labeled probes
+    5.  Hybridize enzyme-labeled probes (e.g., AP-labeled oligonucleotides) to the amplifier branches
+    6.  Wash away unbound material
+    7.  Add a chemiluminescent substrate and detect the light signal
+*   **Key Features:** Highly quantitative over a wide dynamic range. Direct detection of target minimizes carryover contamination risk associated with target amplification. Robust and well-established for certain applications
+*   **Limitations:** Less sensitive than target amplification methods like PCR or TMA. Complex assay design with multiple hybridization steps
+*   **Clinical Applications:** Gold standard for **viral load monitoring** for HIV, Hepatitis C (HCV), and Hepatitis B (HBV)
+
+## **NASBA (Nucleic Acid Sequence-Based Amplification)** {-}
+*   **Core Principle:** **Isothermal** target amplification method specifically designed for **RNA** targets. It mimics retroviral replication using three enzymes: Reverse Transcriptase (RT), RNase H, and T7 RNA Polymerase
+*   **Mechanism (Simplified Cycle)**
+    1.  Primer 1 (containing a T7 promoter sequence at its 5' end) binds to the target RNA
+    2.  RT synthesizes a cDNA strand, creating an RNA:DNA hybrid
+    3.  RNase H degrades the RNA strand in the hybrid
+    4.  Primer 2 binds to the cDNA strand
+    5.  RT synthesizes a second DNA strand, creating a double-stranded DNA molecule containing the T7 promoter
+    6.  T7 RNA Polymerase recognizes the promoter and transcribes numerous RNA copies (amplicons) from the dsDNA template
+    7.  These newly synthesized RNA amplicons can then re-enter the cycle, serving as templates for Primer 1 binding, leading to exponential amplification
+*   **Key Features:** Isothermal (typically ~41°C). Directly amplifies RNA without a separate cDNA synthesis step. Rapid amplification. Sensitive
+*   **Limitations:** Requires careful coordination of three enzymes. Optimization can be complex
+*   **Clinical Applications:** Detection and quantification of RNA viruses (e.g., HIV, CMV) and mRNA targets
+
+## **TMA (Transcription-Mediated Amplification)** {-}
+*   **Core Principle:** Very similar to NASBA; an **isothermal** RNA amplification process using Reverse Transcriptase (often with intrinsic RNase H activity) and T7 RNA Polymerase. Can amplify RNA or DNA targets (DNA targets require an initial RT step to create RNA intermediates or proceed through a DNA-dependent DNA synthesis pathway first)
+*   **Mechanism:** Follows a cyclic process analogous to NASBA, generating RNA amplicons from either RNA or DNA starting material. Often coupled with **Hybridization Protection Assay (HPA)** using acridinium ester-labeled probes for chemiluminescent detection (probe binds target, chemical treatment destroys label on unbound probes, light emitted from protected probes)
+*   **Key Features:** Isothermal (typically ~41°C). High sensitivity and specificity. Rapid amplification (can generate billions of copies in < 1 hour). Amenable to high-throughput automation. Widely used in FDA-approved diagnostic assays
+*   **Limitations:** Like NASBA, relies on coordinated enzyme activities
+*   **Clinical Applications:** Major platform for infectious disease testing, including **blood screening** (HIV, HCV, HBV, WNV), *Chlamydia trachomatis*, *Neisseria gonorrhoeae*, *Mycoplasma genitalium*, Trichomonas vaginalis, Group B Strep, SARS-CoV-2
+
+## **SDA (Strand Displacement Amplification)** {-}
+*   **Core Principle:** **Isothermal** target amplification method using a restriction enzyme (that nicks one strand) and a DNA polymerase with strand displacement activity (lacks 5'->3' exonuclease activity)
+*   **Mechanism**
+    1.  Requires four primers: two "bumper" primers and two "amplification" primers. One amplification primer contains a recognition site for a specific restriction enzyme (e.g., BsoBI)
+    2.  Primers anneal to the denatured target DNA
+    3.  DNA polymerase extends the primers. The amplification primer extension incorporates the restriction site
+    4.  The restriction enzyme **nicks** only one strand at its recognition site within the newly synthesized duplex
+    5.  The DNA polymerase initiates synthesis at the nick, displacing the downstream strand
+    6.  This displaced single strand then serves as a template for the binding and extension of the opposite set of primers
+    7.  This creates more nicking sites and displaced strands, leading to exponential amplification
+*   **Key Features:** Isothermal (typically ~50-60°C). Relatively rapid
+*   **Limitations:** Requires specific restriction enzyme sites to be incorporated or present. Can sometimes generate non-specific products
+*   **Clinical Applications:** Used in diagnostic platforms for *Chlamydia trachomatis*, *Neisseria gonorrhoeae*, *Mycobacterium tuberculosis*
+
+## **LAMP (Loop-Mediated Isothermal Amplification)** {-}
+*   **Core Principle:** **Isothermal** target amplification method characterized by using a DNA polymerase with high strand displacement activity and a set of **4 to 6 primers** designed to recognize 6 to 8 distinct regions on the target sequence, forming complex loop structures
+*   **Mechanism**
+    1.  Involves a complex series of strand invasion, extension, and displacement steps initiated by "inner primers" (which contain sequences complementary to different regions of the target and form loops) and "outer primers" (bumper primers)
+    2.  The process creates stem-loop DNA structures that serve as templates for further rapid amplification, leading to the generation of long, concatenated amplicons with repeating units of the target sequence linked in tandem
+*   **Key Features:** Isothermal (typically ~60-65°C). **Very rapid** (15-60 minutes). **Highly specific** due to the multiple primers recognizing distinct regions. **High yield** of DNA product. Robust reaction, less sensitive to inhibitors found in clinical samples compared to PCR. Results can sometimes be visualized directly by turbidity (magnesium pyrophosphate precipitate) or with simple fluorescent dyes, making it suitable for point-of-care or low-resource settings
+*   **Limitations:** Primer design is significantly more complex than PCR. Quantification can be challenging, though real-time fluorescence monitoring is possible. High efficiency can sometimes lead to carryover contamination issues if not handled carefully
+*   **Clinical Applications:** Rapid detection of various infectious agents (viruses like SARS-CoV-2, bacteria like TB, parasites like Malaria). Growing use in point-of-care diagnostics, food safety, and environmental testing
+
+## **Key Terms** {-}
+
+*   **Isothermal Amplification:** Nucleic acid amplification that occurs at a single, constant temperature, eliminating the need for thermal cycling
+*   **Signal Amplification:** Methods that increase the detectable signal generated from each target molecule, rather than increasing the number of target molecules themselves (e.g., bDNA, HC, Cleavase)
+*   **Target Amplification:** Methods that increase the number of copies of the target nucleic acid sequence (e.g., LCR, NASBA, TMA, SDA, LAMP, PCR)
+*   **Hybrid Capture (HC):** Detection method using RNA probes to capture DNA targets, followed by antibody-based detection of the RNA:DNA hybrids
+*   **Ligase Chain Reaction (LCR):** Target amplification using DNA ligase and thermal cycling to join adjacent probes
+*   **Cleavase / Flap Endonuclease (FEN):** Enzyme that recognizes and cuts specific DNA structures, used in assays like Invader for signal amplification
+*   **Branched DNA (bDNA):** Signal amplification method using branched DNA structures to bind many labeled probes to a captured target
+*   **NASBA (Nucleic Acid Sequence-Based Amplification):** Isothermal RNA amplification using RT, RNase H, and T7 RNA Polymerase
+*   **TMA (Transcription-Mediated Amplification):** Isothermal RNA/DNA amplification using RT and T7 RNA Polymerase, widely used clinically
+*   **HPA (Hybridization Protection Assay):** Detection method often paired with TMA, using chemiluminescent probes protected from inactivation when bound to target
+*   **SDA (Strand Displacement Amplification):** Isothermal target amplification using a restriction enzyme and a strand-displacing polymerase
+*   **LAMP (Loop-Mediated Isothermal Amplification):** Rapid isothermal target amplification using multiple primers (inner, outer, sometimes loop) and a strand-displacing polymerase, forming loop structures

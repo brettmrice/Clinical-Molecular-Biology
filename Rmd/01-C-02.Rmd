@@ -1,0 +1,94 @@
+# Endo & Exonucleases {-}
+
+**Endonucleases and Exonucleases** are the "cutters" of the molecular biology world. These enzymes are essential biochemical reagents that precisely cleave the phosphodiester bonds holding nucleic acid strands (DNA or RNA) together. Think of them as molecular scissors, but with different cutting styles
+
+The fundamental difference lies in *where* they cut:
+
+*   **Exonucleases:** Nibble away at the **ends** (termini) of a nucleic acid strand
+*   **Endonucleases:** Make cuts **within** the nucleic acid strand
+
+## **Exonucleases: Working from the Outside In** {-}
+
+Exonucleases sequentially remove nucleotides from either the 5' or the 3' end of a DNA or RNA molecule. They require a free end to initiate digestion
+
+### **Key Characteristics & Types** {-}
+
+*   **Directionality:** This is crucial!
+    *   **3' → 5' Exonucleases:** Remove nucleotides from the **3' end** of the strand. This activity is famously associated with the **proofreading function** of many DNA polymerases (*in vivo*), where they remove incorrectly incorporated bases during replication. Lab examples include:
+        *   ***Exonuclease I (Exo I)*:** Degrades **single-stranded DNA** specifically from the 3' end. It will not digest double-stranded DNA or RNA
+        *   ***Exonuclease III (Exo III)*:** Degrades one strand of **double-stranded DNA** from a 3' recessed end, blunt end, or nick. It won't digest from a 3' overhang. Useful for creating nested deletions or site-directed mutagenesis
+    *   **5' → 3' Exonucleases:** Remove nucleotides from the **5' end** of the strand. This activity is also found in some DNA polymerases (*E. coli* DNA Pol I) and is important for removing RNA primers during replication or for DNA repair. Lab examples include:
+        *   ***Lambda (λ) Exonuclease*:** Processively degrades one strand of **double-stranded DNA** from the 5' end, provided it has a phosphate group at the 5' terminus. Useful for generating single-stranded DNA from PCR products
+        *   ***T7 Exonuclease (Gene 6 Exonuclease)*:** Similar to Lambda Exo, acts on dsDNA from the 5' end
+*   **Substrate Specificity:** Some exonucleases act only on single-stranded nucleic acids (like Exo I), while others act on double-stranded molecules (like Exo III, Lambda Exo). Some are specific for DNA, others for RNA (though DNA-specific ones are more common as lab reagents)
+
+### **Common Laboratory Applications** {-}
+
+*   **Primer Removal:** After PCR, unused primers can interfere with downstream applications like sequencing or SNP analysis. Treating the PCR product with **Exonuclease I** specifically degrades the single-stranded primers, leaving the double-stranded PCR product intact. (Often used in combination with Shrimp Alkaline Phosphatase - SAP - to remove dNTPs, in products like ExoSAP-IT™)
+*   **Generating Single-Stranded DNA:** Using enzymes like Lambda Exonuclease to digest one strand of a dsDNA molecule, leaving the complementary strand intact for use as probes or in certain sequencing methods
+*   **Cleaning Up DNA Ends:** Removing overhangs to create blunt ends for certain cloning strategies (though other enzymes are often preferred)
+*   **Site-Directed Mutagenesis:** Exo III can be used to create nested deletions from a specific point
+
+## **Endonucleases: Cutting from the Inside** {-}
+
+Endonucleases cleave phosphodiester bonds *within* a nucleic acid chain. They do not require a free end. This category includes some of the most vital tools in molecular biology
+
+### **Key Characteristics & Types** {-}
+
+*   **Specificity:** This is the major way endonucleases are classified:
+    *   **Sequence-Specific Endonucleases (Restriction Enzymes):** This is the most famous and widely used group!
+        *   **What they do:** Recognize specific, short DNA sequences (typically 4-8 base pairs) called **recognition sites** and cut the DNA *at or near* these sites
+        *   **Source:** Primarily isolated from bacteria and archaea, where they serve as a defense mechanism against invading bacteriophages (they "restrict" phage infection by cutting up the foreign DNA)
+        *   **Recognition Sites:** Often **palindromic** (read the same forwards and backwards on opposite strands, e.g., 5'-GAATTC-3' for EcoRI)
+        *   **Types of Cuts:** Can produce different types of ends:
+            *   **Sticky Ends (Cohesive Ends):** Leave short, single-stranded overhangs (e.g., EcoRI leaves a 5' AATT overhang). These are very useful for cloning because complementary sticky ends can anneal (base pair) together before being sealed by ligase
+            *   **Blunt Ends:** Cut straight across the double helix, leaving no overhang (e.g., SmaI cuts 5'-CCC|GGG-3')
+        *   **Nomenclature:** Named after the bacterium they were isolated from (e.g., *Eco*RI from ***E***scherichia ***co***li, strain **R**, **I**st enzyme)
+        *   **Types:** Classified into Types I, II, III, IV, etc., based on subunit composition, recognition site properties, and cleavage position. **Type II restriction enzymes** are the most common in lab use because they recognize specific sites and cut *within or at defined positions* relative to that site, making them predictable and reliable
+    *   **Non-Sequence-Specific Endonucleases:** Cleave DNA or RNA without regard to a specific base sequence, though they might prefer certain structures (e.g., single-stranded vs. double-stranded)
+        *   ***DNase I (Deoxyribonuclease I)*:** Cleaves **single- and double-stranded DNA** relatively randomly, often introducing nicks in dsDNA at low concentrations or cutting it into small fragments at high concentrations. Requires Mg²⁺ and Ca²⁺
+        *   ***RNase A (Ribonuclease A)*:** Degrades **single-stranded RNA** specifically at the 3' side of pyrimidine (C or U) residues
+        *   ***S1 Nuclease*:** Degrades **single-stranded** DNA or RNA. Can be used to remove single-stranded overhangs from double-stranded molecules
+        *   ***RNase H*:** Specifically degrades the **RNA strand** of an **RNA:DNA hybrid** molecule. Important *in vivo* for removing RNA primers, and used in the lab during some cDNA synthesis protocols or to remove mRNA after first-strand synthesis
+
+### **Common Laboratory Applications** {-}
+
+*   **Restriction Enzymes (The MOST important application)**
+    *   **Molecular Cloning:** Cutting both a DNA vector (e.g., a plasmid) and a DNA insert (e.g., a gene of interest) with the same restriction enzyme(s) generates compatible sticky ends, allowing the insert to be ligated into the vector
+    *   **Restriction Fragment Length Polymorphism (RFLP):** Analyzing differences in DNA sequences between individuals by seeing how restriction enzyme cutting patterns vary (used historically in DNA fingerprinting and genetic mapping)
+    *   **DNA Mapping:** Determining the location of restriction sites on a piece of DNA
+    *   **Southern Blotting:** Cutting genomic DNA before electrophoresis and transfer
+    *   **Verifying Plasmid Constructs:** Cutting a recombinant plasmid to confirm the presence and orientation of an insert
+*   **DNase I**
+    *   **Removing DNA Contamination:** Treating RNA samples with DNase I before RT-PCR to eliminate contaminating genomic DNA that could lead to false positives
+    *   **DNase Footprinting:** Identifying protein-binding sites on DNA (research technique)
+    *   **Nick Translation:** Introducing nicks that can serve as starting points for DNA polymerase (research/labeling)
+*   **RNase A / RNase H**
+    *   **Removing RNA Contamination:** Treating DNA samples (e.g., plasmid preps) with RNase A to degrade contaminating RNA
+    *   **cDNA Synthesis:** RNase H helps remove the original mRNA template after first-strand cDNA synthesis
+    *   **RNase Protection Assay:** Mapping RNA structure or quantifying specific RNAs (research)
+*   **S1 Nuclease**
+    *   **Removing Single-Stranded Overhangs:** Creating blunt ends
+    *   **Transcript Mapping:** Determining the start and end points of RNA transcripts (research)
+
+## **Key Considerations for Lab Use** {-}
+
+*   **Cofactors:** Most nucleases require divalent cations, typically ** $Mg^{2+}$ **, for activity
+*   **Optimal Conditions:** Each enzyme has specific optimal temperature, pH, and buffer (salt concentration) requirements for maximal activity and specificity. Using the manufacturer's recommended buffer is crucial, especially for restriction enzymes
+*   **Specificity:** Understanding whether the enzyme cuts DNA/RNA, ss/ds, sequence-specifically or not, and what kind of ends it produces is vital
+*   **Inactivation:** Knowing how to stop the reaction (e.g., heat inactivation, adding EDTA to chelate $Mg^{2+}$, purification step) is important to prevent unwanted degradation in subsequent steps
+
+## **Key Terms** {-}
+
+*   **Nuclease:** Enzyme that cleaves phosphodiester bonds in nucleic acids
+*   **Exonuclease:** Nuclease that removes nucleotides from the ends of a nucleic acid strand
+*   **Endonuclease:** Nuclease that cleaves phosphodiester bonds within a nucleic acid strand
+*   **Phosphodiester Bond:** The bond linking nucleotides in DNA and RNA
+*   **Restriction Enzyme (Restriction Endonuclease):** Endonuclease that recognizes and cuts specific DNA sequences (recognition sites)
+*   **Recognition Site:** The specific DNA sequence recognized by a restriction enzyme
+*   **Sticky Ends (Cohesive Ends):** Single-stranded overhangs produced by some restriction enzymes
+*   **Blunt Ends:** Ends with no overhangs produced by some restriction enzymes
+*   **Palindromic Sequence:** DNA sequence that reads the same forwards and backwards on opposite strands
+*   **DNase:** Nuclease that degrades DNA
+*   **RNase:** Nuclease that degrades RNA
+*   **RFLP (Restriction Fragment Length Polymorphism):** Variation in DNA fragment lengths generated by restriction enzymes

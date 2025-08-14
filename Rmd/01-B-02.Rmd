@@ -1,0 +1,114 @@
+# Transcription {-}
+
+Let's switch gears from copying the entire DNA blueprint (replication) to making specific, usable copies of *parts* of it. This is **Transcription** – the process of creating an RNA molecule from a DNA template
+
+Think of the genome as a giant reference library. Replication copies the *entire library*. Transcription is like going to a specific reference book (a chromosome), finding a particular chapter (a gene), and making a photocopy (an RNA molecule) of just that chapter to take out and use. It's the crucial first step in **gene expression**, translating the stored genetic information into functional molecules
+
+## **The Core Concept: DNA to RNA** {-}
+
+Transcription synthesizes an RNA molecule whose sequence is complementary to one strand of a specific DNA segment (a gene). Key points:
+
+*   **Template:** Only **one** of the two DNA strands (the **template strand** or **antisense strand**) is used as the template for RNA synthesis for a given gene
+*   **Product:** The resulting RNA molecule (the **transcript**) has a sequence nearly identical to the *other* DNA strand (the **coding strand** or **sense strand**), except that **Uracil (U)** replaces Thymine (T)
+*   **Selectivity:** Unlike replication which copies everything, transcription is highly selective. Only specific genes or groups of genes are transcribed at any given time, depending on the cell's needs
+
+## **The Key Players: Enzymes and Sequences** {-}
+
+*   **RNA Polymerase:** The star enzyme of transcription. This multi-subunit enzyme does the heavy lifting:
+    *   Recognizes and binds to specific DNA sequences (promoters) that signal the start of a gene
+    *   Unwinds a short section of the DNA double helix to expose the template strand
+    *   Synthesizes the RNA strand in the **5' to 3' direction**, reading the DNA template strand in the **3' to 5'** direction
+    *   Uses ribonucleoside triphosphates (**ATP, UTP, CTP, GTP**) as substrates, adding complementary bases (U pairs with A, A with T, C with G, G with C)
+    *   **Does NOT require a primer:** to start synthesis (unlike DNA polymerase)
+    *   Recognizes termination signals to stop transcription
+    *   *(Note: Prokaryotes have one main RNA Polymerase. Eukaryotes have three main types: Pol I for rRNA, Pol II for mRNA and some small RNAs, Pol III for tRNA and other small RNAs)*
+*   **DNA Template:** The specific gene sequence being transcribed
+*   **Promoter:** A specific DNA sequence located near the beginning (upstream) of a gene that acts as the **binding site for RNA polymerase** (often with the help of other proteins). It signals where transcription should start and which strand is the template. Common features include consensus sequences like the TATA box (in eukaryotes and some prokaryotes)
+*   **Transcription Factors (especially in Eukaryotes):** Proteins that help RNA polymerase bind to the promoter and initiate transcription
+    *   **General Transcription Factors (GTFs):** Required for transcription of most genes; help position RNA polymerase correctly at the promoter
+    *   **Specific Transcription Factors (Activators/Repressors):** Bind to other regulatory DNA sequences (like enhancers or silencers) and modulate the *rate* of transcription in response to specific signals or cell types
+*   **Terminator Sequence:** A DNA sequence downstream of the gene that signals the end of transcription
+
+## **The Process: Initiation, Elongation, Termination** {-}
+
+### **1. Initiation** {-}
+
+*   **Binding:** RNA polymerase (often assisted by transcription factors) recognizes and binds to the promoter sequence on the DNA
+*   **Unwinding:** The polymerase unwinds the DNA double helix at the promoter region, creating a "transcription bubble" and exposing the template strand
+*   **Start:** RNA polymerase begins synthesizing the RNA chain, adding the first few ribonucleotides complementary to the template strand, typically starting at a specific nucleotide designated as +1. No primer is needed
+
+### **2. Elongation** {-}
+
+*   **Movement:** RNA polymerase moves along the DNA template strand (reading it 3' to 5')
+*   **Synthesis:** It continuously unwinds the DNA ahead of it and rewinds the DNA behind it, maintaining the transcription bubble. Inside the bubble, it adds complementary ribonucleotides to the 3' end of the growing RNA molecule (synthesizing 5' to 3')
+*   **RNA Release:** The newly synthesized RNA strand peels away from the DNA template as the polymerase moves forward
+
+### **3. Termination** {-}
+
+*   **Signal Recognition:** RNA polymerase continues transcribing until it encounters a specific terminator sequence in the DNA template
+*   **Release:** The terminator sequence triggers the release of the completed RNA transcript and the dissociation of RNA polymerase from the DNA template
+*   *(Mechanisms differ: Prokaryotes often use Rho-dependent or Rho-independent (hairpin loop formation) termination. Eukaryotic termination is often coupled with RNA processing events like polyadenylation)*
+
+## **Key Differences: Prokaryotes vs. Eukaryotes** {-}
+
+While the core process is similar, there are crucial differences:
+
+| Feature          | Prokaryotes (e.g., Bacteria)                  | Eukaryotes (e.g., Humans)                     |
+| :--------------- | :-------------------------------------------- | :-------------------------------------------- |
+| **Location**     | Cytoplasm                                     | Nucleus                                       |
+| **RNA Polymerase** | One main type                                 | Three main types (Pol I, II, III)             |
+| **Initiation**   | Simpler; Sigma factor helps Pol bind promoter | Complex; Requires General Transcription Factors |
+| **RNA Processing** | Minimal or none; mRNA used immediately      | Extensive (occurs in nucleus):               |
+|                  |                                               | - **5' Capping** Modified G added to 5' end  |
+|                  |                                               | - **3' Polyadenylation** Poly(A) tail added  |
+|                  |                                               | - **Splicing** Introns removed, exons joined |
+| **Coupling**     | Transcription & Translation are coupled       | Transcription (nucleus) & Translation (cyto.) |
+|                  | (ribosomes bind mRNA while it's being made) | are spatially and temporally separated        |
+
+## **Types of RNA Produced** {-}
+
+Transcription doesn't just make messenger RNA (mRNA):
+
+*   **mRNA (Messenger RNA):** Carries the genetic code from DNA to the ribosome to direct protein synthesis. (Transcribed mainly by RNA Pol II in eukaryotes)
+*   **rRNA (Ribosomal RNA):** Major structural and catalytic component of ribosomes. (Transcribed by RNA Pol I in eukaryotes)
+*   **tRNA (Transfer RNA):** Acts as an adapter molecule during translation, bringing the correct amino acid to the ribosome based on the mRNA codon. (Transcribed by RNA Pol III in eukaryotes)
+*   **Small RNAs (snRNA, snoRNA, miRNA, siRNA, etc.):** Involved in various regulatory and processing functions, including splicing (snRNA), rRNA modification (snoRNA), and gene silencing (miRNA, siRNA)
+
+## **Regulation of Transcription** {-}
+
+This is key! Cells don't transcribe all genes all the time. Regulation ensures the right genes are expressed in the right cells at the right time and in the right amounts
+
+*   **Promoter Strength:** Different promoters bind RNA polymerase with different affinities, leading to varied basal transcription levels
+*   **Regulatory Elements:** DNA sequences like **enhancers** (increase transcription) and **silencers** (decrease transcription) can be located far from the gene but influence promoter activity
+*   **Transcription Factors:** Specific activators and repressors bind to these regulatory elements and interact with the transcription machinery
+*   **Epigenetics:** Modifications to DNA (methylation) and histones (acetylation, methylation) can alter chromatin structure, making DNA more or less accessible for transcription
+
+## **Clinical Laboratory Relevance** {-}
+
+Transcription is central to many diagnostic and research applications:
+
+*   **Gene Expression Analysis:** Techniques like **RT-PCR (Reverse Transcription PCR)**, microarrays, and RNA-Seq measure the *amount* of specific RNA transcripts. This tells us which genes are active ("turned on") in a particular sample (e.g., comparing tumor tissue to normal tissue, monitoring response to therapy)
+*   **Viral Detection:** Many viruses have RNA genomes or use RNA intermediates. RT-PCR is crucial for detecting and quantifying RNA viruses like HIV, Hepatitis C, Influenza, and SARS-CoV-2
+*   **Understanding Disease Mechanisms:** Mutations affecting promoters, enhancers, or splicing signals can disrupt proper transcription or RNA processing, leading to disease (e.g., some thalassemias)
+*   **Antimicrobial/Anticancer Drugs:** Some antibiotics (like Rifampicin) target bacterial RNA polymerase. Some cancer therapies aim to disrupt transcription processes vital for tumor growth
+*   **Forensics/Identity Testing:** While mainly DNA-based, RNA profiling can sometimes provide information about tissue origin or time since deposition
+
+## **Key Terms** {-}
+
+*   **Transcription:** Synthesis of RNA from a DNA template
+*   **RNA Polymerase:** The enzyme responsible for transcription
+*   **Template Strand (Antisense Strand):** The DNA strand read by RNA polymerase (3' to 5')
+*   **Coding Strand (Sense Strand):** The DNA strand whose sequence matches the RNA transcript (except T for U)
+*   **Transcript:** The RNA molecule produced during transcription
+*   **Promoter:** DNA sequence signaling the start site for transcription; binding site for RNA polymerase
+*   **Terminator:** DNA sequence signaling the end of transcription
+*   **Transcription Factors:** Proteins that regulate transcription initiation and rate
+*   **mRNA (Messenger RNA):** RNA that carries the code for protein synthesis
+*   **rRNA (Ribosomal RNA):** Structural and catalytic RNA in ribosomes
+*   **tRNA (Transfer RNA):** Adapter RNA in protein synthesis
+*   **Splicing:** Removal of introns and joining of exons in eukaryotic pre-mRNA
+*   **Intron:** Non-coding sequence removed from pre-mRNA
+*   **Exon:** Coding sequence retained in mature mRNA
+*   **5' Cap:** Modified guanine nucleotide added to the 5' end of eukaryotic mRNA
+*   **Poly(A) Tail:** String of adenine nucleotides added to the 3' end of eukaryotic mRNA
+*   **Gene Expression:** The process by which information from a gene is used to synthesize a functional product (RNA or protein)

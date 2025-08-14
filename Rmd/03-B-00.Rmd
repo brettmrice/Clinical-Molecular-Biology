@@ -1,0 +1,37 @@
+# Oncology {-}
+
+Let's look at the big picture of molecular oncology. For decades, we defined cancer almost entirely by its location and appearance under a microscope—lung cancer, breast cancer, leukemia. But molecular diagnostics has given us a completely new, and profoundly more powerful, way to understand these diseases. We no longer just ask "Where is the cancer?"; we now ask, "**What is genetically *driving* the cancer?**"
+
+The answers to that question guide everything from diagnosis and prognosis to personalized treatment and even family counseling. We can broadly divide our molecular investigation into two main strategies: decoding the cancer itself by looking at **somatic mutations**, and decoding the patient's inherited risk by looking for **germline mutations**
+
+## **Decoding the Cancer Itself (Somatic Mutations)** {-}
+
+Somatic mutations are genetic changes that are *acquired* by a cell during a person's lifetime and are only present in the tumor cells. Our job is to biopsy the tumor (or blood for leukemias) and find these mutations. The goal is to find the "Achilles' heel" that we can target with specific drugs
+
+### **Leukemias & Lymphomas** {-}
+
+In blood cancers, the driving mutation is often a single, powerful "smoking gun" event. Finding it is critical for diagnosis and for monitoring treatment
+
+*   **The Smoking Gun - Fusion Genes:** The classic example is **Chronic Myeloid Leukemia (CML)**. A translocation between chromosomes 9 and 22, **t(9;22)**, creates the **BCR-ABL1 fusion gene**. Detecting this fusion transcript via PCR is the definitive diagnosis. Even better, we can use quantitative PCR to measure the *amount* of this transcript to monitor how well a patient is responding to targeted drugs (like Gleevec). This "molecular load" tells us if the treatment is working long before a clinical relapse would occur
+*   **The Unique Fingerprint - Clonality:** To fight infections, your body makes millions of different B- and T-cells, each with a unique gene rearrangement in their antigen receptor genes—this is a healthy, **polyclonal** state. In a lymphoma or lymphocytic leukemia, a single cancerous cell starts to divide endlessly, creating a massive **monoclonal** population where every cell shares the same unique gene rearrangement. We use PCR to detect this single, dominant "fingerprint," which confirms a malignancy and can be used to track **Minimal Residual Disease (MRD)** after treatment
+
+### **Solid Tumors** {-}
+
+Solid tumors, like those in the lung, colon, or breast, are often caused by an accumulation of multiple mutations over time. Our goal here is to find a specific **actionable mutation** for which a **targeted therapy** exists
+
+*   **Finding the Target:** We look for mutations in key pathways. For example:
+    *   **Lung Cancer:** We test for mutations in the ***EGFR*** gene and rearrangements in the ***ALK*** gene. If found, patients can receive highly effective EGFR or ALK inhibitor drugs instead of generalized chemotherapy
+    *   **Colorectal Cancer:** Testing for ***KRAS*** and ***NRAS*** mutations is crucial. If these are mutated, we know that EGFR inhibitor drugs *will not work*, saving the patient from an ineffective therapy
+    *   **Breast Cancer:** We look for amplification (extra copies) of the ***HER2*** gene. If a tumor is *HER2*-positive, the patient is eligible for the life-saving drug Herceptin
+    *   **Melanoma:** About half of all melanomas have a specific ***BRAF V600E*** mutation, which makes them highly susceptible to BRAF inhibitor drugs
+*   **Guiding Immunotherapy:** We can also test for features like **Microsatellite Instability (MSI)**. Tumors with high MSI have faulty DNA repair systems and accumulate thousands of mutations. This makes them look very "foreign" to the patient's immune system and highly responsive to immunotherapy drugs that "release the brakes" on the immune system
+
+## **Decoding the Patient's Inherited Risk (Germline Mutations)** {-}
+
+Here, we shift our focus. We're no longer looking at the tumor's DNA, but at the DNA the patient was born with, usually from a blood or saliva sample. A **germline mutation** is an inherited "first hit" in a critical tumor suppressor gene that is present in every cell of the body. This dramatically increases a person's lifetime risk of developing cancer
+
+*   **Hereditary Breast and Ovarian Cancer (HBOC):** This is the most famous example, caused by germline mutations in the ***BRCA1*** and ***BRCA2*** genes. A woman with a *BRCA1* mutation has up to a 70% lifetime risk of developing breast cancer. Finding this mutation allows a patient and their family to pursue intensive screening and risk-reducing strategies (like prophylactic surgery). It also makes certain cancers susceptible to a class of drugs called **PARP inhibitors**
+*   **Lynch Syndrome:** This is the most common hereditary colon cancer syndrome, caused by mutations in DNA Mismatch Repair genes (e.g., ***MLH1*, *MSH2***). It confers a very high lifetime risk of colorectal, endometrial, and other cancers. Identifying Lynch syndrome allows for frequent colonoscopies, which can prevent cancer by removing polyps before they become malignant
+*   **Cascade Testing:** The implications of finding a germline mutation extend to the entire family. First-degree relatives have a 50% chance of carrying the same mutation. **Cascade testing** is the process of offering testing to these at-risk family members. This proactive approach empowers unaffected carriers to manage their risk, potentially saving lives across generations
+
+In summary, molecular oncology is a multi-faceted field. We act as detectives, interrogating both the tumor's acquired DNA to guide immediate treatment, and the patient's inherited DNA to understand their fundamental risk and protect their family's future health

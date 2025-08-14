@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Oligonucleotides | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="PCR Oligonucleotide Design and Preparation is the art and science of getting your primers right. Think of primers as the highly specific GPS coordinates for your PCR reaction – they tell the...">
+<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta property="og:title" content="Oligonucleotides | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="PCR Oligonucleotide Design and Preparation is the art and science of getting your primers right. Think of primers as the highly specific GPS coordinates for your PCR reaction – they tell the...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Oligonucleotides | MB">
+<meta name="twitter:description" content="PCR Oligonucleotide Design and Preparation is the art and science of getting your primers right. Think of primers as the highly specific GPS coordinates for your PCR reaction – they tell the...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="active" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="oligonucleotides" class="section level1 unnumbered">
+<h1>Oligonucleotides<a class="anchor" aria-label="anchor" href="#oligonucleotides"><i class="fas fa-link"></i></a>
+</h1>
+<p><strong>PCR Oligonucleotide Design and Preparation</strong> is the art and science of getting your primers right. Think of primers as the highly specific <strong>GPS coordinates</strong> for your PCR reaction – they tell the polymerase exactly where to start copying on the DNA template. If your coordinates are wrong or fuzzy, you’ll either amplify the wrong thing or nothing at all!</p>
+<p>Therefore, rigorous primer design using appropriate software and databases, choosing the right purification level, and careful handling/storage practices are absolutely essential for reliable and accurate molecular diagnostic testing</p>
+<div id="pcr-primer-design-crafting-the-perfect-gps-coordinates" class="section level2 unnumbered">
+<h2>
+<strong>PCR Primer Design: Crafting the Perfect ‘GPS Coordinates’</strong><a class="anchor" aria-label="anchor" href="#pcr-primer-design-crafting-the-perfect-gps-coordinates"><i class="fas fa-link"></i></a>
+</h2>
+<p>The goal of primer design is to create short, single-stranded DNA sequences (oligonucleotides, typically 18-30 bases long) that will specifically and efficiently bind (anneal) only to the intended target sequences flanking the region you want to amplify</p>
+</div>
+<div id="key-principles-considerations" class="section level2 unnumbered">
+<h2>
+<strong>Key Principles &amp; Considerations</strong><a class="anchor" aria-label="anchor" href="#key-principles-considerations"><i class="fas fa-link"></i></a>
+</h2>
+<div id="specificity-the-most-important-factor" class="section level3 unnumbered">
+<h3>
+<strong>Specificity (The MOST Important Factor)</strong><a class="anchor" aria-label="anchor" href="#specificity-the-most-important-factor"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Goal:</strong> Primers must bind <em>only</em> to the target site(s) and nowhere else in the background genome (e.g., human genome, bacterial genome)</li>
+<li>
+<strong>How</strong>
+<ul>
+<li>
+<strong>Sequence Selection:</strong> Choose unique regions within the target DNA. Avoid repetitive sequences</li>
+<li>
+<strong>Database Checking (BLAST):</strong> Use tools like NCBI BLAST (Basic Local Alignment Search Tool) against the relevant genome database (e.g., human, viral, bacterial) to check if your proposed primer sequences have significant similarity to unintended sites. This is CRUCIAL to prevent amplification of non-target sequences (which could lead to false positives or confusing results)</li>
+</ul>
+</li>
+<li>
+<strong>Clinical Relevance:</strong> Non-specific binding leads to artifact bands on a gel, incorrect results in qPCR, and potentially disastrous misdiagnoses</li>
+</ul>
+</div>
+<div id="primer-length" class="section level3 unnumbered">
+<h3>
+<strong>Primer Length</strong><a class="anchor" aria-label="anchor" href="#primer-length"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Typical Range:</strong> 18-25 base pairs (bp) is common</li>
+<li>
+<strong>Too Short (&lt;18 bp):</strong> May lack specificity (more likely to find matches elsewhere in a large genome) and have a low melting temperature (Tm)</li>
+<li>
+<strong>Too Long (&gt;30 bp):</strong> Can have reduced annealing efficiency (slower binding), higher cost, and increased likelihood of forming secondary structures. Specificity gain becomes marginal</li>
+</ul>
+</div>
+<div id="melting-temperature-tm-1" class="section level3 unnumbered">
+<h3>
+<strong>Melting Temperature (Tm)</strong><a class="anchor" aria-label="anchor" href="#melting-temperature-tm-1"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Definition:</strong> The temperature at which 50% of the primer-template duplex has dissociated into single strands. It indicates the stability of the primer binding</li>
+<li>
+<strong>Importance</strong>
+<ul>
+<li>The Tm dictates the optimal <strong>annealing temperature (Ta)</strong> for the PCR cycle. Ta is typically set ~3-5°C <em>below</em> the calculated Tm</li>
+<li>
+<strong>Primer Pair Matching:</strong> The forward and reverse primers in a pair should have very similar Tm values (ideally within 1-2°C, max 5°C difference). If Tms are too different, one primer might bind efficiently while the other binds poorly or non-specifically at a given annealing temperature, leading to inefficient or failed amplification</li>
+</ul>
+</li>
+<li>
+<strong>Calculation</strong>
+<ul>
+<li>
+<strong>Basic Formula (for &lt;20 bp):</strong> Tm ≈ 4°C × (# G/C) + 2°C × (# A/T)</li>
+<li>
+<strong>More Accurate Formulas/Algorithms:</strong> Primer design software uses more sophisticated thermodynamic calculations (Nearest-Neighbor method) considering salt concentration, primer concentration, and base stacking interactions. <strong>Always use the Tm calculated by reliable software.</strong>
+</li>
+</ul>
+</li>
+<li>
+<strong>Target Tm Range:</strong> Often aimed for 55-65°C, but depends on the polymerase and application</li>
+</ul>
+</div>
+<div id="gc-content" class="section level3 unnumbered">
+<h3>
+<strong>GC Content</strong><a class="anchor" aria-label="anchor" href="#gc-content"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Definition:</strong> The percentage of Guanine (G) and Cytosine (C) bases in the primer sequence</li>
+<li>
+<strong>Optimal Range:</strong> Typically 40-60%</li>
+<li>
+<strong>Importance:</strong> GC pairs have 3 hydrogen bonds (vs. 2 for AT), contributing significantly to primer stability and Tm. Very low GC content leads to low Tm. Very high GC content (&gt;65%) can lead to overly stable binding and potential non-specific priming issues</li>
+<li>
+<strong>Distribution:</strong> Avoid long stretches of Gs or Cs</li>
+</ul>
+</div>
+<div id="avoiding-secondary-structures" class="section level3 unnumbered">
+<h3>
+<strong>Avoiding Secondary Structures</strong><a class="anchor" aria-label="anchor" href="#avoiding-secondary-structures"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Hairpins:</strong> If a primer has complementary sequences within itself, it can fold back and bind to itself, forming a hairpin loop. Strong hairpins (especially at the 3’ end) can prevent the primer from binding to the template</li>
+<li>
+<strong>Self-Dimers (Homodimers):</strong> A primer molecule can bind to another identical primer molecule</li>
+<li>
+<strong>How:</strong> Primer design software checks for potential secondary structures and calculates their stability (ΔG value). Avoid primers predicted to form stable secondary structures, particularly at the annealing temperature</li>
+</ul>
+</div>
+<div id="avoiding-primer-dimers-cross-dimers" class="section level3 unnumbered">
+<h3>
+<strong>Avoiding Primer-Dimers (Cross-Dimers)</strong><a class="anchor" aria-label="anchor" href="#avoiding-primer-dimers-cross-dimers"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>What:</strong> The forward primer binds to the reverse primer</li>
+<li>
+<strong>Problem:</strong> If primer-dimers form, they create a very short template that can be amplified very efficiently by the polymerase, competing with the actual target amplification. This consumes primers and dNTPs, reduces target yield, and results in a characteristic low molecular weight band on a gel (often &lt;100 bp). Especially problematic in qPCR as it generates unwanted signal</li>
+<li>
+<strong>How to Avoid:</strong> Check for complementarity between the forward and reverse primers, <em>especially at their 3’ ends</em>. Even 2-3 complementary bases at the 3’ ends can lead to significant primer-dimer formation because the polymerase can extend from the 3’ end. Software tools are essential for checking this</li>
+</ul>
+</div>
+<div id="gc-clamp" class="section level3 unnumbered">
+<h3>
+<strong>GC Clamp</strong><a class="anchor" aria-label="anchor" href="#gc-clamp"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>What:</strong> Having one or two G or C bases at the very <strong>3’ end</strong> of the primer</li>
+<li>
+<strong>Why:</strong> The 3’ end is where the polymerase starts extension. G/C bases provide stronger binding (3 H-bonds) at this critical end, helping to “clamp” the primer down correctly and promote efficient polymerase binding and extension. Avoid ending with a T. Avoid more than 3 G/Cs at the 3’ end (can promote mispriming)</li>
+</ul>
+</div>
+<div id="avoiding-runs-and-repeats" class="section level3 unnumbered">
+<h3>
+<strong>Avoiding Runs and Repeats</strong><a class="anchor" aria-label="anchor" href="#avoiding-runs-and-repeats"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Runs:</strong> Long stretches of a single base (e.g., AAAAAAA). Can cause polymerase “slippage” and reduce specificity. Max run usually 4 bases</li>
+<li>
+<strong>Repeats:</strong> Di-nucleotide repeats (e.g., ATATATAT). Can lead to mispriming</li>
+</ul>
+</div>
+<div id="target-amplicon-length" class="section level3 unnumbered">
+<h3>
+<strong>Target Amplicon Length</strong><a class="anchor" aria-label="anchor" href="#target-amplicon-length"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>
+<strong>Definition:</strong> The size of the DNA fragment produced by the primer pair</li>
+<li>
+<strong>Considerations</strong>
+<ul>
+<li>
+<strong>Standard PCR:</strong> Typically 100-500 bp is good for gel visualization and efficiency. Longer fragments (&gt;1 kb) may require optimized conditions (longer extension times, different polymerases)</li>
+<li>
+<strong>qPCR:</strong> Usually shorter amplicons (70-200 bp) are preferred for maximum efficiency and faster run times</li>
+<li>
+<strong>Degraded DNA:</strong> For samples with potentially degraded DNA (e.g., FFPE tissue, forensic samples), design primers to produce very short amplicons (&lt;150 bp) to increase the chance of amplifying intact template</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="primer-location" class="section level3 unnumbered">
+<h3>
+<strong>Primer Location</strong><a class="anchor" aria-label="anchor" href="#primer-location"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li>Where within the gene/target region should primers bind?</li>
+<li>
+<strong>Avoid SNPs (Single Nucleotide Polymorphisms):</strong> If possible, avoid placing primers (especially the 3’ end) over known common SNP locations, as a mismatch could prevent binding and lead to allele dropout (false negative for that allele). Check databases like dbSNP</li>
+<li>
+<strong>Spanning Introns (for cDNA):</strong> When amplifying cDNA (from RNA) to detect gene expression, design primers that bind to different exons or span an exon-exon junction. This way, if there’s contaminating genomic DNA (gDNA), the product from gDNA (containing the intron) will be much larger or won’t amplify, preventing false positives from gDNA contamination</li>
+</ul>
+</div>
+</div>
+<div id="tools-for-primer-design" class="section level2 unnumbered">
+<h2>
+<strong>Tools for Primer Design</strong><a class="anchor" aria-label="anchor" href="#tools-for-primer-design"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Software:</strong> Numerous free web-based tools (e.g., Primer3, NCBI Primer-BLAST) and commercial software packages (e.g., Geneious, OligoAnalyzer - IDT) automate many of these checks. They take your target sequence and suggest primer pairs based on the parameters you set. <strong>Using software is standard practice.</strong>
+</li>
+<li>
+<strong>Databases:</strong> NCBI GenBank, Ensembl for sequences; dbSNP for polymorphism information</li>
+</ul>
+</div>
+<div id="oligonucleotide-preparation-handling-from-synthesis-to-bench" class="section level2 unnumbered">
+<h2>
+<strong>Oligonucleotide Preparation &amp; Handling: From Synthesis to Bench</strong><a class="anchor" aria-label="anchor" href="#oligonucleotide-preparation-handling-from-synthesis-to-bench"><i class="fas fa-link"></i></a>
+</h2>
+<p>Once designed, primers need to be synthesized and prepared correctly for use</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Synthesis</strong>
+<ul>
+<li>Performed by specialized commercial vendors using automated <strong>phosphoramidite chemical synthesis</strong>
+</li>
+<li>DNA bases are added one by one to a growing chain attached to a solid support (like controlled pore glass)</li>
+<li>Highly optimized and efficient process</li>
+</ul>
+</li>
+<li>
+<strong>Purification</strong>
+<ul>
+<li>Synthesis isn’t perfect; it results in the desired full-length oligonucleotide plus some shorter, failed sequences (n-1, n-2 products). Purification removes these contaminants</li>
+<li>
+<strong>Levels of Purification</strong>
+<ul>
+<li>
+<strong>Desalting:</strong> Removes residual salts and very small molecules from synthesis. Suitable for routine PCR where high specificity isn’t paramount. Lowest cost</li>
+<li>
+<strong>Cartridge Purification:</strong> A step up, removes more failed sequences. Good for many applications like standard qPCR, cloning</li>
+<li>
+<strong>HPLC (High-Performance Liquid Chromatography):</strong> Provides high purity (&gt;90%). Recommended for sensitive applications like multiplex PCR, cloning large fragments, or when primers are very long</li>
+<li>
+<strong>PAGE (Polyacrylamide Gel Electrophoresis):</strong> Highest purity (&gt;95%), separates by size. Used for very demanding applications (therapeutics, crystallography) or very long oligos (&gt;50 bp)</li>
+</ul>
+</li>
+<li>
+<strong>Choice depends on the application’s sensitivity to truncated primers.:</strong> For most clinical diagnostic PCR/qPCR, desalting or cartridge purification is often sufficient, but HPLC might be chosen for assays requiring maximum accuracy (e.g., multiplex assays)</li>
+</ul>
+</li>
+<li>
+<strong>Quality Control (QC) by Vendor</strong>
+<ul>
+<li>Vendors typically perform QC checks:
+<ul>
+<li>
+<strong>OD260:</strong> Measures absorbance at 260 nm to quantify the amount of oligonucleotide synthesized (reported in OD units, nanomoles, or micrograms)</li>
+<li>
+<strong>Mass Spectrometry (MS):</strong> Verifies that the major product has the correct molecular weight corresponding to the desired sequence. Confirms identity</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>Delivery &amp; Storage</strong>
+<ul>
+<li>Primers usually arrive as a <strong>lyophilized (freeze-dried) powder</strong> – a small pellet at the bottom of the tube. This is the most stable form for long-term storage</li>
+<li>
+<strong>Storage (Lyophilized):</strong> Store at -20°C (or -80°C for very long term). Protect from light. Stable for months to years</li>
+<li>
+<strong>Reconstitution</strong>
+<ul>
+<li>Briefly centrifuge the tube <em>before opening</em> to ensure the pellet is at the bottom</li>
+<li>Resuspend the powder in a nuclease-free buffer (e.g., TE buffer pH 8.0 - Tris-EDTA) or nuclease-free water to create a concentrated <strong>stock solution</strong> (e.g., 100 µM). TE buffer is often preferred as EDTA chelates divalent cations like Mg++, inhibiting potential DNase activity. Water is fine but less protective</li>
+<li>Ensure the pellet is completely dissolved (vortex gently, let sit, quick spin)</li>
+</ul>
+</li>
+<li>
+<strong>Storage (Stock Solution):</strong> Store at -20°C. Stable for months. Avoid repeated freeze-thaw cycles</li>
+<li>
+<strong>Working Solutions:</strong> Prepare dilutions from the stock solution (e.g., 10 µM) in nuclease-free buffer/water. Store at -20°C (short-term at 4°C might be okay for a few days/weeks, but check stability)</li>
+<li>
+<strong>Aliquoting:</strong> It’s highly recommended to aliquot the stock solution into smaller volumes upon initial reconstitution. This prevents contaminating the entire stock and minimizes freeze-thaw cycles for the bulk of the primer</li>
+</ul>
+</li>
+<li>
+<strong>Handling</strong>
+<ul>
+<li>Always use <strong>nuclease-free tips, tubes, and buffer/water</strong> to avoid degradation</li>
+<li>Wear gloves</li>
+<li>Keep primer solutions on ice when working with them</li>
+</ul>
+</li>
+</ol>
+</div>
+<div id="clinical-significance-1" class="section level2 unnumbered">
+<h2>
+<strong>Clinical Significance</strong><a class="anchor" aria-label="anchor" href="#clinical-significance-1"><i class="fas fa-link"></i></a>
+</h2>
+<p>In a clinical lab, poorly designed or prepared primers can lead to:</p>
+<ul>
+<li>
+<strong>False Negatives:</strong> Failure to amplify the target sequence even when it’s present (e.g., due to poor Tm, secondary structures, SNPs under primer)</li>
+<li>
+<strong>False Positives:</strong> Amplification of unintended sequences (due to lack of specificity, contamination)</li>
+<li>
+<strong>Low Sensitivity:</strong> Inefficient amplification reduces the ability to detect low levels of target</li>
+<li>
+<strong>Inaccurate Quantification (qPCR):</strong> Primer-dimers or poor efficiency skews quantitative results</li>
+</ul>
+</div>
+<div id="key-terms-28" class="section level2 unnumbered">
+<h2>
+<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-28"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Oligonucleotide (Oligo):</strong> A short, single-stranded polymer of nucleotides (DNA or RNA). In PCR context, refers to primers and probes</li>
+<li>
+<strong>Primer:</strong> A short oligonucleotide that serves as a starting point for DNA synthesis by the polymerase. PCR requires a pair: a forward primer and a reverse primer</li>
+<li>
+<strong>Annealing:</strong> The process where primers bind to their complementary sequences on the single-stranded DNA template during the PCR cycle</li>
+<li>
+<strong>Melting Temperature (Tm):</strong> The temperature at which 50% of the primer-template DNA duplex is dissociated. A key parameter for determining annealing temperature</li>
+<li>
+<strong>Annealing Temperature (Ta):</strong> The temperature used during the PCR cycle to allow primers to bind to the template. Typically set 3-5°C below the primer pair’s Tm</li>
+<li>
+<strong>Specificity:</strong> The ability of a primer to bind only to its intended target sequence and not to other sequences in the sample</li>
+<li>
+<strong>BLAST (Basic Local Alignment Search Tool):</strong> A bioinformatics tool used to compare a query sequence (e.g., a primer) against a sequence database to find regions of similarity. Essential for checking primer specificity</li>
+<li>
+<strong>GC Content:</strong> The percentage of Guanine (G) and Cytosine (C) bases in a nucleic acid sequence. Affects Tm and stability</li>
+<li>
+<strong>Secondary Structure:</strong> Intramolecular (within a single molecule) structures formed by nucleic acids, such as hairpins and loops</li>
+<li>
+<strong>Hairpin:</strong> A secondary structure formed when a single primer strand folds back on itself due to internal complementary sequences</li>
+<li>
+<strong>Primer-Dimer:</strong> An artifact produced in PCR when primers anneal to each other (forward-to-reverse or self-annealing) and are extended by the polymerase, creating short, unwanted products</li>
+<li>
+<strong>GC Clamp:</strong> The presence of G or C bases at the 3’ end of a primer to enhance binding stability at the site of polymerase extension</li>
+<li>
+<strong>Amplicon:</strong> The specific DNA fragment generated during PCR by amplification between the forward and reverse primer binding sites</li>
+<li>
+<strong>Phosphoramidite Synthesis:</strong> The standard chemical method used for automated synthesis of oligonucleotides</li>
+<li>
+<strong>Lyophilized:</strong> Freeze-dried; primers are typically delivered as a stable powder</li>
+<li>
+<strong>Reconstitution:</strong> Dissolving the lyophilized primer powder in a suitable buffer or water to create a stock solution</li>
+<li>
+<strong>Stock Solution:</strong> A concentrated solution (e.g., 100 µM) of primer used for long-term storage and making dilutions</li>
+<li>
+<strong>Working Solution:</strong> A diluted solution (e.g., 10 µM) prepared from the stock solution for routine use in setting up PCR reactions</li>
+<li>
+<strong>Aliquot:</strong> Dividing a solution (like a primer stock) into smaller portions for storage and use, minimizing contamination risk and freeze-thaw cycles</li>
+<li>
+<strong>Nuclease-Free:</strong> Reagents (water, buffer) and consumables (tips, tubes) certified or treated to be free of enzymes that degrade nucleic acids (DNases, RNases)</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="pcr.html">PCR</a></div>
+<div class="next"><a href="reaction-optimization.html">Reaction Optimization</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#oligonucleotides">Oligonucleotides</a></li>
+<li><a class="nav-link" href="#pcr-primer-design-crafting-the-perfect-gps-coordinates">PCR Primer Design: Crafting the Perfect ‘GPS Coordinates’</a></li>
+<li>
+<a class="nav-link" href="#key-principles-considerations">Key Principles &amp; Considerations</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#specificity-the-most-important-factor">Specificity (The MOST Important Factor)</a></li>
+<li><a class="nav-link" href="#primer-length">Primer Length</a></li>
+<li><a class="nav-link" href="#melting-temperature-tm-1">Melting Temperature (Tm)</a></li>
+<li><a class="nav-link" href="#gc-content">GC Content</a></li>
+<li><a class="nav-link" href="#avoiding-secondary-structures">Avoiding Secondary Structures</a></li>
+<li><a class="nav-link" href="#avoiding-primer-dimers-cross-dimers">Avoiding Primer-Dimers (Cross-Dimers)</a></li>
+<li><a class="nav-link" href="#gc-clamp">GC Clamp</a></li>
+<li><a class="nav-link" href="#avoiding-runs-and-repeats">Avoiding Runs and Repeats</a></li>
+<li><a class="nav-link" href="#target-amplicon-length">Target Amplicon Length</a></li>
+<li><a class="nav-link" href="#primer-location">Primer Location</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#tools-for-primer-design">Tools for Primer Design</a></li>
+<li><a class="nav-link" href="#oligonucleotide-preparation-handling-from-synthesis-to-bench">Oligonucleotide Preparation &amp; Handling: From Synthesis to Bench</a></li>
+<li><a class="nav-link" href="#clinical-significance-1">Clinical Significance</a></li>
+<li><a class="nav-link" href="#key-terms-28">Key Terms</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/02-C-01-a.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/02-C-01-a.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

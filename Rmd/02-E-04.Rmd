@@ -1,0 +1,65 @@
+# Restriction Fragment Length Polymorphism (RFLP) {-}
+
+Let's take a step back in time to one of the foundational techniques of molecular biology that truly launched the field of DNA-based diagnostics. Before we had the speed of PCR and the power of NGS, we had **Restriction Fragment Length Polymorphism (RFLP)**. While it’s considered a legacy method in most modern clinical labs, understanding RFLP is like learning about the invention of the printing press before studying the internet—it’s the cornerstone upon which so many modern techniques were built
+
+Think of RFLP as the original method of "DNA fingerprinting." It allows us to detect variations in DNA sequences between individuals by using "molecular scissors" and looking at the different-sized pieces they produce
+
+## **The Principle: Picky Scissors and DNA Variations** {-}
+
+The name "Restriction Fragment Length Polymorphism" tells you everything you need to know about how it works:
+
+1.  **Restriction Fragment** This refers to the pieces of DNA that are created when you cut a long DNA molecule with a special enzyme. The enzyme acts like a pair of molecular scissors
+2.  **Length** We are interested in the *size* or *length* of these DNA pieces
+3.  **Polymorphism** This is the key. A polymorphism is a difference in the DNA sequence that occurs in a population. In RFLP, the specific polymorphism we care about is one that either **creates or destroys a cutting site** for our molecular scissors
+
+The "molecular scissors" are **Restriction Enzymes** (also called restriction endonucleases). These are enzymes, naturally found in bacteria, that recognize and cut DNA at a very specific, short sequence of bases called a **restriction site**. For example, the popular enzyme *Eco*RI only cuts at the sequence `GAATTC`
+
+**The Core Idea** If an individual has a single nucleotide polymorphism (SNP) that changes their DNA sequence right in the middle of a restriction site, the enzyme will no longer be able to cut there. This will result in a different pattern of DNA fragment sizes compared to an individual without the SNP. By detecting these different-sized fragments, we can infer the person's genotype at that location
+
+## **The Classic RFLP Workflow** {-}
+
+Performing RFLP is a multi-step, laborious process, which is why it has been largely replaced. However, it combines several fundamental molecular techniques
+
+*   **Step 1: DNA Isolation:** High-quality, high-molecular-weight genomic DNA is extracted from a patient sample (e.g., blood)
+*   **Step 2: Restriction Digest:** The purified DNA is incubated with a specific, carefully chosen restriction enzyme. The enzyme chops the entire genome into millions of fragments
+*   **Step 3: Gel Electrophoresis:** The resulting mixture of DNA fragments is loaded onto an agarose gel. An electric current is applied, which separates the fragments by size. The DNA appears as a continuous smear down the lane, as there are too many fragments to resolve into distinct bands
+*   **Step 4: Southern Blotting:** This is the critical transfer step. The DNA fragments are transferred from the fragile gel onto a solid, stable membrane (like nitrocellulose or nylon). This creates a permanent, mirror image of the DNA fragments from the gel on the membrane
+*   **Step 5: Hybridization with a Labeled Probe:** To find our fragment of interest among the millions on the membrane, we use a **probe**. This is a short, single-stranded piece of DNA with a sequence complementary to the region we are studying. The probe is labeled (e.g., with a radioactive isotope or a chemiluminescent tag) so we can see it. The membrane is incubated with the probe, which hybridizes only to the DNA fragment(s) containing our target sequence
+*   **Step 6: Washing and Detection:** The membrane is washed under specific **stringency** conditions to remove any probe that didn't bind perfectly. The membrane is then exposed to X-ray film (for radioactive probes) or a digital imager (for chemiluminescent probes) to visualize the bands where the probe bound
+
+## **Interpreting the RFLP Results** {-}
+
+The resulting pattern of bands on the film or image reveals the patient's genotype. Let's imagine a gene where a mutation destroys a restriction site
+
+*   **Homozygous Normal:** This individual has two normal alleles. The restriction enzyme cuts both alleles, producing a single, small band on the blot. Both fragments are the same size
+*   **Homozygous Affected:** This individual has two mutant alleles. The restriction site is absent in both. The enzyme cannot cut, so the probe detects a single, large, uncut band
+*   **Heterozygous Carrier:** This individual has one normal and one mutant allele. The probe will detect both versions: the smaller, cut fragment from the normal allele and the larger, uncut fragment from the mutant allele. This results in **two distinct bands** on the blot
+
+## **Clinical Applications & Decline** {-}
+
+In its heyday, RFLP was a revolutionary tool used for:
+
+*   **Genetic Disease Diagnosis:** Tracking the inheritance of disease-causing alleles in families, such as for Sickle Cell Anemia or Huntington's Disease
+*   **Paternity Testing & Forensics:** Comparing DNA "fingerprints" to establish relationships or identify individuals from crime scene evidence
+*   **Gene Mapping:** Helping to locate genes on chromosomes by tracking inheritance patterns
+
+**Why is it rarely used now?**
+RFLP has been almost entirely superseded by PCR-based methods for several key reasons:
+
+*   **Slow and Laborious:** The entire process can take over a week to complete
+*   **Requires Large Amounts of DNA:** You need a significant quantity of high-quality, intact DNA, which can be hard to obtain
+*   **Not All Mutations are Detectable:** It can only detect mutations that happen to fall within a restriction site
+*   **Radioactivity:** Classic RFLP often used hazardous radioactive probes
+*   **PCR is Superior:** PCR is much faster (hours vs. days), requires very little starting DNA, and can be designed to detect any type of mutation, not just those affecting restriction sites
+
+Understanding RFLP is essential for appreciating the evolution of our field. It laid the groundwork for modern concepts of DNA variation and genotyping and combined many core lab techniques into a single, powerful (for its time) diagnostic workflow
+
+## **Key Terms** {-}
+
+*   **Restriction Enzyme:** An enzyme that recognizes and cuts DNA at a specific, short sequence of nucleotides known as a restriction site
+*   **RFLP (Restriction Fragment Length Polymorphism):** A variation in the length of DNA fragments generated by a specific restriction enzyme, caused by a DNA sequence polymorphism that creates or destroys a restriction site
+*   **Restriction Site:** The specific, palindromic DNA sequence that a particular restriction enzyme recognizes and cleaves
+*   **Polymorphism:** A difference in the DNA sequence between individuals within a population (e.g., a single nucleotide polymorphism or SNP)
+*   **Southern Blotting:** A technique used to transfer DNA fragments from an electrophoresis gel to a solid membrane, which can then be hybridized with a probe
+*   **Probe:** A labeled, single-stranded DNA or RNA molecule of a known sequence used to find and bind to its complementary target sequence on a blot or in a sample
+*   **Allele:** One of two or more alternative forms of a gene that arise by mutation and are found at the same place on a chromosome. RFLP distinguishes between alleles based on the fragment patterns they produce

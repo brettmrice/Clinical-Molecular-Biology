@@ -1,0 +1,62 @@
+# Trinucleotide Repeat Disorders {-}
+
+Let's dive into one of the most unique and fascinating areas of genetic testing: the **trinucleotide repeat disorders**. Imagine a portion of a gene's DNA code that's supposed to read "TAG TAG TAG". Now, picture a biological "copy-paste" error where that sequence becomes "TAG TAG TAG TAG TAG TAG..." and gets longer and longer with each new copy. This is the fundamental problem behind trinucleotide repeat disorders
+
+These conditions are caused by the abnormal expansion of a three-nucleotide DNA sequence that is repeated over and over again within a specific gene. In a normal person, the number of these repeats is small and stable. But in affected families, this repeat region can become unstable and expand as it's passed from one generation to the next. This expansion often crosses a critical threshold, leading to disease
+
+The laboratory methods to analyze these regions are highly specialized. Because of their repetitive nature, they are notoriously difficult to analyze with standard PCR and sequencing. We rely on techniques like **Triplet Repeat-Primed PCR (TP-PCR)** and **Fragment Analysis** to accurately detect and size these expansions
+
+## **Anticipation: A Clinical Hallmark** {-}
+
+One of the defining features of many trinucleotide repeat disorders is a phenomenon called **anticipation**. This means that as the unstable repeat expands through successive generations, the disease tends to:
+
+*   Appear at an **earlier age** of onset
+*   Present with **increased severity**
+
+This is a direct reflection of the molecular event: a larger repeat expansion typically correlates with a more severe disease course. A grandfather might have a small expansion and develop symptoms at age 60, his daughter might have a larger expansion and show signs at age 40, and his grandson could have a massive expansion and be severely affected in childhood. Our lab results provide the molecular explanation for this clinical observation
+
+## **The Major Players: Three Genes, Three Mechanisms** {-}
+
+It's fascinating because different repeat expansions cause disease through completely different mechanisms, depending on *where* in the gene the expansion occurs
+
+### **Fragile X Syndrome: A Gene Silencing Problem** {-}
+
+This is the most common inherited cause of intellectual disability and a well-known cause of autism
+
+*   **The Gene and the Repeat:** An expanding **CGG** repeat in the 5' untranslated region (5' UTR) of the ***FMR1*** gene on the X chromosome
+*   **The Thresholds**
+    *   **Normal:** 5-44 repeats
+    *   **Intermediate ("Gray Zone"):** 45-54 repeats
+    *   **Premutation:** 55-200 repeats
+    *   **Full Mutation:** >200 repeats
+*   **The Molecular Mechanism:** The expansion happens *before* the protein-coding part of the gene. When the CGG repeat number exceeds 200, the cell recognizes this massive repeat as abnormal and flags it. This leads to heavy **methylation** of the gene's promoter, which is like putting a giant "STOP" sign on it. The *FMR1* gene is completely silenced, and no FMRP protein is produced. It's a **loss-of-function** mechanism
+*   **The Premutation:** Individuals with a premutation do not have Fragile X syndrome but are carriers. They are at risk for other conditions (like a neurodegenerative disorder called FXTAS) and women are at risk for premature ovarian insufficiency (FXPOI). Critically, a female with a premutation has a high risk of the repeat expanding to a full mutation in her children
+
+### **Huntington Disease: A Toxic Protein Problem** {-}
+
+This is a progressive, fatal neurodegenerative disorder characterized by involuntary movements (chorea), cognitive decline, and psychiatric problems
+
+*   **The Gene and the Repeat:** An expanding **CAG** repeat within a coding exon of the ***HTT*** gene
+*   **The Thresholds**
+    *   **Normal:** <27 repeats
+    *   **Intermediate:** 27-35 repeats (not at risk, but children may be)
+    *   **Reduced Penetrance:** 36-39 repeats (may or may not develop symptoms)
+    *   **Full Penetrance:** >40 repeats (will develop Huntington Disease)
+*   **The Molecular Mechanism:** The CAG codon codes for the amino acid glutamine. The expansion leads to an abnormally long tract of glutamine residues (a "polyglutamine tract") in the huntingtin protein. This altered protein misfolds, clumps together, and is toxic to neurons, particularly in the striatum of the brain. This is a **toxic gain-of-function** mechanism—the abnormal protein actively causes damage
+
+### **Myotonic Dystrophy Type 1 (DM1): A Toxic RNA Problem** {-}
+
+This is the most common form of adult-onset muscular dystrophy, characterized by progressive muscle wasting and weakness, and myotonia (inability to relax muscles)
+
+*   **The Gene and the Repeat:** An expanding **CTG** repeat in the 3' untranslated region (3' UTR) of the ***DMPK*** gene
+*   **The Molecular Mechanism:** Here, the problem is not the protein itself, but the messenger RNA (mRNA) transcript. The expanded CUG repeat in the mRNA creates an abnormal, sticky structure. This toxic RNA acts like a sponge, trapping and sequestering essential RNA-binding proteins in the nucleus. These trapped proteins are now unable to perform their normal jobs of splicing other critical mRNAs, leading to a cascade of problems across multiple body systems. It's a **toxic RNA gain-of-function** mechanism
+
+## **Key Terms** {-}
+
+*   **Trinucleotide Repeat Expansion:** A type of mutation where a sequence of three DNA nucleotides is unstable and repeats an excessive number of times, expanding in size from one generation to the next
+*   **Anticipation:** The clinical phenomenon in which the signs and symptoms of a genetic disorder become more severe and/or appear at an earlier age as it is passed from one generation to the next
+*   **Premutation:** An intermediate number of repeats that is unstable and at risk of expanding into a full mutation in offspring. It may also be associated with late-onset health risks for the carrier
+*   **Fragile X Syndrome:** The most common inherited cause of intellectual disability, caused by a CGG repeat expansion in the *FMR1* gene that leads to gene silencing
+*   **Huntington Disease:** A fatal neurodegenerative disorder caused by a CAG repeat expansion in the *HTT* gene, which creates a toxic polyglutamine protein
+*   **Myotonic Dystrophy:** A multi-systemic disorder caused by a CTG repeat expansion in the *DMPK* gene, which results in a toxic RNA that disrupts the function of other genes
+*   **Fragment Analysis:** A laboratory technique using capillary electrophoresis to precisely measure the size of PCR products. It is used to determine the exact number of repeats in normal and premutation-sized alleles
