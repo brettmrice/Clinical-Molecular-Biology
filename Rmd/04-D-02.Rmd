@@ -1,0 +1,61 @@
+# Competency {-}
+
+In the regulatory hierarchy of the clinical laboratory, "Training" teaches a scientist how to do a task, "Education" provides the theoretical background, and **Competency Assessment** validates that the scientist performs the task accurately and according to procedure. Under CLIA '88 regulations, Competency Assessment is not a suggestion; it is a mandatory, documented process required for all personnel performing High Complexity testing (which includes nearly all molecular diagnostic assays). Failure to properly document competency is one of the most common citations issued during CAP and TJC inspections
+
+## The Regulatory Framework (CLIA '88) {-}
+
+The Clinical Laboratory Improvement Amendments (CLIA) strictly define the schedule and method of assessment. The rigorous nature of these rules reflects the fact that molecular testing is often manual and highly technique-dependent, meaning personnel error is a significant source of variance
+
+*   **Frequency of Assessment**
+    *   **Initial Training:** Before a new employee touches a patient sample, they must be trained. Once training is complete, they are deemed "competent" to start testing
+    *   **Semiannual (The "6-Month" Check):** During the first year of employment, competency must be assessed at the **6-month mark**. This ensures that the new scientist has not developed bad habits after the initial training wheels were removed
+    *   **Annual:** After the first year, competency must be assessed **annually** (every 12 months) for the duration of employment
+*   **The Assessor (Who performs the check?)**
+    *   For High Complexity testing, competency must be assessed by the **Technical Supervisor**
+    *   In many labs, the Technical Supervisor delegates this responsibility to a General Supervisor or a Lead Laboratory scientist, but the delegation must be in writing. Peer-to-peer assessment (one bench laboratory scientist assessing another) is generally not permitted unless the assessor meets the specific regulatory educational requirements of a General Supervisor
+
+## The Six Elements of Competency {-}
+
+CLIA mandates that **six specific elements** must be evaluated for each assay system. It is insufficient to simply watch a scientist run a test and sign a form; the assessment must cover the entire workflow from specimen receipt to result reporting. For a Molecular Biology laboratory, these six elements are applied as follows:
+
+1.  **Direct Observation of Routine Patient Test Performance**
+    *   The assessor physically watches the scientist perform the assay
+    *   **Molecular Focus:** This is critical for catching technique errors. The assessor looks for:
+        *   Proper pipetting technique (vertical hold, smooth plunger action) to prevent aerosols
+        *   Adherence to the unidirectional workflow (moving from Clean to Dirty areas, changing lab coats)
+        *   Proper use of biological safety cabinets (not blocking airflow)
+        *   Correct labeling of tubes and spin columns
+2.  **Monitoring the Recording and Reporting of Test Results**
+    *   The assessor verifies that the scientist can accurately transfer raw data into the Laboratory Information System (LIS)
+    *   **Molecular Focus:** Reviewing a batch of recent results to ensure that "Detected" vs. "Not Detected" was entered correctly. Checking that critical values (e.g., positive Meningitis targets) were called to the provider and documented with a "read-back."
+3.  **Review of Intermediate Test Results or Worksheets**
+    *   This element focuses on the "raw data" and Quality Control (QC) records that justify the final result
+    *   **Molecular Focus:** Did the scientist verify the Internal Control was positive before releasing a negative patient result? Did they document the lot numbers of the Master Mix used? If the Positive Control failed, did they document the corrective action properly?
+4.  **Direct Observation of Performance of Instrument Maintenance and Function Checks**
+    *   The assessor watches the scientist perform non-patient tasks that keep the lab running
+    *   **Molecular Focus:** Watching the scientist perform the weekly bleach wipe-down of the hood, changing the polymer on a capillary sequencer, or performing the background calibration on a Real-Time PCR instrument
+5.  **Assessment of Test Performance Through Proficiency Testing (PT)**
+    *   The assessor reviews the scientist's performance on external blind samples (e.g., CAP surveys)
+    *   **Molecular Focus:** If the lab receives a PT kit for HIV Viral Load, the scientist being assessed should run those samples. If the results match the peer group, this element is satisfied. Alternatively, the lab can use "blinded" previously tested samples if a PT kit is not available
+6.  **Assessment of Problem Solving Skills**
+    *   The assessor evaluates the scientist's ability to handle errors. This is often done via a quiz or a "What If" scenario
+    *   **Molecular Focus**
+        *   *Scenario:* "You have just finished a run of 40 patients. The NTC (No Template Control) has a Ct value of 32. What do you do?"
+        *   *Correct Answer:* "Reject the run. Do not release results. Clean the area. Repeat with new reagents."
+
+## Documentation & Remediation {-}
+
+Competency assessment is a legal document. If a patient result is challenged in court, the plaintiff's attorney will request the competency records of the specific scientist who performed the test to prove they were qualified
+
+*   **The Competency File:** Every employee must have a file containing their diploma, certification, training checklists, and signed competency assessment forms for every year of employment
+*   **Signatures:** The forms must be signed by both the **Employee** (acknowledging the assessment) and the **Assessor** (certifying the performance)
+*   **Remediation (Failure to Demonstrate Competency)**
+    *   If a scientist fails any of the six elements (e.g., they contaminate the NTC during direct observation), they must **Cease Testing:** immediately for that specific assay
+    *   **Retraining:** The scientist must undergo a documented retraining session
+    *   **Re-assessment:** After retraining, they must pass the competency assessment again before they are permitted to resume patient testing
+
+## Summary of Training vs. Competency {-}
+
+*   **Training:** The process of teaching a new skill. Occurs *once* upon hire or implementation of a new platform
+*   **Competency:** The process of verifying that the skill is maintained. Occurs *semiannually* the first year, and *annually* thereafter
+*   **Scope:** Training can be general; Competency must be specific to *each* test system (e.g., a scientist can be competent in manual extraction but not yet competent in automated extraction)

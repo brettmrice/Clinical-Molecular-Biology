@@ -36,18 +36,8 @@ This is caused by a reduced production of alpha-globin chains. The key thing to 
 ### **Beta-Thalassemia** {-}
 This is caused by reduced or absent production of beta-globin chains from the two beta-globin genes we have (one on each chromosome 11)
 
-*   **The Molecular Defect:** Unlike alpha-thalassemia, this is usually caused by **point mutations** within the *HBB* gene—over 200 different mutations have been described! These mutations can either result in no protein production (**β⁰**) or a reduced amount of protein (**β⁺**). Because there are so many possible mutations, **DNA sequencing** of the *HBB* gene is often the best diagnostic approach
+*   **The Molecular Defect:** Unlike alpha-thalassemia, this is usually caused by **point mutations** within the *HBB* gene - over 200 different mutations have been described! These mutations can either result in no protein production (**β⁰**) or a reduced amount of protein (**β⁺**). Because there are so many possible mutations, **DNA sequencing** of the *HBB* gene is often the best diagnostic approach
 *   **The Spectrum of Disease**
     *   **Beta-Thalassemia Minor (Trait):** A carrier state (one mutated gene). Similar to alpha-thal trait, causes a mild microcytic anemia
     *   **Beta-Thalassemia Intermedia:** A clinically diverse state between minor and major
     *   **Beta-Thalassemia Major (Cooley's Anemia):** Both genes are mutated. This is a severe, transfusion-dependent anemia. The massive excess of unpaired alpha-chains is highly toxic to developing red blood cells, leading to their destruction in the bone marrow and spleen
-
-## **Key Terms** {-}
-
-*   **Hemoglobinopathy:** An umbrella term for any inherited genetic disorder affecting the structure or synthesis of the hemoglobin molecule
-*   **Qualitative Defect:** A genetic disorder where a normal amount of a protein is produced, but it is structurally abnormal due to a mutation in the coding sequence (e.g., Sickle Cell Anemia)
-*   **Quantitative Defect:** A genetic disorder where the protein structure is normal, but it is produced in insufficient amounts or not at all (e.g., Thalassemia)
-*   ***HBB* Gene:** The gene on chromosome 11 that provides the blueprint for making the beta-globin chain of hemoglobin. It is the site of mutations causing both sickle cell anemia and beta-thalassemia
-*   **Hemoglobin S (HbS):** The specific abnormal hemoglobin produced in sickle cell anemia, which polymerizes under low oxygen conditions and causes red blood cells to deform
-*   **Alpha-Globin Gene Deletion:** The most common cause of alpha-thalassemia, where one or more of the four alpha-globin genes are physically missing from the chromosome
-*   **Prenatal Diagnosis:** The use of molecular testing on fetal DNA, obtained from procedures like chorionic villus sampling (CVS) or amniocentesis, to determine the genetic status of a fetus for a serious inheritable condition

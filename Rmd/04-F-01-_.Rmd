@@ -1,0 +1,47 @@
+# Financial Management {-}
+
+Financial management in the molecular laboratory is the strategic oversight of resources to ensure the department remains solvent while providing high-quality patient care. Because molecular biology is a high-cost center involving expensive reagents, specialized instrumentation, and complex reimbursement codes, the laboratory scientist must understand the mechanisms of budgeting, cost accounting, and inventory control
+
+## Budgets {-}
+
+The budget is the financial roadmap for the laboratory, predicting revenue and expenses over a fiscal year. It is generally divided into two distinct categories based on the nature of the expense
+
+*   **Operational Budget:** Covers the day-to-day costs required to produce patient results
+    *   **Labor:** Salaries, overtime, and benefits (usually the largest expense)
+    *   **Consumables:** Reagents, pipette tips, PPE, and office supplies. These are **Variable Costs**, meaning they fluctuate directly with testing volume (e.g., more flu tests run = more extraction kits bought)
+    *   **Overhead:** Fixed costs such as electricity, building maintenance, and administrative salaries that do not change based on testing volume
+*   **Variance Analysis:** At the end of a period, administrators compare the *Budgeted* amount to the *Actual* amount
+    *   **Volume Variance:** A difference caused by running more or fewer tests than predicted (e.g., a severe flu season increases supply costs but also increases revenue)
+    *   **Efficiency Variance:** A difference caused by using more resources per test than planned (e.g., high repeat rates due to contamination or instrument failure), representing a net financial loss
+
+## Capital Equipment Acquisition {-}
+
+Capital equipment refers to high-cost, long-lasting assets (e.g., Next-Generation Sequencers, automated extraction platforms). An item is typically defined as "Capital" if it exceeds a specific cost threshold (e.g., $5,000) and has a lifespan of more than one year
+
+*   **Financial Justification (ROI):** Capital requests require a "Return on Investment" analysis. The lab must prove the equipment will pay for itself through labor savings (automation reducing FTE needs) or revenue generation (insourcing tests previously sent to reference labs)
+*   **Acquisition Models**
+    *   **Outright Purchase:** The lab buys the equipment using Capital Budget funds. Result: Lower cost per test (only paying for reagents), but high upfront cost
+    *   **Reagent Rental (Placement):** The vendor places the instrument in the lab for "free" ($0 capital). In exchange, the lab signs a contract to buy reagents at a premium price for a set number of years. Result: No upfront cost, but higher cost per test
+    *   **Lease:** The lab pays a monthly fee to use the machine, useful for temporary needs or cash-flow constraints
+
+## Cost Analysis & Reimbursement {-}
+
+To ensure financial viability, the laboratory must calculate the **Cost Per Test** and ensure it is lower than the **Reimbursement** received from payers (Medicare/Insurance)
+
+*   **Cost Accounting:** The lab calculates the cost of producing one result by adding Direct Costs (labor + reagents) and Indirect Costs (overhead)
+    *   **Batch Efficiency:** In molecular biology, the cost per test is heavily influenced by batch size. Because every run requires a Positive and Negative control, running small batches (low efficiency) significantly increases the cost per patient compared to running full plates (high efficiency)
+*   **Reimbursement (Coding)**
+    *   **CPT Codes:** Describes *what* was done (e.g., 81000 series for molecular pathology). Using the correct Tier 1 (gene-specific) or Genomic Sequencing Procedure (GSP) code is essential for payment
+    *   **ICD-10 Codes:** Describes *why* it was done (Medical Necessity). Medicare Local Coverage Determinations (LCDs) dictate which diagnoses justify a specific molecular test. If a test is not medically necessary, the claim is denied
+
+## Purchasing & Inventory {-}
+
+Effective inventory management prevents "stockouts" (inability to test) and "waste" (expired reagents). Molecular reagents require strict management due to their high cost and instability (enzyme degradation)
+
+*   **Purchasing Strategies**
+    *   **Standing Orders:** Automatic shipments of high-volume reagents at regular intervals to prevent stockouts
+    *   **Lot Sequestration:** Requesting the manufacturer set aside a 6-to-12-month supply of a *single specific lot* of reagents. This is critical in molecular diagnostics to reduce the frequency of expensive "Crossover Studies" required to validate new lots
+*   **Inventory Control**
+    *   **FIFO (First In, First Out):** New stock is placed behind old stock. Using the oldest reagents first prevents expiration
+    *   **Par Levels:** The minimum quantity of an item required to ensure operations continue until the next delivery arrives
+    *   **Cold Chain Management:** Incoming shipments must be inspected immediately. If dry ice has thawed or enzymes are warm, the shipment must be rejected to prevent technical failure in the assay

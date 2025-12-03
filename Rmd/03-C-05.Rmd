@@ -1,6 +1,6 @@
 # Epigenetic Disorders {-}
 
-Let's venture into one of the most fascinating and, frankly, mind-bending areas of genetics. So far, we've focused on disorders caused by changes *in* the DNA sequence itself—typos, deletions, or expansions. Now, we're going to talk about disorders where the DNA sequence is perfectly normal, but the problem lies in how the cell **reads and uses** that DNA
+Let's venture into one of the most fascinating and, frankly, mind-bending areas of genetics. So far, we've focused on disorders caused by changes *in* the DNA sequence itself - typos, deletions, or expansions. Now, we're going to talk about disorders where the DNA sequence is perfectly normal, but the problem lies in how the cell **reads and uses** that DNA
 
 Welcome to the world of **epigenetics**. The prefix "epi-" means "above" or "on top of." Epigenetics refers to heritable changes that sit "on top of" the DNA sequence and modify gene expression without altering the sequence itself. Think of your DNA as a massive library of cookbooks. A genetic mutation is like a typo in a recipe. An **epigenetic modification** is like a sticky note or a highlighter mark placed on a recipe, telling the cell "READ THIS ONE" or "IGNORE THIS ONE."
 
@@ -12,15 +12,15 @@ This brings us to a specific and powerful epigenetic phenomenon called **genomic
 
 *   **You inherit two copies, but only one is active.:** One parental copy is systematically methylated and shut off, while the other is left unmethylated and active
 *   This imprinting pattern is established in the sperm and egg and is maintained throughout the life of the individual
-*   Disease occurs when the **one active copy** that you were supposed to get is lost or broken. The other copy is there, but it's silenced by imprinting, so the cell can't use it as a backup. You're left with no functional gene product
+*   Disease occurs when the **one active copy:** that you were supposed to get is lost or broken. The other copy is there, but it's silenced by imprinting, so the cell can't use it as a backup. You're left with no functional gene product
 
 The textbook examples of imprinting disorders, Prader-Willi Syndrome and Angelman Syndrome, are remarkable because they are caused by problems in the very **same region** of chromosome 15 (15q11-q13), but they are two completely different diseases. It all depends on *which* parent's copy was lost
 
 ## **The Syndromes: Two Sides of the Same Coin** {-}
 
 In the critical 15q11-q13 region:
-*   Several genes are expressed **only** from the chromosome you inherit from your **father**
-*   One key gene, *UBE3A*, is expressed **only** from the chromosome you inherit from your **mother** (specifically in the brain)
+*   Several genes are expressed **only:** from the chromosome you inherit from your **father**
+*   One key gene, *UBE3A*, is expressed **only:** from the chromosome you inherit from your **mother** (specifically in the brain)
 
 ### **Prader-Willi Syndrome (PWS)** {-}
 *   **The Defect:** This occurs when there is a **loss of the paternally contributed** region of chromosome 15. The maternal copy of these genes is present, but it's naturally silenced by imprinting, so the patient has no active copies of the critical PWS genes
@@ -34,28 +34,18 @@ In the critical 15q11-q13 region:
 
 There are three main ways for the active copy to be lost, and our testing strategy has to be able to detect them all
 
-1.  **Deletion (~70% of cases)** This is the most common cause. A physical piece of the chromosome 15q11-q13 region is simply missing from either the paternal (causing PWS) or maternal (causing AS) chromosome
-2.  **Uniparental Disomy (UPD) (~25% of cases)** This is a bizarre event where an individual inherits **two copies** of a chromosome from one parent and **none** from the other
+1.  **Deletion (~70% of cases):** This is the most common cause. A physical piece of the chromosome 15q11-q13 region is simply missing from either the paternal (causing PWS) or maternal (causing AS) chromosome
+2.  **Uniparental Disomy (UPD) (~25% of cases):** This is a bizarre event where an individual inherits **two copies** of a chromosome from one parent and **none** from the other
     *   If a person inherits two copies of chromosome 15 from their mother and none from their father, both copies will have the maternal imprinting pattern. This results in **Prader-Willi Syndrome**
     *   If a person inherits two copies from their father and none from their mother, both copies have the paternal imprinting pattern. This results in **Angelman Syndrome**
-3.  **Imprinting Center Defect (~5% of cases)** The "master switch" in the DNA that sets the methylation pattern is itself mutated. The chromosome is present, but it gets the wrong epigenetic "stamp."
+3.  **Imprinting Center Defect (~5% of cases):** The "master switch" in the DNA that sets the methylation pattern is itself mutated. The chromosome is present, but it gets the wrong epigenetic "stamp."
 
 ## **The Laboratory Approach** {-}
 
 Because the DNA sequence can be normal (in cases of UPD or imprinting defects), just sequencing the gene isn't enough. The workhorse test is **methylation analysis**
 
 *   The first-line test for both PWS and AS is **Methylation-Specific PCR (MS-PCR)**. This test looks directly at the methylation pattern in the 15q11-q13 region. A normal individual will have one unmethylated (paternal) copy and one methylated (maternal) copy, and the test will detect both
-    *   A patient with **PWS** will show **only** a maternal (methylated) pattern
-    *   A patient with **AS** will show **only** a paternal (unmethylated) pattern
+    *   A patient with **PWS:** will show **only** a maternal (methylated) pattern
+    *   A patient with **AS:** will show **only** a paternal (unmethylated) pattern
 *   This test is powerful because it will be abnormal regardless of whether the cause is a deletion, UPD, or an imprinting defect
-*   If the methylation test is abnormal, follow-up tests like **FISH or microarray** can be used to look for a deletion, and **STR analysis** can be used to diagnose UPD
-
-## **Key Terms** {-}
-
-*   **Epigenetics:** The study of heritable changes in gene expression that do not involve alterations to the underlying DNA sequence. Think of it as the software that runs the DNA hardware
-*   **DNA Methylation:** The primary epigenetic mechanism where a methyl group is added to a cytosine nucleotide, typically leading to gene silencing
-*   **Genomic Imprinting:** A phenomenon in which a gene's expression is determined by its parent of origin. One parental copy (either maternal or paternal) is epigenetically silenced, so only the other copy is expressed
-*   **Prader-Willi Syndrome (PWS):** A disorder caused by the loss of function of genes on the paternally inherited chromosome 15, characterized by hypotonia, intellectual disability, and hyperphagia
-*   **Angelman Syndrome (AS):** A neurodevelopmental disorder caused by the loss of function of the *UBE3A* gene on the maternally inherited chromosome 15, characterized by developmental delay, seizures, and a happy demeanor
-*   **Uniparental Disomy (UPD):** A condition where an individual inherits two copies of a chromosome from one parent and no copy from the other parent. It can cause imprinting disorders if it involves an imprinted chromosome like 15
-*   **Methylation-Specific PCR:** The primary molecular diagnostic test for imprinting disorders, which can differentiate between the methylated (maternal) and unmethylated (paternal) copies of a gene region
+*   If the methylation test is abnormal, follow-up tests like **FISH or microarray:** can be used to look for a deletion, and **STR analysis** can be used to diagnose UPD

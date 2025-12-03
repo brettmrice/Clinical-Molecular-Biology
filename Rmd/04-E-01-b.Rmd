@@ -1,0 +1,90 @@
+# Chemical {-}
+
+While the primary focus of a clinical laboratory is often biological safety, the Molecular Biology section utilizes a unique array of hazardous chemicals not typically found in Hematology or Chemistry. From organic solvents used in extraction to potent mutagens used in electrophoresis, the chemical risks are significant. Chemical safety is mandated by the Occupational Safety and Health Administration (OSHA) "Hazard Communication Standard" (Right-to-Know Law), which requires that all employees understand the nature of the chemicals they handle and the means to protect themselves
+
+## Hazard Communication (SDS & GHS) {-}
+
+Information regarding chemical hazards must be readily available to all staff at all times. This is achieved through Safety Data Sheets (SDS) and standardized labeling
+
+*   **Safety Data Sheets (SDS):** Formerly known as MSDS, these documents must be on file (physically or digitally) for every chemical in the laboratory. They contain 16 standardized sections, including:
+    *   **Section 4 (First Aid):** Immediate treatment for exposure (e.g., "Flush eyes for 15 minutes")
+    *   **Section 8 (Exposure Controls/PPE):** Required protective gear
+    *   **Section 10 (Stability and Reactivity):** Incompatible chemicals (e.g., "Do not mix with oxidizers")
+*   **GHS Labeling:** The Globally Harmonized System requires that all secondary containers (e.g., a beaker of diluted acid) be labeled with:
+    *   **Product Identifier:** The name of the chemical
+    *   **Signal Word:** "Danger" (Severe) or "Warning" (Less severe)
+    *   **Hazard Statements:** Describes the nature of the hazard (e.g., "Causes severe skin burns")
+    *   **Pictograms:** Diamond-shaped symbols indicating the type of hazard (e.g., Corrosion, Flame, Skull & Crossbones for acute toxicity, or the "Star Man" for carcinogens/mutagens)
+
+## Specific High-Risk Chemicals in Molecular Biology {-}
+
+Certain chemicals are ubiquitous in molecular workflows and present specific, high-level risks that differ from general laboratory reagents
+
+### Ethidium Bromide (EtBr) {-}
+
+Historically the most common dye used to visualize DNA in agarose gel electrophoresis, EtBr is a potent safety hazard due to its mechanism of action
+
+*   **Hazard:** EtBr is a flat molecule that **intercalates** (wedges itself) between the base pairs of the DNA double helix. Because it binds to DNA, it is a known **mutagen** and a suspected carcinogen/teratogen. It can cause genetic damage to the laboratory scientist if absorbed
+*   **Handling**
+    *   **PPE:** Nitrile gloves are required. Latex gloves are often permeable to EtBr in solution. Double-gloving is recommended
+    *   **UV Light:** EtBr is visualized under Ultraviolet (UV) light. This presents a secondary physical hazard. UV-blocking face shields and sleeves must be worn to prevent corneal burns and skin cancer
+*   **Disposal:** EtBr liquid waste cannot be poured down the sink. It must be treated with charcoal filtration (which binds the dye) or collected for incineration. Gels containing EtBr must be disposed of in dedicated hazardous waste containers, not regular biohazard bags
+
+### Guanidine Salts (Extraction Buffers) {-}
+
+Guanidine Thiocyanate and Guanidine Hydrochloride are chaotropic salts used in lysis buffers to denature proteins and facilitate DNA binding to silica
+
+*   **Hazard:** These salts are skin irritants and harmful if swallowed, but the primary danger is **Chemical Incompatibility**
+*   **The Cyanide Reaction:** Mixing Guanidine salts with **Sodium Hypochlorite (Bleach)** produces toxic gases (Hydrogen Cyanide or Cyanogen Chloride). This is a critical safety rule: **Never** bleach waste from the extraction phase of a molecular run. Use detergent and water instead
+
+### Phenol & Chloroform {-}
+
+Used in "Organic Extraction" methods (e.g., TRIzol) to separate nucleic acids from proteins and lipids. This method is common in high-complexity LDTs or RNA work
+
+*   **Phenol Hazard:** Phenol is highly corrosive and lipophilic. It causes severe chemical burns that are often **painless** initially because phenol acts as a local anesthetic, destroying nerve endings while it damages tissue. Phenol burns typically turn the skin white
+*   **Chloroform Hazard:** A volatile organic solvent that depresses the central nervous system (dizziness, fatigue) and is a suspected carcinogen. It is highly volatile
+*   **Handling:** These must strictly be used inside a **Chemical Fume Hood** (not a Biological Safety Cabinet) to vent vapors away from the user. Neoprene or heavy-duty nitrile gloves are required
+
+### Formamide {-}
+
+Used in hybridization buffers (FISH, Southern Blot) and sequencing loading dyes to lower the melting temperature of DNA and keep it denatured
+
+*   **Hazard:** Formamide is a known **Teratogen** (reproductive toxin). It can cause birth defects. Pregnant laboratory scientists should avoid handling this chemical or strictly adhere to PPE guidelines. It is also easily absorbed through the skin
+
+### Polyacrylamide (PAGE Gels) {-}
+
+Used for high-resolution separation of small DNA fragments or protein sequencing
+
+*   **Hazard:** **Acrylamide** (the liquid monomer) is a potent **Neurotoxin**. It can accumulate in the body and cause nerve damage. Once polymerized into a solid gel (Polyacrylamide), it is relatively non-toxic
+*   **Handling:** Great care must be taken when measuring the powder or pouring the liquid solution. A dust mask is required if weighing the powder to prevent inhalation
+
+## Engineering Controls: Fume Hood vs. BSC {-}
+
+A critical error in molecular laboratory safety is confusing the Biological Safety Cabinet (BSC) with the Chemical Fume Hood. They function differently and protect against different hazards
+
+*   **Chemical Fume Hood**
+    *   **Function:** Pulls air away from the user and exhausts it entirely out of the building (hard-ducted)
+    *   **Use:** Must be used for volatile toxic chemicals (Chloroform, Mercaptoethanol, concentrated acids). It offers **no protection** against biological sterility (it draws dirty room air over the sample)
+*   **Biological Safety Cabinet (Class II, Type A2)**
+    *   **Function:** Recirculates ~70% of the air through HEPA filters back into the cabinet
+    *   **Limitation:** HEPA filters trap particles (bacteria/viruses) but **do not** trap chemical vapors. If you use volatile toxic chemicals (like Chloroform) in a standard BSC, the vapors will be recirculated and blown back into the user's face. Only minute quantities of non-volatile chemicals should be used in a BSC
+
+## Storage & Compatibility {-}
+
+Proper segregation of chemicals prevents accidental reactions during storage or in the event of an earthquake/fire
+
+*   **Acids and Bases:** Must be stored in separate corrosive cabinets. Mixing them can generate excessive heat and boiling (exothermic reaction)
+*   **Oxidizers:** (e.g., Hydrogen Peroxide, Nitrates) must be stored away from **Flammables** (Ethanol, Isopropanol). Oxidizers provide the oxygen needed for a fire to burn more intensely
+*   **Flammables:** Large volumes of Ethanol (common in DNA precipitation) must be stored in a grounded, metal Safety Cabinet
+*   **Cryogens (Liquid Nitrogen):** Used for long-term cell storage. The primary hazards are **Asphyxiation** (Liquid Nitrogen expands 700x when converting to gas, displacing oxygen in the room) and **Thermal Burns** (frostbite). Heavy cryogenic gloves and face shields are mandatory
+
+## Chemical Waste Disposal {-}
+
+Medical laboratories cannot simply flush chemicals down the drain (Sanitary Sewer). The Environmental Protection Agency (EPA) and local mandates strictly regulate effluent
+
+*   **No-Drain List:** Xylene, Acetone, Alcohols (Ethanol/Methanol), Formalin, Chloroform, and heavy metals (Mercury) are strictly prohibited from drain disposal
+*   **Satellite Accumulation Areas:** Laboratories collect waste in "Satellite" containers near the point of generation. These containers must be:
+    *   Labeled with the full chemical name (no formulas like "$H_2SO_4$")
+    *   Labeled with the words "Hazardous Waste"
+    *   Kept closed at all times when not actively adding waste
+*   **Neutralization:** Some labs are permitted to neutralize simple acids and bases (pH adjustment) before disposal, but this typically requires a specific permit

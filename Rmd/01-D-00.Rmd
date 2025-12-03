@@ -12,11 +12,11 @@ Both fields explore how genetic information encoded in nucleic acids dictates fu
 *   **Gene Regulation:** Complex, involving transcription factors, enhancers/silencers, chromatin remodeling, extensive RNA processing (**splicing** of introns/exons), and **epigenetics** (methylation, histone modification)
 *   **Variation & Inheritance**
     *   Mutations (point, CNVs, rearrangements) arise but at a slower rate relative to organism lifespan
-    *   Inheritance is primarily **vertical** (parent to offspring) via sexual reproduction, following **Mendelian** (AD, AR, XL) and **Non-Mendelian** (Mitochondrial, Imprinting, Triplet Repeats) patterns
-    *   Focus on **germline** mutations (inherited diseases) and **somatic** mutations (cancer)
+    *   Inheritance is primarily **vertical:** (parent to offspring) via sexual reproduction, following **Mendelian** (AD, AR, XL) and **Non-Mendelian** (Mitochondrial, Imprinting, Triplet Repeats) patterns
+    *   Focus on **germline:** mutations (inherited diseases) and **somatic** mutations (cancer)
 *   **Clinical Focus**
-    *   Diagnosing **inherited monogenic disorders** (e.g., CF, Sickle Cell)
-    *   Identifying **chromosomal abnormalities** (e.g., Down syndrome)
+    *   Diagnosing **inherited monogenic disorders:** (e.g., CF, Sickle Cell)
+    *   Identifying **chromosomal abnormalities:** (e.g., Down syndrome)
     *   **Cancer genetics:** Detecting inherited predispositions (e.g., BRCA) and somatic mutations guiding targeted therapy (e.g., EGFR, KRAS)
     *   **Pharmacogenomics:** Predicting drug response based on genetic variants
     *   Carrier screening and prenatal diagnosis

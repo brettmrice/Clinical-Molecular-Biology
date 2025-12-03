@@ -1,6 +1,6 @@
 # Oligonucleotides {-}
 
-**PCR Oligonucleotide Design and Preparation** is the art and science of getting your primers right. Think of primers as the highly specific **GPS coordinates** for your PCR reaction – they tell the polymerase exactly where to start copying on the DNA template. If your coordinates are wrong or fuzzy, you'll either amplify the wrong thing or nothing at all!
+**PCR Oligonucleotide Design and Preparation:** is the art and science of getting your primers right. Think of primers as the highly specific **GPS coordinates** for your PCR reaction – they tell the polymerase exactly where to start copying on the DNA template. If your coordinates are wrong or fuzzy, you'll either amplify the wrong thing or nothing at all!
 
 Therefore, rigorous primer design using appropriate software and databases, choosing the right purification level, and careful handling/storage practices are absolutely essential for reliable and accurate molecular diagnostic testing
 
@@ -28,10 +28,10 @@ The goal of primer design is to create short, single-stranded DNA sequences (oli
 
 *   **Definition:** The temperature at which 50% of the primer-template duplex has dissociated into single strands. It indicates the stability of the primer binding
 *   **Importance**
-    *   The Tm dictates the optimal **annealing temperature (Ta)** for the PCR cycle. Ta is typically set ~3-5°C *below* the calculated Tm
+    *   The Tm dictates the optimal **annealing temperature (Ta):** for the PCR cycle. Ta is typically set ~3-5°C *below* the calculated Tm
     *   **Primer Pair Matching:** The forward and reverse primers in a pair should have very similar Tm values (ideally within 1-2°C, max 5°C difference). If Tms are too different, one primer might bind efficiently while the other binds poorly or non-specifically at a given annealing temperature, leading to inefficient or failed amplification
 *   **Calculation**
-    *   **Basic Formula (for <20 bp):** Tm ≈ 4°C × (# G/C) + 2°C × (# A/T)
+    *   **Basic Formula (for <20 bp)** Tm ≈ 4°C × (# G/C) + 2°C × (# A/T)
     *   **More Accurate Formulas/Algorithms:** Primer design software uses more sophisticated thermodynamic calculations (Nearest-Neighbor method) considering salt concentration, primer concentration, and base stacking interactions. **Always use the Tm calculated by reliable software.**
 *   **Target Tm Range:** Often aimed for 55-65°C, but depends on the polymerase and application
 
@@ -59,7 +59,7 @@ The goal of primer design is to create short, single-stranded DNA sequences (oli
 *   **What:** Having one or two G or C bases at the very **3' end** of the primer
 *   **Why:** The 3' end is where the polymerase starts extension. G/C bases provide stronger binding (3 H-bonds) at this critical end, helping to "clamp" the primer down correctly and promote efficient polymerase binding and extension. Avoid ending with a T. Avoid more than 3 G/Cs at the 3' end (can promote mispriming)
 
-### **Avoiding Runs and Repeats** {-}
+### **Avoiding Runs & Repeats** {-}
 
 *   **Runs:** Long stretches of a single base (e.g., AAAAAAA). Can cause polymerase "slippage" and reduce specificity. Max run usually 4 bases
 *   **Repeats:** Di-nucleotide repeats (e.g., ATATATAT). Can lead to mispriming
@@ -107,18 +107,18 @@ Once designed, primers need to be synthesized and prepared correctly for use
         *   **Mass Spectrometry (MS):** Verifies that the major product has the correct molecular weight corresponding to the desired sequence. Confirms identity
 
 4.  **Delivery & Storage**
-    *   Primers usually arrive as a **lyophilized (freeze-dried) powder** – a small pellet at the bottom of the tube. This is the most stable form for long-term storage
+    *   Primers usually arrive as a **lyophilized (freeze-dried) powder:** – a small pellet at the bottom of the tube. This is the most stable form for long-term storage
     *   **Storage (Lyophilized):** Store at -20°C (or -80°C for very long term). Protect from light. Stable for months to years
     *   **Reconstitution**
         *   Briefly centrifuge the tube *before opening* to ensure the pellet is at the bottom
-        *   Resuspend the powder in a nuclease-free buffer (e.g., TE buffer pH 8.0 - Tris-EDTA) or nuclease-free water to create a concentrated **stock solution** (e.g., 100 µM). TE buffer is often preferred as EDTA chelates divalent cations like Mg++, inhibiting potential DNase activity. Water is fine but less protective
+        *   Resuspend the powder in a nuclease-free buffer (e.g., TE buffer pH 8.0 - Tris-EDTA) or nuclease-free water to create a concentrated **stock solution:** (e.g., 100 µM). TE buffer is often preferred as EDTA chelates divalent cations like Mg++, inhibiting potential DNase activity. Water is fine but less protective
         *   Ensure the pellet is completely dissolved (vortex gently, let sit, quick spin)
     *   **Storage (Stock Solution):** Store at -20°C. Stable for months. Avoid repeated freeze-thaw cycles
     *   **Working Solutions:** Prepare dilutions from the stock solution (e.g., 10 µM) in nuclease-free buffer/water. Store at -20°C (short-term at 4°C might be okay for a few days/weeks, but check stability)
     *   **Aliquoting:** It's highly recommended to aliquot the stock solution into smaller volumes upon initial reconstitution. This prevents contaminating the entire stock and minimizes freeze-thaw cycles for the bulk of the primer
 
 5.  **Handling**
-    *   Always use **nuclease-free tips, tubes, and buffer/water** to avoid degradation
+    *   Always use **nuclease-free tips, tubes, and buffer/water:** to avoid degradation
     *   Wear gloves
     *   Keep primer solutions on ice when working with them
 
@@ -130,26 +130,3 @@ In a clinical lab, poorly designed or prepared primers can lead to:
 *   **False Positives:** Amplification of unintended sequences (due to lack of specificity, contamination)
 *   **Low Sensitivity:** Inefficient amplification reduces the ability to detect low levels of target
 *   **Inaccurate Quantification (qPCR):** Primer-dimers or poor efficiency skews quantitative results
-
-## **Key Terms** {-}
-
-*   **Oligonucleotide (Oligo):** A short, single-stranded polymer of nucleotides (DNA or RNA). In PCR context, refers to primers and probes
-*   **Primer:** A short oligonucleotide that serves as a starting point for DNA synthesis by the polymerase. PCR requires a pair: a forward primer and a reverse primer
-*   **Annealing:** The process where primers bind to their complementary sequences on the single-stranded DNA template during the PCR cycle
-*   **Melting Temperature (Tm):** The temperature at which 50% of the primer-template DNA duplex is dissociated. A key parameter for determining annealing temperature
-*   **Annealing Temperature (Ta):** The temperature used during the PCR cycle to allow primers to bind to the template. Typically set 3-5°C below the primer pair's Tm
-*   **Specificity:** The ability of a primer to bind only to its intended target sequence and not to other sequences in the sample
-*   **BLAST (Basic Local Alignment Search Tool):** A bioinformatics tool used to compare a query sequence (e.g., a primer) against a sequence database to find regions of similarity. Essential for checking primer specificity
-*   **GC Content:** The percentage of Guanine (G) and Cytosine (C) bases in a nucleic acid sequence. Affects Tm and stability
-*   **Secondary Structure:** Intramolecular (within a single molecule) structures formed by nucleic acids, such as hairpins and loops
-*   **Hairpin:** A secondary structure formed when a single primer strand folds back on itself due to internal complementary sequences
-*   **Primer-Dimer:** An artifact produced in PCR when primers anneal to each other (forward-to-reverse or self-annealing) and are extended by the polymerase, creating short, unwanted products
-*   **GC Clamp:** The presence of G or C bases at the 3' end of a primer to enhance binding stability at the site of polymerase extension
-*   **Amplicon:** The specific DNA fragment generated during PCR by amplification between the forward and reverse primer binding sites
-*   **Phosphoramidite Synthesis:** The standard chemical method used for automated synthesis of oligonucleotides
-*   **Lyophilized:** Freeze-dried; primers are typically delivered as a stable powder
-*   **Reconstitution:** Dissolving the lyophilized primer powder in a suitable buffer or water to create a stock solution
-*   **Stock Solution:** A concentrated solution (e.g., 100 µM) of primer used for long-term storage and making dilutions
-*   **Working Solution:** A diluted solution (e.g., 10 µM) prepared from the stock solution for routine use in setting up PCR reactions
-*   **Aliquot:** Dividing a solution (like a primer stock) into smaller portions for storage and use, minimizing contamination risk and freeze-thaw cycles
-*   **Nuclease-Free:** Reagents (water, buffer) and consumables (tips, tubes) certified or treated to be free of enzymes that degrade nucleic acids (DNases, RNases)

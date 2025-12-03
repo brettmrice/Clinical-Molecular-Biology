@@ -1,0 +1,43 @@
+# Specimen Handling {-}
+
+Quality Assurance (QA) in molecular biology requires a two-tiered evaluation process. The first tier involves assessing the raw clinical specimen to ensure it meets acceptance criteria regarding collection and transport. The second tier involves evaluating the extracted nucleic acid (eluate) to ensure it is of sufficient quantity, purity, and integrity to serve as a template for amplification. Failure at either stage will result in assay failure or false-negative results
+
+## Phase 1: Evaluation of the Clinical Specimen {-}
+
+Before any lab work begins, the specimen container and the physical condition of the sample must be reviewed. Molecular assays are highly sensitive to enzymatic inhibition, making the choice of anticoagulant and storage conditions critical
+
+*   **Anticoagulants and Additives**
+    *   **EDTA (Lavender Top):** The preferred anticoagulant for molecular testing. It functions by chelating Magnesium ($Mg^{2+}$). Since nucleases (enzymes that degrade DNA) require Magnesium as a cofactor, EDTA effectively inhibits degradation and preserves the specimen
+    *   **Acid Citrate Dextrose (ACD - Yellow Top):** An acceptable alternative, often used for HLA testing or cytogenetics
+    *   **Heparin (Green Top):** **Strictly Prohibited.** Heparin is a negatively charged polysaccharide that mimics the structure of DNA. It binds irreversibly to the active site of *Taq* Polymerase, causing complete reaction failure. Heparinized samples generally require rejection or complex rescue protocols
+*   **Interfering Substances**
+    *   **Hemolysis:** The breakdown of Red Blood Cells releases Heme and hemoglobin. Heme is a potent inhibitor of PCR enzymes. Grossly hemolyzed samples may be rejected or require specialized extraction to remove the heme
+    *   **Lipemia:** High lipid content can clog the silica membranes used in standard spin-column extraction kits, resulting in low yield
+*   **Transport & Stability**
+    *   **DNA:** Generally stable. Whole blood can be stored at 2–8°C for several days. Long-term storage requires freezing (-20°C or -70°C)
+    *   **RNA:** Highly unstable due to ubiquitous RNases (enzymes that degrade RNA). RNA samples (e.g., Plasma HIV) must be processed/separated within hours of collection. If the sample is left at room temperature, white blood cells lyse, releasing RNases that destroy viral RNA, leading to false-low viral loads
+
+## Phase 2: Evaluation of Nucleic Acid Quantity (Yield) {-}
+
+Once extraction is complete, the laboratory must determine the concentration of DNA or RNA to standardize the input for downstream reactions. The method chosen depends on the expected concentration and required specificity
+
+*   **UV Spectrophotometry (Absorbance at 260 nm)**
+    *   **Principle:** Nucleic acids absorb UV light at 260 nm. The reading is converted to concentration using the Beer-Lambert Law
+    *   **Constants:** 1 OD unit at 260 nm = **50 µg/mL** for dsDNA and **40 µg/mL** for RNA
+    *   **Limitations:** This method is non-specific. It cannot distinguish between DNA, RNA, or free nucleotides. It often overestimates yield if contaminants are present
+*   **Fluorometry (Fluorescence)**
+    *   **Principle:** Uses dyes (e.g., PicoGreen, Qubit) that bind specifically to the target molecule (dsDNA or RNA) and emit light
+    *   **Advantages:** Highly specific and highly sensitive. It is the gold standard for Next-Generation Sequencing (NGS) and low-yield clinical samples
+
+## Phase 3: Evaluation of Nucleic Acid Quality (Purity & Integrity) {-}
+
+A sample may have a high concentration but still fail if it is contaminated (impure) or degraded (lacking integrity). Purity is typically measured by absorbance ratios, while integrity is measured by sizing
+
+*   **Chemical Purity (Absorbance Ratios)**
+    *   **A260/A280 Ratio (Protein):** Measures protein contamination (proteins absorb at 280 nm). Pure DNA should be **~1.8**. Pure RNA should be **~2.0**. A ratio < 1.6 indicates protein residue that may inhibit amplification
+    *   **A260/A230 Ratio (Salts/Solvents):** Measures contamination by phenol, ethanol, or guanidine salts (which absorb at 230 nm). The ratio should be **> 2.0**. A low ratio implies residual extraction chemicals that can inhibit the polymerase enzyme
+*   **Structural Integrity (Gel Electrophoresis)**
+    *   **Genomic DNA:** Should appear as a single, tight, high-molecular-weight band near the loading well. A "smear" indicates shearing or degradation
+    *   **Total RNA:** Assessed by observing the 28S and 18S ribosomal RNA bands. The 28S band should be approximately **twice as bright** as the 18S band. If the bands are smeared, the RNA is degraded
+*   **Functional Quality (Internal Controls)**
+    *   The final check involves running an **Internal Control:** (housekeeping gene) during the PCR. If the target is negative, the Internal Control must be positive. If the Internal Control fails to amplify, the nucleic acid quality is deemed insufficient (invalid result)

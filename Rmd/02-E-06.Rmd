@@ -21,36 +21,26 @@ Bead array technology, most famously represented by Luminex xMAP technology, tak
 *   **The Setup:** The system uses up to 500 different sets of tiny beads. Each set is internally dyed with a unique combination of red and infrared fluorophores, giving each bead set a specific spectral "address" or color code. All the beads within one color-coded set are coated with the same specific probe sequence
 *   **How it Works:** The different sets of probe-coated beads are all mixed together in a single tube. The patient's labeled sample is added to this mixture, and hybridization occurs in suspension. The entire mixture is then drawn into a specialized flow cytometer
 *   **Detection:** As each individual bead flows single-file past two lasers:
-    1.  The **Classification Laser** hits the bead and reads its internal color code, identifying *which probe* is on that bead (e.g., "this is a bead for the *CYP2C19* \*2 allele")
-    2.  The **Reporter Laser** excites the fluorescent label on the patient's sample that has bound to the bead's surface, measuring *how much* has bound
+    1.  The **Classification Laser:** hits the bead and reads its internal color code, identifying *which probe* is on that bead (e.g., "this is a bead for the *CYP2C19* \*2 allele")
+    2.  The **Reporter Laser:** excites the fluorescent label on the patient's sample that has bound to the bead's surface, measuring *how much* has bound
 *   **The Result:** The instrument can analyze thousands of beads per second, rapidly building a report on the presence and quantity of hundreds of different targets in a single well of a 96-well plate
 
 ## **General Workflow & Clinical Applications** {-}
 
 Regardless of the platform, the core applications are similar and highlight the power of multiplexing
 
-1.  **Sample Preparation & Labeling** Patient DNA/RNA is isolated, sometimes amplified via PCR, and labeled with a fluorescent tag (often biotin, which is then detected by a fluorescent streptavidin conjugate)
-2.  **Hybridization** The labeled sample is incubated with the array (chip or bead mix)
-3.  **Washing** Unbound sample is washed away to reduce background noise
-4.  **Signal Detection** The array is read by a scanner or flow cytometer
-5.  **Data Analysis** Sophisticated software converts the raw signal intensities into a clinical result
+1.  **Sample Preparation & Labeling:** Patient DNA/RNA is isolated, sometimes amplified via PCR, and labeled with a fluorescent tag (often biotin, which is then detected by a fluorescent streptavidin conjugate)
+2.  **Hybridization:** The labeled sample is incubated with the array (chip or bead mix)
+3.  **Washing:** Unbound sample is washed away to reduce background noise
+4.  **Signal Detection:** The array is read by a scanner or flow cytometer
+5.  **Data Analysis:** Sophisticated software converts the raw signal intensities into a clinical result
 
 ### **Major Clinical Uses** {-}
 
 *   **Pharmacogenomic (PGx) Testing:** This is a perfect application. A single array can simultaneously test for dozens of key SNPs in genes involved in drug metabolism (e.g., *CYP2C19*, *CYP2D6*, *VKORC1*, *TPMT*), providing a comprehensive drug-response profile for a patient in one test
-*   **Cytogenomics (Array CGH):** **Array Comparative Genomic Hybridization** is a major diagnostic tool for detecting **copy number variations (CNVs)**—microdeletions and microduplications that are too small to be seen on a traditional karyotype
+*   **Cytogenomics (Array CGH):** **Array Comparative Genomic Hybridization** is a major diagnostic tool for detecting **copy number variations (CNVs)** - microdeletions and microduplications that are too small to be seen on a traditional karyotype
     *   **How it works:** The patient's DNA and a normal reference DNA sample are labeled with two different colored dyes (e.g., patient = green, reference = red). They are mixed and co-hybridized to a microarray containing probes spanning the entire genome
     *   **Interpretation:** If a spot on the array shows a **yellow** color (equal parts red and green), the patient has a normal copy number at that location. A **green** color means the patient has more DNA than the reference (a duplication/gain). A **red** color means the patient has less DNA than the reference (a deletion/loss). This is a primary test for developmental delay and birth defects
 *   **Gene Expression Profiling:** Microarrays can measure the expression levels of thousands of genes at once by analyzing labeled cDNA made from the patient's mRNA. In oncology, this can help classify tumors into different subtypes (e.g., Oncotype DX for breast cancer), which can predict prognosis and guide treatment decisions
 *   **Multiplex Pathogen Detection:** Arrays can be designed with probes for dozens of different respiratory viruses or bacteria, allowing for a broad infectious disease panel from a single patient swab
 *   **Multiplex Immunoassays:** Bead arrays are especially powerful for non-DNA applications. They can be coated with antigens to detect dozens of different antibodies at once (e.g., HLA antibody screening for transplant patients) or coated with antibodies to measure dozens of different proteins/cytokines from a single drop of blood
-
-## **Key Terms** {-}
-
-*   **Array Technology:** A high-throughput platform that allows for the simultaneous measurement of thousands of different biological molecules (like DNA, RNA, or protein) by using a grid of immobilized probes
-*   **Probe:** The known, single-stranded molecule (e.g., an oligonucleotide) that is fixed to a specific location on the array surface and is designed to capture a specific target molecule
-*   **Hybridization:** The process by which the labeled target molecules from the patient sample bind to their complementary probes on the array surface
-*   **Multiplexing:** The ability to perform many different tests or assays simultaneously in a single reaction, which is the core advantage of array technology
-*   **Microarray:** An array format where probes are spotted in a high-density grid onto a solid surface, typically a glass slide. The location (`x,y` coordinate) of a signal identifies the target
-*   **Bead Array:** An array format where probes are attached to microscopic, color-coded beads. A flow cytometry-based instrument identifies the bead by its color and measures the signal on its surface
-*   **Array CGH (Comparative Genomic Hybridization):** A microarray-based technique used to detect copy number variations (gains and losses of DNA) across the genome by comparing a differentially labeled patient sample to a reference sample

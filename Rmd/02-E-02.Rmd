@@ -1,6 +1,6 @@
 # Nucleic Acid Labeling {-}
 
-**Nucleic Acid Labeling** is a fundamental concept that makes most of our molecular techniques possible. In its simplest form, you can't see DNA or RNA. They are colorless, invisible molecules floating in a tube. To detect a specific sequence, we need to attach a "tag" or "label" to it—something that can generate a signal we *can* see
+**Nucleic Acid Labeling:** is a fundamental concept that makes most of our molecular techniques possible. In its simplest form, you can't see DNA or RNA. They are colorless, invisible molecules floating in a tube. To detect a specific sequence, we need to attach a "tag" or "label" to it - something that can generate a signal we *can* see
 
 Think of it like trying to find a specific book in a massive library in the dark. Nucleic acid labeling is the process of attaching a tiny, glowing flare to your book of interest so you can spot it among millions of others. This "flare" allows us to track, identify, and even quantify nucleic acids in a variety of clinical assays
 
@@ -33,8 +33,8 @@ Once a probe is labeled, we need a way to visualize it
 *   **Indirect Detection:** This is a multi-step process used for haptens like biotin or DIG, but it often provides signal amplification, increasing sensitivity
     1.  A hapten-labeled probe binds to its target DNA/RNA
     2.  A conjugate molecule is added. This is typically streptavidin (for a biotin label) or an anti-DIG antibody (for a DIG label) that is chemically linked to an enzyme
-    3.  Common enzymes include **Horseradish Peroxidase (HRP)** or **Alkaline Phosphatase (AP)**
-    4.  A **substrate** is added that the enzyme can act upon to generate a signal:
+    3.  Common enzymes include **Horseradish Peroxidase (HRP):** or **Alkaline Phosphatase (AP)**
+    4.  A **substrate:** is added that the enzyme can act upon to generate a signal:
         *   **Chromogenic Substrate:** The enzyme converts a colorless soluble substrate into a colored, insoluble precipitate. This produces a colored spot (e.g., purple or brown) on a blot or tissue
         *   **Chemiluminescent Substrate:** The enzyme converts the substrate into a product that emits light. This light can be captured on film or by a digital imager, similar to autoradiography but without the radioactivity
 
@@ -47,12 +47,12 @@ These methods create a probe that is uniformly labeled along its entire length
 
 *   **PCR Labeling:** The simplest method. You perform a standard PCR, but in your dNTP mix, you include a fraction of labeled dNTPs (e.g., Biotin-dUTP or DIG-dUTP). *Taq* polymerase incorporates the labeled nucleotide into the newly synthesized amplicon, creating a labeled probe
 *   **Nick Translation:** A classic method for labeling dsDNA probes
-    1.  An enzyme called **DNase I** is used to create random single-strand breaks ("nicks") in the DNA backbone
-    2.  **DNA Polymerase I** is then added. It recognizes the nick, and its 5'→3' exonuclease activity chews away the existing strand while its 5'→3' polymerase activity simultaneously fills the gap back in using nucleotides from the reaction mix, which includes labeled dNTPs
+    1.  An enzyme called **DNase I:** is used to create random single-strand breaks ("nicks") in the DNA backbone
+    2.  **DNA Polymerase I:** is then added. It recognizes the nick, and its 5'→3' exonuclease activity chews away the existing strand while its 5'→3' polymerase activity simultaneously fills the gap back in using nucleotides from the reaction mix, which includes labeled dNTPs
 *   **Random Priming:** Primarily for dsDNA
     1.  The template DNA is denatured
-    2.  A mixture of **random hexamers** (short 6-bp primers of every possible sequence) is added and allowed to anneal all over the template
-    3.  The **Klenow fragment** of DNA Polymerase I (which has polymerase activity but lacks 5'→3' exonuclease activity) extends from these primers, synthesizing new strands and incorporating labeled dNTPs from the mix
+    2.  A mixture of **random hexamers:** (short 6-bp primers of every possible sequence) is added and allowed to anneal all over the template
+    3.  The **Klenow fragment:** of DNA Polymerase I (which has polymerase activity but lacks 5'→3' exonuclease activity) extends from these primers, synthesizing new strands and incorporating labeled dNTPs from the mix
 
 ### **End Labeling** {-}
 These methods attach a single label to one end of a DNA or RNA molecule
@@ -77,14 +77,3 @@ Nucleic acid labeling is the foundation of countless diagnostic tests:
     *   **Next-Generation Sequencing (NGS):** Illumina platforms use **fluorescently labeled reversible terminators** to identify the base added in each cycle
 
 *   **DNA Visualization in Gels:** Even the simple act of seeing DNA bands in an agarose gel after electrophoresis involves a form of non-covalent labeling with an **intercalating dye** like Ethidium Bromide or SYBR Safe
-
-## **Key Terms** {-}
-
-*   **Nucleic Acid Labeling:** The process of attaching a detectable molecule (a "label") to a DNA or RNA molecule to allow for its visualization, identification, or quantification
-*   **Fluorophore:** A fluorescent chemical compound that can re-emit light upon light excitation. It serves as a direct label
-*   **Hapten:** A small molecule (like biotin or digoxigenin) that acts as an indirect label by serving as a high-affinity binding target for a detection molecule (like an antibody or streptavidin)
-*   **Direct Detection:** A detection method where the label itself produces the signal (e.g., a fluorophore emitting light)
-*   **Indirect Detection:** A multi-step detection method where a primary label (hapten) is bound by a secondary molecule that is conjugated to a signal-generating enzyme (e.g., biotin-streptavidin-HRP)
-*   **Hybridization Probe:** A labeled, single-stranded nucleic acid molecule used to find and bind to its complementary sequence within a complex mixture of unlabeled nucleic acids
-*   **Nick Translation:** A method for creating a uniformly labeled DNA probe by using DNase I to create nicks and DNA Polymerase I to excise and replace nucleotides with labeled versions
-*   **Chemiluminescence:** The emission of light as the result of a chemical reaction, often used as a sensitive detection method in blotting applications

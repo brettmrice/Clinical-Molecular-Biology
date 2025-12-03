@@ -1,6 +1,6 @@
 # Reaction Optimization {-}
 
-**PCR Reaction Optimization** is where the art meets the science in molecular diagnostics! You've designed your primers, you have your template, but just mixing everything together doesn't guarantee success. Optimization is the process of fine-tuning the reaction components and cycling conditions to achieve the **most specific, efficient, and reproducible amplification** of your target sequence
+**PCR Reaction Optimization:** is where the art meets the science in molecular diagnostics! You've designed your primers, you have your template, but just mixing everything together doesn't guarantee success. Optimization is the process of fine-tuning the reaction components and cycling conditions to achieve the **most specific, efficient, and reproducible amplification** of your target sequence
 
 Why is this SO important in a clinical lab? Because we need results that are:
 
@@ -40,7 +40,7 @@ You can potentially adjust almost everything in the PCR tube and the thermal cyc
     *   **Starting Point:** Typically set 3-5°C *below* the calculated Tm of the primer pair (use the lower Tm if they differ)
     *   **Gradient PCR:** The best method! Use a thermal cycler with a gradient block to test a range of temperatures (e.g., 50°C to 65°C) across different rows/columns *in a single run*. Analyze the results on a gel to find the temperature that gives the strongest specific band with minimal non-specific products or primer-dimers
 
-### **Template DNA/RNA Quality and Quantity** {-}
+### **Template DNA/RNA Quality & Quantity** {-}
 
 *   **Role:** The starting material containing the target sequence
 *   **Impact**
@@ -84,11 +84,11 @@ You can potentially adjust almost everything in the PCR tube and the thermal cyc
 
 ## **Optimization Strategies** {-}
 
-1.  **Start with Manufacturer's Protocol** Use the polymerase/master mix supplier's recommendations as a starting point
-2.  **One Factor at a Time (OFAT)** Change only one parameter per experiment while keeping others constant. Simple but slow and may miss interactions between factors
-3.  **Gradient PCR** Essential for optimizing Annealing Temperature (Ta). Test a range (e.g., 12°C spread) in one go
-4.  **Matrix Titration** Systematically test combinations of two key parameters (e.g., MgCl₂ concentration vs. Primer concentration) in a grid format. More efficient than OFAT
-5.  **Use Controls** Always include:
+1.  **Start with Manufacturer's Protocol:** Use the polymerase/master mix supplier's recommendations as a starting point
+2.  **One Factor at a Time (OFAT):** Change only one parameter per experiment while keeping others constant. Simple but slow and may miss interactions between factors
+3.  **Gradient PCR:** Essential for optimizing Annealing Temperature (Ta). Test a range (e.g., 12°C spread) in one go
+4.  **Matrix Titration:** Systematically test combinations of two key parameters (e.g., MgCl₂ concentration vs. Primer concentration) in a grid format. More efficient than OFAT
+5.  **Use Controls:** Always include:
     *   **Positive Control:** Known template that *should* amplify. Confirms the reaction components and cycling are working
     *   **Negative Control (NTC - No Template Control):** Contains all reagents *except* template DNA (use water instead). Essential to detect contamination. Should show NO amplification
     *   **(Optional) Negative Extraction Control:** Process a known negative sample (e.g., water) through the entire extraction and PCR process to monitor for contamination during sample handling/extraction
@@ -96,7 +96,7 @@ You can potentially adjust almost everything in the PCR tube and the thermal cyc
 ## **Evaluating Optimization Results** {-}
 
 *   **Agarose Gel Electrophoresis:** Visualize the PCR products. Look for:
-    *   A **single, bright band** at the expected molecular weight (target amplicon)
+    *   A **single, bright band:** at the expected molecular weight (target amplicon)
     *   **Minimal or no:** primer-dimer band (usually <100 bp)
     *   **Minimal or no:** non-specific bands (bands at incorrect sizes)
     *   **No band:** in the NTC lane
@@ -109,21 +109,3 @@ You can potentially adjust almost everything in the PCR tube and the thermal cyc
 ## **Clinical Context: Validation** {-}
 
 Once optimal conditions are found experimentally, they must be rigorously **validated** according to clinical laboratory standards (e.g., CLIA, CAP) before being used for patient testing. This involves demonstrating consistent performance (accuracy, precision, sensitivity, specificity) over multiple runs and conditions
-
-## **Key Terms** {-}
-
-*   **Optimization:** The process of adjusting reaction components and cycling parameters to achieve the best possible PCR result (specific, efficient, reproducible)
-*   **Specificity:** The ability of the PCR reaction to amplify only the intended target sequence
-*   **Efficiency:** The rate at which the target sequence is duplicated per PCR cycle (ideally close to 100% or a doubling each cycle in the exponential phase)
-*   **Reproducibility:** The ability to obtain the same results consistently when the assay is repeated
-*   **Annealing Temperature (Ta):** The cycling temperature at which primers bind to the template. Critical for specificity
-*   **Melting Temperature (Tm):** Temperature at which 50% of a DNA duplex (e.g., primer-template) dissociates. Used to estimate Ta
-*   **Magnesium Chloride (MgCl₂):** Essential cofactor for DNA polymerase; concentration affects enzyme activity and primer annealing
-*   **Primer-Dimer:** Artifact formed by primers annealing to each other and being extended
-*   **Non-Specific Product:** Any PCR product amplified other than the intended target sequence
-*   **Hot-Start Polymerase:** Modified DNA polymerase that is inactive at room temperature, preventing non-specific amplification during reaction setup. Activated by heat
-*   **Gradient PCR:** Technique using a special thermal cycler block to test a range of annealing temperatures simultaneously in a single run
-*   **NTC (No Template Control):** A PCR reaction containing all components except the template DNA, used to detect contamination
-*   **Plateau Effect:** The phase in PCR where amplification slows down or stops due to reagent limitation, enzyme degradation, or product inhibition/re-annealing
-*   **Cq (Quantification Cycle) / Ct (Threshold Cycle):** In qPCR, the cycle number at which the fluorescence signal crosses a defined threshold, indicating detectable amplification
-*   **Melt Curve Analysis:** In qPCR (usually with SYBR Green), a process after amplification where the temperature is slowly raised, and fluorescence is measured as the dsDNA product melts. Used to assess product specificity (single peak = specific product)

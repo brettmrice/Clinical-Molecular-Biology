@@ -47,9 +47,9 @@ Extrachromosomal structures are diverse DNA (or sometimes RNA) elements existing
 *   **What is it?:** Found in the **mitochondria** of **eukaryotic** cells (plants, animals, fungi)
 *   **Structure & Replication:** mtDNA is typically a **circular, double-stranded DNA** molecule, much smaller than nuclear chromosomes (in humans, ~16,569 base pairs). Each mitochondrion can contain multiple copies of mtDNA, and each cell can have hundreds or thousands of mitochondria. It replicates independently of the nuclear genome using its own origin(s) and a dedicated DNA polymerase (POLG)
 *   **Genes Carried:** Encodes a small but critical set of genes essential for mitochondrial function, primarily:
-    *   Components of the **electron transport chain** and **ATP synthase** (for oxidative phosphorylation – cellular energy production)
+    *   Components of the **electron transport chain:** and **ATP synthase** (for oxidative phosphorylation – cellular energy production)
     *   Mitochondrial **ribosomal RNAs (rRNAs)**
-    *   Mitochondrial **transfer RNAs (tRNAs)** needed to translate the mtDNA-encoded proteins within the mitochondrion
+    *   Mitochondrial **transfer RNAs (tRNAs):** needed to translate the mtDNA-encoded proteins within the mitochondrion
     *   *(Note: Most proteins needed for mitochondrial function are actually encoded by nuclear DNA, synthesized in the cytoplasm, and imported into the mitochondria)*
 *   **Inheritance:** In most animals, including humans, mtDNA is inherited almost exclusively from the **mother** (**maternal inheritance**). The egg cell contributes virtually all the cytoplasm (and thus mitochondria) to the zygote; sperm mitochondria typically don't persist
 *   **Mutation Rate:** Generally higher than nuclear DNA due to proximity to reactive oxygen species generated during respiration and less robust DNA repair mechanisms
@@ -58,21 +58,3 @@ Extrachromosomal structures are diverse DNA (or sometimes RNA) elements existing
     *   **Mitochondrial Diseases:** Mutations in mtDNA can cause a range of debilitating diseases, often affecting tissues with high energy demands (muscle, brain, heart). Examples include MELAS, MERRF, LHON. Diagnosis involves sequencing mtDNA from affected tissues (like muscle biopsies) or blood
     *   **Forensics & Population Genetics:** The maternal inheritance pattern and higher mutation rate make mtDNA useful for tracing maternal lineage, identifying human remains, and studying population history
     *   **Aging & Other Diseases:** mtDNA mutations and dysfunction are implicated in the aging process and may contribute to common diseases like diabetes, Parkinson's, and some cancers, although the links are complex
-
-## **Key Terms** {-}
-
-*   **Extrachromosomal DNA:** DNA existing independently of the main chromosome(s)
-*   **Plasmid:** Small, circular DNA molecule, mainly in bacteria, often carrying accessory genes
-*   **Origin of Replication (ori):** DNA sequence where replication begins
-*   **Horizontal Gene Transfer (HGT):** Transfer of genetic material between organisms other than parent-to-offspring
-*   **Conjugation:** Direct transfer of DNA (often plasmids) between bacteria via a pilus
-*   **Transformation:** Uptake of naked DNA from the environment by bacteria
-*   **Transduction:** Transfer of bacterial DNA via bacteriophages
-*   **Bacteriophage (Phage):** A virus that infects bacteria
-*   **Lytic Cycle:** Phage life cycle resulting in rapid replication and host cell lysis
-*   **Lysogenic Cycle:** Phage life cycle where phage DNA integrates into the host chromosome (prophage) or persists independently
-*   **Prophage:** Phage DNA integrated into the host bacterial chromosome
-*   **Lysogenic Conversion:** Change in host bacterium's phenotype due to genes carried by a prophage
-*   **Mitochondrial DNA (mtDNA):** DNA located in the mitochondria of eukaryotic cells
-*   **Maternal Inheritance:** Inheritance pattern where traits/DNA are passed only from the mother (typical for mtDNA)
-*   **Heteroplasmy:** Presence of a mixture of different mtDNA variants within a cell or individual

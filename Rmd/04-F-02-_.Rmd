@@ -1,0 +1,40 @@
+# Operations Management {-}
+
+Operations Management in the molecular laboratory is the orchestration of the physical, digital, and human systems required to generate patient results. While the financial sector manages the budget, operations management ensures the laboratory functions efficiently, safely, and accurately on a daily basis. This encompasses the digital backbone (LIS), the physical environment (Facilities), and the human element (Interdepartmental Relations)
+
+## Laboratory Information System (LIS) {-}
+
+The LIS is the central nervous system of the laboratory, managing the flow of data from order entry to result reporting. In molecular diagnostics, the LIS must support complex workflows that differ significantly from routine chemistry, including batch processing, plate mapping, and the handling of massive genomic datasets
+
+*   **Development & Selection:** The laboratory must select an LIS capable of handling molecular-specific logic. This includes **Reflex Rules** (automatically ordering secondary targets based on a primary result), **Batching** (grouping samples into run lists for 96-well plates), and **Interpretive Reporting** (handling text-heavy genetic interpretations rather than just numeric values)
+*   **Implementation (Validation):** Before "Go-Live," the system undergoes **User Acceptance Testing (UAT)**. The laboratory must validate that patient data crosses the interface correctly, that calculations (e.g., Viral Load Log conversions) are accurate, and that critical flags trigger appropriately. **Bidirectional Interfacing** is the standard, allowing the LIS to send orders to the instrument and the instrument to return results automatically, eliminating manual entry errors
+*   **Maintenance & Security:** Ongoing operations include **Autoverification** (using algorithms to automatically release negative results to improve turnaround time) and **Downtime Procedures** (protocols for manual operations during server failures). Strict **Role-Based Access Control** ensures data security (HIPAA) by limiting system privileges based on job function
+
+## Facilities Management {-}
+
+Facilities design in molecular biology is a primary functional control against error. Because amplification techniques are sensitive to single-molecule contamination, the physical environment must be engineered to prevent the migration of amplicons
+
+*   **Unidirectional Workflow:** The facility must be designed to force traffic and airflow in one direction: **Clean $\rightarrow$ Dirty**
+    *   **Reagent Prep (Clean):** Where Master Mix is made. Must be kept under **Positive Pressure** to keep dust/contaminants out. No DNA allowed
+    *   **Sample Prep (Extraction):** Where nucleic acids are isolated
+    *   **Amplification (Dirty):** Where PCR and analysis occur. Must be kept under **Negative Pressure** to keep amplicons inside. Once personnel enter, they cannot return to the Clean room
+*   **Infrastructure & Utilities**
+    *   **HVAC:** High air exchange rates scrub aerosols. Temperature control is critical to handle the heat load from thermal cyclers
+    *   **Power:** **Uninterruptible Power Supplies (UPS)** and backup generators are required for sequencers and cyclers to prevent data loss during power fluctuations
+    *   **Finishes:** Floors and benches must be non-porous (seamless vinyl/epoxy) and coved to facilitate frequent decontamination with bleach
+*   **Safety & Ergonomics:** The design must include easily accessible eyewash stations (due to corrosive chemicals like phenol/bleach) and sound dampening for loud equipment (freezers/centrifuges). Adjustable furniture prevents repetitive strain injury from high-volume pipetting
+
+## Intra/Interdepartmental Relations {-}
+
+The molecular laboratory operates as part of a larger healthcare ecosystem. Effective communication strategies are required to manage expectations, ensure patient safety, and coordinate care with other departments
+
+*   **Clinical Communication (Physicians/Nurses):** Moving from a transactional to a **Consultative Model**
+    *   **Pre-Analytical:** Guiding clinicians on proper test selection and explaining rejection criteria (e.g., why Heparin tubes are rejected)
+    *   **Turnaround Time (TAT):** Managing expectations regarding "Stat" requests for batched assays that take hours to complete
+    *   **Post-Analytical:** ensuring **Critical Values** (e.g., *N. meningitidis*) are called immediately and that interpretive comments on reports are clear to non-specialists
+*   **Institutional Partners**
+    *   **Infection Prevention:** Providing rapid data on MDROs (MRSA, VRE, *C. diff*) to facilitate isolation protocols and outbreak investigations
+    *   **Pharmacy:** Providing rapid identification of resistance markers (e.g., *MecA*, *KPC*) to allow for Antimicrobial Stewardship and the de-escalation of broad-spectrum antibiotics
+*   **Internal Handoffs**
+    *   **Microbiology:** Coordinating "Shared Specimen" workflows. Molecular aliquoting should occur *before* culture setup to prevent contamination
+    *   **Histology:** Communicating fixation requirements. Over-fixation in formalin damages DNA, and acid-based decalcification destroys it. The molecular lab must coordinate tissue processing protocols with Anatomic Pathology

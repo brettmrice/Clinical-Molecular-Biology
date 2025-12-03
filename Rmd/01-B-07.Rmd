@@ -8,9 +8,9 @@ Think of it like tools: a hammer, a wrench, and a screwdriver are all made of me
 
 Proteins are polymers made of **amino acids** linked together. There are 20 common types of amino acids found in proteins. Each amino acid has a central carbon atom (the alpha-carbon) bonded to:
 
-1.  An **amino group** ($-NH_2$)
-2.  A **carboxyl group** ($-COOH$)
-3.  A **hydrogen atom** ($-H$)
+1.  An **amino group:** ($-NH_2$)
+2.  A **carboxyl group:** ($-COOH$)
+3.  A **hydrogen atom:** ($-H$)
 4.  A unique **side chain (R-group)**
 
 The **R-group** is what differs between the 20 amino acids. These side chains have diverse chemical properties (e.g., nonpolar/hydrophobic, polar/hydrophilic, acidic/negatively charged, basic/positively charged). These differences are crucial because they determine how the amino acids interact with each other and their environment, ultimately dictating the protein's final structure and function
@@ -57,7 +57,7 @@ Protein structure is described at four levels:
     *   Many enzymes and structural proteins are multi-subunit complexes
 *   **Significance:** Allows for more complex functions, cooperative binding (where binding of a ligand to one subunit affects the others, like oxygen binding to hemoglobin), and the formation of large cellular structures
 
-## **Protein Folding and Denaturation** {-}
+## **Protein Folding & Denaturation** {-}
 
 *   **Folding:** The process by which a polypeptide chain acquires its specific 3D structure. While primary sequence dictates the final fold, it's a complex process. Sometimes **chaperone proteins** (like heat shock proteins) assist in proper folding and prevent misfolding or aggregation
 *   **Denaturation:** The loss of a protein's native (functional) secondary, tertiary, and quaternary structure. The primary structure (peptide bonds) usually remains intact. Denaturation leads to **loss of function**
@@ -86,23 +86,3 @@ Protein structure is fundamental to diagnostics and understanding disease:
 *   **Drug Development:** Many drugs are designed to bind to specific sites (active sites, regulatory sites) on target proteins (enzymes, receptors) to inhibit or modulate their function. Understanding protein structure is key to rational drug design
 *   **Hemoglobinopathies:** Diseases like sickle cell or thalassemias directly involve defects in the structure or production of hemoglobin subunits
 *   **Protein Structure Analysis (Research/Specialized Labs):** Techniques like X-ray crystallography, NMR spectroscopy, and cryo-electron microscopy determine detailed 3D protein structures. Mass spectrometry can identify proteins and analyze modifications
-
-## **Key Terms** {-}
-
-*   **Protein:** Polymer of amino acids linked by peptide bonds, folded into a specific 3D structure
-*   **Amino Acid:** Monomer unit of proteins, containing an amino group, carboxyl group, and a variable R-group
-*   **Peptide Bond:** Covalent bond linking amino acids
-*   **Polypeptide:** A chain of amino acids linked by peptide bonds
-*   **Primary Structure (1°):** Linear sequence of amino acids
-*   **Secondary Structure (2°):** Local folding patterns (α-helix, β-sheet) stabilized by backbone H-bonds
-*   **Tertiary Structure (3°):** Overall 3D shape of a single polypeptide chain, stabilized by R-group interactions
-*   **Quaternary Structure (4°):** Arrangement of multiple polypeptide subunits in a complex
-*   **R-group (Side Chain):** Variable part of an amino acid determining its chemical properties
-*   **Alpha-helix (α-helix):** Coiled secondary structure
-*   **Beta-sheet (β-sheet):** Sheet-like secondary structure formed by adjacent strands
-*   **Disulfide Bond:** Covalent bond between two cysteine residues (-S-S-)
-*   **Hydrophobic Interaction:** Clustering of nonpolar groups away from water
-*   **Denaturation:** Loss of native protein structure and function
-*   **Chaperone Protein:** Protein that assists in the folding of other proteins
-*   **Active Site:** Region on an enzyme where substrate binds and catalysis occurs
-*   **Subunit:** A single polypeptide chain within a multi-chain protein complex

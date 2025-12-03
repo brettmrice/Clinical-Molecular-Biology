@@ -14,10 +14,10 @@ Let's break them down:
 *   **Chemical Formula:** $C_5H_{10}O_5$
 *   **Structure:** It's a pentose sugar, meaning it has five carbon atoms. In nucleic acids, it typically exists in a ring form (specifically, a furanose ring, which looks like a little house with an oxygen atom in the roof)
 *   **Key Feature:** Pay close attention to the carbon atoms! We number them 1' (read as "one prime") to 5'. The prime symbol (') is super important – it distinguishes the carbons in the sugar from the atoms in the nitrogenous bases (A, U, G, C)
-    *   The **1' carbon** is where the nitrogenous base attaches (forming a glycosidic bond)
-    *   The **2' carbon** is the star of the show when comparing ribose and deoxyribose. In **ribose**, the 2' carbon has a **hydroxyl group ($-OH$)** attached. Remember this!
-    *   The **3' carbon** has a hydroxyl group ($-OH$) which is essential for linking to the next nucleotide in the chain
-    *   The **5' carbon** also has a hydroxyl group ($-OH$) attached (initially), which is where the phosphate group(s) attach
+    *   The **1' carbon:** is where the nitrogenous base attaches (forming a glycosidic bond)
+    *   The **2' carbon:** is the star of the show when comparing ribose and deoxyribose. In **ribose**, the 2' carbon has a **hydroxyl group ($-OH$)** attached. Remember this!
+    *   The **3' carbon:** has a hydroxyl group ($-OH$) which is essential for linking to the next nucleotide in the chain
+    *   The **5' carbon:** also has a hydroxyl group ($-OH$) attached (initially), which is where the phosphate group(s) attach
 
     *(Imagine Ribose as the fully-equipped model, with all the standard features, especially that $-OH$ group at position 2')*
 
@@ -26,7 +26,7 @@ Let's break them down:
 *   **Chemical Formula:** $C_5H_{10}O_4$ (Notice one less oxygen than ribose!)
 *   **Structure:** Also a five-carbon pentose sugar, existing in that same furanose ring structure
 *   **Key Feature:** It's almost identical to ribose, *except* for one crucial difference:
-    *   At the **2' carbon**, instead of a hydroxyl group ($-OH$), **deoxyribose** has only a **hydrogen atom ($-H$)**
+    *   At the **2' carbon**, instead of a hydroxyl group ($-OH$), **deoxyribose:** has only a **hydrogen atom ($-H$)**
     *   This is where the name comes from: "De-oxy" means "without oxygen" – specifically, without the oxygen atom at the 2' position compared to ribose
     *   The 1', 3', and 5' carbons behave similarly to ribose (1' links to the base, 3' and 5' are involved in linking nucleotides via phosphate groups)
 
@@ -36,17 +36,17 @@ Let's break them down:
 
 That single oxygen atom difference between ribose (at the 2' $-OH$) and deoxyribose (at the 2' $-H$) has HUGE implications:
 
-1.  **Stability** The 2'$-OH$ group in ribose makes RNA much more chemically reactive and less stable than DNA. It's prone to breaking down, especially in alkaline conditions (hydrolysis). DNA, lacking this reactive $-OH$ group at the 2' position, is significantly more stable. This stability is perfect for its role as the long-term storage vault for genetic information. RNA's lesser stability suits its role as a temporary messenger or functional molecule
-2.  **Structure** The presence or absence of that 2'$-OH$ influences the sugar's pucker (how the ring is angled) and ultimately affects the overall structure of the nucleic acid helix. DNA typically forms the classic B-form double helix, while RNA helices usually adopt an A-form structure and are often found single-stranded or in more complex folded shapes
-3.  **Enzyme Specificity** Enzymes in the lab (and in our bodies!) can distinguish between DNA and RNA based partly on the sugar. For example, DNases specifically degrade DNA, while RNases specifically degrade RNA. This is critical for molecular techniques!
+1.  **Stability:** The 2'$-OH$ group in ribose makes RNA much more chemically reactive and less stable than DNA. It's prone to breaking down, especially in alkaline conditions (hydrolysis). DNA, lacking this reactive $-OH$ group at the 2' position, is significantly more stable. This stability is perfect for its role as the long-term storage vault for genetic information. RNA's lesser stability suits its role as a temporary messenger or functional molecule
+2.  **Structure:** The presence or absence of that 2'$-OH$ influences the sugar's pucker (how the ring is angled) and ultimately affects the overall structure of the nucleic acid helix. DNA typically forms the classic B-form double helix, while RNA helices usually adopt an A-form structure and are often found single-stranded or in more complex folded shapes
+3.  **Enzyme Specificity:** Enzymes in the lab (and in our bodies!) can distinguish between DNA and RNA based partly on the sugar. For example, DNases specifically degrade DNA, while RNases specifically degrade RNA. This is critical for molecular techniques!
 
 ## **Connecting the Sugars: The Backbone** {-}
 
 Sugars don't just sit there; they link up to form the nucleic acid backbone. This happens via **phosphodiester bonds**
 
-*   A phosphate group acts as a bridge, connecting the **5' carbon** of one sugar molecule to the **3' carbon** of the *next* sugar molecule
+*   A phosphate group acts as a bridge, connecting the **5' carbon:** of one sugar molecule to the **3' carbon** of the *next* sugar molecule
 *   This creates a repeating sugar-phosphate-sugar-phosphate chain, which is the backbone of both DNA and RNA
-*   This linkage also establishes the **directionality** of the nucleic acid strand (always read/written from 5' to 3')
+*   This linkage also establishes the **directionality:** of the nucleic acid strand (always read/written from 5' to 3')
 
 ## **Clinical Laboratory Relevance** {-}
 
@@ -59,16 +59,3 @@ Understanding these sugars is fundamental in the clinical molecular lab:
 ## **In a Nutshell** {-}
 
 Think of **ribose** (RNA) as the versatile, but slightly less stable, multi-tool with all attachments ($-OH$ at 2'), suited for various short-term jobs. Think of **deoxyribose** (DNA) as the super-durable, specialized tool (-H at 2'), built for long-term, reliable storage. This tiny difference at the 2' carbon dictates stability, structure, and ultimately, the distinct roles of RNA and DNA in molecular biology!
-
-##  **Key Terms** {-}
-
-*  **Pentose Sugar:** A five-carbon monosaccharide. In nucleic acids, these sugars form a five-membered ring structure and serve as the central component of a nucleotide, linking the phosphate group and the nitrogenous base
-*  **Ribose:** The specific pentose sugar found in Ribonucleic Acid (RNA). Its chemical formula is $C_5H_{10}O_5$, and crucially, it possesses a hydroxl ($-OH$) group attached to the 2' carbon atom
-*  **Deoxyribose:** The specific pentose sugar found in Deoxyribonucleic Acid (DNA). Its chemical formula is $C_5H_{10}O_4$; it differs from ribose by having only a hydrogen ($-H$) atom, instead of a hydroxyl group, attached to the 2' carbon atom
-*  **Furanose Ring:** The five-membered ring structure (four carbons and one oxygen atom) adopted by ribose and deoxyribose when incorporated into nucleic acids
-*  **1' Carbon (One-prime Carbon):** The carbon atom in the pentose sugar ring that forms a covalent bond (N-glycosidic bond) with the nitrogenous base (Adenine, Guanine, Cytosine, Thymine, or Uracil)
-*  **2' Carbon (Two-prime Carbon):** The carbon atom in the pentose sugar ring whose attached group distinguishes DNA from RNA. It bears a hydroxyl ($-OH$) group in ribose (RNA) and a hydrogen ($-H$) atom in deoxyribose (DNA)
-*  **3' Carbon (Three-prime Carbon):** The carbon atom in the pentose sugar ring that bears a hydroxyl ($-OH$) group involved in forming the phosphodiester bond, linking it to the phosphate group of the *next* nucleotide in a nucleic acid chain
-*  **5' Carbon (Five-prime Carbon):** The carbon atom (located outside the main ring) in the pentose sugar where the phosphate group(s) are attached. This carbon's phosphate group forms a phosphodiester bond with the 3' carbon of the *previous* nucleotide in the chain
-*  **Hydroxyl Group (-OH) at 2' Carbon:** The chemical group present on the 2' carbon of ribose. Its presence makes RNA more chemically reactive and susceptible to hydrolysis compared to DNA
-*  **Deoxy- (prefix):** Meaning "without oxygen". In deoxyribose, it specifically refers to the absence of the oxygen atom at the 2' carbon position compared to ribose

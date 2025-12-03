@@ -26,7 +26,7 @@ Unlike the relatively uniform structure of the human genome, microbial genomes s
     *   **Genome Size:** Generally larger than bacteria but smaller than humans
     *   **Plasmids:** Less common than in bacteria, but some yeasts have plasmids
 
-## **Gene Expression and Regulation in Microbes (Focus on Bacteria)** {-}
+## **Gene Expression & Regulation in Microbes (Focus on Bacteria)** {-}
 
 Microbes need to adapt quickly to changing environments. Their gene regulation reflects this:
 
@@ -36,7 +36,7 @@ Microbes need to adapt quickly to changing environments. Their gene regulation r
 *   **Efficiency:** Transcription and translation are often **coupled** in bacteria (occur simultaneously in the cytoplasm) allowing rapid protein production in response to stimuli
 *   **Global Regulation:** Mechanisms that control the expression of many genes/operons simultaneously in response to broad environmental signals (e.g., nutrient limitation, stress)
 
-## **Genetic Variation and Mutation in Microbes** {-}
+## **Genetic Variation & Mutation in Microbes** {-}
 
 Microbes exhibit high rates of genetic variation, driving their rapid evolution and adaptation:
 
@@ -75,8 +75,8 @@ These are DNA segments that can move around within or between genomes, facilitat
     *   **Composite Transposons:** Contain transposase plus additional genes (often antibiotic resistance) located between two IS elements
     *   **Significance:** Can insert into genes causing mutations, move resistance genes onto plasmids or chromosomes
 *   **Integrons**
-    *   Genetic elements that capture and express mobile **gene cassettes** (often encoding antibiotic resistance) via site-specific recombination
-    *   Contain an **integrase gene (intI)**, an **attachment site (attI)**, and a **promoter (Pc)** to drive expression of captured cassettes
+    *   Genetic elements that capture and express mobile **gene cassettes:** (often encoding antibiotic resistance) via site-specific recombination
+    *   Contain an **integrase gene (intI)**, an **attachment site (attI)**, and a **promoter (Pc):** to drive expression of captured cassettes
     *   **Significance:** Major role in the accumulation and spread of **multi-drug resistance** in bacteria
 *   **Bacteriophages:** Act as MGEs during transduction and lysogenic conversion
 
@@ -90,20 +90,3 @@ Microbial genetics is central to clinical molecular diagnostics and microbiology
 *   **Epidemiology and Strain Typing:** Analyzing genetic variations between isolates using techniques like Pulsed-Field Gel Electrophoresis (PFGE - historical), Multilocus Sequence Typing (MLST), or Whole Genome Sequencing (WGS) allows labs to track outbreaks, understand transmission patterns, and identify specific strains (e.g., MRSA clones, *Listeria* outbreaks)
 *   **Viral Diagnostics:** Detecting viral nucleic acid (RNA or DNA) using PCR, RT-PCR is standard practice. Genotyping viruses (e.g., HCV genotypes) can inform treatment choices. Monitoring viral load (quantification) is essential for managing chronic infections (HIV, HCV, HBV)
 *   **Understanding Pathogenesis:** Microbial genetics research elucidates how microbes cause disease, identifying potential targets for new drugs or vaccines
-
-## **Key Terms** {-}
-
-*   **Nucleoid:** Region in prokaryotic cytoplasm containing the chromosome
-*   **Plasmid:** Extrachromosomal, self-replicating circular DNA in bacteria
-*   **Operon:** Functionally related genes transcribed as a single unit in bacteria
-*   **Horizontal Gene Transfer (HGT):** Transfer of genes between contemporary organisms
-*   **Transformation:** Uptake of naked DNA
-*   **Transduction:** DNA transfer via bacteriophage
-*   **Conjugation:** Direct DNA transfer via pilus, mediated by plasmids
-*   **Mobile Genetic Element (MGE):** DNA segment capable of moving (e.g., plasmids, transposons)
-*   **Transposon:** "Jumping gene" that can relocate within/between genomes
-*   **Integron:** Element capturing and expressing gene cassettes (often resistance)
-*   **Antimicrobial Resistance (AMR):** Ability of a microbe to resist drug effects
-*   **Virulence Factor:** Microbial component contributing to pathogenicity
-*   **16S rRNA:** Gene commonly used for bacterial identification/phylogeny
-*   **Strain Typing:** Methods to differentiate isolates of the same species

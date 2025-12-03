@@ -1,0 +1,37 @@
+# Personnel {-}
+
+In a high-complexity molecular laboratory, the quality of the result is inextricably linked to the expertise of the scientist performing the assay. Unlike automated chemistry lines, molecular diagnostics often requires significant manual manipulation, judgment calls on amplification curves, and strict adherence to workflow to prevent contamination. Therefore, the management of personnel through **Continuing Education** (growth) and **Competency Assessment** (verification) is heavily regulated by CLIA, CAP, and certification boards to ensure ongoing proficiency
+
+## Continuing Education {-}
+
+Continuing Education represents the professional obligation to maintain current knowledge in a rapidly evolving field. For the laboratory scientist, CE serves two purposes: complying with accreditation mandates (CLIA/CAP) and satisfying the Certification Maintenance Program (CMP) required by the ASCP Board of Certification
+
+*   **ASCP Certification Maintenance Program (CMP)**
+    *   Scientists certified after 2004 must maintain their credentials by accruing **36 CMP Points:** (contact hours) every three years. Failure to complete this results in the expiration of the certification
+    *   **Distribution:** The points must be allocated to specific areas to ensure well-rounded knowledge:
+        *   **1 Point:** Laboratory Safety (Mandatory)
+        *   **2 Points:** Area of Specialty (Molecular Biology)
+        *   **Remaining Points:** Management, Education, or other clinical areas (Blood Bank, Chemistry, etc.)
+*   **Sources of Education**
+    *   **P.A.C.E.® (Professional Acknowledgment for Continuing Education):** The industry standard for vetting educational content. Courses with P.A.C.E. approval are universally accepted by licensure boards
+    *   **Activities:** Acceptable sources include attending professional conferences (e.g., AMP or AACC), reading peer-reviewed journals with post-tests, completing college coursework (1 semester hour = 15 points), and participating in vendor webinars regarding new technology
+*   **Documentation:** The laboratory scientist is responsible for maintaining a portfolio of certificates. During inspections, the laboratory must demonstrate that all staff have access to and participate in educational activities relevant to the complexity of testing performed
+
+## Competency Assessment {-}
+
+While Continuing Education focuses on *new* knowledge, Competency Assessment verifies the ability to correctly perform *current* tasks. Under **CLIA '88**, competency assessment is a mandatory legal requirement for all personnel performing moderate and high-complexity testing. It ensures that the scientist follows the Standard Operating Procedure (SOP) exactly as written
+
+*   **Frequency of Assessment**
+    *   **Initial Training:** Occurs upon hire or implementation of a new test. The employee is not permitted to test patient samples until training is signed off
+    *   **Semiannual:** Competency must be assessed at the **6-month mark** during the first year of employment. This is a critical check to ensure "drift" has not occurred since training
+    *   **Annual:** After the first year, competency is assessed **every 12 months**
+*   **The Six Elements of Competency**
+    *   CLIA mandates that the following six specific methods be used to evaluate the scientist:
+        1.  **Direct Observation of Testing:** Watching the scientist perform the assay (checking pipetting technique, workflow adherence, and safety measures)
+        2.  **Monitoring Recording/Reporting:** Verifying that data is entered correctly into the Laboratory Information System (LIS) and critical values are handled properly
+        3.  **Review of Worksheets/QC:** checking that the scientist properly interpreted the Internal Controls and documented lot numbers
+        4.  **Direct Observation of Maintenance:** Watching the scientist perform instrument function checks (e.g., bleaching the hood or calibrating the thermal cycler)
+        5.  **Proficiency Testing (PT):** Evaluating the scientist's performance on external blind samples (CAP surveys)
+        6.  **Problem Solving:** Assessing the ability to handle errors (e.g., "What do you do if the NTC amplifies?")
+*   **Remediation**
+    *   If a scientist fails a competency assessment, they must **Cease Testing:** immediately. They cannot resume patient testing until they have been formally retrained and successfully re-assessed. All assessments must be signed by both the Assessor (Technical Supervisor) and the Employee

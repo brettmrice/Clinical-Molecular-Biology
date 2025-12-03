@@ -1,12 +1,12 @@
 # Manual Methods {-}
 
-**Manual Nucleic Acid Isolation methods**, particularly silica-based spin columns, are vital tools and foundational knowledge for MLS professionals. While Phenol-Chloroform teaches core principles about differential solubility, its toxicity limits its routine clinical use. Silica columns offer a safer, faster, and more convenient alternative suitable for many clinical applications. Understanding the chemistry and steps involved in these manual processes is key to effectively utilizing and troubleshooting both manual and automated isolation systems in the clinical molecular biology laboratory
+**Manual Nucleic Acid Isolation methods**, particularly silica-based spin columns, are vital tools and foundational knowledge for laboratory scientist professionals. While Phenol-Chloroform teaches core principles about differential solubility, its toxicity limits its routine clinical use. Silica columns offer a safer, faster, and more convenient alternative suitable for many clinical applications. Understanding the chemistry and steps involved in these manual processes is key to effectively utilizing and troubleshooting both manual and automated isolation systems in the clinical molecular biology laboratory
 
 While automation is king for high-throughput labs, understanding the manual methods is absolutely crucial. Why?
 
-1.  They form the **foundation** of how *all* nucleic acid isolation works, including the automated methods. Understanding the chemistry here helps you troubleshoot when automation goes wrong
+1.  They form the **foundation:** of how *all* nucleic acid isolation works, including the automated methods. Understanding the chemistry here helps you troubleshoot when automation goes wrong
 2.  Manual methods are still used for **low-throughput applications**, specialized sample types, or in labs with fewer resources
-3.  They are often the **gold standard** to which newer methods are compared
+3.  They are often the **gold standard:** to which newer methods are compared
 
 The basic goal remains the same: **Separate DNA and/or RNA from everything else** in the cell or sample (proteins, lipids, salts, cellular debris, potential inhibitors of downstream reactions like PCR)
 
@@ -14,9 +14,9 @@ The basic goal remains the same: **Separate DNA and/or RNA from everything else*
 
 Regardless of the specific chemistry, most manual methods involve these core stages:
 
-1.  **Lysis** Breaking open the cells (or viruses) to release the nucleic acids. This involves disrupting cell walls and membranes
-2.  **Removal of Contaminants** Selectively getting rid of proteins, lipids, and other cellular junk while keeping the nucleic acids intact and soluble
-3.  **Recovery/Concentration** Collecting the purified nucleic acids, often concentrating them into a usable volume and buffer
+1.  **Lysis:** Breaking open the cells (or viruses) to release the nucleic acids. This involves disrupting cell walls and membranes
+2.  **Removal of Contaminants:** Selectively getting rid of proteins, lipids, and other cellular junk while keeping the nucleic acids intact and soluble
+3.  **Recovery/Concentration:** Collecting the purified nucleic acids, often concentrating them into a usable volume and buffer
 
 Let's look at the classic manual approaches:
 
@@ -26,19 +26,19 @@ This is the historical workhorse, known for yielding high-quality nucleic acids 
 
 *   **Principle:** Exploits the differential solubility of molecules in organic solvents versus aqueous solutions
 *   **Steps**
-    1.  **Lysis** Cells are lysed using detergents (like SDS), often with heat, and enzymes like **Proteinase K** to digest proteins (including nucleases that would degrade DNA/RNA). If isolating RNA, **RNase inhibitors** (like DEPC-treated water, Guanidine salts, or commercial inhibitors) are critical throughout
-    2.  **Extraction** An equal volume of **Phenol:Chloroform:Isoamyl Alcohol (PCI)** mixture (typically 25:24:1 ratio) is added to the lysate
+    1.  **Lysis:** Cells are lysed using detergents (like SDS), often with heat, and enzymes like **Proteinase K** to digest proteins (including nucleases that would degrade DNA/RNA). If isolating RNA, **RNase inhibitors** (like DEPC-treated water, Guanidine salts, or commercial inhibitors) are critical throughout
+    2.  **Extraction:** An equal volume of **Phenol:Chloroform:Isoamyl Alcohol (PCI)** mixture (typically 25:24:1 ratio) is added to the lysate
         *   **Phenol:** Denatures proteins and dissolves RNA (especially if using *acid phenol*, pH ~4-5, which keeps DNA protonated and less soluble in the aqueous phase). At neutral pH, both DNA and RNA remain in the aqueous phase
         *   **Chloroform:** Increases the density of the organic phase, aiding phase separation, and helps dissolve lipids
         *   **Isoamyl Alcohol:** Acts as an anti-foaming agent
-    3.  **Phase Separation** The mixture is vortexed vigorously and then centrifuged. This separates the mixture into distinct layers:
+    3.  **Phase Separation:** The mixture is vortexed vigorously and then centrifuged. This separates the mixture into distinct layers:
         *   **Aqueous Phase (Top):** Contains the hydrophilic nucleic acids (DNA/RNA) and salts
         *   **Interphase (Middle):** A white, cloudy layer containing precipitated, denatured proteins
         *   **Organic Phase (Bottom):** Contains the hydrophobic lipids and proteins dissolved in the phenol/chloroform
-    4.  **Collection** The top aqueous layer containing the nucleic acids is carefully pipetted off, avoiding the interphase and organic layer. This extraction step might be repeated for higher purity
-    5.  **Precipitation** Nucleic acids are precipitated from the aqueous solution by adding salt (e.g., Sodium Acetate, Ammonium Acetate, Sodium Chloride) to neutralize the negative charges on the phosphate backbone, followed by **cold absolute Ethanol** or **Isopropanol**. The alcohol drastically reduces the dielectric constant of the solution, forcing the less soluble nucleic acid salts to precipitate out. This step also concentrates the nucleic acids
-    6.  **Washing** The precipitated nucleic acid pellet (obtained after centrifugation) is washed, typically with **70% Ethanol**, to remove residual salts
-    7.  **Resuspension** The air-dried or vacuum-dried pellet is resuspended in a suitable aqueous buffer (e.g., TE buffer - Tris-EDTA, or nuclease-free water)
+    4.  **Collection:** The top aqueous layer containing the nucleic acids is carefully pipetted off, avoiding the interphase and organic layer. This extraction step might be repeated for higher purity
+    5.  **Precipitation:** Nucleic acids are precipitated from the aqueous solution by adding salt (e.g., Sodium Acetate, Ammonium Acetate, Sodium Chloride) to neutralize the negative charges on the phosphate backbone, followed by **cold absolute Ethanol** or **Isopropanol**. The alcohol drastically reduces the dielectric constant of the solution, forcing the less soluble nucleic acid salts to precipitate out. This step also concentrates the nucleic acids
+    6.  **Washing:** The precipitated nucleic acid pellet (obtained after centrifugation) is washed, typically with **70% Ethanol**, to remove residual salts
+    7.  **Resuspension:** The air-dried or vacuum-dried pellet is resuspended in a suitable aqueous buffer (e.g., TE buffer - Tris-EDTA, or nuclease-free water)
 
 *   **Advantages:** Can yield very high molecular weight DNA, potentially high purity if done carefully. Relatively inexpensive reagents (though disposal costs add up)
 *   **Disadvantages**
@@ -53,10 +53,10 @@ These methods are much more common in clinical labs today, even for manual proce
 
 *   **Principle:** Nucleic acids selectively bind to a silica (silicon dioxide) matrix in the presence of high concentrations of chaotropic salts. Impurities are washed away, and then the pure nucleic acids are eluted in a low-salt buffer
 *   **Steps (Using a typical spin column format)**
-    1.  **Lysis** Similar to organic extraction, samples are lysed using buffers containing detergents and often **chaotropic salts** (like Guanidine Thiocyanate or Guanidine Hydrochloride). Proteinase K is frequently included. Chaotropic salts help denature proteins (including nucleases) and facilitate nucleic acid binding to silica
-    2.  **Binding** The lysate is mixed with a high-salt buffer (often containing ethanol or isopropanol) to create the optimal conditions for nucleic acid adsorption onto the silica membrane within the spin column. This mixture is then loaded onto the column
-    3.  **Wash** The column is centrifuged (or placed on a vacuum manifold). The liquid passes through the membrane, while the nucleic acids remain bound. The membrane is then washed multiple times with wash buffers (typically containing alcohol) to remove salts, proteins, and other contaminants. Centrifugation forces the wash buffers through the membrane. A "dry spin" might be included to remove residual ethanol
-    4.  **Elution** A small volume of low-salt elution buffer (like TE buffer or nuclease-free water) is added directly to the center of the silica membrane. After a short incubation, centrifugation pulls the elution buffer (now containing the purified nucleic acids) through the membrane into a clean collection tube
+    1.  **Lysis:** Similar to organic extraction, samples are lysed using buffers containing detergents and often **chaotropic salts** (like Guanidine Thiocyanate or Guanidine Hydrochloride). Proteinase K is frequently included. Chaotropic salts help denature proteins (including nucleases) and facilitate nucleic acid binding to silica
+    2.  **Binding:** The lysate is mixed with a high-salt buffer (often containing ethanol or isopropanol) to create the optimal conditions for nucleic acid adsorption onto the silica membrane within the spin column. This mixture is then loaded onto the column
+    3.  **Wash:** The column is centrifuged (or placed on a vacuum manifold). The liquid passes through the membrane, while the nucleic acids remain bound. The membrane is then washed multiple times with wash buffers (typically containing alcohol) to remove salts, proteins, and other contaminants. Centrifugation forces the wash buffers through the membrane. A "dry spin" might be included to remove residual ethanol
+    4.  **Elution:** A small volume of low-salt elution buffer (like TE buffer or nuclease-free water) is added directly to the center of the silica membrane. After a short incubation, centrifugation pulls the elution buffer (now containing the purified nucleic acids) through the membrane into a clean collection tube
 
 *   **Advantages**
     *   **Much Safer:** Avoids toxic organic solvents
@@ -84,20 +84,3 @@ These methods are much more common in clinical labs today, even for manual proce
 *   **Quality Control:** Essential! Check yield and purity using spectrophotometry (A260/280, A260/230 ratios) or fluorometry. Check integrity using gel electrophoresis if needed
 *   **Safety:** Always follow appropriate safety protocols, especially when handling hazardous chemicals or potentially infectious biological materials. Use PPE!
 *   **Contamination Control:** Use filter tips, dedicated pipettes, work in a clean area (ideally separate pre-PCR and post-PCR areas), and use nuclease-free reagents and consumables, especially for RNA work
-
-## **Key Terms** {-}
-
-*   **Lysis:** The process of breaking open cells or viruses to release their contents, including nucleic acids
-*   **Proteinase K:** A broad-spectrum serine protease used to digest proteins, including nucleases, during nucleic acid isolation. It remains active in the presence of detergents and chaotropic salts
-*   **Phenol:Chloroform:Isoamyl Alcohol (PCI):** An organic solvent mixture used to denature and separate proteins and lipids from nucleic acids based on differential solubility
-*   **Aqueous Phase:** The upper, water-based layer in a phenol-chloroform extraction that contains the hydrophilic nucleic acids
-*   **Organic Phase:** The lower layer in a phenol-chloroform extraction containing phenol, chloroform, and dissolved lipids and denatured proteins
-*   **Interphase:** The layer between the aqueous and organic phases in a phenol-chloroform extraction, primarily containing precipitated, denatured proteins
-*   **Alcohol Precipitation:** A method used to concentrate nucleic acids from aqueous solutions by adding salt and cold ethanol or isopropanol, causing the nucleic acids to precipitate out of solution
-*   **Chaotropic Agent/Salt:** Chemicals (e.g., guanidine salts) that disrupt water structure, denature proteins (including nucleases), and promote nucleic acid binding to silica surfaces
-*   **Silica Matrix/Membrane:** A solid support made of silicon dioxide used in spin columns or on magnetic beads, which selectively binds nucleic acids under high-salt conditions
-*   **Spin Column:** A small plastic tube containing a silica membrane, used for manual solid-phase extraction of nucleic acids via centrifugation
-*   **Bind-Wash-Elute:** The fundamental steps of solid-phase extraction (like silica methods): binding the target molecule (nucleic acid) to the solid phase, washing away contaminants, and eluting the purified target molecule
-*   **Elution Buffer:** A low-salt buffer (e.g., TE buffer, nuclease-free water) used to release bound nucleic acids from a silica matrix
-*   **RNase Inhibitor:** Reagents added during RNA isolation to prevent degradation by ubiquitous Ribonucleases (RNases)
-*   **Nuclease-Free Water/Reagents:** Water and other solutions treated (e.g., with DEPC) or certified to be free of DNases and RNases, critical for preventing nucleic acid degradation

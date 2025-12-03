@@ -39,13 +39,3 @@ This is the forensic branch of molecular microbiology. By comparing the genetic 
 *   **How We Do It:** Historically, this was done with techniques like **Multi-Locus Sequence Typing (MLST)**. Today, the gold standard is **Whole Genome Sequencing (WGS)**, which provides the highest possible resolution by comparing the entire genetic code of the pathogens
 *   **Key Clinical Example**
     *   **Hospital Outbreak Investigation:** A hospital ICU sees five cases of vancomycin-resistant *Enterococcus* (VRE) in two weeks. Are they related? WGS is performed on all five isolates. If the genomic sequences are nearly identical (differing by only a few nucleotides), it is conclusive evidence of a single clonal outbreak, triggering an intensive infection control investigation. If the five genomes are all wildly different, it indicates separate introductions of VRE into the ICU, requiring a different public health response
-
-## **Key Terms** {-}
-
-*   **Genotypic Characterization:** The use of molecular methods, primarily DNA sequencing, to analyze the specific genetic makeup of a pathogen to determine its subtype, drug resistance profile, or relatedness to other isolates
-*   **Genotype (Viral):** A distinct subtype of a virus within a species, characterized by a specific genetic sequence. Different genotypes can have different clinical characteristics and treatment responses
-*   **Drug Resistance Mutation:** A specific change in the genetic sequence of a pathogen that alters the target of an antimicrobial drug, rendering the drug less effective or ineffective
-*   **Molecular Epidemiology:** A field that uses molecular data (like DNA sequences) to track the spread, distribution, and evolution of infectious diseases within a population
-*   **Sanger Sequencing:** A classic DNA sequencing method used to determine the exact nucleotide sequence of a specific, targeted region of DNA (e.g., a single gene). It is the workhorse for many viral typing and resistance testing applications
-*   **Whole Genome Sequencing (WGS):** A powerful sequencing technology that determines the complete DNA sequence of an organism's genome, providing the highest possible resolution for molecular epidemiology and outbreak investigation
-*   **Phylogenetic Analysis:** The study of evolutionary relationships among organisms or genes. In molecular epidemiology, it involves creating "family trees" from sequence data to visualize how different isolates from an outbreak are related to each other

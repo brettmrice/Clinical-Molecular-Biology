@@ -1,6 +1,6 @@
 # Qualitative Analysis {-}
 
-**Qualitative Analysis** is the bread and butter of many labs. The concept is simple, but the impact is massive. For qualitative testing, we are essentially creating a molecular "Wanted Poster" for a specific pathogen. Our only question is: **"Is this specific pathogen present in the patient sample?"** The answer is a straightforward **Yes or No**, a **Detected or Not Detected**
+**Qualitative Analysis:** is the bread and butter of many labs. The concept is simple, but the impact is massive. For qualitative testing, we are essentially creating a molecular "Wanted Poster" for a specific pathogen. Our only question is: **"Is this specific pathogen present in the patient sample?"** The answer is a straightforward **Yes or No**, a **Detected or Not Detected**
 
 This approach has revolutionized microbiology by providing rapid, highly sensitive, and specific answers that directly influence patient care, antibiotic stewardship, and infection control
 
@@ -36,7 +36,7 @@ Let's look at some of the most common qualitative tests performed in the clinica
 
 ### **Respiratory Pathogen Panels (RPPs)** {-}
 
-*   **The Concept:** This is where the power of multiplexing shines. Instead of ordering separate tests for Flu, RSV, and COVID-19, a physician can order a single respiratory panel that tests for 20 or more targets at once from a single nasopharyngeal swab. This is called **syndromic testing**—testing for a broad group of pathogens that cause a similar set of symptoms (a syndrome)
+*   **The Concept:** This is where the power of multiplexing shines. Instead of ordering separate tests for Flu, RSV, and COVID-19, a physician can order a single respiratory panel that tests for 20 or more targets at once from a single nasopharyngeal swab. This is called **syndromic testing** - testing for a broad group of pathogens that cause a similar set of symptoms (a syndrome)
 *   **Common Targets on an RPP**
     *   Influenza A (with subtyping for H1/H3) & Influenza B
     *   Respiratory Syncytial Virus (RSV)
@@ -57,13 +57,3 @@ Let's look at some of the most common qualitative tests performed in the clinica
     *   ***Trichomonas vaginalis*:** **(TV)**
     *   ***Mycoplasma genitalium***, an emerging pathogen often associated with urethritis and resistance to some antibiotics. Assays may even include markers for macrolide resistance
 *   **The Application:** Routine screening and diagnosis. The speed and accuracy allow for prompt treatment, which is critical for preventing long-term complications (like pelvic inflammatory disease) and for breaking chains of transmission through partner notification
-
-## **Key Terms** {-}
-
-*   **Qualitative Analysis:** A type of molecular test that determines the presence or absence of a specific target nucleic acid (DNA or RNA), providing a "detected" or "not detected" result
-*   **Syndromic Panel:** A multiplex molecular test that simultaneously screens for a broad range of pathogens associated with a specific clinical syndrome (e.g., respiratory or gastrointestinal illness) from a single patient sample
-*   ***mecA*:** **Gene** The primary genetic marker for methicillin resistance in *Staphylococcus aureus* (MRSA); its presence is the target of most MRSA screening assays
-*   **Toxin Gene:** A gene that codes for a virulence factor (a toxin) that causes disease. In *C. difficile* testing, the targets are the genes for Toxin A (*tcdA*) and Toxin B (*tcdB*), not the organism itself
-*   **Multiplex PCR:** A PCR technique that enables the simultaneous amplification of two or more target sequences in a single reaction tube by using multiple unique primer pairs. This is the foundation of syndromic panels
-*   **Internal Control (IC):** A non-target nucleic acid sequence that is added to every sample reaction to verify that the entire testing process (extraction and amplification) worked correctly and to rule out PCR inhibition. A valid "Not Detected" result requires the IC to be detected
-*   **Antibiotic Stewardship:** A coordinated effort to optimize the use of antimicrobial medications to improve patient outcomes, reduce microbial resistance, and decrease the spread of infections. Rapid molecular diagnostics are a cornerstone of modern stewardship programs

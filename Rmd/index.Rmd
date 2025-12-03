@@ -6,16 +6,16 @@ site: bookdown::bookdown_site
 output: bookdown::bs4_book
 documentclass: book
 description: |
-  Information intended to assist preparation for Clinical Blood Bank content on ASCP BOC's MLS, MB, and SMB certification exams
+  Information intended to assist preparation for Clinical Blood Bank content on ASCP BOC's laboratory scientist, MB, and SMB certification exams
 ---
 
 # **About** {-}
 
-Information intended to assist preparation for Clinical Molecular Biology content on <a href="https://www.ascp.org/content/board-of-certification/get-credentialed" target="_blank">ASCP BOC's</a> MLS, MB and SMB certification exams Content Guidelines for the MLS, MB and SMB certification exams
+Information intended to assist preparation for Clinical Molecular Biology content on <a href="https://www.ascp.org/content/board-of-certification/get-credentialed" target="_blank">ASCP BOC's</a> laboratory scientist, MB and SMB certification exams Content Guidelines for the laboratory scientist, MB and SMB certification exams
 
 You are recommend to use this information as a supplement to the "Reading List" cited  by the <a href="https://www.ascp.org/content/board-of-certification/get-credentialed" target="_blank">ASCP BOC</a> for each certification
 
-* <a href="https://www.ascp.org/content/board-of-certification/get-credentialed#us-certifications" target="_blank">Medical Laboratory Scientist, MLS(ASCP)</a>
+* <a href="https://www.ascp.org/content/board-of-certification/get-credentialed#us-certifications" target="_blank">Medical Laboratory Scientist, laboratory scientist(ASCP)</a>
 * <a href="https://www.ascp.org/content/board-of-certification/get-credentialed#us-certifications" target="_blank">Technologist in Molecular Biology, MB(ASCP)</a>
 * <a href="https://www.ascp.org/content/board-of-certification/get-credentialed#us-certifications" target="_blank">Specialist in Molecular Biology, SMB(ASCP)</a>
 
@@ -24,19 +24,19 @@ You are recommend to use this information as a supplement to the "Reading List" 
 ### **MB(ASCP)** {-}
 
 *   **Route 1**
-    *   Valid ASCP technologist/scientist or specialist certification,
+    *   Valid ASCP laboratory scientist/scientist or specialist certification,
     *   AND a baccalaureate degree from an accredited (regionally or nationally) college/university
 *   **Route 2**
     *   Baccalaureate degree from an accredited (regionally or nationally) college/university,
     *   AND successful completion of a NAACLS accredited diagnostic molecular science program within the last five years
 *   **Route 3**
     *   Baccalaureate degree from an accredited (regionally or nationally) college/university with a major in biological science or chemistry, OR a baccalaureate degree from an accredited (regionally or nationally) college/university with a combination of 30 semester hours (45 quarter hours) in biology and chemistry, which may be obtained within, or in addition to, the baccalaureate degree,
-    *   AND one year of full time acceptable clinical** experience in a molecular biology laboratory within the last five years, OR one year of full time acceptable veterinary, industry or research experience in a molecular biology laboratory in the U.S. or Canada within the last five years
+    *   AND one year of full time acceptable clinical:** experience in a molecular biology laboratory within the last five years, OR one year of full time acceptable veterinary, industry or research experience in a molecular biology laboratory in the U.S. or Canada within the last five years
 *   **Route 4**
     *   Master’s degree from an accredited (regionally or nationally) college/university in molecular biology, biotechnology, chemistry, biology, immunology, microbiology, allied health, medical laboratory science, or an appropriately related field,
-    *   AND six months of full time acceptable clinical** experience in a molecular biology laboratory within the last five years, OR six months of full time acceptable veterinary, industry or research experience in a molecular biology laboratory in the U.S. or Canada within the last five years
+    *   AND six months of full time acceptable clinical:** experience in a molecular biology laboratory within the last five years, OR six months of full time acceptable veterinary, industry or research experience in a molecular biology laboratory in the U.S. or Canada within the last five years
 *   **Laboratory or Teaching Experience**
-    *   To fulfill the experience requirement for the Technologist in Molecular Biology examination, you must have laboratory experience within the timeframe required in at least **one** of the following areas:
+    *   To fulfill the experience requirement for the Laboratory scientist in Molecular Biology examination, you must have laboratory experience within the timeframe required in at least **one:** of the following areas:
         *   Genetics/Genomics (e.g., genotyping, genetic disorders, pharmacogenomics, genome-wide analysis)
         *   Oncology (e.g., hematologic lymphoid neoplasms/neoplasia, solid tumor gene markers)
         *   Infectious Disease (e.g., molecular microbiology/virology, molecular epidemiology)
@@ -69,13 +69,13 @@ You are recommend to use this information as a supplement to the "Reading List" 
     *   AND a Master’s degree from an accredited (regionally or nationally) college/university in molecular biology, biotechnology, chemistry, biology, immunology, microbiology, allied health, medical laboratory science, or an appropriately related field,
     *   AND two years of full time acceptable clinical experience in a molecular biology laboratory OR two years of full time acceptable veterinary, industry or research experience in a molecular biology laboratory in the U.S. or Canada. These two years of experience must be acquired post baccalaureate degree and within the last five years
 *   **Laboratory or Teaching Experience**
-    *   To fulfill the experience requirement for the Specialist in Molecular Biology examination, you must have laboratory or teaching experience within the timeframe required in at least **two** of the following areas:
+    *   To fulfill the experience requirement for the Specialist in Molecular Biology examination, you must have laboratory or teaching experience within the timeframe required in at least **two:** of the following areas:
         *   Genetics/Genomics (e.g., genotyping, genetic disorders, pharmacogenomics, genome-wide analysis)
         *   Oncology (e.g., hematologic lymphoid neoplasms/neoplasia, solid tumor gene markers)
         *   Infectious Disease (e.g., molecular microbiology/virology, molecular epidemiology)
         *   Molecular Identity Testing (e.g., engraftment, paternity)
         *   Clinical laboratory test interpretation and reporting (e.g., genetics/genomics, oncology, histocompatibility, infectious disease, or molecular identity testing)
-    *   Experience is also required in at least **two** of the following procedures:
+    *   Experience is also required in at least **two:** of the following procedures:
         *   Test development/validation
         *   Procurement of laboratory equipment
         *   Quality management

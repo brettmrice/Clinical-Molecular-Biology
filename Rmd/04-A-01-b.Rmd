@@ -1,0 +1,57 @@
+# Monitoring & Detection {-}
+
+The detection of contamination in a molecular laboratory is primarily achieved through a rigorous Quality Control (QC) program. Unlike chemical clinical assays, where errors often result in shifts or trends in quantitative values, contamination in molecular biology typically manifests as **false positive** results. A robust monitoring system distinguishes between true patient signal and background noise caused by biological, amplified, or non-amplified nucleic acid contamination
+
+## Experimental Controls {-}
+
+The most immediate method of detecting contamination is the inclusion of specific negative controls in every analytical run. These controls serve as "sentinels" for different stages of the workflow
+
+*   **No Template Control (NTC) / Reagent Blank**
+    *   **Composition:** This reaction contains all Master Mix components (primers, polymerase, dNTPs, buffer) but substitutes nuclease-free water for the DNA template
+    *   **Function:** The NTC monitors the "Clean" Reagent Preparation area
+    *   **Interpretation:** If amplification is observed in the NTC, it indicates that the reagents themselves have been contaminated, likely by amplified DNA (amplicons) or environmental genomic DNA. The entire run must be discarded, and the reagent lot replaced
+*   **Negative Extraction Control**
+    *   **Composition:** A known negative biological matrix (e.g., negative plasma, urine, or simply water) that is processed through the extraction step alongside patient samples
+    *   **Function:** This monitors the "Specimen Preparation" area. It detects **biological cross-contamination** (sample-to-sample) occurring during manual pipetting or automated extraction
+    *   **Interpretation:** If the NTC is negative but the Negative Extraction Control is positive, the contamination occurred during the extraction phase, not in the reagent mix
+
+## Quantitative Analysis & Data Review {-}
+
+In laboratories utilizing Real-Time PCR (qPCR), contamination often presents as distinct data patterns. Laboratory scientists must look beyond simple "Positive/Negative" calls and analyze the amplification curves and Crossing Threshold (Ct) values
+
+*   **Ct Value Assessment**
+    *   True positive samples often have strong amplification with lower Ct values (e.g., cycles 15–30)
+    *   Contamination often presents as "late amplification" (e.g., Ct > 35) or weak fluorescence. While this can represent a true low-positive patient, a cluster of samples with very late Ct values suggests low-level environmental aerosol contamination
+*   **Melt Curve Analysis**
+    *   For assays using SYBR Green or intercalating dyes, melt curve analysis helps distinguish contamination
+    *   **Primer Dimers:** Non-specific amplification often creates a melt peak at a lower temperature than the specific target
+    *   **Off-Target Amplification:** If the contaminant is non-amplified environmental DNA (e.g., similar bacterial strains), the melt temperature (Tm) may differ slightly from the control target, indicating the product is not the intended pathogen
+
+## Environmental Surveillance (Wipe Tests) {-}
+
+To detect contamination *before* it affects patient results, laboratories should perform active environmental monitoring. This involves searching for "fugitive" DNA on laboratory surfaces
+
+*   **The Wipe Test Protocol**
+    *   Sterile swabs moistened with molecular-grade water or saline are used to wipe various surfaces in the laboratory
+    *   **Target Areas:** Pipette handles, bench surfaces, door knobs, centrifuge rotors, and the outside of thermocyclers
+    *   **Testing:** These swabs are processed as samples and run via PCR against targets commonly amplified in the lab
+*   **Frequency and Interpretation**
+    *   Wipe tests are typically performed monthly or following a contamination event
+    *   **Clean Area (Reagent Prep):** Should be absolutely free of DNA. Any positive result here is a critical workflow breach requiring immediate deep cleaning
+    *   **Dirty Area (Amplification):** While some amplicon presence is expected inside a thermocycler, bench tops and handles should remain clean. Excessive positives here indicate poor cleaning technique or ventilation issues
+
+## Pattern Recognition & Epidemiology {-}
+
+Sometimes contamination escapes experimental controls (e.g., if the contamination is sporadic and misses the NTC tube). In these cases, monitoring requires an epidemiological approach by reviewing patient data trends
+
+*   **Positivity Rate Monitoring:** The laboratory director or lead laboratory scientist should monitor the percentage of positive results for specific pathogens over time. A sudden spike in positivity for a rare organism (e.g., a sudden cluster of *Bordetella pertussis* in adults with no known outbreak) strongly suggests contamination of a reagent lot or an extraction instrument
+*   **Clinical Correlation:** If a sample tests positive for a molecular target but is inconsistent with the patient's clinical presentation (e.g., a strong MecA gene detection in a patient with a MSSA culture), the molecular result may be a false positive due to contamination from a previous MRSA sample
+
+## Troubleshooting Source Identification {-}
+
+Once contamination is detected, identifying the specific type (amplified vs. biological) is necessary to fix the root cause
+
+*   **Sizing (Gel Electrophoresis):** If the assay produces a specific band size, running the contaminant on a gel can confirm if it matches the target amplicon size. If the contaminant is a different size (a smear or wrong band), it may be non-amplified genomic DNA or primer-dimers
+*   **Sequencing:** In complex cases, the contaminating product can be sequenced
+    *   If the sequence is identical to a high-titer patient sample run the previous day, it confirms **biological cross-contamination**
+    *   If the sequence matches a cloning vector or a synthetic control used in the lab, it confirms **plasmid/control contamination**

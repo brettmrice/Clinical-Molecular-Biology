@@ -27,11 +27,11 @@ There's a fundamental difference:
 
 This is a step-wise process:
 
-1.  **DNA Double Helix** The basic molecule (approx. 2 nm diameter)
-2.  **Nucleosomes ("Beads on a String")** The fundamental unit of chromatin. DNA wraps approximately 1.7 times (about 147 base pairs) around a core octamer of histone proteins (two each of **H2A, H2B, H3, and H4**). Histones are rich in basic amino acids (lysine, arginine), giving them a positive charge that strongly interacts with the negatively charged phosphate backbone of DNA. Short stretches of "linker DNA" connect adjacent nucleosomes. This structure is about 11 nm in diameter
-3.  **30 nm Chromatin Fiber (Solenoid/Zigzag)** Nucleosomes coil or fold upon themselves, likely stabilized by interactions involving **Histone H1** (which binds to the linker DNA and the nucleosome core). This compacts the DNA further into a fiber approximately 30 nm wide
-4.  **Looped Domains** The 30 nm fiber is further organized into loops, ranging from tens to hundreds of kilobases long. These loops are anchored to a **nuclear scaffold** or **matrix** composed of non-histone proteins. This level helps organize the genome into functional domains. (Approx. 300-700 nm diameter)
-5.  **Metaphase Chromosome** The highest level of compaction, achieved only when the cell prepares to divide (mitosis or meiosis). The looped domains coil and fold extensively, resulting in the classic, highly condensed structure visible under a light microscope (approx. 1400 nm diameter). At this stage, the chromosome typically consists of two identical **sister chromatids** joined at the centromere (having been replicated during the S phase)
+1.  **DNA Double Helix:** The basic molecule (approx. 2 nm diameter)
+2.  **Nucleosomes ("Beads on a String"):** The fundamental unit of chromatin. DNA wraps approximately 1.7 times (about 147 base pairs) around a core octamer of histone proteins (two each of **H2A, H2B, H3, and H4**). Histones are rich in basic amino acids (lysine, arginine), giving them a positive charge that strongly interacts with the negatively charged phosphate backbone of DNA. Short stretches of "linker DNA" connect adjacent nucleosomes. This structure is about 11 nm in diameter
+3.  **30 nm Chromatin Fiber (Solenoid/Zigzag):** Nucleosomes coil or fold upon themselves, likely stabilized by interactions involving **Histone H1** (which binds to the linker DNA and the nucleosome core). This compacts the DNA further into a fiber approximately 30 nm wide
+4.  **Looped Domains:** The 30 nm fiber is further organized into loops, ranging from tens to hundreds of kilobases long. These loops are anchored to a **nuclear scaffold** or **matrix** composed of non-histone proteins. This level helps organize the genome into functional domains. (Approx. 300-700 nm diameter)
+5.  **Metaphase Chromosome:** The highest level of compaction, achieved only when the cell prepares to divide (mitosis or meiosis). The looped domains coil and fold extensively, resulting in the classic, highly condensed structure visible under a light microscope (approx. 1400 nm diameter). At this stage, the chromosome typically consists of two identical **sister chromatids** joined at the centromere (having been replicated during the S phase)
 
 ## **Key Features of a Eukaryotic Metaphase Chromosome** {-}
 
@@ -45,13 +45,13 @@ This is a step-wise process:
 *   **Telomeres:** Specialized structures at the **ends** of linear eukaryotic chromosomes
     *   **Structure:** Consist of repetitive nucleotide sequences (e.g., TTAGGG in humans) and associated proteins. They form protective "caps."
     *   **Functions**
-        1.  **Protect** the ends from being recognized as DNA breaks and degraded or fused
-        2.  **Solve the "end replication problem"** Standard DNA polymerase cannot fully replicate the very tips of linear chromosomes. The enzyme **telomerase** (a reverse transcriptase carrying its own RNA template) adds repeats to the telomeres, preventing progressive shortening with each cell division in germ cells and stem cells. Most somatic cells have low telomerase activity, leading to telomere shortening with age
+        1.  **Protect:** the ends from being recognized as DNA breaks and degraded or fused
+        2.  **Solve the "end replication problem":** Standard DNA polymerase cannot fully replicate the very tips of linear chromosomes. The enzyme **telomerase** (a reverse transcriptase carrying its own RNA template) adds repeats to the telomeres, preventing progressive shortening with each cell division in germ cells and stem cells. Most somatic cells have low telomerase activity, leading to telomere shortening with age
 *   **Arms:** The portions of the chromatid extending from the centromere
     *   **p arm:** Short arm ("p" for petit)
     *   **q arm:** Long arm ("q" follows "p")
 
-## **Chromatin States and Gene Activity** {-}
+## **Chromatin States & Gene Activity** {-}
 
 Chromatin isn't uniformly packed; its structure relates directly to gene activity:
 
@@ -60,9 +60,9 @@ Chromatin isn't uniformly packed; its structure relates directly to gene activit
     *   **Constitutive Heterochromatin:** Always condensed in all cell types (e.g., centromeric and telomeric regions)
     *   **Facultative Heterochromatin:** Can vary in condensation state depending on cell type or developmental stage. Contains genes that are silenced through condensation (e.g., the inactive X chromosome forming a **Barr body** in mammalian females)
 
-**Epigenetics Connection** Modifications to histones (acetylation, methylation, phosphorylation) and DNA (methylation) play a huge role in dynamically regulating chromatin structure, switching between euchromatin and heterochromatin states to control gene expression without changing the underlying DNA sequence
+**Epigenetics Connection:** Modifications to histones (acetylation, methylation, phosphorylation) and DNA (methylation) play a huge role in dynamically regulating chromatin structure, switching between euchromatin and heterochromatin states to control gene expression without changing the underlying DNA sequence
 
-## **Chromosome Number and Karyotype** {-}
+## **Chromosome Number & Karyotype** {-}
 
 *   **Ploidy:** Refers to the number of sets of chromosomes. Human somatic cells are **diploid (2n)**, having two sets (one maternal, one paternal) for a total of 46 chromosomes (22 pairs of autosomes + 1 pair of sex chromosomes, XX or XY). Gametes (sperm/egg) are **haploid (n)**, with one set (23 chromosomes)
 *   **Karyotype:** The complete set of chromosomes in a cell, organized and displayed systematically (usually in pairs, ordered by decreasing size and centromere position). Visualizing the karyotype, often using **G-banding** (staining that produces characteristic light and dark bands), is a fundamental cytogenetic technique
@@ -85,21 +85,3 @@ Chromosome structure and number are fundamental to health. Cytogenetics labs ana
     *   **Chromosomal Microarray Analysis (CMA):** High-resolution technique to detect copy number variations (CNVs - small deletions and duplications) across the entire genome. Often the first-tier test for developmental delay/intellectual disability
 *   **Cancer:** Chromosomal abnormalities (both numerical and structural) are hallmarks of most cancers, driving tumor development and progression. Cytogenetics is crucial for cancer diagnosis, prognosis, and monitoring
 *   **Telomere Biology:** Telomere length and telomerase activity are implicated in aging and cancer, although routine clinical testing is less common
-
-## **Key Terms** {-}
-
-*   **Chromosome:** Organized structure of DNA and proteins carrying genetic information
-*   **Chromatin:** Complex of DNA and associated proteins (primarily histones in eukaryotes)
-*   **Histones:** Basic proteins (H1, H2A, H2B, H3, H4) crucial for DNA packaging into nucleosomes in eukaryotes
-*   **Nucleosome:** Fundamental unit of chromatin; DNA wrapped around a histone octamer
-*   **Centromere:** Constricted region of a chromosome; site of kinetochore formation
-*   **Telomere:** Protective structure at the end of a linear eukaryotic chromosome
-*   **Sister Chromatids:** Two identical copies of a replicated chromosome joined at the centromere
-*   **p arm / q arm:** Short and long arms of a chromosome, respectively
-*   **Euchromatin:** Less condensed, transcriptionally active chromatin
-*   **Heterochromatin:** Highly condensed, transcriptionally inactive chromatin
-*   **Karyotype:** An individual's complete set of chromosomes, arranged systematically
-*   **Aneuploidy:** Abnormal number of chromosomes
-*   **Translocation:** Exchange of segments between non-homologous chromosomes
-*   **FISH (Fluorescence In Situ Hybridization):** Technique using fluorescent probes to visualize specific DNA sequences on chromosomes
-*   **CMA (Chromosomal Microarray Analysis):** Technique to detect genome-wide copy number variations

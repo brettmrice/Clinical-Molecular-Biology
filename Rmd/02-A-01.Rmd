@@ -1,16 +1,16 @@
 # Automated Methods {-}
 
-**Automated Methods** of nucleic acid isolation is a cornerstone technique in clinical molecular biology labs. By leveraging solid-phase extraction principles, particularly with silica-coated magnetic beads or silica membranes, these systems provide standardized, high-throughput, and reliable purification of DNA and RNA from diverse clinical specimens. While the initial investment can be significant, the benefits in terms of efficiency, reproducibility, and reduced contamination risk are essential for providing accurate and timely molecular diagnostic results
+**Automated Methods:** of nucleic acid isolation is a cornerstone technique in clinical molecular biology labs. By leveraging solid-phase extraction principles, particularly with silica-coated magnetic beads or silica membranes, these systems provide standardized, high-throughput, and reliable purification of DNA and RNA from diverse clinical specimens. While the initial investment can be significant, the benefits in terms of efficiency, reproducibility, and reduced contamination risk are essential for providing accurate and timely molecular diagnostic results
 
 ## Why Automate Nucleic Acid Isolation? {-}
 
 Before we get into the *how*, let's quickly touch on the *why*. Moving from manual pipetting to automated systems offers several key advantages in the clinical lab:
 
 *   **Increased Throughput:** Automated systems can process many more samples in the same amount of time compared to manual methods. Think 96-well plates instead of individual tubes!
-*   **Improved Reproducibility & Consistency:** Robots are great at doing the exact same thing, every single time. This reduces variability between runs and between different technologists
-*   **Reduced Hands-On Time:** This frees up skilled technologists for more complex tasks like data analysis, troubleshooting, and quality control
+*   **Improved Reproducibility & Consistency:** Robots are great at doing the exact same thing, every single time. This reduces variability between runs and between different laboratory scientists
+*   **Reduced Hands-On Time:** This frees up skilled laboratory scientists for more complex tasks like data analysis, troubleshooting, and quality control
 *   **Minimized Contamination:** Enclosed systems and programmed liquid handling reduce the risk of cross-contamination between samples and the introduction of environmental contaminants (like pesky RNases or DNases)
-*   **Enhanced Safety:** Reduces technologist exposure to potentially infectious biological samples and hazardous chemicals used during lysis
+*   **Enhanced Safety:** Reduces laboratory scientist exposure to potentially infectious biological samples and hazardous chemicals used during lysis
 *   **Standardization:** Ensures the isolation process follows a validated, standardized protocol every time, which is critical for accurate clinical results
 
 ## **Core Principle: Solid-Phase Extraction (SPE)** {-}
@@ -24,10 +24,10 @@ The most common solid phase used in automation is **silica**, often in the form 
 
 ### **The Magic Bind-Wash-Elute Steps (Silica-Based)** {-}
 
-1.  **Lysis** The first step is always breaking open the cells or viruses to release the nucleic acids. This is usually done using a combination of detergents, enzymes (like Proteinase K), chaotropic salts (e.g., guanidine thiocyanate), and sometimes mechanical disruption or heat. Lysis buffers also inactivate nucleases. *This step might happen before loading onto the instrument or on the instrument itself*
-2.  **Binding** Under high-salt, often alcoholic conditions created by the lysis/binding buffers, nucleic acids lose their hydration shell and selectively adsorb onto the silica surface via hydrogen bonds and cation bridging. Proteins and other contaminants generally don't bind as efficiently under these conditions
-3.  **Washing** The solid phase (with bound nucleic acids) is washed multiple times with buffers (typically containing alcohol) to remove salts, proteins, detergents, and other impurities. The nucleic acids remain bound to the silica during these washes
-4.  **Elution** Finally, a low-salt buffer (like Tris-EDTA buffer or nuclease-free water) is added. This rehydrates the nucleic acids, disrupting their association with the silica and releasing them into the elution buffer. The purified nucleic acid solution is then collected
+1.  **Lysis:** The first step is always breaking open the cells or viruses to release the nucleic acids. This is usually done using a combination of detergents, enzymes (like Proteinase K), chaotropic salts (e.g., guanidine thiocyanate), and sometimes mechanical disruption or heat. Lysis buffers also inactivate nucleases. *This step might happen before loading onto the instrument or on the instrument itself*
+2.  **Binding:** Under high-salt, often alcoholic conditions created by the lysis/binding buffers, nucleic acids lose their hydration shell and selectively adsorb onto the silica surface via hydrogen bonds and cation bridging. Proteins and other contaminants generally don't bind as efficiently under these conditions
+3.  **Washing:** The solid phase (with bound nucleic acids) is washed multiple times with buffers (typically containing alcohol) to remove salts, proteins, detergents, and other impurities. The nucleic acids remain bound to the silica during these washes
+4.  **Elution:** Finally, a low-salt buffer (like Tris-EDTA buffer or nuclease-free water) is added. This rehydrates the nucleic acids, disrupting their association with the silica and releasing them into the elution buffer. The purified nucleic acid solution is then collected
 
 ## **Common Automated Platform Technologies** {-}
 
@@ -58,16 +58,3 @@ There's a variety of automated systems out there, but they generally fall into a
 *   **Quality Control:** Automated systems still require QC! This includes monitoring yield (e.g., spectrophotometry/fluorometry), purity (A260/280 and A260/230 ratios), and potentially integrity (gel electrophoresis or specialized instruments). Internal controls added during lysis are crucial
 *   **Contamination Control:** Look for features like UV decontamination cycles, HEPA filters, careful liquid handling programming (e.g., specific tip usage/disposal)
 *   **Cost & Footprint:** Consider instrument cost, reagent cost per sample, service contracts, lab space, and utility requirements
-
-##  **Key Terms** {-}
-
-*   **Solid-Phase Extraction (SPE):** A sample preparation technique central to most automated methods, where nucleic acids in a liquid sample (mobile phase) are selectively adsorbed onto a solid material (stationary phase, e.g., silica). Contaminants are washed away, and purified nucleic acids are then released (eluted) from the solid phase
-*   **Magnetic Beads:** Microscopic paramagnetic particles, commonly coated with silica, used as the solid phase in many automated SPE systems. Their magnetic properties allow robotic manipulators to easily collect, move, and resuspend the beads during binding, washing, and elution steps without centrifugation or vacuum filtration
-*   **Silica Matrix:** A solid support material (often in the form of beads, membranes, or columns) composed primarily of silicon dioxide (SiO₂) that has a high affinity for nucleic acids under specific chemical conditions (high salt, presence of alcohol). This selective binding is the basis for silica-based SPE purification
-*   **Lysis Buffer:** A reagent solution used at the beginning of the isolation process designed to break open cells, viral capsids, or bacterial walls to release nucleic acids. It typically contains detergents, enzymes (like Proteinase K), and often chaotropic salts to denature proteins and inhibit nucleases
-*   **Chaotropic Agent (or Salt):** A chemical substance (e.g., guanidine thiocyanate, guanidine hydrochloride) included in lysis and binding buffers that disrupts hydrogen bonding networks in water and denatures macromolecules like proteins (including nucleases) and nucleic acids. This action facilitates cell lysis and promotes the binding of nucleic acids to the silica matrix
-*   **Binding Buffer:** A solution, often containing high concentrations of chaotropic salts and alcohol (ethanol or isopropanol), added after lysis (or combined with the lysis buffer). It creates the optimal high-salt, low-hydration environment necessary for nucleic acids to selectively bind to the silica solid phase
-*   **Wash Buffer:** An alcohol-based solution (typically containing ethanol) used in SPE protocols after the binding step. It rinses away residual salts, proteins, detergents, and other contaminants while ensuring the nucleic acids remain bound to the solid phase. Automated systems typically perform multiple wash steps with one or more wash buffers
-*   **Elution Buffer:** A low-ionic-strength aqueous solution (e.g., Tris buffer, TE buffer, or nuclease-free water) used as the final step in SPE. It rehydrates the nucleic acids, disrupting their interaction with the silica matrix and releasing the purified DNA or RNA into the solution, which is then collected
-*   **Liquid Handler:** An automated robotic device that performs pipetting operations. In automated nucleic acid isolation, it precisely aspirates and dispenses lysis buffers, samples, binding buffers, wash buffers, magnetic beads (if applicable), and elution buffers, transferring liquids between tubes or wells on a plate
-*   **Throughput:** A measure of the efficiency of an automated system, referring to the number of samples that can be processed in a single run or within a specific timeframe (e.g., samples per hour). Automated systems are generally designed for medium to high throughput compared to manual methods

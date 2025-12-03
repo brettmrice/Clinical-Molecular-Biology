@@ -21,7 +21,7 @@ Getting the DNA (or RNA converted to cDNA) ready for sequencing on a specific pl
 *   **Adapter Ligation:** Short, synthetic DNA sequences called **adapters** are ligated onto both ends of the fragments. Adapters serve multiple crucial purposes:
     *   Allowing the fragments to bind to the sequencing platform's solid surface (e.g., flow cell)
     *   Providing binding sites for sequencing primers
-    *   Often containing **indexes (barcodes)** – unique sequences (~6-12 bp) added during ligation or PCR. Samples with different indexes can be pooled together and sequenced in the same run (**multiplexing**), then bioinformatically separated later based on their index sequence. This significantly increases efficiency and reduces cost per sample
+    *   Often containing **indexes (barcodes):** – unique sequences (~6-12 bp) added during ligation or PCR. Samples with different indexes can be pooled together and sequenced in the same run (**multiplexing**), then bioinformatically separated later based on their index sequence. This significantly increases efficiency and reduces cost per sample
 *   **(Optional but Common) Library Amplification:** A few cycles of PCR are often performed to enrich for fragments that have adapters ligated correctly on both ends and to generate sufficient material for sequencing. This step can also add the indexes if not done during ligation
 *   **(Optional but Crucial for Clinical Use) Target Enrichment:** For many clinical applications (e.g., gene panels, exome sequencing), we don't want to sequence the entire genome. Target enrichment methods selectively capture only the regions of interest *before* sequencing:
     *   **Hybrid Capture:** Using biotinylated RNA or DNA probes ("baits") complementary to the target regions. The probes hybridize to the library fragments containing the target sequences. Streptavidin-coated magnetic beads are then used to pull down the probe-bound fragments, washing away the non-target fragments
@@ -35,7 +35,7 @@ Placing the prepared library onto the NGS instrument and performing the sequenci
 *   **Cluster Generation (Illumina):** The library fragments bind to complementary adapter sequences immobilized on the surface of a **flow cell**. An isothermal amplification process called **bridge amplification** occurs on the flow cell, creating millions of dense, clonal clusters, where each cluster contains many copies of the *same* original library fragment
 *   **Sequencing by Synthesis (Illumina)**
     1.  A sequencing primer binds to the adapter sequence on the clustered fragments
-    2.  DNA polymerase and special **fluorescently labeled reversible terminator nucleotides** (A, T, C, G, each with a different color dye and a removable 3'-block) are added
+    2.  DNA polymerase and special **fluorescently labeled reversible terminator nucleotides:** (A, T, C, G, each with a different color dye and a removable 3'-block) are added
     3.  In each cycle, the polymerase incorporates *only one* complementary labeled terminator nucleotide onto each growing strand within a cluster
     4.  Unincorporated nucleotides are washed away
     5.  The flow cell is imaged. The color of the fluorescence emitted by each cluster indicates which base (A, T, C, or G) was incorporated in that cycle
@@ -81,7 +81,7 @@ While Illumina dominates, other technologies exist:
 
 ## **Disadvantages/Limitations of NGS** {-}
 
-*   **Shorter Read Lengths (typically for Illumina):** ~50-300 bp reads can make aligning to complex/repetitive regions difficult and challenging for resolving large structural variants (though long-read tech addresses this)
+*   **Shorter Read Lengths (typically for Illumina):** ~50-300 bp reads can make aligning to complex/repetitive regions difficult and challenging for resolving large structural variants (though long-read laboratory scientist addresses this)
 *   **Complex Workflow:** Library preparation can be intricate and requires expertise
 *   **Bioinformatics Challenge:** Data analysis requires significant computational resources, storage, and specialized bioinformatics expertise
 *   **Cost:** High initial instrument cost. While cost per base is low for large projects, cost per sample can still be high for small targeted panels compared to Sanger
@@ -99,25 +99,3 @@ NGS has transformed many areas of clinical diagnostics:
 *   **Pharmacogenomics (PGx):** Identifying genetic variants that influence drug metabolism and response
 *   **Infectious Disease:** Metagenomic sequencing for identifying pathogens in complex samples, tracking outbreaks, surveillance, and determining antimicrobial resistance profiles
 *   **HLA Typing:** High-resolution typing for transplantation
-
-## **Key Terms** {-}
-
-*   **Massively Parallel Sequencing:** Sequencing millions or billions of DNA fragments simultaneously
-*   **Library Preparation:** The process of preparing DNA/RNA for NGS, including fragmentation, adapter ligation, and potentially amplification/enrichment
-*   **Adapter:** Short synthetic DNA sequence ligated to fragments, containing sequences for binding to the platform, sequencing priming, and indexing
-*   **Index (Barcode):** A short, unique DNA sequence within the adapter used to identify samples pooled together in one run (multiplexing)
-*   **Multiplexing:** Pooling multiple indexed libraries together for sequencing in a single run
-*   **Target Enrichment:** Methods (hybrid capture, amplicon-based) to selectively sequence only specific regions of interest (e.g., genes, exons)
-*   **Flow Cell:** The solid surface (glass slide with channels) in Illumina sequencers where library fragments bind and cluster generation/sequencing occurs
-*   **Cluster Generation (Bridge Amplification):** Isothermal amplification on the flow cell surface creating dense clonal clusters of library fragments
-*   **Sequencing by Synthesis (SBS):** The method (used by Illumina) where fluorescently labeled reversible terminators are incorporated one base at a time, imaged, and cleaved cyclically to determine the sequence
-*   **Read:** A continuous sequence of bases generated from a single DNA fragment during sequencing
-*   **Read Length:** The number of bases sequenced from a single fragment (e.g., 150 bp)
-*   **Paired-End Reads:** Sequencing a fragment from both ends, providing more information for alignment and variant calling
-*   **Bioinformatics:** The application of computer science and statistics to analyze biological data, essential for processing NGS data
-*   **Alignment (Mapping):** The process of matching sequencing reads to their original location on a reference genome
-*   **Reference Genome:** A standard assembled sequence representing the genome of a species (e.g., human hg38)
-*   **Variant Calling:** Identifying differences (SNPs, indels, CNVs, SVs) between the sample's sequence and the reference genome
-*   **Coverage (Depth):** The average number of times each base in a target region has been sequenced. Higher coverage increases confidence in variant calls
-*   **Annotation:** Adding biological information (gene, effect on protein, known disease association, frequency) to identified variants
-*   **VUS (Variant of Uncertain Significance):** A genetic variant whose association with disease risk is currently unknown

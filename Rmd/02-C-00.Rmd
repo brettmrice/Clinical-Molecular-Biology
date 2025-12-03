@@ -6,15 +6,15 @@ The choice of method depends entirely on the clinical question being asked: Do w
 
 ## **Nucleic Acid Amplification: Finding the Needle, Then Making Haystacks** {-}
 
-**Overall Goal** To detect the presence, and sometimes quantity, of specific DNA or RNA sequences, often starting with very small amounts, by making many copies or generating a strong signal
+**Overall Goal:** To detect the presence, and sometimes quantity, of specific DNA or RNA sequences, often starting with very small amounts, by making many copies or generating a strong signal
 
 ### **Polymerase Chain Reaction (PCR) - The Foundation** {-}
 *   **Core Principle:** **Target Amplification** using cycles of temperature changes (thermal cycling) to repeatedly denature DNA, anneal specific primers, and extend new DNA strands using a DNA polymerase (*Taq* polymerase). Results in exponential copying of the target sequence defined by the primers
 *   **Key Components:** DNA template, Forward & Reverse Primers, DNA Polymerase (*Taq*), dNTPs, Mg²⁺, Buffer, Thermal Cycler
 *   **Mechanism:** Repeated cycles (~25-40) of:
-    1.  **Denaturation** (~95°C): Separate dsDNA strands
-    2.  **Annealing** (~50-65°C): Primers bind to complementary sites on ssDNA
-    3.  **Extension** (~72°C): *Taq* polymerase synthesizes new DNA strands from primers
+    1.  **Denaturation:** (~95°C): Separate dsDNA strands
+    2.  **Annealing:** (~50-65°C): Primers bind to complementary sites on ssDNA
+    3.  **Extension:** (~72°C): *Taq* polymerase synthesizes new DNA strands from primers
 *   **Primary Use:** Qualitative detection (presence/absence) of DNA targets, generating DNA fragments for downstream analysis (sequencing, RFLP)
 *   **Requires:** Careful **Oligonucleotide (Primer) Design** (specificity, Tm matching, avoid dimers/hairpins) and **Reaction Optimization** (annealing temp, Mg²⁺, primer concentration) for reliable results
 *   **Output:** Amplified DNA product (amplicon), typically visualized on a gel

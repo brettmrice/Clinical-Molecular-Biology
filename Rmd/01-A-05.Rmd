@@ -1,98 +1,79 @@
-# Mutations {-}
+# Mutations {.unnumbered}
 
-**Mutations** is one of the most fundamental concepts in molecular biology, something that underlies genetic variation, disease, and evolution
+**Mutations:** is one of the most fundamental concepts in molecular biology, something that underlies genetic variation, disease, and evolution
 
 Think of the DNA sequence as the master blueprint for building and operating a cell (and by extension, an organism). A **mutation** is simply any change in that blueprint – an alteration in the normal sequence of nucleotides (A, T, C, G) in DNA, or sometimes RNA (though DNA mutations are the ones typically passed down or leading to permanent changes in a cell line)
 
 Mutations can range from tiny, single-letter typos to massive rearrangements involving large chunks of chromosomes. They can be harmful, beneficial, or have no effect at all!
 
-## **Classifying Mutations** {-}
+## **Classifying Mutations** {.unnumbered}
 
 We can categorize mutations in several useful ways:
 
-### **By Scale** {-}
+### **By Scale** {.unnumbered}
 
-*   **Point Mutations:** Changes affecting a **single base pair**. Like changing one letter in a word. These are the most common type
-    *   **Substitutions:** One base is swapped for another
-        *   **Transitions:** A purine is swapped for another purine (A ↔ G) OR a pyrimidine is swapped for another pyrimidine (C ↔ T). Chemically simpler, often more frequent
-        *   **Transversions:** A purine is swapped for a pyrimidine, or vice versa (A/G ↔ C/T). Chemically more complex
-    *   **Insertions/Deletions (Indels):** A single base pair is added (**insertion**) or removed (**deletion**)
+-   **Point Mutations** Changes affecting a **single base pair**. Like changing one letter in a word. These are the most common type
+    -   **Substitutions** One base is swapped for another
+        -   **Transitions** A purine is swapped for another purine (A ↔ G) OR a pyrimidine is swapped for another pyrimidine (C ↔ T). Chemically simpler, often more frequent
+        -   **Transversions** A purine is swapped for a pyrimidine, or vice versa (A/G ↔ C/T). Chemically more complex
+    -   **Insertions/Deletions (Indels)** A single base pair is added (**insertion**) or removed (**deletion**)
+-   **Larger-Scale Mutations** Changes affecting more than one base pair, sometimes large segments of chromosomes
+    -   **Insertions/Deletions (Indels)** Can involve hundreds or thousands of base pairs
+    -   **Duplications** A segment of DNA is repeated one or more times
+    -   **Inversions** A segment of DNA is flipped and reinserted
+    -   **Translocations** A segment of DNA breaks off and attaches to a different chromosome (reciprocal: exchange between two chromosomes; Robertsonian: fusion of two chromosomes)
+    -   **Repeat Expansions** Specific short sequences (often 3 bases, like CAG) are repeated many times in a row. The number of repeats can increase from generation to generation (e.g., Huntington's disease, Fragile X syndrome)
 
-*   **Larger-Scale Mutations:** Changes affecting more than one base pair, sometimes large segments of chromosomes
-    *   **Insertions/Deletions (Indels):** Can involve hundreds or thousands of base pairs
-    *   **Duplications:** A segment of DNA is repeated one or more times
-    *   **Inversions:** A segment of DNA is flipped and reinserted
-    *   **Translocations:** A segment of DNA breaks off and attaches to a different chromosome (reciprocal: exchange between two chromosomes; Robertsonian: fusion of two chromosomes)
-    *   **Repeat Expansions:** Specific short sequences (often 3 bases, like CAG) are repeated many times in a row. The number of repeats can increase from generation to generation (e.g., Huntington's disease, Fragile X syndrome)
-
-### **By Effect on Protein Sequence (if in a coding region)** {-}
+### **By Effect on Protein Sequence (if in a coding region)** {.unnumbered}
 
 This focuses on the *consequences* of the mutation for the final protein product
 
-*   **Silent Mutation:** A base substitution changes the codon, but thanks to the redundancy of the genetic code, it still codes for the **same amino acid**. Usually has no effect on the protein (though sometimes can affect splicing or mRNA stability)
-    *   *Example: Changing CCU to CCC, CCA, or CCG – all still code for Proline*
-*   **Missense Mutation:** A base substitution changes the codon to one that codes for a **different amino acid**. The effect can range from negligible to catastrophic, depending on how different the new amino acid is and where it is in the protein
-    *   **Conservative:** The new amino acid has similar chemical properties to the original. May have a mild effect
-    *   **Non-conservative:** The new amino acid has different properties (e.g., changing a hydrophobic to a hydrophilic amino acid). More likely to disrupt protein structure/function
-    *   *Example: Sickle cell anemia is caused by a single missense mutation (GAG to GTG) changing Glutamic Acid to Valine in the beta-globin protein*
-*   **Nonsense Mutation:** A base substitution changes a codon that codes for an amino acid into a **STOP codon** (UAA, UAG, UGA in RNA). This leads to premature termination of translation, usually resulting in a truncated, non-functional protein
-    *   *Example: Changing CGA (Arginine) to UGA (STOP)*
-*   **Frameshift Mutation:** Caused by **insertions or deletions** that are **not in multiples of three** within a coding sequence. This shifts the "reading frame" of the codons downstream from the mutation. Almost always leads to a completely different amino acid sequence from that point onwards and often introduces a premature STOP codon. Usually results in a non-functional protein
-    *   *Example: If the sequence is `AUG CCA GUA...` (Met-Pro-Val), deleting the first C gives `AUG PAG UAA...` (Met-??-STOP) – the reading frame is shifted*
-*   **In-frame Insertion/Deletion:** An insertion or deletion **of a multiple of three bases**. This adds or removes one or more amino acids but does **not** shift the reading frame for the rest of the protein. Can still be harmful but often less severe than a frameshift
+-   **Silent Mutation** A base substitution changes the codon, but thanks to the redundancy of the genetic code, it still codes for the **same amino acid**. Usually has no effect on the protein (though sometimes can affect splicing or mRNA stability)
+    -   *Example: Changing CCU to CCC, CCA, or CCG – all still code for Proline*
+-   **Missense Mutation** A base substitution changes the codon to one that codes for a **different amino acid**. The effect can range from negligible to catastrophic, depending on how different the new amino acid is and where it is in the protein
+    -   **Conservative** The new amino acid has similar chemical properties to the original. May have a mild effect
+    -   **Non-conservative** The new amino acid has different properties (e.g., changing a hydrophobic to a hydrophilic amino acid). More likely to disrupt protein structure/function
+    -   *Example: Sickle cell anemia is caused by a single missense mutation (GAG to GTG) changing Glutamic Acid to Valine in the beta-globin protein*
+-   **Nonsense Mutation** A base substitution changes a codon that codes for an amino acid into a **STOP codon** (UAA, UAG, UGA in RNA). This leads to premature termination of translation, usually resulting in a truncated, non-functional protein
+    -   *Example: Changing CGA (Arginine) to UGA (STOP)*
+-   **Frameshift Mutation** Caused by **insertions or deletions** that are **not in multiples of three** within a coding sequence. This shifts the "reading frame" of the codons downstream from the mutation. Almost always leads to a completely different amino acid sequence from that point onwards and often introduces a premature STOP codon. Usually results in a non-functional protein
+    -   *Example: If the sequence is `AUG CCA GUA...` (Met-Pro-Val), deleting the first C gives `AUG PAG UAA...` (Met-??-STOP) – the reading frame is shifted*
+-   **In-frame Insertion/Deletion** An insertion or deletion **of a multiple of three bases**. This adds or removes one or more amino acids but does **not** shift the reading frame for the rest of the protein. Can still be harmful but often less severe than a frameshift
 
-### **By Cause** {-}
+### **By Cause** {.unnumbered}
 
-*   **Spontaneous Mutations:** Occur naturally due to errors in cellular processes
-    *   **DNA Replication Errors:** DNA polymerase occasionally inserts the wrong base, or slips, causing insertions/deletions (especially in repetitive regions). Proofreading mechanisms fix most, but not all, errors
-    *   **Spontaneous Chemical Changes:** Bases can undergo chemical reactions like:
-        *   **Depurination:** Loss of a purine base (A or G)
-        *   **Deamination:** Loss of an amine group. C deaminating to U is common; if not repaired, it causes a C-G to T-A transition in the next replication. (This is why DNA uses T instead of U – the cell recognizes U in DNA as abnormal and removes it)
-*   **Induced Mutations:** Caused by exposure to external agents called **mutagens**
-    *   **Chemical Mutagens**
-        *   **Base Analogs:** Molecules that resemble bases and get incorporated into DNA, but cause incorrect pairing during replication (e.g., 5-bromouracil)
-        *   **Intercalating Agents:** Flat molecules that slip between base pairs, distorting the helix and causing insertions/deletions during replication (e.g., ethidium bromide - used in labs!)
-        *   **Base Modifiers:** Chemicals that directly react with and alter bases (e.g., alkylating agents)
-    *   **Radiation**
-        *   **Ultraviolet (UV) Radiation:** Causes adjacent pyrimidines (especially thymines) to covalently link, forming **pyrimidine dimers** (thymine dimers). These distort the helix and block replication/transcription
-        *   **Ionizing Radiation (X-rays, gamma rays):** Can cause double-strand breaks in DNA, which are very difficult to repair accurately and can lead to large deletions or rearrangements
+-   **Spontaneous Mutations** Occur naturally due to errors in cellular processes
+    -   **DNA Replication Errors** DNA polymerase occasionally inserts the wrong base, or slips, causing insertions/deletions (especially in repetitive regions). Proofreading mechanisms fix most, but not all, errors
+    -   **Spontaneous Chemical Changes** Bases can undergo chemical reactions like:
+        -   **Depurination** Loss of a purine base (A or G)
+        -   **Deamination** Loss of an amine group. C deaminating to U is common; if not repaired, it causes a C-G to T-A transition in the next replication. (This is why DNA uses T instead of U – the cell recognizes U in DNA as abnormal and removes it)
+-   **Induced Mutations** Caused by exposure to external agents called **mutagens**
+    -   **Chemical Mutagens**
+        -   **Base Analogs** Molecules that resemble bases and get incorporated into DNA, but cause incorrect pairing during replication (e.g., 5-bromouracil)
+        -   **Intercalating Agents** Flat molecules that slip between base pairs, distorting the helix and causing insertions/deletions during replication (e.g., ethidium bromide - used in labs!)
+        -   **Base Modifiers** Chemicals that directly react with and alter bases (e.g., alkylating agents)
+    -   **Radiation**
+        -   **Ultraviolet (UV) Radiation** Causes adjacent pyrimidines (especially thymines) to covalently link, forming **pyrimidine dimers** (thymine dimers). These distort the helix and block replication/transcription
+        -   **Ionizing Radiation (X-rays, gamma rays)** Can cause double-strand breaks in DNA, which are very difficult to repair accurately and can lead to large deletions or rearrangements
 
-### **Location/Heritability** {-}
+### **Location/Heritability** {.unnumbered}
 
-*   **Somatic Mutations:** Occur in non-reproductive (somatic) cells. They affect only the individual in which they occur and are **not passed on** to offspring. Can contribute to cancer development or aging
-*   **Germline Mutations:** Occur in reproductive cells (sperm or eggs). These **can be passed on** to offspring, meaning every cell in the offspring's body will carry the mutation. This is the basis of inherited genetic disorders
+-   **Somatic Mutations** Occur in non-reproductive (somatic) cells. They affect only the individual in which they occur and are **not passed on** to offspring. Can contribute to cancer development or aging
+-   **Germline Mutations** Occur in reproductive cells (sperm or eggs). These **can be passed on** to offspring, meaning every cell in the offspring's body will carry the mutation. This is the basis of inherited genetic disorders
 
-## **Consequences and Significance** {-}
+## **Consequences & Significance** {.unnumbered}
 
-*   **Disease:** Many mutations are deleterious and cause genetic disorders (e.g., Cystic Fibrosis, Sickle Cell Anemia, Huntington's Disease). Accumulation of somatic mutations is a key driver of **cancer**
-*   **Evolution:** Mutations are the ultimate source of all new genetic variation, which is the raw material for evolution by natural selection. Beneficial mutations can increase an organism's fitness
-*   **Polymorphisms:** Many mutations are neutral or have very subtle effects. When a variant becomes common in a population (e.g., >1% frequency), it's often called a **polymorphism** (like Single Nucleotide Polymorphisms - SNPs). These contribute to normal human variation
-*   **Drug Resistance:** Mutations can confer resistance to antibiotics in bacteria or to chemotherapy drugs in cancer cells
+-   **Disease** Many mutations are deleterious and cause genetic disorders (e.g., Cystic Fibrosis, Sickle Cell Anemia, Huntington's Disease). Accumulation of somatic mutations is a key driver of **cancer**
+-   **Evolution** Mutations are the ultimate source of all new genetic variation, which is the raw material for evolution by natural selection. Beneficial mutations can increase an organism's fitness
+-   **Polymorphisms** Many mutations are neutral or have very subtle effects. When a variant becomes common in a population (e.g., \>1% frequency), it's often called a **polymorphism** (like Single Nucleotide Polymorphisms - SNPs). These contribute to normal human variation
+-   **Drug Resistance** Mutations can confer resistance to antibiotics in bacteria or to chemotherapy drugs in cancer cells
 
-## **Clinical Laboratory Relevance** {-}
+## **Clinical Laboratory Relevance** {.unnumbered}
 
 Detecting and characterizing mutations is a core task in the clinical molecular lab:
 
-*   **Diagnosis of Genetic Diseases:** Identifying specific mutations responsible for inherited conditions
-*   **Cancer Diagnostics/Prognostics:** Identifying mutations in tumor DNA (e.g., EGFR, KRAS, BRAF) can guide targeted therapy choices, predict prognosis, and monitor treatment response
-*   **Infectious Disease:** Identifying mutations in pathogens that confer drug resistance (e.g., in HIV or TB)
-*   **Pharmacogenomics:** Identifying patient polymorphisms that affect drug metabolism or response
-*   **Techniques Used:** PCR (various types like allele-specific), DNA sequencing (Sanger, NGS), fragment analysis (for repeat expansions), FISH (for large rearrangements)
-
-## **Key Terms** {-}
-
-*   **Mutation:** A permanent alteration in the DNA sequence
-*   **Point Mutation:** A change affecting a single nucleotide base pair (substitution, single base indel)
-*   **Substitution:** Replacement of one base pair with another (Transition or Transversion)
-*   **Indel:** Insertion or deletion of one or more base pairs
-*   **Silent Mutation:** A mutation that does not change the amino acid sequence
-*   **Missense Mutation:** A mutation that results in a change in the amino acid sequence
-*   **Nonsense Mutation:** A mutation that changes an amino acid codon to a STOP codon
-*   **Frameshift Mutation:** An indel (not a multiple of 3) in a coding region that shifts the codon reading frame
-*   **Mutagen:** An agent (chemical or physical) that causes mutations
-*   **Somatic Mutation:** A mutation occurring in a non-reproductive cell; not heritable
-*   **Germline Mutation:** A mutation occurring in sperm or egg cells; heritable
-*   **Polymorphism:** A DNA sequence variation that is common in a population (e.g., SNP)
-*   **Transition:** Purine-to-purine or pyrimidine-to-pyrimidine substitution
-*   **Transversion:** Purine-to-pyrimidine or pyrimidine-to-purine substitution
-*   **Pyrimidine Dimer:** Covalent linkage between adjacent pyrimidine bases caused by UV radiation
+-   **Diagnosis of Genetic Diseases** Identifying specific mutations responsible for inherited conditions
+-   **Cancer Diagnostics/Prognostics** Identifying mutations in tumor DNA (e.g., EGFR, KRAS, BRAF) can guide targeted therapy choices, predict prognosis, and monitor treatment response
+-   **Infectious Disease** Identifying mutations in pathogens that confer drug resistance (e.g., in HIV or TB)
+-   **Pharmacogenomics** Identifying patient polymorphisms that affect drug metabolism or response
+-   **Techniques Used** PCR (various types like allele-specific), DNA sequencing (Sanger, NGS), fragment analysis (for repeat expansions), FISH (for large rearrangements)

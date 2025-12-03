@@ -1,6 +1,6 @@
 # Epigenetic Modification Detection {-}
 
-So far, we've mostly talked about the DNA sequence itself—the order of the A's, T's, C's, and G's. But what if I told you that the cell has a whole system of "Post-it notes" and "highlighters" that it uses to mark up the DNA, telling it which genes to read and which to ignore? That's the world of **epigenetics**
+So far, we've mostly talked about the DNA sequence itself - the order of the A's, T's, C's, and G's. But what if I told you that the cell has a whole system of "Post-it notes" and "highlighters" that it uses to mark up the DNA, telling it which genes to read and which to ignore? That's the world of **epigenetics**
 
 Epigenetics refers to heritable changes in gene expression that do **not** involve changes to the underlying DNA sequence itself. These are modifications *on top of* the DNA that act as a biological control panel, turning genes on or off. In the clinical lab, detecting these modifications is becoming crucial, especially in oncology, because a cancer cell can learn to silence a critical tumor suppressor gene just as effectively as if it had deleted the gene entirely
 
@@ -8,12 +8,12 @@ Epigenetics refers to heritable changes in gene expression that do **not** invol
 
 While there are several types of epigenetic marks, the most well-understood and clinically tested is **DNA methylation**
 
-*   **What it is:** In mammals, this typically involves the addition of a methyl group (—CH₃) to the 5th carbon position of a cytosine (C) base, creating **5-methylcytosine (5-mC)**
-*   **Where it happens:** This doesn't happen to every cytosine. It occurs almost exclusively at **CpG sites**—a location where a cytosine is followed immediately by a guanine in the DNA sequence
+*   **What it is:** In mammals, this typically involves the addition of a methyl group ( - CH₃) to the 5th carbon position of a cytosine (C) base, creating **5-methylcytosine (5-mC)**
+*   **Where it happens:** This doesn't happen to every cytosine. It occurs almost exclusively at **CpG sites** - a location where a cytosine is followed immediately by a guanine in the DNA sequence
 *   **Where it matters:** These CpG sites are often clustered together in regions called **CpG islands**, which are frequently located in the **promoter region** of genes. The promoter is the "on/off switch" for a gene
 *   **The Effect:** When the CpG island in a gene's promoter becomes heavily methylated (**hypermethylation**), it's like sticking a giant "DO NOT READ" Post-it note on that gene. It recruits proteins that condense the DNA, making it inaccessible for transcription. The gene is effectively **silenced**
 
-**The Clinical Connection** A classic example is a **tumor suppressor gene**. Its job is to stop uncontrolled cell growth. If a cancer cell hypermethylates the promoter of that gene, it silences its own "brakes," allowing it to divide uncontrollably
+**The Clinical Connection:** A classic example is a **tumor suppressor gene**. Its job is to stop uncontrolled cell growth. If a cancer cell hypermethylates the promoter of that gene, it silences its own "brakes," allowing it to divide uncontrollably
 
 ## **The Key Technique: Bisulfite Conversion** {-}
 
@@ -25,7 +25,7 @@ Bisulfite treatment has a very specific and powerful effect on DNA:
 2.  Crucially, it **leaves methylated cytosine (5-mC) completely unchanged**
 3.  During subsequent PCR amplification, the uracil (U) is read by the DNA polymerase as a **thymine (T)**
 
-**The Result** Bisulfite conversion creates a permanent, detectable sequence difference between methylated and unmethylated DNA. An unmethylated CpG site (`CG`) becomes a `TG` after conversion and PCR, while a methylated CpG site (`mCG`) remains `CG`. We have successfully turned an invisible epigenetic mark into a readable DNA sequence change!
+**The Result:** Bisulfite conversion creates a permanent, detectable sequence difference between methylated and unmethylated DNA. An unmethylated CpG site (`CG`) becomes a `TG` after conversion and PCR, while a methylated CpG site (`mCG`) remains `CG`. We have successfully turned an invisible epigenetic mark into a readable DNA sequence change!
 
 ## **Downstream Detection Methods** {-}
 
@@ -64,13 +64,3 @@ For larger-scale analysis, **bisulfite sequencing** can be combined with **Next-
 
 ## **A Note on Histone Modification** {-}
 While DNA methylation is the star player in the clinical lab, another major form of epigenetic control is **histone modification**. DNA in the nucleus is wrapped around proteins called histones, like thread around a spool. Chemical modifications to the "tails" of these histone proteins (e.g., acetylation, methylation, phosphorylation) can cause the DNA to be wound more tightly (silencing genes) or more loosely (activating genes). Detecting these modifications is primarily done using a technique called **Chromatin Immunoprecipitation (ChIP)**, often followed by sequencing (ChIP-seq), which is currently more common in research than in routine diagnostics
-
-## **Key Terms** {-}
-
-*   **Epigenetics:** The study of heritable changes in gene expression that occur without altering the primary DNA sequence
-*   **DNA Methylation:** The addition of a methyl group to a cytosine base, typically at a CpG site, which often leads to gene silencing
-*   **CpG Island:** A region of DNA with a high concentration of CpG sites, frequently located in the promoter regions of genes and serving as a key target for methylation
-*   **Bisulfite Conversion:** A chemical treatment that converts unmethylated cytosines to uracil (read as thymine after PCR) but leaves methylated cytosines unchanged, creating a detectable sequence difference
-*   **Methylation-Specific PCR (MSP):** A PCR-based method that uses two sets of primers—one specific for methylated DNA and one for unmethylated DNA—to determine the methylation status of a specific gene promoter
-*   **Tumor Suppressor Gene:** A gene whose protein product helps control cell growth and division; silencing of these genes via hypermethylation is a common event in cancer
-*   **Histone Modification:** The post-translational addition of chemical groups (e.g., methyl, acetyl) to histone proteins, which alters chromatin structure and influences gene expression

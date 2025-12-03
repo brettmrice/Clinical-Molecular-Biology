@@ -1,6 +1,6 @@
 # Basic Molecular Theory {-}
 
-**Basic Molecular Theory** explains the flow of information from the stable storage form (DNA, organized in chromosomes) through replication (copying the storage), transcription (accessing specific information into RNA), processing (splicing in eukaryotes), translation (building proteins from the RNA instructions), ultimately resulting in functional proteins whose structure determines their role in the cell. Disruptions at any stage can lead to disease, making these processes central to understanding and diagnosing conditions in the clinical molecular laboratory
+**Basic Molecular Theory:** explains the flow of information from the stable storage form (DNA, organized in chromosomes) through replication (copying the storage), transcription (accessing specific information into RNA), processing (splicing in eukaryotes), translation (building proteins from the RNA instructions), ultimately resulting in functional proteins whose structure determines their role in the cell. Disruptions at any stage can lead to disease, making these processes central to understanding and diagnosing conditions in the clinical molecular laboratory
 
 Here's an overview connecting these key processes:
 
@@ -27,7 +27,7 @@ Here's an overview connecting these key processes:
 *   **Mechanism:** **RNA polymerase** binds to a **promoter**, unwinds DNA, and synthesizes RNA complementary to the template strand (using U instead of T). No primer needed. Ends at a **terminator** sequence
 *   *Clinical Relevance:* Basis for **gene expression analysis (RT-PCR, RNA-Seq)**, detecting RNA viruses, target for some antibiotics
 
-##  **Exons, Introns, and Splicing (Editing the Working Copy - Eukaryotes)** {-}
+##  **Exons, Introns, & Splicing (Editing the Working Copy - Eukaryotes)** {-}
 *   **Core Idea:** Eukaryotic genes contain coding regions (**exons**) interrupted by non-coding regions (**introns**). The initial transcript (**pre-mRNA**) must be processed
 *   **Mechanism:** **Splicing**, carried out by the **spliceosome**, removes introns and joins exons together. **Alternative splicing** allows one gene to produce multiple protein variants
 *   *Clinical Relevance:* Many genetic diseases are caused by mutations affecting splice sites; splicing is a target for therapies (e.g., ASOs)

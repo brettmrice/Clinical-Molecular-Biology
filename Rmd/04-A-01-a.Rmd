@@ -1,0 +1,75 @@
+# Prevention {-}
+
+The following review details the prevention of biological, amplified, and non-amplified nucleic acid contamination through workflow design, technique, and enzymatic controls
+
+## The Unidirectional Workflow {-}
+
+The most fundamental structural control against contamination is the establishment of a unidirectional (one-way) workflow. This physical separation prevents "carryover" - the accidental transfer of previously amplified DNA (amplicons) into new, unamplified patient samples
+
+*   **Physical Separation of Areas:** The molecular laboratory must be divided into distinct workspaces, ideally in separate rooms. If separate rooms are not available, distinct "dead air" boxes or PCR workstations must be used
+    *   **Area 1: Reagent Preparation (Clean Area):** This is the sanctuary of the lab. Only preparation of Master Mix occurs here. No patient samples or DNA are ever introduced to this area
+    *   **Area 2: Specimen Preparation/Extraction:** Patient samples are processed, and nucleic acids are extracted here
+    *   **Area 3: Amplification and Detection (Dirty Area):** This is where PCR cycling and post-PCR analysis (gel electrophoresis, capillary electrophoresis) occur. This area contains billions of amplicons and is considered the source of highest contamination risk
+*   **Movement Protocols:** Personnel and specimens must always move from Clean → Dirty (Reagent Prep → Specimen Prep → Amplification)
+    *   Laboratory scientists should never move from the Amplification area back to Reagent Preparation during the same shift without a thorough decontamination procedure (showering/changing clothes), though most labs simply prohibit this "backtracking" entirely
+    *   Paperwork and lab notebooks should ideally not travel backwards against the workflow
+
+## Dedicated Equipment & Consumables {-}
+
+To prevent cross-contamination between areas, equipment must be dedicated to specific zones. An item used in the "Post-PCR" room should never enter the "Reagent Prep" room
+
+*   **Pipettes:** Each workspace must have its own set of color-coded or labeled pipettes. A pipette used to load a gel in Area 3 will have amplicon aerosols on it; bringing it to Area 1 guarantees contamination of the Master Mix
+*   **PPE (Personal Protective Equipment)**
+    *   **Lab Coats:** Must be dedicated to specific rooms. "Clean" room coats should never be worn in "Dirty" rooms. Front-closing coats are standard, but back-closing gowns are preferred in reagent prep to prevent skin shedding from the chest/neck area falling into tubes
+    *   **Gloves:** Gloves must be changed immediately if splashed, frequently during protocols, and always when moving between different workflow areas. Powder-free gloves are mandatory, as powder can inhibit enzymes
+*   **Consumables**
+    *   **Aerosol Barrier Tips (Filter Tips):** All molecular pipetting must use tips containing a hydrophobic filter. This prevents aerosols (micro-droplets of liquid created during pipetting) from contaminating the barrel of the pipette
+    *   **Aliquotting Reagents:** Reagents (primers, dNTPs, buffers) should be aliquotted into single-use volumes. If a stock tube is contaminated, the entire lot is lost. Single-use aliquots limit contamination to one reaction set
+
+## Technique & Handling {-}
+
+Even with perfect room design, poor laboratory scientist technique can introduce contamination. This applies to biological contamination (patient-to-patient) and environmental genomic contamination (technologist-to-sample)
+
+*   **Aerosol Minimization**
+    *   Centrifuge tubes briefly (pulse spin) before opening to ensure liquid is at the bottom and not on the cap/rim, which reduces splashing
+    *   Open tubes carefully; avoid "popping" caps, which creates invisible aerosols
+*   **Pipetting Technique**
+    *   Avoid touching the sides of the tube with the pipette shaft
+    *   Hold the pipette vertically to ensure precise measurement and prevent liquid from touching the filter
+*   **Surface Decontamination**
+    *   **Chemical:** Surfaces should be cleaned before and after work with 10% Sodium Hypochlorite (bleach). Bleach chemically destroys DNA. However, bleach is corrosive; it must be followed by a rinse with 70% ethanol or DI water to remove residue and prevent pitting of stainless steel hoods
+    *   **UV Irradiation:** "Dead air" boxes and biological safety cabinets are often equipped with UV lights. UV light (at 254 nm) causes pyrimidine dimers (thymine dimers) to form in DNA, rendering it un-amplifiable
+
+### Enzymatic Control: The dUTP-UNG System {-}
+While physical controls are essential, they are not foolproof. The most robust method for preventing **amplicon** contamination (carryover) is a chemical substitution method incorporated into the PCR master mix
+
+*   **Principle:** In the PCR Master Mix, the nucleotide dTTP (Thymine) is completely replaced with dUTP (Uracil)
+*   **Result:** All amplicons generated by the lab will contain Uracil instead of Thymine. DNA is distinct from natural DNA (which contains Thymine)
+*   **Enzyme:** The enzyme Uracil-N-Glycosylase (UNG), also known as Uracil-DNA Glycosylase (UDG), is added to the Master Mix
+*   **Mechanism**
+    1.  At the very start of a PCR run, the mix is heated to 50°C for 2-5 minutes
+    2.  During this step, the UNG enzyme scans for any DNA containing Uracil (contaminating amplicons from previous runs)
+    3.  If found, UNG cleaves the glycosidic bond, degrading the contaminant DNA so it cannot serve as a template
+    4.  The reaction is then heated to 95°C for the denaturation step. This high heat destroys the UNG enzyme
+    5.  The *Taq* polymerase then amplifies the true patient target (which contains Thymine and was ignored by the UNG)
+    *   *Note: This method works effectively for preventing amplicon contamination but does NOT prevent cross-contamination of biological patient samples (which contain natural Thymine).*
+
+## Summary of Contaminant Types & Specific Prevention {-}
+
+### **Amplified Nucleic Acid (Carryover Contamination)** {-}
+
+*   **Definition:** Previously amplified PCR products (amplicons) entering a new reaction. Because these are concentrated targets, this is the most severe risk in high-volume labs
+*   **Specific Prevention:** Unidirectional workflow, dUTP-UNG enzymatic system, separate air handling, aerosol barrier tips
+
+### **Biological Contamination (Cross-Contamination)** {-}
+
+*   **Definition:** Genomic DNA/RNA from one patient sample entering another patient's tube
+*   **Specific Prevention:** Never have two patient tubes open at the same time. Change gloves between every sample. Use automated extraction systems when possible to reduce manual handling
+
+### **Non-Amplified Nucleic Acid (Environmental/Genomic)** {-}
+
+*   **Definition:** DNA or RNA from the laboratory scientist (hair, skin, sneezing) or microorganisms in the environment entering the reaction
+*   **Specific Prevention**
+    *   **RNase Free:** For RNA work, RNases are ubiquitous (found on skin and hair). Wear gloves at all times, cover exposed skin, and use RNase removal sprays (e.g., RNaseZap) on surfaces
+    *   **Positive Pressure:** The Reagent Prep (Clean) room should ideally be under slight positive pressure compared to the hallway to prevent dust and outside spores from entering when the door opens
+    *   **NTC (No Template Control):** Always run a "Blank" or Negative Control containing water instead of DNA. If this amplifies, you have contamination in your reagents or environment

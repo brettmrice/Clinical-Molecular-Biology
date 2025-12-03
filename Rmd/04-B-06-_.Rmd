@@ -1,0 +1,45 @@
+# QC & PT {-}
+
+Quality Assurance (QA) in the molecular laboratory is bifurcated into two distinct monitoring systems. **Quality Control (QC)** is the internal, daily process of running known standards alongside patient samples to verify that the assay worked *today*. **Proficiency Testing (PT)** is the external, periodic process of testing unknown samples sent by a regulatory agency to verify that the laboratory’s methods are accurate compared to the rest of the industry. Both are required for accreditation and patient safety
+
+## Assay Controls (Internal QC) {-}
+
+Because molecular amplification occurs in closed tubes and results are inferred from fluorescence or gel bands, the laboratory scientist cannot visually confirm that a reaction took place. Controls are the only mechanism to validate the results. A valid run requires a hierarchy of controls that monitor for contamination, amplification efficiency, and sample inhibition
+
+*   **The No Template Control (NTC)**
+    *   **Function:** Monitors for **Contamination**. It contains all Master Mix reagents but uses water instead of nucleic acid
+    *   **Interpretation:** Must be **Negative**. If amplification occurs in the NTC, it indicates that "carryover" amplicons or environmental DNA have contaminated the reagents. The run is **Invalid** and must be repeated with fresh reagents
+*   **The Positive Control (PC)**
+    *   **Function:** Monitors for **Reaction Failure**. It contains a known target sequence
+    *   **Sensitivity Check:** Ideally, a "Low Positive" (near the Limit of Detection) is used. If reagents degrade (e.g., enzyme loss), a strong positive might still work, but the low positive will fail, alerting the lab to a loss of sensitivity
+    *   **Interpretation:** Must be **Positive** within a specific Ct range. If the PC fails to amplify, the run is **Invalid** (likely due to thermal cycler failure or expired reagents)
+*   **The Internal Control (IC)**
+    *   **Function:** Monitors for **Inhibition** and **Extraction Efficiency** within each specific patient tube. It targets a housekeeping gene (endogenous) or a spiked synthetic target (exogenous)
+    *   **Critical Interpretation**
+        *   **Target (+) / IC (-):** Valid Positive. (Strong viral targets can out-compete the IC)
+        *   **Target (-) / IC (+):** Valid Negative
+        *   **Target (-) / IC (-):** **Invalid**. The reaction failed completely, likely due to inhibitors (e.g., Heme, Heparin) in the patient sample. The result cannot be reported as Negative; it must be re-extracted or diluted
+*   **Quantitative Controls (Standard Curve)**
+    *   For Viral Load assays, a set of standards is used to define the relationship between Ct value and Concentration
+    *   **QA Metrics:** The **Slope** (Efficiency) should be between -3.1 and -3.6. The **Correlation Coefficient ($R^2$)** must be $>0.98$. Deviations indicate pipetting errors or reagent issues
+
+## Proficiency Testing (External Quality Assessment) {-}
+
+Proficiency Testing (PT) acts as a "final exam" for the laboratory. Three times a year, an approved agency (e.g., CAP, API) sends "blind" samples to the laboratory. The lab tests them and submits results for grading against peer laboratories
+
+*   **The "Treat as Patient" Rule**
+    *   **Regulatory Requirement:** PT samples must be integrated into the routine workload and tested by the same personnel who run patient samples, using the same primary method
+    *   **Prohibitions**
+        *   Do not run PT samples in duplicate unless you run patients in duplicate
+        *   Do not assign PTs only to the Lead Tech or Supervisor
+        *   **Inter-Laboratory Communication:** It is strictly prohibited to compare results with another lab before the submission deadline
+    *   **The "Fatal Flaw" (PT Referral):** Sending a PT sample to a Reference Lab for confirmation/testing is defined as "Cheating." This results in the automatic revocation of the lab's CLIA certificate and a ban on testing
+*   **Grading & Performance**
+    *   **Peer Group:** Results are compared to other labs using the exact same instrument and method to account for kit-specific biases
+    *   **Quantitative Grading:** Uses the **Standard Deviation Index (SDI)**. A result is usually acceptable if it falls within $\pm 2.0$ SD of the peer group mean
+    *   **Qualitative Grading:** Based on **Consensus** (typically 80% agreement among peers)
+*   **Performance Status**
+    *   **Satisfactory:** Scoring $\ge 80\%$ on an event
+    *   **Unsuccessful Performance:** Scoring $< 80\%$ on **2 out of 3** consecutive events. This may require the laboratory to Cease Testing for that analyte until remediation is complete
+*   **Alternative Assessment**
+    *   If no commercial PT kit exists for a rare analyte (e.g., a specific LDT), the lab must perform an alternative assessment twice a year. This is commonly done via **Split-Sample Analysis**, where a patient sample is tested in-house and then sent to a reference lab to confirm concordance

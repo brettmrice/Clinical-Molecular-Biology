@@ -1,0 +1,91 @@
+# Specimen Evaluation {-}
+
+The adage "Garbage In, Garbage Out" is the central tenet of molecular diagnostics. Unlike clinical chemistry, where an analyte might simply be diluted, nucleic acids (NA) for molecular testing are subjected to enzymatic amplification. If the initial specimen quality is compromised by degradation, inhibition, or insufficient quantity, the amplification reaction will fail, potentially yielding false-negative results. Therefore, the evaluation of the specimen occurs in two distinct phases: the pre-analytical assessment of the raw sample and the post-extraction assessment of the isolated nucleic acid
+
+## Phase 1: Pre-Analytical Specimen Assessment {-}
+
+Before extraction begins, the laboratory scientist must evaluate the raw specimen container and conditions. Molecular assays are highly sensitive to anticoagulants, transport time, and temperature. Adherence to rejection criteria is the first step in Quality Assurance (QA)
+
+### Specimen Type & Anticoagulants {-}
+
+The choice of collection tube is critical because certain additives used in hematology or chemistry are potent inhibitors of molecular enzymes (reverse transcriptases and polymerases)
+
+*   **EDTA (Lavender Top):** The preferred anticoagulant for most molecular testing (Whole Blood/Bone Marrow)
+    *   **Mechanism:** Chelates Magnesium (Mg^{2+})
+    *   **Benefit:** By binding magnesium, EDTA inhibits DNases (which require Mg^{2+} as a cofactor), thereby protecting the DNA from degradation during transport
+*   **Acid Citrate Dextrose (ACD - Yellow Top):** An acceptable alternative for lymphoblast lines or cellular preservation, often used in cytogenetics or HLA testing
+*   **Heparin (Green Top):** **Strictly Prohibited** for most PCR applications
+    *   **Interference:** Heparin is a highly negatively charged polysaccharide that physically mimics the structure of DNA. It binds irreversibly to *Taq* Polymerase, causing complete reaction failure (false negative). If a heparinized sample is received, it usually requires treating the extracted DNA with heparinase or precipitating with lithium chloride, though rejection is the standard protocol
+*   **Hemolysis and Lipemia**
+    *   **Hemoglobin:** Heme is a known PCR inhibitor. Significantly hemolyzed specimens may fail amplification
+    *   **Lipids:** High lipid content can clog silica membranes used in spin-column extraction, reducing yield
+
+### Transport & Storage Conditions {-}
+
+Nucleic acid stability varies significantly between DNA and RNA. QA protocols must verify that the specimen was transported within the stability window
+
+*   **DNA Stability:** DNA is chemically stable. Whole blood can typically be stored at 2–8°C for up to 72 hours before extraction. Long-term storage requires freezing at -20°C or -70°C, though repeated freeze-thaw cycles shear genomic DNA and must be avoided
+*   **RNA Stability:** RNA is chemically unstable and prone to ubiquitous RNases (enzymes that degrade RNA) found in the environment and biological fluids
+    *   **Requirement:** RNA specimens (e.g., for HIV or Hepatitis C viral loads) must be processed immediately (within 4–6 hours) to separate plasma from cells. If processing is delayed, the sample must be frozen (-70°C) or collected in specialized tubes containing RNA stabilizers
+    *   **WBC Lysis:** If whole blood is left at room temperature, white blood cells (WBCs) lyse, releasing RNases that destroy viral RNA in the plasma, leading to falsely low viral load results
+
+## Phase 2: Quantitative Assessment (Quantity) {-}
+
+Once nucleic acid is extracted, the laboratory must determine "how much" was recovered. The methodology used depends on the concentration of the sample and the required sensitivity
+
+### Spectrophotometry (UV Absorbance) {-}
+
+This is the traditional method for assessing high-concentration nucleic acids (e.g., genomic DNA for sequencing or Southern Blot). It utilizes the Beer-Lambert Law, correlating light absorbance to concentration
+
+*   **The Principle:** Nucleic acids absorb light maximally at **260 nm** (A_{260})
+*   **The Calculation:** Concentration (µg/mL) = A_{260} x Dilution Factor x Constant
+    *   **DNA Constant:** 50 µg/mL (1 OD unit at 260 nm = 50 µg/mL of dsDNA)
+    *   **RNA Constant:** 40 µg/mL (1 OD unit at 260 nm = 40 µg/mL of RNA)
+*   **Limitations:** Spectrophotometry is not specific. It cannot distinguish between DNA, RNA, or free nucleotides. It requires a relatively high concentration of nucleic acid to be accurate
+
+### Fluorometry {-}
+
+Fluorometry is the preferred QA method for Low-Copy targets, Next-Generation Sequencing (NGS), and samples where high precision is required
+
+*   **The Principle:** Uses fluorescent dyes (e.g., PicoGreen, SYBR Green, or Qubit reagents) that specifically bind to the target molecule
+*   **Specificity:** Unlike spectrophotometry, fluorometric dyes are specific. A dsDNA dye will not fluoresce in the presence of RNA or protein, providing a true measurement of the DNA available for PCR
+*   **Sensitivity:** Highly sensitive; capable of detecting picogram (pg) quantities of DNA, making it ideal for forensic samples or low-yield clinical specimens
+
+## Phase 3: Qualitative Assessment (Purity & Integrity) {-}
+
+Having "enough" DNA is insufficient if the DNA is contaminated with protein (which inhibits amplification) or salts (which interfere with enzyme buffering). Purity is typically assessed using spectrophotometric ratios
+
+### Spectrophotometric Ratios {-}
+
+By comparing absorbance at different wavelengths, the presence of contaminants can be mathematically estimated
+
+*   **The A_{260}/A_{280} Ratio (Protein Contamination)**
+    *   Proteins (specifically aromatic amino acids like tryptophan) absorb light at **280 nm**
+    *   **Ideal DNA Ratio:** 1.7 – 2.0 (Ideally ~1.8)
+    *   **Ideal RNA Ratio:** ~2.0 (Higher because Uracil absorbs more at 260 nm than Thymine)
+    *   **Interpretation:** A ratio < 1.6 indicates significant protein contamination. The extraction may need to be repeated with a phenol/chloroform cleanup or proteinase digestion
+*   **The A_{260}/A_{230} Ratio (Salt/Organic Contamination)**
+    *   Organic compounds (phenol, ethanol, carbohydrates) and chaotropic salts (guanidine isothiocyanate used in extraction buffers) absorb at **230 nm**
+    *   **Ideal Ratio:** > 2.0
+    *   **Interpretation:** A low ratio indicates residual ethanol (precipitant) or salt carryover. This can inhibit the *Taq* polymerase enzyme in downstream applications
+
+### Gel Electrophoresis (Integrity) {-}
+
+While spectrophotometry measures purity, it cannot determine if the DNA is intact or degraded (sheared). Gel electrophoresis provides a visual assessment of integrity
+
+*   **Genomic DNA:** High Molecular Weight (HMW) DNA should appear as a tight, crisp band at the very top of the gel (near the well). A long "smear" traveling down the lane indicates degraded/sheared DNA
+*   **Total RNA:** Evaluated by observing the Ribosomal RNA (rRNA) bands
+    *   High-quality RNA displays distinct 28S and 18S rRNA bands
+    *   **The 2:1 Rule:** The 28S band should be approximately twice as intense (bright) as the 18S band. If the lower band is brighter or if both are smeared, the RNA is degraded (RIN score < 7.0)
+
+## Phase 4: Functional Quality (Internal Controls) {-}
+
+The final and most practical evaluation of specimen quality occurs within the reaction tube itself. Because measuring the concentration of every clinical extraction is not feasible in high-throughput labs, **Internal Controls** are used
+
+*   **Endogenous Controls (Housekeeping Genes)**
+    *   The assay targets a gene naturally present in all human cells (e.g., β-globin, RNase P, or Housekeeping genes)
+    *   **Purpose:** Confirms that (1) cells were present in the sample, (2) extraction was successful, and (3) no inhibitors are present
+    *   **Interpretation:** If the pathogen target is negative, the Internal Control **must** be positive. If the Internal Control is negative, the result is "Invalid," implying the specimen quality was insufficient or inhibition occurred
+*   **Exogenous Controls**
+    *   A synthetic template added to the sample buffer *before* extraction
+    *   **Purpose:** Monitors the efficiency of the extraction and amplification process, specifically for samples that might not have human DNA (e.g., plasma viral loads)

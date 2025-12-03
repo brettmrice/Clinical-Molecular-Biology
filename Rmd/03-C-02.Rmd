@@ -1,8 +1,8 @@
 # Coagulopathies {-}
 
-Welcome to the world of **hemostasis**, the body's incredibly elegant system for stopping bleeding. You can think of it as a biological construction project. When there's a break in a blood vessel wall, a complex cascade of clotting factors (proteins) is activated to rapidly build a fibrin "dam"—a blood clot—to plug the hole. Just as important is the clean-up crew, the anticoagulant proteins that dissolve the clot once the vessel is healed and prevent the dam from getting dangerously large
+Welcome to the world of **hemostasis**, the body's incredibly elegant system for stopping bleeding. You can think of it as a biological construction project. When there's a break in a blood vessel wall, a complex cascade of clotting factors (proteins) is activated to rapidly build a fibrin "dam" - a blood clot - to plug the hole. Just as important is the clean-up crew, the anticoagulant proteins that dissolve the clot once the vessel is healed and prevent the dam from getting dangerously large
 
-Normally, this system is in perfect balance. But what if there's an inherited genetic quirk that tips the scale in favor of clotting? This leads to a state of **hypercoagulability**, or **thrombophilia**—an increased tendency to form dangerous and unnecessary blood clots in the veins (**venous thromboembolism, or VTE**) or arteries
+Normally, this system is in perfect balance. But what if there's an inherited genetic quirk that tips the scale in favor of clotting? This leads to a state of **hypercoagulability**, or **thrombophilia** - an increased tendency to form dangerous and unnecessary blood clots in the veins (**venous thromboembolism, or VTE**) or arteries
 
 Our job in the molecular lab isn't to diagnose an active clot; that's done with imaging. Our role is to identify the underlying *hereditary risk factors* by reading the patient's DNA. This is particularly important for patients who have had a clot at a young age, in an unusual location, or have a strong family history of clotting
 
@@ -32,14 +32,4 @@ You will undoubtedly see orders for, and hear discussions about, variants in a g
 
 *   **The Molecular Defect:** Two common variants are often tested: C677T and A1298C
 *   **The Current Clinical View:** This is a critical teaching point. Decades of research have shown that while *MTHFR* variants are common, their association with venous thromboembolism is **very weak to non-existent**. Major clinical practice guidelines, including those from the American College of Medical Genetics and Genomics (ACMG), now **strongly recommend *against* testing for *MTHFR* variants** as part of a thrombophilia workup. It does not change patient management and is not considered a reliable risk factor for VTE
-*   **Our Role as MLSs:** It's our job to understand the evidence. While we will run the test if a physician orders it, we must also be aware that its clinical utility for thrombophilia is no longer supported. This is a great example of how molecular diagnostics evolves with scientific evidence
-
-## **Key Terms** {-}
-
-*   **Thrombophilia:** An inherited or acquired condition that increases the tendency to form abnormal blood clots (thrombosis). Also known as hypercoagulability
-*   **Thrombosis:** The formation of a blood clot inside a blood vessel, obstructing the flow of blood through the circulatory system
-*   **Hemostasis:** The physiological process that causes bleeding to stop, meaning to keep blood within a damaged vessel. It is the first stage of wound healing
-*   **Factor V Leiden:** A specific mutation in the *F5* gene that makes the Factor V protein resistant to inactivation by Activated Protein C, leading to an increased risk of venous thrombosis
-*   **Prothrombin G20210A:** A specific mutation in the 3' untranslated region of the prothrombin (*F2*) gene that leads to increased levels of prothrombin protein, predisposing an individual to thrombosis
-*   **Activated Protein C (APC) Resistance:** The functional consequence of the Factor V Leiden mutation, where the mutated Factor V protein cannot be efficiently "turned off" by its natural inhibitor, Activated Protein C
-*   **Single Nucleotide Polymorphism (SNP):** A common type of genetic variation involving a change at a single position in a DNA sequence. Factor V Leiden and Prothrombin G20210A are classic examples of pathogenic SNPs
+*   **Our Role as laboratory scientists:** It's our job to understand the evidence. While we will run the test if a physician orders it, we must also be aware that its clinical utility for thrombophilia is no longer supported. This is a great example of how molecular diagnostics evolves with scientific evidence

@@ -1,6 +1,6 @@
 # Probe Hybridization {-}
 
-**Probe Hybridization** is a powerful and versatile tool that allows us to specifically detect and analyze nucleic acid sequences, forming the basis for countless diagnostic and research applications in molecular biology. Mastering the control of hybridization conditions, especially stringency, is key to obtaining reliable and meaningful results
+**Probe Hybridization:** is a powerful and versatile tool that allows us to specifically detect and analyze nucleic acid sequences, forming the basis for countless diagnostic and research applications in molecular biology. Mastering the control of hybridization conditions, especially stringency, is key to obtaining reliable and meaningful results
 
 ## **Probe Hybridization: The Molecular Recognition Event** {-}
 
@@ -8,12 +8,12 @@ At its core, probe hybridization is the process where a **probe** – a known, l
 
 Think of it like a molecular "search and bind" mission:
 
-1.  **The Target** The specific DNA or RNA sequence you want to detect (e.g., a gene associated with a disease, a viral sequence, a specific mutation). This target is usually part of a much larger, complex mixture of nucleic acids
-2.  **The Probe** Your search tool. It's designed to have a sequence that is the exact reverse complement of the target sequence
-3.  **The Binding** Under the right conditions, the probe will find and anneal (bind) to the target sequence through **hydrogen bonds** between complementary base pairs (A with T or U, and G with C). A=T/U pairs have 2 hydrogen bonds, G≡C pairs have 3 (making GC bonds stronger)
-4.  **The Label** The probe carries a tag (radioactive, fluorescent, enzymatic) so that once it binds to the target, we can detect its location
+1.  **The Target:** The specific DNA or RNA sequence you want to detect (e.g., a gene associated with a disease, a viral sequence, a specific mutation). This target is usually part of a much larger, complex mixture of nucleic acids
+2.  **The Probe:** Your search tool. It's designed to have a sequence that is the exact reverse complement of the target sequence
+3.  **The Binding:** Under the right conditions, the probe will find and anneal (bind) to the target sequence through **hydrogen bonds** between complementary base pairs (A with T or U, and G with C). A=T/U pairs have 2 hydrogen bonds, G≡C pairs have 3 (making GC bonds stronger)
+4.  **The Label:** The probe carries a tag (radioactive, fluorescent, enzymatic) so that once it binds to the target, we can detect its location
 
-## **Key Principles and Requirements** {-}
+## **Key Principles & Requirements** {-}
 
 For successful and specific hybridization, several factors are critical:
 
@@ -61,7 +61,7 @@ Understanding these factors is key to designing and troubleshooting hybridizatio
 
 *   **Definition:** The temperature at which 50% of a specific nucleic acid duplex (probe-target hybrid) dissociates into single strands under given conditions (salt, pH, etc.)
 *   **Importance:** The Tm is a critical parameter for determining optimal hybridization and wash temperatures. Hybridization is often performed ~10-25°C *below* the Tm, while high-stringency washes are performed closer to (but still slightly below) the Tm of the perfect match to remove mismatched hybrids (which have a lower Tm)
-*   **Estimation:** Tm can be estimated using formulas that take into account probe length, GC content, and salt concentration. For short oligonucleotide probes (<20 bp), a simple formula is often used: Tm ≈ 4°C × (# G/C bases) + 2°C × (# A/T bases). More complex formulas exist for longer probes and varying conditions
+*   **Estimation** Tm can be estimated using formulas that take into account probe length, GC content, and salt concentration. For short oligonucleotide probes (<20 bp), a simple formula is often used: Tm ≈ 4°C × (# G/C bases) + 2°C × (# A/T bases). More complex formulas exist for longer probes and varying conditions
 
 ## **Applications Relaying on Probe Hybridization** {-}
 
@@ -73,19 +73,3 @@ This fundamental principle is used across numerous techniques:
 *   **Real-Time PCR Probes:** TaqMan, Molecular Beacons, FRET probes - hybridization occurs during PCR for real-time detection
 *   **Capture Assays:** Hybrid Capture technology uses RNA probes in solution to capture DNA targets onto a solid phase
 *   **Colony/Plaque Hybridization:** Screening bacterial colonies or phage plaques for specific clones
-
-## **Key Terms** {-}
-
-*   **Probe:** A labeled, single-stranded nucleic acid molecule (DNA, RNA, or oligonucleotide) with a sequence complementary to a target sequence of interest, used for detection via hybridization
-*   **Target Sequence:** The specific nucleic acid sequence within a sample that the probe is designed to bind to
-*   **Hybridization:** The process of annealing (binding) of a single-stranded probe to its complementary single-stranded target sequence through hydrogen bonds between base pairs
-*   **Complementarity:** The specific base pairing rules (A with T/U, G with C) that allow two single strands of nucleic acids to bind together
-*   **Stringency:** The combination of reaction conditions (primarily temperature, salt concentration, denaturants) that dictate the specificity of probe binding. High stringency requires near-perfect complementarity, while low stringency allows binding with some mismatches
-*   **Melting Temperature (Tm):** The temperature at which 50% of the probe-target duplexes dissociate into single strands under specific conditions. It's a measure of duplex stability
-*   **Denaturation:** The process of separating double-stranded nucleic acids into single strands, typically using heat or high pH. Required for hybridization to occur
-*   **Annealing:** The process by which two complementary single strands of nucleic acids re-form a double helix through hydrogen bonding as conditions (e.g., temperature) become less denaturing. Hybridization is a specific type of annealing
-*   **Label (Probe Label):** A detectable molecule or atom attached to the probe (e.g., radioisotope like ³²P, hapten like biotin or digoxigenin, enzyme like AP or HRP, fluorescent dye like FAM or Cy3) used for visualization after hybridization
-*   **Blocking (Prehybridization):** A step used primarily in solid-phase hybridization (blotting, ISH, arrays) to saturate non-specific binding sites on the support material, preventing random probe adherence and reducing background signal
-*   **Hybridization Buffer:** The solution in which the probe and target are incubated, containing salts, buffering agents, and sometimes denaturants (like formamide) and blocking agents, optimized to promote specific probe-target binding
-*   **Washing (Post-Hybridization):** Rinsing steps performed after hybridization using buffers of defined stringency to remove unbound and non-specifically bound probe, thereby increasing the signal-to-noise ratio
-*   **Duplex (Hybrid Duplex):** The double-stranded structure formed when a probe molecule binds to its complementary target sequence

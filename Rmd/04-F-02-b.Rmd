@@ -1,0 +1,52 @@
+# Facilities Management {-}
+
+In Molecular Biology, facility design is not merely a matter of aesthetics or workflow efficiency; it is a critical functional control required to ensure the accuracy of patient results. Because Polymerase Chain Reaction (PCR) and other amplification techniques are capable of detecting a single molecule of DNA and multiplying it billions of times, the environment itself poses the greatest threat to assay validity. Therefore, the architectural design of a molecular laboratory focuses primarily on **Contamination Control** through the physical separation of work areas and the engineering of air handling systems
+
+## The Unidirectional Workflow (The Physical Layout) {-}
+
+The defining characteristic of molecular laboratory design is the **Unidirectional Workflow**. The facility must be designed to force traffic (personnel, specimens, and trash) to flow in one direction only: from "Clean" areas to "Dirty" areas. This prevents **Carryover Contamination** - the accidental introduction of previously amplified DNA (amplicons) into new reaction mixtures
+
+*   **Spatial Separation:** Ideally, the laboratory is divided into three separate rooms with closing doors. If separate rooms are not possible, physically distinct areas with designated "Dead Air" boxes or PCR workstations must be used
+*   **The Three Zones**
+    1.  **Reagent Preparation (Clean Room / Pre-PCR):** This is the sanctuary of the laboratory. Only the preparation of Master Mix (primers, enzymes, buffers) occurs here. No patient specimens, extracted DNA, or amplicons are ever permitted in this room. Dedicated "Clean" lab coats and pipettes remain here permanently
+    2.  **Specimen Preparation (Extraction Room):** This is where clinical samples are received, and nucleic acids are extracted and added to the Master Mix. This area contains biological hazards (infectious agents) and genomic DNA
+    3.  **Amplification and Analysis (Dirty Room / Post-PCR):** This is where the thermal cyclers are located, and post-amplification analysis (gels, sequencing) takes place. This room contains billions of amplicons. Once a laboratory scientistor a rack enters this room, they cannot return to the Reagent Preparation room on the same shift
+
+## HVAC & Air Handling (Engineering Controls) {-}
+
+The Heating, Ventilation, and Air Conditioning (HVAC) system is an active barrier against contamination. Facilities management must ensure specific pressure differentials are maintained to direct the flow of airborne particles
+
+*   **Pressure Differentials**
+    *   **Positive Pressure (Reagent Prep):** The Clean Room should be kept under **Positive Pressure** relative to the hallway. This means air flows *out* of the room when the door is opened. This prevents dust, spores, and aerosols from the hallway from entering the clean reagent area
+    *   **Negative Pressure (Post-PCR):** The Dirty Room should be kept under **Negative Pressure** relative to the hallway. This means air flows *into* the room when the door is opened. This traps the high concentration of amplicons inside the room, preventing them from escaping into the corridor and drifting back to the Clean Room
+*   **Air Exchanges:** Molecular laboratories typically require a higher rate of air exchange (changes per hour) than general labs to scrub the air of potential aerosols continuously. Recirculation of air from Post-PCR areas to Pre-PCR areas is strictly prohibited
+*   **Temperature and Humidity Control**
+    *   **Temperature:** Thermal cyclers produce significant heat loads. The HVAC system must be sized to handle this output to maintain ambient temperatures (20–25°C). Overheating can cause instrument failure
+    *   **Humidity:** Low humidity increases **Static Electricity**. Static is a major issue in molecular biology because it causes dry reagents (lyophilized beads) or small plastic consumables to "jump," creating difficult-to-trace contamination events. Humidity should be maintained between 30% and 50%
+
+## Surface Finishes & Infrastructure {-}
+
+The materials used to build the lab must facilitate rigorous and frequent decontamination protocols, which often involve corrosive agents like bleach
+
+*   **Flooring and Walls**
+    *   **Non-Porous:** Floors should be seamless vinyl or epoxy. Tiles with grout lines are discouraged because grout traps dirt and DNA, making it impossible to fully decontaminate
+    *   **Coved Bases:** The flooring should curve up the wall (coving) to eliminate 90-degree corners where dust and liquids accumulate
+    *   **Cleanability:** Paints and finishes must be resistant to frequent scrubbing with 10% bleach and ethanol
+*   **Benchtops:** Surfaces must be non-porous, chemical-resistant (e.g., phenolic resin or epoxy), and seamless. Colors should enable the easy visualization of small spills/droplets
+*   **Lighting:** Molecular work involves handling micro-volumes (e.g., 2 µL). High-intensity, non-glare LED lighting is essential to prevent pipetting errors
+
+## Utilities & Safety Systems {-}
+
+*   **Electrical Stability**
+    *   Thermal cyclers and sequencers are highly sensitive to voltage fluctuations. The facility design must include **Uninterruptible Power Supplies (UPS):** and backup generators. A power flicker during a sequencing run can result in the loss of expensive reagents and days of work
+    *   **Data Ports:** High-throughput instruments (Sequencers) generate massive datasets (Terabytes). The facility must have high-speed hardline data connections (Cat6 or Fiber) located directly at the bench, as Wi-Fi is often insufficient or insecure for transmitting patient genomic data
+*   **Safety Stations**
+    *   **Eyewash/Shower:** Because molecular labs use corrosive chemicals (acids, phenol, bleach), emergency eyewash stations must be located within 10 seconds of travel time from hazardous work areas
+    *   **Waste Streams:** The design must accommodate separate waste streams. Sinks should be designated for handwashing versus disposal (if permitted), and space must be allocated for distinct hazardous waste containers (Red Bag vs. Chemical Waste)
+
+## Ergonomics {-}
+
+Because molecular biology involves repetitive manual tasks (pipetting 96-well plates), facilities design must address ergonomic risks to prevent Repetitive Strain Injury (RSI)
+
+*   **Adjustable Furniture:** Laboratory benches should ideally be height-adjustable, or chairs must be highly adjustable to ensure the laboratory scientistcan pipette with arms at a 90-degree angle
+*   **Noise Control:** High-speed centrifuges, freezers, and vacuums create significant noise. Design features such as sound-absorbing ceiling tiles or locating loud freezers in separate alcoves help reduce staff fatigue and improve communication

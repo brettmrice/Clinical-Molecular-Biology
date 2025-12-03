@@ -8,11 +8,11 @@ Think of them as specialized molecular photocopiers that read a DNA blueprint an
 
 The fundamental reaction catalyzed by RNA polymerases is the synthesis of an RNA strand complementary to a DNA template strand
 
-1.  **Template Binding** The polymerase recognizes and binds to a specific DNA sequence called a **promoter**, located upstream of the gene/sequence to be transcribed
-2.  **DNA Unwinding** The polymerase locally unwinds the DNA double helix near the promoter, creating a "transcription bubble" and exposing the template strand
-3.  **Initiation** RNA polymerase begins synthesizing the RNA chain using ribonucleoside triphosphates (NTPs: ATP, UTP, CTP, GTP) as substrates. **Crucially, unlike DNA polymerases, RNA polymerases DO NOT require a primer to start synthesis.** They can initiate *de novo*
-4.  **Elongation** The polymerase moves along the DNA template strand (reading it 3' → 5'), adding complementary NTPs to the 3'-hydroxyl end of the growing RNA strand (synthesizing 5' → 3'). U pairs with A in the DNA template
-5.  **Termination** Synthesis continues until the polymerase encounters a specific **terminator sequence** in the DNA, signaling it to release the newly synthesized RNA transcript and dissociate from the DNA template
+1.  **Template Binding:** The polymerase recognizes and binds to a specific DNA sequence called a **promoter**, located upstream of the gene/sequence to be transcribed
+2.  **DNA Unwinding:** The polymerase locally unwinds the DNA double helix near the promoter, creating a "transcription bubble" and exposing the template strand
+3.  **Initiation:** RNA polymerase begins synthesizing the RNA chain using ribonucleoside triphosphates (NTPs: ATP, UTP, CTP, GTP) as substrates. **Crucially, unlike DNA polymerases, RNA polymerases DO NOT require a primer to start synthesis.** They can initiate *de novo*
+4.  **Elongation:** The polymerase moves along the DNA template strand (reading it 3' → 5'), adding complementary NTPs to the 3'-hydroxyl end of the growing RNA strand (synthesizing 5' → 3'). U pairs with A in the DNA template
+5.  **Termination:** Synthesis continues until the polymerase encounters a specific **terminator sequence** in the DNA, signaling it to release the newly synthesized RNA transcript and dissociate from the DNA template
 
 ## **Essential Requirements for RNA Polymerase Activity (In Vitro)** {-}
 
@@ -84,16 +84,3 @@ It's vital to remember the key differences:
 | **Primer Req.**  | **Yes** (needs free 3'-OH to extend) | **No** (can initiate *de novo*)   |
 | **Proofreading** | Often Yes (3'→5' exonuclease)       | Generally No                        |
 | **Main Use**     | Replication, PCR, Sequencing         | Transcription, IVT (Probe/RNA synth)|
-
-## **Key Terms** {-}
-
-*   **RNA Polymerase:** Enzyme synthesizing RNA from a DNA template
-*   **Transcription:** The process of synthesizing RNA from DNA
-*   **Promoter:** DNA sequence recognized by RNA polymerase to initiate transcription
-*   **NTPs (Ribonucleoside Triphosphates):** Building blocks of RNA (ATP, UTP, CTP, GTP)
-*   **In Vitro Transcription (IVT):** Synthesis of RNA in a test tube using purified components
-*   **Phage RNA Polymerase (T7, T3, SP6):** Simple, efficient RNA polymerases recognizing specific phage promoters; workhorses for IVT
-*   **Antisense Probe:** An RNA probe complementary to the target mRNA sequence
-*   **mRNA Vaccine:** Vaccine using IVT-synthesized mRNA encoding a viral antigen
-*   **Template Strand:** The DNA strand read by the RNA polymerase (3'→5')
-*   **Coding Strand:** The DNA strand whose sequence resembles the RNA transcript (with T instead of U)

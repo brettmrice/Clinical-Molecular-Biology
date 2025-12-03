@@ -1,12 +1,12 @@
 # Associated Proteins {-}
 
-**Associated Proteins** are crucial partners of nucleic acids. DNA and RNA rarely just float around naked in the cell (or in our sample tubes, ideally!). They are almost always interacting with a vast array of proteins that manage, manipulate, protect, read, and regulate them. Think of these proteins as the librarians, construction workers, repair crews, and readers for the genetic library
+**Associated Proteins:** are crucial partners of nucleic acids. DNA and RNA rarely just float around naked in the cell (or in our sample tubes, ideally!). They are almost always interacting with a vast array of proteins that manage, manipulate, protect, read, and regulate them. Think of these proteins as the librarians, construction workers, repair crews, and readers for the genetic library
 
 These interactions are absolutely fundamental to nearly every process involving DNA and RNA, both in the body and in the clinical molecular lab
 
 Here's a breakdown of key types of nucleic acid-associated proteins and their roles:
 
-## **Packaging and Structural Proteins (Mainly DNA)** {-}
+## **Packaging & Structural Proteins (Mainly DNA)** {-}
 
 *   **Histones**
     *   **What they are:** The primary protein components of **chromatin** in eukaryotes. They are small, highly conserved proteins rich in basic amino acids (lysine and arginine), giving them a strong **positive charge**
@@ -98,21 +98,3 @@ Here's a breakdown of key types of nucleic acid-associated proteins and their ro
 *   **Specificity:** Many proteins recognize specific nucleic acid sequences (transcription factors, restriction enzymes) or structures (repair enzymes recognizing damage)
 *   **Dynamics:** These interactions are often transient and highly regulated
 *   **Interdependence:** Nucleic acids and proteins are inextricably linked; neither can function properly without the other
-
-## **Key Terms** {-}
-
-*   **Histones:** Positively charged proteins that package and order eukaryotic DNA into nucleosomes
-*   **Chromatin:** The complex of DNA and associated proteins (primarily histones) that forms chromosomes within the nucleus of eukaryotic cells
-*   **Nucleosome:** The basic structural unit of chromatin, consisting of DNA wrapped around a core of eight histone proteins
-*   **DNA Polymerase:** Enzyme that synthesizes DNA molecules from deoxyribonucleotides, the building blocks of DNA, using a DNA template strand. Essential for replication and PCR
-*   **RNA Polymerase:** Enzyme that synthesizes RNA from a DNA template during transcription
-*   **Helicase:** Enzyme that unwinds the DNA double helix using ATP
-*   **Ligase:** Enzyme that joins breaks in the phosphodiester backbone of nucleic acids. Crucial for replication, repair, and cloning
-*   **Topoisomerase:** Enzyme that alters the supercoiling of DNA by cutting and rejoining strands. Drug target
-*   **Transcription Factor:** Protein that binds to specific DNA sequences to control the rate of transcription
-*   **Spliceosome:** Large RNA-protein complex that removes introns from eukaryotic pre-mRNA
-*   **Ribosome:** Complex of rRNA and proteins that serves as the site of protein synthesis (translation)
-*   **Nuclease:** Enzyme that cleaves the phosphodiester bonds of nucleic acids (DNase for DNA, RNase for RNA)
-*   **Restriction Enzyme (Restriction Endonuclease):** Enzyme that cuts DNA at specific recognition nucleotide sequences (restriction sites). A vital lab tool
-*   **Reverse Transcriptase:** Enzyme found in retroviruses that synthesizes DNA from an RNA template. Used in RT-PCR
-*   **Epigenetics:** Study of heritable phenotype changes that do not involve alterations in the DNA sequence itself, often involving histone modifications and DNA methylation that affect gene expression

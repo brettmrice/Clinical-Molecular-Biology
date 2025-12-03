@@ -1,0 +1,98 @@
+# Nucleic Acid Evaluation {-}
+
+Following the extraction of nucleic acid (NA) from a clinical specimen, a rigorous Quality Assurance (QA) assessment is required before proceeding to amplification. The "extraction" phase is a purification funnel, attempting to isolate specific molecules (DNA or RNA) from a complex matrix of lipids, proteins, and cellular debris. The resulting eluate must be evaluated for **Quantity** (Yield), **Purity** (Freedom from chemical inhibitors), and **Integrity** (Structural completeness)
+
+## Assessment of Quantity (Yield) {-}
+
+Determining the concentration of the extracted nucleic acid is essential for standardizing the input into downstream reactions (e.g., PCR, Sequencing). Adding too little template results in low sensitivity or allele dropout; adding too much can inhibit the enzyme or promote non-specific binding
+
+### Ultraviolet (UV) Spectrophotometry {-}
+
+The most common method for quantification relies on the intrinsic absorptive properties of the purine and pyrimidine bases found in nucleotides
+
+*   **Principle:** Nucleic acids absorb UV light maximally at **260 nm** (A260). By measuring the absorbance (Optical Density or OD) at this wavelength, the concentration can be calculated using the Beer-Lambert Law
+*   **The Calculation Formula**
+
+$[\text{Concentration}] = \text{Absorbance}_{260} \times \text{Dilution Factor} \times \text{Absorbance Constant}$
+
+*   **Absorbance Constants (Standard Coefficients):** These values represent the concentration of nucleic acid that yields an absorbance of 1.0 at 260 nm (1 cm path length)
+    *   **Double-stranded DNA (dsDNA):** 50 µg/mL
+    *   **Single-stranded DNA (ssDNA):** 33 µg/mL
+    *   **RNA:** 40 µg/mL
+*   **Limitations:** UV spectrophotometry is **not specific**. Any molecule that absorbs at 260 nm contributes to the signal. This includes free nucleotides (dNTPs), single-stranded DNA in a double-stranded prep, and RNA contamination in a DNA prep. Consequently, UV spectrophotometry often overestimates the true yield of functional dsDNA
+
+### Fluorometry {-}
+
+For applications requiring high precision (e.g., Next-Generation Sequencing) or when samples are very dilute (low yield), fluorometry is the gold standard
+
+*   **Principle:** This method utilizes fluorochromes (fluorescent dyes) that intercalate or bind specifically to the target molecule. The instrument measures the fluorescence intensity, which is directly proportional to the concentration
+*   **Common Dyes**
+    *   **PicoGreen / Qubit Reagents:** Specific for dsDNA. They do not fluoresce significantly when bound to ssDNA, RNA, or proteins
+    *   **RiboGreen:** Specific for RNA
+*   **Advantages**
+    *   **Specificity:** Unlike UV absorbance, fluorometry distinguishes between DNA and RNA. In a sample contaminated with RNA, fluorometry will report only the DNA concentration
+    *   **Sensitivity:** Can detect concentrations as low as 1 pg/µL (1000x more sensitive than spectrophotometry)
+
+## Assessment of Purity (Chemical Quality) {-}
+
+Purity refers to the absence of "inhibitors" - substances left over from the matrix or the extraction process that will interfere with the enzymatic reaction. Purity is assessed by comparing absorbance readings at different wavelengths
+
+### The A260/A280 Ratio (Protein Contamination) {-}
+
+This ratio assesses contamination by proteins, which absorb light maximally at **280 nm** due to aromatic amino acids (tryptophan, tyrosine, phenylalanine)
+
+*   **Calculation:** $\text{Ratio} = \frac{\text{Absorbance at 260 nm}}{\text{Absorbance at 280 nm}}$
+*   **Target Values**
+    *   **Pure dsDNA:** 1.7 – 2.0 (Ideally ~1.8)
+    *   **Pure RNA:** ~2.0 (RNA has a higher ratio because Uracil possesses higher absorbance at 260 nm than Thymine)
+*   **Interpretation**
+    *   **Ratio < 1.7:** Indicates significant protein contamination. The DNA is not "clean."
+    *   **Correction:** Use Proteinase K digestion or Phenol-Chloroform extraction to remove residual proteins
+    *   *Note: pH affects this ratio. Acidic solutions will lower the ratio by 0.2–0.3 units; basic solutions increase it.*
+
+### The A260/A230 Ratio (Salt/Organic Contamination) {-}
+
+This ratio detects contaminants that absorb at **230 nm**, which include chaotropic salts (guanidine isothiocyanate), EDTA, carbohydrates, phenol, and ethanol
+
+*   **Target Value:** A ratio **> 2.0** is considered "pure" for both DNA and RNA
+*   **Interpretation**
+    *   **Ratio < 2.0 (often < 1.5):** Indicates carryover of extraction reagents
+    *   **Impact:** Residual guanidine or ethanol are potent inhibitors of *Taq* Polymerase. A sample with a perfect 260/280 but a poor 260/230 may fail to amplify
+    *   **Correction:** Perform an ethanol precipitation or use a spin column wash step to remove salts
+
+## Assessment of Integrity (Structural Quality) {-}
+
+Integrity refers to the physical size and fragmentation state of the nucleic acid. A sample can be pure (no protein) and high concentration (high yield) but completely useless if the DNA is sheared into tiny fragments or the RNA is degraded
+
+### Gel Electrophoresis {-}
+
+Visualizing the nucleic acid on an agarose gel provides a qualitative snapshot of integrity
+
+*   **Genomic DNA (gDNA)**
+    *   **High Integrity:** Appears as a high molecular weight band near the well (top of the gel)
+    *   **Degraded:** Appears as a "smear" extending down the lane. This shearing is often caused by vigorous vortexing, old samples, or DNase activity
+*   **Total RNA**
+    *   Because mRNA is heterogeneous in size, integrity is assessed by looking at the Ribosomal RNA (rRNA) bands
+    *   **High Integrity:** Two distinct, sharp bands representing the **28S** and **18S** rRNA subunits
+    *   **The 2:1 Rule:** The intensity (brightness) of the 28S band should be approximately twice that of the 18S band
+    *   **Degraded:** If the bands are smeared, or if the lower (18S) band is brighter than the 28S band, RNases have degraded the sample
+
+### Microfluidic Analysis (RIN Score) {-}
+
+Automated electrophoresis systems (e.g., Agilent Bioanalyzer) provide a standardized metric for RNA quality known as the **RNA Integrity Number (RIN)**
+
+*   **Scale:** 1 (Totally degraded) to 10 (Intact)
+*   **Clinical Threshold:** Generally, a RIN > 7.0 or 8.0 is required for high-sensitivity applications like RNA-Seq or gene expression profiling
+
+### Functional Integrity (The "Amplifiability" Check) {-}
+
+The ultimate test of integrity is whether the sequence can be amplified
+
+*   **Housekeeping Genes:** Labs often run a control PCR targeting a constitutive gene (e.g., $\beta$-actin, GAPDH, RNase P)
+*   **Long-Range PCR:** To test for heavy fragmentation, primers are designed to amplify a large target (e.g., 1000 bp). If the DNA is heavily sheared (fragments < 500 bp), the PCR will fail because the template is not continuous between the primers
+
+## Summary of Quality Metrics {-}
+
+*   **High Quality DNA:** A260/A280 ~1.8; A260/A230 > 2.0; High Molecular Weight band on gel
+*   **High Quality RNA:** A260/A280 ~2.0; RIN > 8.0; 28S band twice as bright as 18S band
+*   **Unacceptable Specimen:** Visible hemolysis (heme inhibits PCR), Heparin tube (heparin inhibits PCR), or A260/A280 < 1.6 (protein contamination)

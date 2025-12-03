@@ -7,7 +7,7 @@ The nitrogenous bases (A, G, C, T, U) are the information-carrying units of nucl
 *  **Purines:** These have a **double-ring** structure (a six-membered ring fused to a five-membered ring). They're the "bigger" bases
 *  **Pyrimidines:** These have a **single-ring** structure (a six-membered ring). They're the "smaller" bases
 
-*(A little mnemonic: **PUR**ines are **PUR**e **A**s **G**old (A and G are purines), and **CUT** the **PY** (Cytosine, Uracil, Thymine are Pyrimidines – like cutting a pie, which is single!)*
+*(A little mnemonic: **PUR**ines are **PUR**e **A**s **G**old (A and G are purines), and **CUT:** the **PY** (Cytosine, Uracil, Thymine are Pyrimidines – like cutting a pie, which is single!)*
 
 Now, let's meet the specific players:
 
@@ -30,11 +30,11 @@ Now, let's meet the specific players:
     *   Pairs with: Guanine (G)
 *  **Thymine (T)**
     *   Found **primarily in DNA**. (You might find it *very* rarely in some specialized RNAs like tRNA, but for standard purposes, think DNA only)
-    *   Structure: A pyrimidine ring with carbonyl groups (C=O) at positions C2 and C4, and importantly, a **methyl group ($-CH_3$)** at the C5 position. This methyl group is a key differentiator from Uracil!
+    *   Structure: A pyrimidine ring with carbonyl groups (C=O) at positions C2 and C4, and importantly, a **methyl group ($-CH_3$):** at the C5 position. This methyl group is a key differentiator from Uracil!
     *   Pairs with: Adenine (A)
 *  **Uracil (U)**
-    *   Found **primarily in RNA** (replaces Thymine)
-    *   Structure: A pyrimidine ring, very similar to Thymine, with carbonyl groups (C=O) at C2 and C4, but it **lacks the methyl group** at C5 that Thymine has
+    *   Found **primarily in RNA:** (replaces Thymine)
+    *   Structure: A pyrimidine ring, very similar to Thymine, with carbonyl groups (C=O) at C2 and C4, but it **lacks the methyl group:** at C5 that Thymine has
     *   Pairs with: Adenine (A)
 
 *(Think of Thymine as Uracil with a little "hat" – that methyl group. This difference helps enzymes distinguish DNA from RNA and also contributes to DNA's stability)*
@@ -44,18 +44,18 @@ Now, let's meet the specific players:
 One of the most elegant discoveries in molecular biology was how these bases pair up. This isn't random; it follows strict rules, often called **Watson-Crick base pairing** or **complementary base pairing**:
 
 *   **Adenine (A) always pairs with Thymine (T):** in DNA, or with **Uracil (U)** in RNA
-    *   They form **two hydrogen bonds** between them
+    *   They form **two hydrogen bonds:** between them
 *   **Guanine (G) always pairs with Cytosine (C):** in both DNA and RNA
-    *   They form **three hydrogen bonds** between them
+    *   They form **three hydrogen bonds:** between them
 
 ### **Why is this pairing so specific?** {-}
 
-*  **Shape and Size** A purine (big, double ring) always pairs with a pyrimidine (small, single ring). This keeps the width of the DNA double helix remarkably consistent. Pairing two purines would be too wide, and two pyrimidines too narrow
-*  **Hydrogen Bonds** These are relatively weak non-covalent bonds formed between a hydrogen atom bonded to an electronegative atom (like N or O) and another nearby electronegative atom
+*  **Shape and Size:** A purine (big, double ring) always pairs with a pyrimidine (small, single ring). This keeps the width of the DNA double helix remarkably consistent. Pairing two purines would be too wide, and two pyrimidines too narrow
+*  **Hydrogen Bonds:** These are relatively weak non-covalent bonds formed between a hydrogen atom bonded to an electronegative atom (like N or O) and another nearby electronegative atom
     *   The specific locations of hydrogen bond donors (like -NH groups) and acceptors (like N: or O=) on A, T, U, G, and C dictate *exactly* which bases can align perfectly to form these bonds
     *   A only has the right donors/acceptors to align with T or U for two H-bonds
     *   G only has the right donors/acceptors to align with C for three H-bonds
-*  **Stability** While individual hydrogen bonds are weak, *thousands or millions* of them along a DNA molecule add up to create a very stable double helix. The G-C pair, with its three hydrogen bonds, is slightly stronger and more thermally stable than the A-T pair with its two hydrogen bonds. DNA regions rich in G-C require more energy (e.g., higher temperature) to separate the strands
+*  **Stability:** While individual hydrogen bonds are weak, *thousands or millions* of them along a DNA molecule add up to create a very stable double helix. The G-C pair, with its three hydrogen bonds, is slightly stronger and more thermally stable than the A-T pair with its two hydrogen bonds. DNA regions rich in G-C require more energy (e.g., higher temperature) to separate the strands
 
 This **complementarity** is the foundation for DNA replication (where each strand serves as a template for a new one) and transcription (where DNA is used as a template to make RNA)
 
@@ -63,12 +63,12 @@ This **complementarity** is the foundation for DNA replication (where each stran
 
 How do these bases connect to the sugar-phosphate backbone?
 
-*   The base attaches to the **1' carbon** of the sugar (deoxyribose in DNA, ribose in RNA)
+*   The base attaches to the **1' carbon:** of the sugar (deoxyribose in DNA, ribose in RNA)
 *   This bond is called an **N-glycosidic bond**
-*   Specifically, it forms between the **N9 atom** of purines (A, G) and the 1' carbon of the sugar
-*   It forms between the **N1 atom** of pyrimidines (C, T, U) and the 1' carbon of the sugar
+*   Specifically, it forms between the **N9 atom:** of purines (A, G) and the 1' carbon of the sugar
+*   It forms between the **N1 atom:** of pyrimidines (C, T, U) and the 1' carbon of the sugar
 
-*(A **nucleoside** is just the base + sugar. A **nucleotide** is the base + sugar + one or more phosphate groups)*
+*(A **nucleoside:** is just the base + sugar. A **nucleotide** is the base + sugar + one or more phosphate groups)*
 
 ## **Clinical Laboratory Relevance** {-}
 
@@ -79,20 +79,3 @@ Understanding the bases is absolutely critical in the clinical molecular lab:
 *   **Mutation Detection:** Many diseases are caused by changes (mutations) in the base sequence – a single base change (SNP), deletion, or insertion. Molecular assays are designed to detect these specific base changes
 *   **Therapeutics (Nucleoside/Nucleotide Analogs):** Many antiviral (e.g., AZT for HIV, Acyclovir for herpes) and anticancer drugs (e.g., Gemcitabine) are analogs of bases or nucleosides. They get incorporated into viral or cancer cell DNA/RNA and disrupt replication because they have modified base or sugar structures
 *   **DNA Melting Temperature (Tm):** The G-C content of a DNA sequence affects its melting temperature (the temperature at which 50% of the double helix dissociates). This is a crucial parameter in designing PCR protocols and hybridization experiments. Higher G-C content = higher Tm
-
-## **Key Terms** {-}
-
-*   **Nitrogenous Base:** Nitrogen-containing heterocyclic aromatic organic compounds that form the information-carrying part of nucleotides. The primary bases are Adenine, Guanine, Cytosine, Thymine, and Uracil
-*   **Purine:** A class of nitrogenous bases with a double-ring structure (a six-membered ring fused to a five-membered imidazole ring). Adenine (A) and Guanine (G) are purines
-*   **Pyrimidine:** A class of nitrogenous bases with a single six-membered ring structure. Cytosine (C), Thymine (T), and Uracil (U) are pyrimidines
-*   **Adenine (A):** A purine base found in both DNA and RNA; pairs with Thymine (T) in DNA or Uracil (U) in RNA via two hydrogen bonds
-*   **Guanine (G):** A purine base found in both DNA and RNA; pairs with Cytosine (C) via three hydrogen bonds
-*   **Cytosine (C):** A pyrimidine base found in both DNA and RNA; pairs with Guanine (G) via three hydrogen bonds
-*   **Thymine (T):** A pyrimidine base found primarily in DNA; pairs with Adenine (A) via two hydrogen bonds. Distinguished from Uracil by a methyl group at the C5 position
-*   **Uracil (U):** A pyrimidine base found primarily in RNA (replaces Thymine); pairs with Adenine (A) via two hydrogen bonds. Lacks the methyl group found on Thymine
-*   **Base Pairing:** The specific hydrogen bonding interactions between complementary nitrogenous bases (A with T/U, G with C) that hold the two strands of a DNA double helix together or allow interactions between RNA molecules or DNA/RNA hybrids
-*   **Complementarity:** The principle that the sequence of bases on one nucleic acid strand determines the sequence of bases on the opposing strand due to the specific base pairing rules (A pairs with T/U, G pairs with C)
-*   **Hydrogen Bond:** A weak, non-covalent attraction between a hydrogen atom covalently bonded to a highly electronegative atom (like N or O) and another nearby electronegative atom. Crucial for base pairing specificity and helix stability
-*   **N-Glycosidic Bond:** The covalent bond that links a nitrogenous base to the 1' carbon of the pentose sugar (deoxyribose or ribose). Forms between N9 of purines or N1 of pyrimidines and the C1' of the sugar
-*   **Nucleoside:** A molecule composed of a nitrogenous base linked to a pentose sugar via an N-glycosidic bond
-*   **Nucleotide:** A molecule composed of a nucleoside (base + sugar) linked to one or more phosphate groups (usually attached to the 5' carbon of the sugar). The monomer units of nucleic acids

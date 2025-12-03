@@ -1,0 +1,53 @@
+# Elimination {-}
+
+When contamination is detected through Quality Control failures or environmental monitoring, the laboratory must cease patient testing immediately. The focus shifts from operation to remediation. Elimination involves the systematic destruction or removal of contaminating nucleic acids and biological agents to restore a "clean" baseline. This process must be aggressive and scientifically sound, as DNA is a remarkably stable molecule that resists standard cleaning methods like soap and water or alcohol alone
+
+## Chemical Decontamination Agents {-}
+
+The most effective method for eliminating DNA and RNA from surfaces and equipment is chemical destruction. While alcohol (70% Ethanol or Isopropanol) effectively disinfects bacteria and viruses for safety, it merely precipitates DNA; it does not destroy it. Therefore, alcohol alone is insufficient for molecular decontamination
+
+*   **Sodium Hypochlorite (Bleach)**
+    *   **The Gold Standard:** A 10% bleach solution (prepared daily or checked for stability) is the most effective agent for destroying nucleic acids. It works by causing oxidative damage and breaking the sugar-phosphate backbone of the DNA molecule
+    *   **Application:** The solution must remain in contact with the surface for a set time (typically 10–15 minutes) to ensure complete hydrolysis of the DNA
+    *   **The "Rinse" Step:** Bleach is highly corrosive to stainless steel (hoods) and internal pipette components. After the bleach application, surfaces must be rinsed thoroughly with 70% Ethanol or Deionized (DI) Water to remove sodium hypochlorite residue and prevent pitting or rusting of laboratory equipment
+*   **Commercial DNA Removal Agents**
+    *   Products such as DNAZap or DNA-OFF are non-corrosive alternatives often used for sensitive equipment (like pipettes or microscope stages) where bleach cannot be used. These agents degrade DNA and RNA through catalytic oxidation and are typically rinsed with water after use
+
+## Physical Decontamination Methods {-}
+
+Physical methods are used to supplement chemical cleaning, particularly for air or areas difficult to reach with liquid disinfectants
+
+*   **UV Irradiation (Ultraviolet Light)**
+    *   **Mechanism:** UV-C light (specifically at 254 nm) is germicidal and DNA-destructive. It induces the formation of pyrimidine dimers (specifically thymine dimers) in adjacent nucleotides on a DNA strand. These dimers create a "kink" in the DNA helix, physically preventing the Polymerase enzyme from moving along the strand during PCR, effectively rendering the DNA un-amplifiable
+    *   **Limitations:** UV light has low penetrating power. It is only effective on direct lines of sight ("shadowing" prevents decontamination) and cannot penetrate dust or dried organic matter. Furthermore, UV bulbs lose intensity over time and must be checked with a radiometer or replaced on a strict schedule
+*   **Autoclaving**
+    *   While autoclaving (steam sterilization) is excellent for biological safety (killing organisms), it is not always 100% effective at destroying short DNA fragments (amplicons) sufficient to prevent PCR amplification. Therefore, autoclaving is primarily used for waste disposal and pre-sterilizing consumables (tips/tubes) rather than remediating a contaminated workspace
+
+## The Systematic "Deep Clean" Protocol {-}
+
+When a contamination event occurs (e.g., positive NTCs), a structured decontamination protocol is required. Random cleaning is rarely effective. The laboratory scientists must follow a specific sequence to avoid spreading the contaminant further
+
+*   **Step 1: Reagent Disposal**
+    *   **Discard, Don't Save:** Any open reagents, buffers, or aliquoted primers in the affected area must be discarded. It is impossible to visually detect contamination in a tube. If the NTC failed, the entire set of reagents in use is suspect. Do not attempt to "test out" reagents to save money; the cost of repeat testing and false positives is higher
+    *   **Stock Solutions:** If the contamination is traced back to a primary stock solution, the entire lot must be discarded
+*   **Step 2: Equipment Decontamination**
+    *   **Pipettes:** These are the most common vectors for contamination. Pipettes should be disassembled (according to manufacturer instructions), and the shafts/barrels soaked in 10% bleach or a commercial DNA remover. Filters in the pipettes must be discarded and replaced
+    *   **Centrifuges:** Rotors should be removed, soaked in mild detergent and bleach (if material compatible), rinsed, and autoclaved if possible. The inside of the centrifuge chamber must be wiped out
+    *   **Racks and Boxes:** Tube racks are often overlooked. All racks should be soaked in 10% bleach and rinsed
+*   **Step 3: Surface and Room Remediation**
+    *   **Top-to-Bottom Cleaning:** Cleaning should proceed from the cleanest area (Reagent Prep) to the dirtiest (Post-PCR) to avoid dragging amplicons backwards
+    *   **Walls and Floors:** In severe contamination events, aerosols may have settled on walls and floors. These surfaces must be mopped with a bleach solution
+    *   **Air Handling:** If the lab has HEPA filters or biosafety cabinets, the filters may need to be changed if they have become saturated with amplicon-laden dust. The airflow systems should be left running overnight to scrub the air
+
+## Verification of Elimination {-}
+
+A laboratory cannot resume patient testing immediately after cleaning. The elimination of the contaminant must be verified to ensure the "Deep Clean" was successful
+
+*   **The "Dummy" Run**
+    *   Perform a PCR run consisting entirely of NTCs (No Template Controls) and Negative Extraction Controls using the new/replacement reagents
+    *   Place open tubes of water in various locations in the hood/bench during setup to act as "open air" sentinels
+*   **Wipe Test Confirmation**
+    *   Repeat the environmental wipe tests on the surfaces that were cleaned
+    *   **Criteria for Resumption:** Patient testing can only resume when all NTCs are negative and wipe tests show no detectable DNA in the Clean/Pre-PCR areas
+*   **Documentation**
+    *   All corrective actions (cleaning logs, reagent lot changes, wipe test results) must be documented in the Quality Assurance (QA) records for accreditation purposes

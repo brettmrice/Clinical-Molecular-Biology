@@ -1,0 +1,82 @@
+# Assay Controls {-}
+
+In molecular diagnostics, the amplification process occurs in a closed tube, invisible to the naked eye. Unlike microbiology, where a colony can be seen, or hematology, where a cell can be counted, molecular results are inferred from fluorescence or electrophoretic patterns. Therefore, **Assay Controls** are the only mechanism the laboratory scientist has to verify that the reaction conditions were perfect, the reagents were active, and the results are valid. Without valid controls, patient results - regardless of how clear the curve looks - cannot be reported
+
+## The Hierarchy of Controls {-}
+
+Controls are designed to monitor specific failure modes: contamination, reagent failure, extraction failure, and inhibition. A comprehensive Quality Control (QC) strategy utilizes a hierarchy of negative, positive, and internal controls in every analytical run
+
+### The No Template Control (NTC) {-}
+
+The NTC, often called the "Blank" or "Reagent Blank," is the primary sentinel for **Contamination**. It monitors the cleanliness of the reagents and the environment
+
+*   **Composition:** The NTC contains the Master Mix (primers, polymerase, buffer, dNTPs) but substitutes Nuclease-Free Water for the DNA/RNA template
+*   **Function:** It verifies that no amplifiable nucleic acid was inadvertently introduced into the reagents during preparation. It detects:
+    *   **Carryover Contamination:** Amplicons from previous runs present in the air or on pipettes
+    *   **Reagent Contamination:** Stock solutions contaminated with target DNA
+*   **Interpretation:** The NTC must be strictly **Negative** (No amplification). If an amplification curve crosses the threshold in the NTC well, the entire run is **Invalid**. All patient results must be discarded, reagents changed, and the run repeated
+
+### The Positive Control (PC) {-}
+
+The Positive Control is the sentinel for **Reagent and Thermal Cycler Function**. It proves that the chemistry is working and capable of amplifying the target if it is present
+
+*   **Composition:** A known sample containing the target sequence. This can be plasmid DNA, a suspension of the organism, or pooled positive patient material
+*   **Target Concentration (Low vs. High)**
+    *   **Low Positive (The "Weak" Positive):** Ideally, the PC should be at a concentration near the Limit of Detection (LoD). This is the most sensitive monitor. If reagents are slightly degraded (e.g., enzyme lost 50% activity), a high-concentration control might still amplify, but the weak control will fail. This alerts the lab to a loss of sensitivity
+    *   **High Positive:** Often used in quantitative runs to verify the upper end of the linear range
+*   **Interpretation:** The PC must be **Positive** within a defined range (e.g., Ct value of 28 ± 2 cycles). If the PC fails to amplify (False Negative), it indicates reagent failure (e.g., expired enzyme) or equipment failure (e.g., the thermal cycler did not reach the denaturation temperature). The run is **Invalid**
+
+### The Negative Control (NC) {-}
+
+Distinct from the NTC, the Negative Control (or Negative Extraction Control) monitors the **Specificity** of the assay and the cleanliness of the **Extraction** process
+
+*   **Composition:** A known negative biological matrix (e.g., negative plasma, urine, or transport media) that is processed through the extraction step alongside patient samples
+*   **Function**
+    *   **Cross-Contamination:** It detects if positive patient DNA transferred to a negative sample during the manual extraction/pipetting steps
+    *   **Matrix Effects:** It ensures that the biological fluid itself does not cause non-specific fluorescence
+*   **Interpretation:** Must be **Negative**. A positive result indicates a breach in technique during the specimen processing phase
+
+## Internal Controls (IC) {-}
+
+While NTCs and PCs monitor the *run*, the Internal Control monitors the *individual patient tube*. It is the primary defense against false-negative results caused by **Inhibition** or **Extraction Failure**
+
+### Types of Internal Controls {-}
+
+*   **Endogenous (Housekeeping Genes)**
+    *   Targets a gene naturally present in the patient sample (e.g., *RNase P*, *Beta-Globin*, or *GAPDH*)
+    *   **Benefit:** Confirms that the sample actually contained cells (sample adequacy) and that human DNA was successfully extracted
+    *   **Limitation:** Does not work for acellular samples (e.g., some viral transport media) unless cells are expected
+*   **Exogenous (Spiked Targets)**
+    *   A synthetic template or a non-human virus (e.g., Phocine Distemper Virus or Pumpkin DNA) added to the lysis buffer before extraction
+    *   **Benefit:** Validates the extraction efficiency and checks for inhibitors in samples that might naturally lack human DNA (e.g., CSF or plasma)
+
+### Interpretation of Internal Controls {-}
+
+The interpretation of the IC depends on the result of the Target pathogen
+
+*   **Scenario A: Target Positive / IC Positive**
+    *   **Result:** Valid Positive. The reaction worked, and the target was found
+*   **Scenario B: Target Negative / IC Positive**
+    *   **Result:** Valid Negative. The reaction worked, inhibition was ruled out, but the target was not found. Report as "Not Detected"
+*   **Scenario C: Target Negative / IC Negative**
+    *   **Result:** **INVALID**. The reaction failed completely. We cannot know if the patient is truly negative or if inhibitors prevented the reaction. The sample must be diluted or re-extracted
+*   **Scenario D: Target "Strong" Positive / IC Negative**
+    *   **Result:** Usually **Valid Positive**. This phenomenon is called **Competitive Amplification**. If the patient has a massive viral load, the polymerase and dNTPs are consumed amplifying the virus, leaving no resources to amplify the Internal Control. Since the primary target was detected, the lack of IC is irrelevant
+
+## Quantitative Controls (Standard Curves) {-}
+
+For assays that report a numerical value (Viral Loads), controls must serve a mathematical function to define the relationship between fluorescence and concentration
+
+*   **The Standard Curve:** A series of external standards (e.g., $10^3, 10^4, 10^5, 10^6$ copies) run in every batch
+*   **Control Metrics**
+    *   **Slope:** Indicates reaction efficiency. The slope should be between **-3.1 and -3.6** (Ideal is -3.32, representing 100% efficiency/doubling). A slope of -2.0 suggests the reaction is effectively stalled; a slope of -4.0 suggests degradation
+    *   **$\text{R}^2$ Value (Correlation Coefficient):** Measures how well the points fit the line. Must be **$> 0.98$**. If low, it implies pipetting errors in the standards
+    *   **Y-Intercept:** Indicates the expected sensitivity
+
+## Storage & Handling of Controls {-}
+
+The integrity of the control material is just as important as the integrity of the patient sample. If a control degrades, the lab may reject a perfectly valid patient run (False Rejection)
+
+*   **Aliquotting:** Controls should be aliquotted into single-use volumes to prevent repeated freeze-thaw cycles, which degrade DNA/RNA
+*   **Separation:** High-concentration positive controls should never be opened or stored in the Reagent Preparation area to prevent catastrophic contamination of the Master Mix
+*   **Matrix Matching:** Ideally, controls should be in the same matrix as the sample (e.g., use a plasma-based control for a plasma HIV assay) to accurately mimic the extraction difficulty encountered by the patient sample

@@ -1,0 +1,35 @@
+# Quality Management {-}
+
+Quality Management (QM) in the molecular laboratory is the overarching system that ensures patient results are accurate, reliable, and clinically actionable. Unlike the routine Core Laboratory, where standardized kits are the norm, Molecular Biology frequently involves Laboratory Developed Tests (LDTs) and complex quantitative analyses. Therefore, QM in this department requires a rigorous application of statistical analysis, strategic method selection, and precise mathematical validation to meet regulatory standards (CLIA/CAP)
+
+## Advanced Statistical Analysis {-}
+
+Statistical analysis is the mathematical framework used to monitor the stability of an assay and validate its clinical utility. It moves beyond simple averages to determine if a process is in control and if the results distinguish health from disease effectively
+
+*   **Process Control (QC Monitoring):** The laboratory uses **Levey-Jennings charts** to track Quality Control (QC) performance over time. **Westgard Rules** are statistical logic gates used to detect error types. For example, the **1-3s rule** (one point exceeding 3 Standard Deviations) detects **Random Error** (pipetting mistakes), while the **2-2s rule** (two points exceeding 2 SD) detects **Systematic Error** (reagent degradation or calibration drift)
+*   **Diagnostic Accuracy:** When implementing a test, the lab calculates **Sensitivity** (True Positive Rate) and **Specificity** (True Negative Rate). In molecular diagnostics, **Positive Predictive Value (PPV)** is also critical; it calculates the probability that a positive test actually indicates disease, which is highly dependent on the prevalence of the pathogen in the population
+*   **Sigma Metrics:** An advanced quality tool that combines Bias, Precision (%CV), and Total Allowable Error (TEa) into a single metric. A **Six Sigma** assay is considered "World Class," allowing the laboratory to reduce QC frequency and save money without risking patient safety
+
+## Assay, Method, & Instrument Selection & Design {-}
+
+Before testing begins, administration must select the appropriate platform based on clinical needs, regulatory complexity, and throughput requirements. This often involves choosing between FDA-cleared kits and designing in-house assays
+
+*   **IVD vs. LDT:** The lab must decide between **In Vitro Diagnostics (IVD)**, which are FDA-cleared and require less rigorous verification, and **Laboratory Developed Tests (LDT)**, which offer flexibility and lower reagent costs but require extensive validation and Medical Director oversight
+*   **Assay Design (In Silico):** For LDTs, the laboratory designs primers targeting **Conserved Regions** of the pathogen genome to prevent false negatives caused by mutations. Design parameters include matching Melting Temperatures ($T_m$) for forward/reverse primers and ensuring the target region does not cross-react with human DNA or normal flora (Specificity)
+*   **Instrument Platforms:** Selection involves evaluating **Open Systems** (flexible, high-throughput, but higher contamination risk) versus **Closed Systems** (sample-to-answer automation, lower contamination risk, but vendor-locked menus). High-throughput batch analyzers are selected for monitoring loads (e.g., HIV), while rapid cartridge systems are selected for urgent care (e.g., Meningitis)
+
+## Assay Evaluation, Validation, & Verification {-}
+
+Regulatory agencies (CMS/CLIA) mandate that a laboratory prove a test works *in their own facility* before reporting patient results. The scope of this study depends on the regulatory status of the method
+
+*   **Verification (Unmodified FDA-Cleared Tests):** A streamlined study to confirm the manufacturer’s performance claims. The lab must verify **Accuracy** (agreement with a reference method), **Precision** (reproducibility), **Reportable Range**, and **Reference Intervals**
+*   **Validation (LDTs and Modified IVDs):** A comprehensive study for tests not cleared by the FDA. In addition to the verification elements, the lab must establish **Analytical Sensitivity (Limit of Detection - LOD)**, **Analytical Specificity (Interference/Cross-reactivity)**, and **Sample Stability**. The Medical Director must sign the Validation Summary before the test goes live
+*   **Matrix Validation:** If a physician requests testing on a sample type not approved by the manufacturer (e.g., testing Bronchoalveolar Lavage fluid on a kit approved only for Nasopharyngeal Swabs), the lab must perform a full validation to prove the matrix does not inhibit the reaction
+
+## Quantitative Calculations {-}
+
+In Quantitative PCR (qPCR), determining the exact amount of pathogen (Viral Load) requires precise mathematical modeling using **Standard Curves**. These calculations translate raw fluorescence data into clinical units (copies/mL or IU/mL)
+
+*   **Standard Curve Mechanics:** A dilution series of known standards is run to generate a regression line ($y = mx + b$). The **Slope** of this line represents the **PCR Efficiency**. An ideal slope is **-3.32**, indicating the DNA doubles exactly every cycle (100% efficiency). Slopes significantly flatter or steeper indicate inhibition or pipetting errors
+*   **Linearity ($R^2$):** The Coefficient of Determination measures how well the data points fit the straight line. Clinical viral load assays typically require an $R^2 > 0.98$. Poor linearity indicates valid quantitation cannot be performed
+*   **Lower Limit of Quantification (LLoQ):** This is the lowest concentration where the assay maintains linearity and precision. If a patient sample falls below this limit but still shows amplification, it is calculated as "Detected, < LLoQ" rather than a numeric value, as the math model is no longer reliable at that depth

@@ -1,0 +1,61 @@
+# Test System Categories {-}
+
+In the United States, the reagents and test systems used in clinical molecular laboratories are regulated by the Food and Drug Administration (FDA) and the Centers for Medicare & Medicaid Services (CMS) under CLIA. The regulatory classification of a test determines the burden of validation placed upon the laboratory, the type of quality control required, and the specific disclaimers that must appear on the patient report. laboratory scientists must distinguish between the four primary categories: In Vitro Diagnostics (IVD), Analyte-Specific Reagents (ASR), Research Use Only (RUO), and Laboratory-Developed Tests (LDT)
+
+## In Vitro Diagnostic (IVD) {-}
+
+IVD products are commercially available, complete test systems that have been cleared or approved by the FDA. They are considered the highest tier of regulatory certainty because the manufacturer has already submitted rigorous data proving the test's safety and effectiveness. These are often referred to as "kits" because they typically contain all necessary components (Master Mix, Controls, Buffers) and a standardized protocol
+
+*   **Regulatory Status**
+    *   **FDA 510(k) Clearance:** The manufacturer has proven the test is "substantially equivalent" to an existing legally marketed device
+    *   **PMA (Pre-Market Approval):** The manufacturer has proven safety and efficacy for a high-risk Class III device (often required for novel tests with no predicate)
+*   **Laboratory Responsibility: Verification**
+    *   Because the FDA has already vetted the performance, the laboratory performs a **Verification:** study, not a full Validation. The lab must simply demonstrate that the test performs according to the manufacturer's specifications in their specific setting
+    *   **Strict Adherence:** To maintain IVD status, the laboratory must use the test **exactly** as described in the package insert. This includes using the specified extraction method, thermocycler, and reaction volumes
+*   **The "Modified" IVD**
+    *   If a laboratory modifies any part of an IVD protocol (e.g., using a different sample type, a different extraction kit, or reducing reagent volume to save money), the FDA clearance is voided. The test is immediately re-categorized as a Laboratory-Developed Test (LDT), requiring full method validation
+
+## Analyte-Specific Reagent (ASR) {-}
+
+Analyte-Specific Reagents are the "building blocks" of molecular assays. By legal definition, these are antibodies, specific receptor proteins, ligands, nucleic acid sequences (primers/probes), or similar reagents which, through specific binding or chemical reaction with a specific substance in a specimen, are intended for use in a diagnostic application. They are the active ingredients of a test but are not a complete test system
+
+*   **Regulatory Status**
+    *   ASRs are medical devices regulated by the FDA (21 CFR 864.4020). Manufacturers must register with the FDA and follow Good Manufacturing Practices (GMP)
+    *   **Restrictions:** Manufacturers may sell ASRs to clinical labs, but they are strictly prohibited from providing instructions for use, performance claims, or reference ranges. They can only label the bottle with the identity of the reagent (e.g., "CMV Primer Pair A") and the quantity
+*   **Laboratory Responsibility: Validation**
+    *   Since the ASR comes with no instructions or performance data, the laboratory must develop the protocol and perform a full **Method Validation:** to establish sensitivity, specificity, accuracy, and precision
+    *   The test is treated as a high-complexity Laboratory-Developed Test (LDT)
+*   **Reporting Requirements**
+    *   Federal regulations require a specific disclaimer on patient reports for tests using ASRs: *"This test was developed and its performance characteristics determined by [Laboratory Name]. It has not been cleared or approved by the U.S. Food and Drug Administration."*
+
+## Research Use Only (RUO) {-}
+
+RUO products are reagents or instruments that are in the laboratory research phase of development. They are not intended for use in clinical diagnostic procedures. Manufacturers label products as RUO to avoid the costly and time-consuming FDA clearance process required for IVDs or ASRs
+
+*   **Regulatory Status**
+    *   These products are exempt from most FDA diagnostic regulations because they are not intended for medical decision-making
+    *   **Labeling:** The packaging must bear the statement: *"For Research Use Only. Not for use in diagnostic procedures."*
+*   **Clinical Laboratory Usage**
+    *   **General Rule:** A clinical laboratory should not use RUO reagents for patient testing if an IVD or ASR alternative exists
+    *   **The Exception:** If a laboratory uses an RUO product in a clinical test (often necessary for rare diseases or emerging pathogens where no other reagents exist), they must strictly validate the test as an LDT
+    *   **Liability:** Using an RUO reagent places the highest burden of liability on the Laboratory Director. The lab must prove that the RUO component is of sufficient quality to generate reliable patient results, often requiring the lab to perform their own rigorous quality control on incoming lots
+
+## Laboratory-Developed Test (LDT) {-}
+
+An LDT (formerly known as a "Home-Brew" test) is an in vitro diagnostic test that is manufactured, designed, and used within a single laboratory. LDTs are essential for molecular diagnostics because they allow laboratories to rapidly respond to new outbreaks (like the early stages of the COVID-19 pandemic) or test for rare genetic disorders that commercial manufacturers find unprofitable to support
+
+*   **Composition**
+    *   LDTs are created by combining ASRs, RUOs, or general purpose reagents (like buffers and salts) into a functional assay
+    *   As noted previously, an LDT is also created when an FDA-cleared IVD is modified
+*   **Regulatory Oversight (CLIA vs. FDA)**
+    *   **CLIA (CMS):** Historically, LDTs have been regulated primarily under CLIA. The laboratory must hold a Certificate of Compliance or Accreditation for High Complexity testing. CLIA mandates that the lab perform a comprehensive **Method Validation** establishing Accuracy, Precision, Analytical Sensitivity (Limit of Detection), Analytical Specificity (Interference), Reportable Range, and Reference Intervals
+    *   **FDA:** The FDA considers LDTs to be medical devices. For decades, the FDA exercised "enforcement discretion" (choosing not to regulate most LDTs). However, recent regulatory shifts indicate the FDA is moving toward more active oversight of high-risk LDTs to ensure they meet the same safety standards as commercial IVDs
+*   **Usage Constraints**
+    *   An LDT generally cannot be sold or distributed to other laboratories. It must be used only for specimens tested within the facility that developed it
+
+## Summary of Laboratory Responsibilities {-}
+
+*   **IVD:** Verify performance specs; follow instructions blindly
+*   **ASR:** Create protocol; Validate performance; Mandatory disclaimer
+*   **RUO:** Validate performance; Use only when necessary; High liability
+*   **LDT:** The resulting category when ASRs, RUOs, or modified IVDs are used. Requires full Method Validation per CLIA standards

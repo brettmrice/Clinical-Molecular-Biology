@@ -1,0 +1,54 @@
+# (PART\*) Laboratory Operations {-}
+
+# Contamination {-}
+
+In the molecular laboratory, contamination is the introduction of unwanted nucleic acids into a reaction, leading to **false positive** results. Because amplification techniques (like PCR) are designed to detect trace amounts of DNA/RNA and multiply them billions of times, even a microscopic amount of contaminant can ruin a patient result. Contamination generally falls into three categories: **Amplicon/Carryover** (previous PCR products), **Biological** (cross-contamination between patient samples), and **Environmental** (genomic DNA from staff or surroundings)
+
+## Prevention {-}
+
+Prevention is the primary defense against contamination. It relies on a combination of strict physical barriers, unidirectional workflow, and enzymatic chemistry
+
+*   **Unidirectional Workflow (One-Way Traffic)**
+    *   The most critical physical control is the flow of personnel and specimens from "Clean" to "Dirty."
+    *   **Pre-PCR (Clean):** Reagent preparation. No DNA or patient samples allowed
+    *   **Sample Prep (Gray Zone):** Nucleic acid extraction
+    *   **Post-PCR (Dirty):** Amplification and analysis. This area contains billions of amplicons
+    *   **Rule:** Equipment (pipettes, racks) and PPE (lab coats) must be dedicated to their specific rooms. Nothing moves from Post-PCR back to Pre-PCR
+*   **Engineering & Consumable Controls**
+    *   **Aerosol Barrier Tips:** All pipetting requires filter tips to prevent liquid aerosols from contaminating the interior barrel of the pipette
+    *   **Aliquot Reagents:** Reagents should be separated into single-use aliquots. This ensures that if one tube is contaminated, the entire stock lot is not lost
+    *   **Positive Pressure:** Clean rooms should be kept under positive air pressure to push dust/spores out when doors open
+*   **Enzymatic Control: The dUTP-UNG System**
+    *   To prevent carryover of amplicons from previous runs, dTTP (Thymine) is replaced with dUTP (Uracil) in the PCR Master Mix
+    *   The enzyme **Uracil-N-Glycosylase (UNG/UDG):** is added to the mix
+    *   **Mechanism:** Before the PCR starts, the mix is heated (approx. 50°C). UNG degrades any DNA containing Uracil (contaminants from previous runs). The mixture is then heated to 95°C, killing the UNG, and the true patient sample (containing Thymine) is amplified
+
+## Monitoring & Detection {-}
+
+Since physical barriers are not infallible, the laboratory must actively monitor for breaches using Quality Control (QC) and surveillance
+
+*   **Experimental Controls**
+    *   **No Template Control (NTC) / Reagent Blank:** Contains water instead of DNA. If this amplifies, the reagents or the Pre-PCR area are contaminated
+    *   **Negative Extraction Control:** A negative sample (e.g., water or negative plasma) run through the entire extraction process. A positive result here indicates cross-contamination between samples during extraction
+*   **Data Analysis Trends**
+    *   **Late Ct Values:** In Real-Time PCR, contamination often presents as weak amplification with high Crossing Threshold (Ct) values (e.g., >35 cycles)
+    *   **Melt Curve Analysis:** Contamination (especially primer-dimers or off-target environmental bacteria) often produces a different melt temperature (Tm) peak than the specific target
+    *   **Positivity Rate:** A sudden, unexplained spike in positive results for a specific pathogen suggests a systemic contamination event (e.g., a contaminated reagent lot)
+*   **Environmental Wipe Tests**
+    *   Routine surveillance involves swabbing laboratory surfaces (bench tops, pipette handles, door knobs) and running PCR on the swabs
+    *   The "Clean" room must be completely free of amplifiable DNA. The presence of DNA in the clean room indicates a breakdown in the unidirectional workflow
+
+## Elimination {-}
+
+Once contamination is confirmed, patient testing must stop. The laboratory must implement a "Deep Clean" protocol to destroy the nucleic acids before resuming operations
+
+*   **Chemical Decontamination**
+    *   **10% Sodium Hypochlorite (Bleach):** The most effective agent for destroying DNA. It chemically breaks the sugar-phosphate backbone
+    *   **The Rinse Step:** Because bleach is corrosive to stainless steel and pipettes, it must be followed by a rinse with **70% Ethanol** or DI water to remove residue
+    *   *Note: Alcohol alone is a disinfectant, not a DNA decontaminant. It precipitates DNA but does not destroy it.*
+*   **Physical Decontamination**
+    *   **UV Irradiation:** UV light (254 nm) causes the formation of **thymine dimers** in DNA. These dimers create kinks in the strand that prevent DNA Polymerase from replicating the template
+*   **Remediation Protocol**
+    *   **Discard Reagents:** Any open reagents in the affected area must be thrown away
+    *   **Clean-to-Dirty:** Decontamination cleaning must start in the Clean room and move toward the Dirty room to prevent back-flow of contaminants
+    *   **Verification:** Before resuming patient testing, a "Dummy Run" consisting entirely of NTCs and negative controls must be performed to prove the laboratory is clean

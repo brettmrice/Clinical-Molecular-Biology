@@ -2,14 +2,14 @@
 
 Eukaryotic gene structure and processing, **Exons, Introns, and Splicing**, is a crucial concept because, in eukaryotes (like humans!), the coding information within a gene is often interrupted, like a sentence with irrelevant phrases inserted in the middle. Splicing is the editing process that removes the interruptions to create a coherent message
 
-## **The Structure: Exons and Introns** {-}
+## **The Structure: Exons & Introns** {-}
 
 Imagine a gene on a chromosome as a segment of DNA that holds the instructions for building a protein (or a functional RNA molecule). In eukaryotes, this segment isn't usually one continuous block of code. Instead, it's composed of two types of sequences:
 
 *   **Exons (Expressed Sequences):** These are the segments of the gene that contain the actual **coding information** – the sequences that will ultimately be translated into amino acids or become part of a functional RNA (like rRNA or tRNA). Think of these as the *essential words* in the instruction manual
 *   **Introns (Intervening Sequences):** These are **non-coding segments** that lie *between* the exons within the gene sequence. They interrupt the flow of coding information. Think of these as *interrupting, non-essential phrases or commentary* scattered within the instructions. Introns can vary greatly in number and size, sometimes being much longer than the exons they separate
 
-**Important Note** Prokaryotes (bacteria) generally **lack introns**. Their coding sequences are typically continuous
+**Important Note:** Prokaryotes (bacteria) generally **lack introns**. Their coding sequences are typically continuous
 
 ## **The Initial Product: Pre-mRNA** {-}
 
@@ -19,7 +19,7 @@ This pre-mRNA is not yet ready to be translated into a protein. It needs to be p
 
 ## **The Process: Splicing** {-}
 
-**Splicing** is the molecular editing process that **removes the introns** from the pre-mRNA and **joins the exons together** in the correct order. This creates a mature, continuous coding sequence in the messenger RNA (mRNA) molecule
+**Splicing:** is the molecular editing process that **removes the introns** from the pre-mRNA and **joins the exons together** in the correct order. This creates a mature, continuous coding sequence in the messenger RNA (mRNA) molecule
 
 ### **The Machinery: The Spliceosome** {-}
 
@@ -38,13 +38,13 @@ How does the spliceosome know exactly where to cut? There are short, conserved *
 
 ### **The Mechanism (Simplified)** {-}
 
-1.  **Recognition** snRNPs (like U1 and U2) bind to the 5' splice site and the branch point, respectively
-2.  **Assembly** Other snRNPs (U4/U6 and U5) join, bringing the splice sites and branch point close together, forming the active spliceosome
-3.  **First Cut** The RNA is cleaved at the **5' splice site**
-4.  **Lariat Formation** The freed 5' end of the intron loops around and forms a unique 2'-5' phosphodiester bond with the **branch point Adenine**, creating a **lariat** (lasso-shaped) structure
-5.  **Second Cut** The RNA is cleaved at the **3' splice site**, releasing the intron lariat
-6.  **Ligation** The two adjacent **exons are joined (ligated)** together by a standard 5'-3' phosphodiester bond
-7.  **Release** The mature mRNA (now containing only exons) is released, and the spliceosome disassembles. The intron lariat is degraded
+1.  **Recognition:** snRNPs (like U1 and U2) bind to the 5' splice site and the branch point, respectively
+2.  **Assembly:** Other snRNPs (U4/U6 and U5) join, bringing the splice sites and branch point close together, forming the active spliceosome
+3.  **First Cut:** The RNA is cleaved at the **5' splice site**
+4.  **Lariat Formation:** The freed 5' end of the intron loops around and forms a unique 2'-5' phosphodiester bond with the **branch point Adenine**, creating a **lariat** (lasso-shaped) structure
+5.  **Second Cut:** The RNA is cleaved at the **3' splice site**, releasing the intron lariat
+6.  **Ligation:** The two adjacent **exons are joined (ligated)** together by a standard 5'-3' phosphodiester bond
+7.  **Release:** The mature mRNA (now containing only exons) is released, and the spliceosome disassembles. The intron lariat is degraded
 
 ## **Alternative Splicing: Generating Diversity** {-}
 
@@ -54,7 +54,7 @@ One of the most significant consequences of the exon-intron structure is **alter
 *   Mutually exclusive exons might be chosen (either exon A or exon B is included, but not both)
 *   Alternative 5' or 3' splice sites might be used, making an exon shorter or longer
 
-**Why is this important?** Alternative splicing allows a single gene to produce multiple different mRNA transcripts, which in turn can be translated into different protein isoforms (variants). This vastly increases the coding potential of the genome, allowing complex organisms to produce a wide array of proteins from a relatively limited number of genes. Different protein isoforms can have different functions, localizations, or regulatory properties
+**Why is this important?:** Alternative splicing allows a single gene to produce multiple different mRNA transcripts, which in turn can be translated into different protein isoforms (variants). This vastly increases the coding potential of the genome, allowing complex organisms to produce a wide array of proteins from a relatively limited number of genes. Different protein isoforms can have different functions, localizations, or regulatory properties
 
 ## **Clinical Laboratory Relevance** {-}
 
@@ -63,8 +63,8 @@ Understanding exons, introns, and splicing is critical in the clinical molecular
 *   **Genetic Disease Diagnosis:** A significant proportion of disease-causing mutations affect splicing. These mutations can occur:
     *   Directly within the **splice site consensus sequences (GU/AG)**, destroying the signal
     *   Near splice sites, interfering with snRNP binding
-    *   Within exons or introns, creating **cryptic splice sites** (sequences that resemble real splice sites and are mistakenly used by the spliceosome)
-    *   In **splicing regulatory elements (enhancers/silencers)** within exons or introns
+    *   Within exons or introns, creating **cryptic splice sites:** (sequences that resemble real splice sites and are mistakenly used by the spliceosome)
+    *   In **splicing regulatory elements (enhancers/silencers):** within exons or introns
 *   **Consequences of Splicing Mutations:** These mutations can lead to:
     *   **Exon skipping:** An entire exon is left out of the mature mRNA
     *   **Intron retention:** An intron (or part of it) is included in the mature mRNA
@@ -73,19 +73,3 @@ Understanding exons, introns, and splicing is critical in the clinical molecular
 *   **Diagnostic Testing:** Molecular tests (like PCR amplification followed by sequencing) are used to identify mutations in splice sites or surrounding regions. RNA analysis (RT-PCR followed by sequencing or fragment analysis) can directly visualize the effects of a mutation on the splicing pattern (e.g., showing exon skipping)
 *   **Therapeutics:** Splicing modulation is an exciting area of drug development. **Antisense oligonucleotides (ASOs)** can be designed to bind to specific pre-mRNA sequences and alter splicing outcomes – for example, forcing the inclusion of a skipped exon (e.g., treatments for SMA like Spinraza and Duchenne muscular dystrophy like Exondys 51)
 *   **Cancer Biology:** Aberrant splicing patterns are increasingly recognized as hallmarks of cancer, contributing to tumor growth, metastasis, and drug resistance. Mutations in splicing factor genes themselves can also drive cancer
-
-## **Key Terms** {-}
-
-*   **Exon:** A segment of a gene's DNA or RNA molecule containing information coding for a protein or peptide sequence (or functional RNA); retained after splicing
-*   **Intron:** A non-coding segment of a gene's DNA or RNA molecule that lies between exons; removed by splicing
-*   **Splicing:** The process of removing introns from pre-mRNA and joining exons together
-*   **Pre-mRNA (Primary Transcript):** The initial RNA molecule transcribed from a eukaryotic gene, containing both exons and introns
-*   **Mature mRNA:** The fully processed mRNA molecule, containing only exons, ready for translation
-*   **Spliceosome:** A large RNA-protein complex that catalyzes the removal of introns from pre-mRNA
-*   **snRNP (Small Nuclear Ribonucleoprotein Particle):** Complexes of small nuclear RNAs (snRNAs) and proteins that are components of the spliceosome
-*   **5' Splice Site (Donor Site):** Consensus sequence (usually GU) marking the beginning of an intron
-*   **3' Splice Site (Acceptor Site):** Consensus sequence (usually AG) marking the end of an intron
-*   **Branch Point:** An Adenine residue within the intron crucial for lariat formation
-*   **Lariat:** The looped structure formed by the intron during splicing after cleavage at the 5' splice site and bonding to the branch point
-*   **Alternative Splicing:** A regulated process where different combinations of exons from the same gene are joined, producing multiple mRNA and protein isoforms from a single gene
-*   **Cryptic Splice Site:** A sequence within an exon or intron that resembles a consensus splice site and may be inappropriately used if the normal site is mutated

@@ -20,7 +20,7 @@ While PCR is dominant, other **non-PCR nucleic acid amplification and detection 
 ## **Ligase Chain Reaction (LCR)** {-}
 *   **Core Principle:** Target amplification method using a **DNA ligase** enzyme and **thermal cycling** to join adjacent oligonucleotide probes hybridized to the target sequence
 *   **Mechanism**
-    1.  Requires **four** probes: Two designed to bind adjacently on one strand of the target DNA, and two designed to bind adjacently on the complementary strand
+    1.  Requires **four:** probes: Two designed to bind adjacently on one strand of the target DNA, and two designed to bind adjacently on the complementary strand
     2.  **Denaturation:** Heat to separate target DNA strands
     3.  **Annealing:** Cool to allow the pairs of probes to bind to their respective target strands immediately next to each other
     4.  **Ligation:** DNA ligase joins the two adjacent probes *only if they are perfectly complementary* to the template at the ligation junction
@@ -33,7 +33,7 @@ While PCR is dominant, other **non-PCR nucleic acid amplification and detection 
 ## **Cleavase-Based Assays (e.g., Invader® Assay)** {-}
 *   **Core Principle:** Signal amplification method using a structure-specific **flap endonuclease (FEN)**, often called Cleavase®, which recognizes and cleaves specific overlapping DNA structures. Typically isothermal
 *   **Mechanism (Invader Assay Example)**
-    1.  Two probes hybridize to the target DNA in an overlapping manner: an **Invader® oligonucleotide** and a **signal probe** (which contains a sequence complementary to the target and a 5' "flap")
+    1.  Two probes hybridize to the target DNA in an overlapping manner: an **Invader® oligonucleotide:** and a **signal probe** (which contains a sequence complementary to the target and a 5' "flap")
     2.  The Cleavase enzyme recognizes this specific overlapping structure and cleaves the signal probe, releasing the flap sequence
     3.  This released flap then serves as the "Invader" for a secondary reaction involving a **FRET (Förster Resonance Energy Transfer) cassette**. The FRET cassette is a hairpin structure with a fluorophore and quencher in close proximity
     4.  The flap binds to the FRET cassette, creating another overlapping structure recognized by Cleavase
@@ -49,7 +49,7 @@ While PCR is dominant, other **non-PCR nucleic acid amplification and detection 
     1.  Capture target nucleic acid (DNA or RNA) onto a solid phase (e.g., microplate well) using capture probes
     2.  Hybridize "target probes" (extender probes) to the captured nucleic acid. These probes have sequences complementary to the target and sequences complementary to "pre-amplifier" molecules
     3.  Hybridize pre-amplifier molecules to the target probes
-    4.  Hybridize **amplifier molecules** (the branched DNA molecules) to the pre-amplifiers. Each amplifier molecule has multiple binding sites for labeled probes
+    4.  Hybridize **amplifier molecules:** (the branched DNA molecules) to the pre-amplifiers. Each amplifier molecule has multiple binding sites for labeled probes
     5.  Hybridize enzyme-labeled probes (e.g., AP-labeled oligonucleotides) to the amplifier branches
     6.  Wash away unbound material
     7.  Add a chemiluminescent substrate and detect the light signal
@@ -84,7 +84,7 @@ While PCR is dominant, other **non-PCR nucleic acid amplification and detection 
     1.  Requires four primers: two "bumper" primers and two "amplification" primers. One amplification primer contains a recognition site for a specific restriction enzyme (e.g., BsoBI)
     2.  Primers anneal to the denatured target DNA
     3.  DNA polymerase extends the primers. The amplification primer extension incorporates the restriction site
-    4.  The restriction enzyme **nicks** only one strand at its recognition site within the newly synthesized duplex
+    4.  The restriction enzyme **nicks:** only one strand at its recognition site within the newly synthesized duplex
     5.  The DNA polymerase initiates synthesis at the nick, displacing the downstream strand
     6.  This displaced single strand then serves as a template for the binding and extension of the opposite set of primers
     7.  This creates more nicking sites and displaced strands, leading to exponential amplification
@@ -100,18 +100,3 @@ While PCR is dominant, other **non-PCR nucleic acid amplification and detection 
 *   **Key Features:** Isothermal (typically ~60-65°C). **Very rapid** (15-60 minutes). **Highly specific** due to the multiple primers recognizing distinct regions. **High yield** of DNA product. Robust reaction, less sensitive to inhibitors found in clinical samples compared to PCR. Results can sometimes be visualized directly by turbidity (magnesium pyrophosphate precipitate) or with simple fluorescent dyes, making it suitable for point-of-care or low-resource settings
 *   **Limitations:** Primer design is significantly more complex than PCR. Quantification can be challenging, though real-time fluorescence monitoring is possible. High efficiency can sometimes lead to carryover contamination issues if not handled carefully
 *   **Clinical Applications:** Rapid detection of various infectious agents (viruses like SARS-CoV-2, bacteria like TB, parasites like Malaria). Growing use in point-of-care diagnostics, food safety, and environmental testing
-
-## **Key Terms** {-}
-
-*   **Isothermal Amplification:** Nucleic acid amplification that occurs at a single, constant temperature, eliminating the need for thermal cycling
-*   **Signal Amplification:** Methods that increase the detectable signal generated from each target molecule, rather than increasing the number of target molecules themselves (e.g., bDNA, HC, Cleavase)
-*   **Target Amplification:** Methods that increase the number of copies of the target nucleic acid sequence (e.g., LCR, NASBA, TMA, SDA, LAMP, PCR)
-*   **Hybrid Capture (HC):** Detection method using RNA probes to capture DNA targets, followed by antibody-based detection of the RNA:DNA hybrids
-*   **Ligase Chain Reaction (LCR):** Target amplification using DNA ligase and thermal cycling to join adjacent probes
-*   **Cleavase / Flap Endonuclease (FEN):** Enzyme that recognizes and cuts specific DNA structures, used in assays like Invader for signal amplification
-*   **Branched DNA (bDNA):** Signal amplification method using branched DNA structures to bind many labeled probes to a captured target
-*   **NASBA (Nucleic Acid Sequence-Based Amplification):** Isothermal RNA amplification using RT, RNase H, and T7 RNA Polymerase
-*   **TMA (Transcription-Mediated Amplification):** Isothermal RNA/DNA amplification using RT and T7 RNA Polymerase, widely used clinically
-*   **HPA (Hybridization Protection Assay):** Detection method often paired with TMA, using chemiluminescent probes protected from inactivation when bound to target
-*   **SDA (Strand Displacement Amplification):** Isothermal target amplification using a restriction enzyme and a strand-displacing polymerase
-*   **LAMP (Loop-Mediated Isothermal Amplification):** Rapid isothermal target amplification using multiple primers (inner, outer, sometimes loop) and a strand-displacing polymerase, forming loop structures

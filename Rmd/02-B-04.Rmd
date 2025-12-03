@@ -1,8 +1,8 @@
 # Nucleic Acid Purification {-}
 
-**Nucleic Acid Purification** is arguably one of the *most critical* upstream steps in any molecular diagnostic workflow. If you don't get good quality DNA or RNA out of your sample, everything downstream – PCR, sequencing, you name it – is going to be unreliable or might fail completely. Think of it as prepping your ingredients perfectly before starting a complex recipe. Garbage in, garbage out!
+**Nucleic Acid Purification:** is arguably one of the *most critical* upstream steps in any molecular diagnostic workflow. If you don't get good quality DNA or RNA out of your sample, everything downstream – PCR, sequencing, you name it – is going to be unreliable or might fail completely. Think of it as prepping your ingredients perfectly before starting a complex recipe. Garbage in, garbage out!
 
-**The Goal** To isolate DNA and/or RNA from a biological sample (blood, tissue, saliva, microbes, etc.) while removing contaminants that could interfere with analysis
+**The Goal:** To isolate DNA and/or RNA from a biological sample (blood, tissue, saliva, microbes, etc.) while removing contaminants that could interfere with analysis
 
 **The Enemies (What we need to remove)**
 
@@ -17,20 +17,20 @@
 
 Regardless of the specific method (manual or automated), most nucleic acid purification strategies involve these fundamental stages:
 
-1.  **Lysis** Breaking open the cells or viral particles to release the nucleic acids. This is achieved through:
+1.  **Lysis:** Breaking open the cells or viral particles to release the nucleic acids. This is achieved through:
     *   **Chemical Methods:** Detergents (like SDS) disrupt lipid membranes, chaotropic salts (like guanidine thiocyanate/hydrochloride) denature proteins and inhibit nucleases, and sometimes alkaline solutions are used
     *   **Enzymatic Methods:** Enzymes like Proteinase K chew up proteins (including nucleases), lysozyme breaks down bacterial cell walls, etc
     *   **Mechanical Methods:** Physical disruption like bead beating, grinding (for tissues), vortexing. Often used in combination with chemical/enzymatic methods
     *   ***Crucial:* Lysis buffers are designed not just to open cells but also to immediately inactivate the cell's own nucleases to protect the target DNA/RNA.**
 
-2.  **Separation/Purification** Selectively separating the nucleic acids from the cellular junk released during lysis. This is where the different methods really diverge:
+2.  **Separation/Purification:** Selectively separating the nucleic acids from the cellular junk released during lysis. This is where the different methods really diverge:
     *   **Based on Solubility (Organic Extraction):** Using solvents like Phenol:Chloroform to selectively dissolve lipids and denatured proteins, leaving nucleic acids in the aqueous phase
     *   **Based on Selective Binding (Solid-Phase Extraction - SPE):** Getting nucleic acids to stick to a solid support (like silica) under specific chemical conditions, washing away contaminants, and then releasing (eluting) the pure nucleic acids. This is the most common principle in modern kits and automation
     *   **Based on Precipitation:** Selectively precipitating proteins (Salting Out) or nucleic acids (Alcohol Precipitation)
 
-3.  **Washing** Removing residual contaminants while the nucleic acids are immobilized (on a solid phase) or precipitated. This usually involves alcohol-based buffers that keep nucleic acids insoluble but wash away salts and other hydrophilic impurities
+3.  **Washing:** Removing residual contaminants while the nucleic acids are immobilized (on a solid phase) or precipitated. This usually involves alcohol-based buffers that keep nucleic acids insoluble but wash away salts and other hydrophilic impurities
 
-4.  **Elution/Resuspension** Releasing the purified nucleic acids from the solid phase (SPE) or redissolving the nucleic acid pellet (after precipitation) into a clean, stable aqueous buffer (like Tris-EDTA (TE) buffer or nuclease-free water), ready for storage or downstream use
+4.  **Elution/Resuspension:** Releasing the purified nucleic acids from the solid phase (SPE) or redissolving the nucleic acid pellet (after precipitation) into a clean, stable aqueous buffer (like Tris-EDTA (TE) buffer or nuclease-free water), ready for storage or downstream use
 
 ## **Major Purification Methodologies** {-}
 
@@ -93,22 +93,3 @@ After purification, you MUST assess the quality and quantity
 *   **Low Purity (Poor Ratios):** Incomplete removal of proteins (inefficient Proteinase K digestion), carryover of salts/ethanol/phenol (insufficient washing)
 *   **Degradation:** Nuclease activity (improper handling, contamination), excessive physical shearing (vortexing high MW DNA too hard)
 *   **Downstream Inhibition:** Carryover of inhibitors from the original sample matrix (heme, heparin, etc.) or from purification reagents (guanidine salts, ethanol, phenol, SDS). *This is often indicated by poor A260/230 ratios or failure in PCR/enzymatic reactions*
-
-## **Key Terms** {-}
-
-*   **Lysis:** The process of breaking open cells or viruses to release their contents, including nucleic acids
-*   **Nuclease:** An enzyme that degrades nucleic acids (DNase for DNA, RNase for RNA). Must be inactivated or removed during purification
-*   **Chaotropic Agent/Salt:** A substance (e.g., guanidine thiocyanate, guanidine hydrochloride) that disrupts hydrogen bonding networks in water, denatures proteins (including nucleases), and facilitates nucleic acid binding to silica surfaces
-*   **Solid-Phase Extraction (SPE):** A purification method where the target molecule (nucleic acid) in a liquid phase selectively binds to a solid support material (e.g., silica). Contaminants are washed away, and the purified target is then eluted
-*   **Silica (Silicon Dioxide, SiO₂):** A material commonly used as the solid phase in SPE for nucleic acid purification due to its ability to reversibly bind DNA/RNA under specific high-salt, alcoholic conditions
-*   **Spin Column:** A small centrifuge tube containing a silica membrane, used for manual SPE purification. Binding occurs as lysate passes through the membrane; elution collects the purified nucleic acid
-*   **Magnetic Beads:** Microscopic paramagnetic particles, often coated with silica, used as the solid phase in SPE, particularly suited for automated purification systems
-*   **Elution:** The process of releasing the bound nucleic acid from the solid phase (e.g., silica) using a low-salt buffer, resulting in a solution of purified nucleic acid
-*   **Yield:** The total amount of purified nucleic acid recovered, typically measured in micrograms (µg) or nanograms (ng). Often expressed as concentration (e.g., ng/µL)
-*   **Purity (Nucleic Acid):** The absence of contaminating substances like proteins, salts, organic solvents, or inhibitors. Assessed using spectrophotometric ratios (A260/280 and A260/230)
-*   **A260/A280 Ratio:** An indicator of protein contamination in a nucleic acid sample. Pure DNA is ~1.8; pure RNA is ~2.0. Lower ratios indicate protein presence
-*   **A260/A230 Ratio:** An indicator of chemical contamination (e.g., chaotropic salts, phenol, ethanol, carbohydrates). Ideally >1.8-2.0. Lower ratios suggest carryover of substances that can inhibit downstream enzymatic reactions
-*   **Integrity (Nucleic Acid):** The physical intactness of the nucleic acid molecules (i.e., absence of fragmentation or degradation). Assessed by gel electrophoresis or automated capillary systems (RIN/DIN scores)
-*   **Inhibitor:** A substance present in the purified nucleic acid sample that interferes with downstream enzymatic reactions like PCR (e.g., heme, heparin, guanidine salts, ethanol)
-*   **Degradation:** The breakdown of nucleic acid molecules into smaller fragments, typically due to nuclease activity or harsh physical/chemical treatment
-*   **RNase-Free:** Reagents, consumables, and techniques treated or handled specifically to eliminate Ribonuclease (RNase) contamination, essential for working with RNA

@@ -1,0 +1,65 @@
+# Quality Assurance {-}
+
+Quality Assurance (QA) in the molecular biology laboratory is a comprehensive management system designed to guarantee the integrity of the testing process. Unlike Quality Control (QC), which focuses on a specific run, QA encompasses the entire workflow, from the moment a specimen is collected to the moment the result reaches the clinician. The following overview details the critical control points required to maintain accreditation and ensure patient safety
+
+## Specimen Processing, Preparation, Transport, & Storage {-}
+
+The pre-analytical phase is the source of the majority of laboratory errors. Molecular assays are uniquely sensitive to enzymatic inhibition and nucleic acid degradation, requiring strict adherence to acceptance criteria
+
+*   **Collection & Transport:** The choice of anticoagulant is paramount. **EDTA (Lavender)** is preferred as it prevents DNA degradation by chelating magnesium. **Heparin (Green)** is strictly prohibited as it inhibits *Taq* polymerase. RNA specimens require immediate processing or freezing (-70°C) to prevent degradation by RNases released from lysing white blood cells
+*   **Nucleic Acid Evaluation:** Before amplification, the extracted material must be assessed
+    *   **Quantity (Yield):** Measured via UV Spectrophotometry (A260) for high concentrations or Fluorometry (e.g., Qubit) for high sensitivity
+    *   **Quality (Purity & Integrity):** Purity is assessed via absorbance ratios (A260/A280 ~1.8 for DNA, ~2.0 for RNA). Integrity is visualized via gel electrophoresis or microfluidic RIN scores to ensure the genetic material is not sheared or degraded
+
+## Reagent Selection, Preparation, & Documentation {-}
+
+Reagents are the chemical foundation of the assay. Because molecular reagents include biological enzymes and unstable probes, they require rigorous inventory management
+
+*   **Selection & Storage:** Reagents must be "Molecular Grade" (Nuclease-Free). To prevent degradation from repeated freeze-thaw cycles, bulk reagents must be **aliquotted** into single-use volumes immediately upon receipt. Enzymes are stored at -20°C, while photosensitive probes must be protected from light
+*   **Preparation & Calculations:** Master Mix preparation requires the use of the **$N+1$ Rule** (calculating for the number of samples plus controls plus an overage) to account for pipetting dead volume. Dilutions follow the $C_1V_1 = C_2V_2$ formula
+*   **Documentation:** Complete traceability is required. All reagent logs must track Lot Numbers, Expiration Dates, and Date Opened. Reagents prepared in-house must be labeled with the preparer's initials and the new expiration date
+
+## Assay Performance & Validation {-}
+
+Before a test can be used for patient care, the laboratory must prove that it works as intended. The regulatory pathway depends on the test type
+
+*   **Verification (FDA-Cleared):** Verifying that the lab can reproduce the manufacturer's claims regarding Accuracy, Precision, and Reportable Range
+*   **Validation (LDTs):** A more extensive study required for Laboratory Developed Tests. This establishes the performance specifications from scratch, including:
+    *   **Analytical Sensitivity (LoD):** The lowest concentration detected 95% of the time
+    *   **Analytical Specificity:** Freedom from cross-reactivity with related pathogens
+    *   **Linearity (AMR):** The range over which the assay is accurate without dilution
+
+## Assay Troubleshooting {-}
+
+When an assay fails, a systematic approach is used to identify the root cause, distinguishing between reaction failure and contamination
+
+*   **False Negatives:** If the Patient and the Internal Control both fail, **Inhibition** is the likely cause (matrix effect). If the Positive Control also fails, **Reagent Failure** or **Thermal Cycler Failure** is indicated
+*   **False Positives:** If the No Template Control (NTC) amplifies, **Contamination** (carryover) has occurred. The run is invalid, and a deep cleaning/reagent replacement is required
+*   **Troubleshooting Logic:** The corrective action path is determined by the specific combination of Control failures (NTC, Positive Control, Internal Control)
+
+## Result Calculation, Interpretation, & Reporting {-}
+
+The translation of raw data (fluorescence/Ct values) into a clinical report requires statistical analysis and standardized nomenclature
+
+*   **Calculation:** Quantitative results are derived from a **Standard Curve** (Ct vs. Log Concentration). The reaction efficiency (slope) and correlation coefficient ($R^2$) of the curve must meet QA limits for the results to be valid
+*   **Interpretation:** Results are interpreted in the context of the Internal Control. A negative result is only valid if the Internal Control amplifies. "Gray zone" results (late Ct values) require scrutiny of the amplification curve shape to rule out artifact
+*   **Reporting:** Reports must use standardized units (IU/mL or Copies/mL) and unambiguous language ("Detected" vs. "Not Detected"). Required elements include the methodology used, the Limit of Detection, and specific regulatory disclaimers for LDTs
+
+## Quality Control (QC) & Proficiency Testing (PT) {-}
+
+This area covers the daily and periodic monitoring of laboratory accuracy
+
+*   **Internal QC (Daily):** Must be included in *every* run
+    *   **NTC:** Monitors contamination
+    *   **Positive Control:** Monitors reagent and instrument function
+    *   **Internal Control:** Monitors extraction and inhibition in the individual patient tube
+*   **Proficiency Testing (Periodic):** An external check where "blind" samples are sent by an agency (e.g., CAP). These must be tested exactly like patient samples ("Treat as Patient") to verify accuracy against a peer group. Failure to pass PT can result in the suspension of testing privileges
+
+## Equipment & Instrumentation {-}
+
+Reliable data requires reliable hardware. Equipment QA involves a lifecycle of Validation, Calibration, and Maintenance
+
+*   **Thermal Cyclers:** Must undergo temperature verification (accuracy and uniformity) and optical calibration (dye spectra) to ensure precise cycling and detection
+*   **Pipettes:** The primary source of volumetric accuracy. They are calibrated semi-annually (Gravimetric analysis) to ensure precision. Maintenance involves checking O-rings to prevent leaking
+*   **Safety Equipment:** Biological Safety Cabinets (Hoods) must be certified annually to ensure airflow protects the user and the sample. UV lights used for decontamination must be checked for intensity
+*   **Validation:** All new equipment must undergo Installation Qualification (IQ), Operational Qualification (OQ), and Performance Qualification (PQ) before routine use

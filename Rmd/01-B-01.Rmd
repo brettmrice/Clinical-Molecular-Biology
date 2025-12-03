@@ -1,6 +1,6 @@
 # Replication {-}
 
-**DNA Replication** is one of the most fundamental processes in molecular biology. Think of it as the cell's high-fidelity photocopier. Before a cell can divide (whether it's for growth, repair, or reproduction), it absolutely *must* make an identical copy of its entire DNA genome to pass on to the daughter cells. No accurate copy, no viable daughter cell!
+**DNA Replication:** is one of the most fundamental processes in molecular biology. Think of it as the cell's high-fidelity photocopier. Before a cell can divide (whether it's for growth, repair, or reproduction), it absolutely *must* make an identical copy of its entire DNA genome to pass on to the daughter cells. No accurate copy, no viable daughter cell!
 
 This process is elegant, complex, and incredibly accurate. Let's break down the key principles and players involved
 
@@ -9,12 +9,12 @@ This process is elegant, complex, and incredibly accurate. Let's break down the 
 This is the foundational concept, proven by Meselson and Stahl. When DNA replicates:
 
 1.  The original double helix **unwinds**, and the two parental strands **separate**
-2.  Each separated parental strand serves as a **template** for the synthesis of a **new, complementary strand**
-3.  The result is **two identical DNA double helices**, each consisting of **one original (parental) strand** and **one newly synthesized (daughter) strand**
+2.  Each separated parental strand serves as a **template:** for the synthesis of a **new, complementary strand**
+3.  The result is **two identical DNA double helices**, each consisting of **one original (parental) strand:** and **one newly synthesized (daughter) strand**
 
 *(Think "semi"-conservative because each new molecule conserves *half* of the original molecule)*
 
-## **The Key Players: Enzymes and Proteins (The Replication Machinery)** {-}
+## **The Key Players: Enzymes & Proteins (The Replication Machinery)** {-}
 
 Replication isn't magic; it requires a coordinated team of specialized enzymes and proteins:
 
@@ -24,10 +24,10 @@ Replication isn't magic; it requires a coordinated team of specialized enzymes a
 *  **Topoisomerases (e.g., DNA Gyrase in bacteria):** The "stress relievers." As helicase unwinds DNA, it causes overwinding (positive supercoiling) ahead of the fork. Topoisomerases cut the DNA backbone, allow it to untwist, and then reseal the break, relieving torsional strain
 *  **Primase:** The "primer layer." DNA Polymerase (the main builder) can't start a new strand from scratch; it needs a starting point with a free 3'-OH group. Primase is actually an RNA polymerase that synthesizes short **RNA primers** (about 5-10 nucleotides long) complementary to the template strand. This provides the necessary 3'-OH for DNA polymerase to attach to
 *  **DNA Polymerase:** The "master builder." This is the star enzyme that synthesizes the new DNA strands. Key features:
-    *   Reads the template strand in the **3' to 5'** direction
-    *   Synthesizes the new strand in the **5' to 3'** direction by adding complementary deoxyribonucleotides (dATP, dGTP, dCTP, dTTP) to the 3'-OH end of the growing chain
-    *   Requires a **template** strand and a **primer** (RNA or DNA) with a free 3'-OH
-    *   Many DNA polymerases (like Pol III in *E. coli*, Pol delta and epsilon in eukaryotes are the main replicative ones) also have **proofreading** ability (3' to 5' exonuclease activity) – they can "backspace" and remove an incorrect nucleotide immediately after adding it, ensuring high fidelity
+    *   Reads the template strand in the **3' to 5':** direction
+    *   Synthesizes the new strand in the **5' to 3':** direction by adding complementary deoxyribonucleotides (dATP, dGTP, dCTP, dTTP) to the 3'-OH end of the growing chain
+    *   Requires a **template:** strand and a **primer** (RNA or DNA) with a free 3'-OH
+    *   Many DNA polymerases (like Pol III in *E. coli*, Pol delta and epsilon in eukaryotes are the main replicative ones) also have **proofreading:** ability (3' to 5' exonuclease activity) – they can "backspace" and remove an incorrect nucleotide immediately after adding it, ensuring high fidelity
 *  **DNA Polymerase I (in *E. coli*; other enzymes like RNase H and FEN1 in eukaryotes):** The "primer remover and gap filler." This enzyme removes the RNA primers laid down by primase and replaces them with DNA nucleotides
 *  **DNA Ligase:** The "glue." After the RNA primers are replaced, there are still small nicks (breaks in the sugar-phosphate backbone) between the newly synthesized DNA fragments (especially on the lagging strand). DNA ligase seals these nicks by forming the final phosphodiester bond, creating a continuous strand
 
@@ -77,25 +77,3 @@ Understanding replication is absolutely essential in the molecular lab:
     *   Nucleoside analogs (like Acyclovir for herpes, AZT for HIV, Gemcitabine for cancer) get incorporated by polymerases and terminate chain elongation
 *   **Understanding Genetic Diseases:** Defects in replication or repair enzymes (like those involved in MMR) can lead to increased mutation rates and predisposition to cancers (e.g., Lynch syndrome)
 *   **Molecular Diagnostics Assay Design:** Knowledge of replication enzymology informs the design of probes, primers, and amplification strategies
-
-## **Key Terms** {-}
-
-*   **Replication:** The process of duplicating a DNA molecule
-*   **Semiconservative Replication:** Each new DNA helix contains one parental strand and one newly synthesized strand
-*   **Origin of Replication (ori):** Specific DNA sequence where replication begins
-*   **Replication Fork:** The Y-shaped region where the DNA double helix is unwound and replication is occurring
-*   **Helicase:** Enzyme that unwinds the DNA double helix
-*   **Single-Strand Binding Protein (SSB):** Protein that stabilizes separated DNA strands
-*   **Topoisomerase:** Enzyme that relieves torsional stress during DNA unwinding
-*   **Primase:** Enzyme that synthesizes short RNA primers
-*   **RNA Primer:** A short RNA sequence required to initiate DNA synthesis by DNA polymerase
-*   **DNA Polymerase:** Enzyme that synthesizes new DNA strands using a template. Key activity: 5'→3' polymerase
-*   **Template Strand:** The DNA strand used as a guide for synthesizing a complementary strand
-*   **Leading Strand:** The new DNA strand synthesized continuously towards the replication fork
-*   **Lagging Strand:** The new DNA strand synthesized discontinuously in short fragments away from the replication fork
-*   **Okazaki Fragment:** Short DNA fragment synthesized on the lagging strand
-*   **DNA Ligase:** Enzyme that joins DNA fragments by forming phosphodiester bonds
-*   **Proofreading (3'→5' Exonuclease Activity):** Error-correcting activity of DNA polymerase that removes mismatched nucleotides
-*   **Fidelity:** The accuracy of DNA replication
-*   **Telomere:** Protective cap at the end of a linear eukaryotic chromosome
-*   **Telomerase:** Enzyme that maintains telomere length

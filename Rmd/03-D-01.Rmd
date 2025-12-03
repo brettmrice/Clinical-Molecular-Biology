@@ -2,15 +2,15 @@
 
 Let's talk about the body's ultimate security system, the gatekeeper of "self" versus "other." This is the world of **histocompatibility**, and it's governed by a fascinating and wildly complex set of genes
 
-At its core, histocompatibility is the study of tissue compatibility—how can we put tissues or cells from one person into another without the recipient's immune system launching an all-out attack? The answer lies in a special set of proteins found on the surface of our cells called the **Human Leukocyte Antigens (HLA)**
+At its core, histocompatibility is the study of tissue compatibility - how can we put tissues or cells from one person into another without the recipient's immune system launching an all-out attack? The answer lies in a special set of proteins found on the surface of our cells called the **Human Leukocyte Antigens (HLA)**
 
-You can think of HLA proteins as your body's cellular ID card. Every one of your nucleated cells presents this ID card on its surface. Your immune system's security guards—the T-cells—are constantly patrolling and checking these IDs. If they see an ID card that matches the ones they were trained on (your own "self" IDs), they move along. But if they see a foreign ID card—from a donated organ, a bone marrow transplant, or even a virally infected cell presenting a strange peptide—the alarms go off, triggering a massive immune response
+You can think of HLA proteins as your body's cellular ID card. Every one of your nucleated cells presents this ID card on its surface. Your immune system's security guards - the T-cells - are constantly patrolling and checking these IDs. If they see an ID card that matches the ones they were trained on (your own "self" IDs), they move along. But if they see a foreign ID card - from a donated organ, a bone marrow transplant, or even a virally infected cell presenting a strange peptide - the alarms go off, triggering a massive immune response
 
 Our job in the molecular histocompatibility lab is to be expert ID checkers. We read the DNA blueprint that codes for these HLA ID cards to determine a person's specific "HLA type." This information is absolutely critical for several life-saving applications
 
 ## **The HLA Genes: A Barcode of Uniqueness** {-}
 
-The HLA genes are located in a dense cluster on chromosome 6 known as the **Major Histocompatibility Complex (MHC)**. What makes them so special is that they are the most **polymorphic** genes in the human genome. This means there isn't just one version of the *HLA-A* gene; there are thousands of different versions, or **alleles**, in the human population. This incredible diversity is great for us as a species—it ensures that some people will always be able to fight off any new pathogen—but it makes finding a matching donor for a transplant incredibly challenging
+The HLA genes are located in a dense cluster on chromosome 6 known as the **Major Histocompatibility Complex (MHC)**. What makes them so special is that they are the most **polymorphic** genes in the human genome. This means there isn't just one version of the *HLA-A* gene; there are thousands of different versions, or **alleles**, in the human population. This incredible diversity is great for us as a species - it ensures that some people will always be able to fight off any new pathogen - but it makes finding a matching donor for a transplant incredibly challenging
 
 The HLA genes are divided into two main classes:
 
@@ -40,13 +40,3 @@ This is a critical safety application. For some people, a specific drug can bind
 
 *   ***HLA-B\*57:01*:** A person with this allele has a >50% chance of a severe hypersensitivity reaction to the HIV drug **abacavir**. The FDA requires testing for this allele before prescribing the drug
 *   ***HLA-B\*15:02*:** Strongly associated with a life-threatening skin reaction (Stevens-Johnson Syndrome) when taking the anti-seizure drug **carbamazepine**, particularly in Southeast Asian populations
-
-## **Key Terms** {-}
-
-*   **HLA (Human Leukocyte Antigen):** The proteins on the surface of cells that act as markers of "self" and are responsible for regulating the immune response
-*   **MHC (Major Histocompatibility Complex):** The region on chromosome 6 that contains the highly variable cluster of HLA genes
-*   **Polymorphism:** The state of having many different forms or versions (alleles) of a particular gene within a population. This is the hallmark of the HLA system
-*   **Haplotype:** A set of HLA alleles that are located close together on a single chromosome and are therefore inherited together as a block from a parent
-*   **HLA Typing:** The laboratory process of identifying which specific HLA alleles an individual possesses
-*   **Graft-versus-Host Disease (GVHD):** A serious complication of allogeneic stem cell transplantation in which the donor's immune cells (the graft) attack the recipient's tissues (the host)
-*   **High-Resolution Typing:** A detailed level of HLA typing (e.g., specifying *HLA-A\*02:01*) that distinguishes between alleles that differ by even a single nucleotide, which is essential for HSC transplantation

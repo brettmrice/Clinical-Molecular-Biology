@@ -26,22 +26,22 @@ You need the following components for the sequencing reaction itself:
 
 While the classic method involved 4 separate reactions and radioactive labels, modern clinical labs exclusively use **Dye-Terminator Cycle Sequencing** coupled with **Capillary Electrophoresis (CE)**
 
-1.  **Cycle Sequencing Reaction Setup** All the ingredients (template, *one* primer, polymerase, dNTPs, and all four differently colored fluorescently labeled ddNTPs) are combined in a **single tube**
-2.  **Thermal Cycling (Cycle Sequencing)** The reaction undergoes cycles similar to PCR, but crucially uses only *one* primer, leading to *linear* amplification of fragments starting from that primer
+1.  **Cycle Sequencing Reaction Setup:** All the ingredients (template, *one* primer, polymerase, dNTPs, and all four differently colored fluorescently labeled ddNTPs) are combined in a **single tube**
+2.  **Thermal Cycling (Cycle Sequencing):** The reaction undergoes cycles similar to PCR, but crucially uses only *one* primer, leading to *linear* amplification of fragments starting from that primer
     *   **Denaturation (~96°C):** Separates the template DNA strands
     *   **Annealing (~50-60°C):** The sequencing primer binds to its complementary site on the template
     *   **Extension/Termination (~60°C):** DNA polymerase extends from the primer, incorporating dNTPs. Occasionally, it incorporates a fluorescently labeled ddNTP instead, terminating synthesis
     *   **Result of Cycling:** Over many cycles, this generates millions to billions of DNA fragments. All fragments start at the same primer site, but they end at different lengths, corresponding to every possible position where a specific ddNTP was incorporated. Each fragment carries a fluorescent label indicating which base (A, T, C, or G) terminated its synthesis
-3.  **Purification** After cycling, the reaction mix contains the labeled fragments, plus leftover primers, dNTPs, ddNTPs, and enzyme. These unincorporated components interfere with electrophoresis and must be removed. Common methods include:
+3.  **Purification:** After cycling, the reaction mix contains the labeled fragments, plus leftover primers, dNTPs, ddNTPs, and enzyme. These unincorporated components interfere with electrophoresis and must be removed. Common methods include:
     *   **Spin Column Chromatography:** Binds DNA fragments, washes away contaminants
     *   **Magnetic Bead Purification:** Binds DNA fragments, contaminants washed away
     *   **Enzymatic Cleanup:** Using enzymes like ExoSAP-IT to degrade primers and dNTPs
-4.  **Capillary Electrophoresis (CE) Separation** The purified, fluorescently labeled fragments are loaded into an automated CE instrument
+4.  **Capillary Electrophoresis (CE) Separation:** The purified, fluorescently labeled fragments are loaded into an automated CE instrument
     *   A very thin capillary tube is filled with a polymer matrix (acting like a high-resolution gel)
     *   High voltage is applied, driving the negatively charged DNA fragments through the matrix towards the positive electrode
     *   **Separation is based purely on size (length):** Shorter fragments move faster, longer fragments move slower. The system has the resolution to separate fragments differing by just **one nucleotide** in length!
-5.  **Detection** Near the end of the capillary, a laser excites the fluorescent dyes attached to the fragments as they pass by. A detector (like a CCD camera) records the color of the fluorescence for each fragment as it elides
-6.  **Data Analysis** The CE instrument software converts the raw fluorescence data into an **electropherogram**
+5.  **Detection:** Near the end of the capillary, a laser excites the fluorescent dyes attached to the fragments as they pass by. A detector (like a CCD camera) records the color of the fluorescence for each fragment as it elides
+6.  **Data Analysis:** The CE instrument software converts the raw fluorescence data into an **electropherogram**
     *   This is a graph showing colored peaks plotted against time (or inferred size)
     *   Each peak represents fragments of a specific size ending with a specific base (indicated by the peak's color)
     *   The software performs **base calling**, reading the sequence of colored peaks from left (shortest fragments, closest to primer) to right (longest fragments) to directly determine the DNA sequence
@@ -74,17 +74,3 @@ Despite the rise of NGS, Sanger sequencing remains valuable in the clinical lab 
 *   **Bacterial Identification:** Sequencing the 16S rRNA gene for identifying bacterial species
 *   **HLA Typing:** Sequencing specific HLA genes for transplantation matching (though NGS is increasingly used here too)
 *   **Gap Filling:** Sequencing regions that are difficult to cover with short-read NGS
-
-## **Key Terms** {-}
-
-*   **Chain Termination:** The core principle where DNA synthesis stops upon incorporation of a dideoxynucleotide (ddNTP)
-*   **Dideoxynucleotide (ddNTP):** A modified nucleotide lacking the 3'-hydroxyl group, preventing further chain elongation when incorporated by DNA polymerase
-*   **Deoxynucleotide (dNTP):** The normal building block of DNA (dATP, dGTP, dCTP, dTTP) possessing a 3'-hydroxyl group
-*   **Sequencing Primer:** A short oligonucleotide complementary to the sequence flanking the region to be sequenced, providing a start site for the polymerase
-*   **Cycle Sequencing:** A PCR-like method using one primer and ddNTPs to generate a population of chain-terminated fragments of varying lengths
-*   **Dye Terminator:** A fluorescent dye covalently attached to a ddNTP, allowing detection based on the terminating base
-*   **Capillary Electrophoresis (CE):** A high-resolution separation technique using narrow capillaries filled with a polymer matrix to separate DNA fragments by size, typically with single-base resolution for sequencing
-*   **Electropherogram (Chromatogram):** The graphical output of Sanger sequencing from a CE instrument, showing fluorescent peaks representing the sequence of bases
-*   **Base Calling:** The process by which software analyzes the electropherogram data to determine the nucleotide sequence
-*   **Phred Score:** A numerical score assigned to each base call, indicating the probability of an error in that call (higher score = higher confidence)
-*   **Read Length:** The number of contiguous, high-quality bases determined from a single sequencing reaction

@@ -7,7 +7,7 @@
 <title>Blotting &amp; Probing | MB</title>
 <meta name="author" content="Brett M. Rice">
 <meta name="description" content="While newer techniques like qPCR and sequencing have taken center stage for many applications, understanding Blotting and Probing is fundamental. It’s like learning classical mechanics before...">
-<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta name="generator" content="bookdown 0.45 with bs4_book()">
 <meta property="og:title" content="Blotting &amp; Probing | MB">
 <meta property="og:type" content="book">
 <meta property="og:description" content="While newer techniques like qPCR and sequencing have taken center stage for many applications, understanding Blotting and Probing is fundamental. It’s like learning classical mechanics before...">
@@ -87,7 +87,7 @@
 <li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
 <li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
 <li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
-<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="separation-detection.html">Separation &amp; Detection</a></li>
 <li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
 <li><a class="" href="gel.html">Gel</a></li>
 <li><a class="" href="capillary.html">Capillary</a></li>
@@ -137,6 +137,52 @@
 <li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
 <li><a class="" href="engraftment-1.html">Engraftment</a></li>
 <li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+<li class="book-part">Laboratory Operations</li>
+<li><a class="" href="contamination.html">Contamination</a></li>
+<li><a class="" href="prevention-1.html">Prevention</a></li>
+<li><a class="" href="monitoring-detection-1.html">Monitoring &amp; Detection</a></li>
+<li><a class="" href="elimination-1.html">Elimination</a></li>
+<li><a class="" href="quality-assurance.html">Quality Assurance</a></li>
+<li><a class="" href="specimen-handling.html">Specimen Handling</a></li>
+<li><a class="" href="specimen-evaluation.html">Specimen Evaluation</a></li>
+<li><a class="" href="nucleic-acid-evaluation.html">Nucleic Acid Evaluation</a></li>
+<li><a class="" href="reagents.html">Reagents</a></li>
+<li><a class="" href="assays.html">Assays</a></li>
+<li><a class="" href="assay-troubleshooting-1.html">Assay Troubleshooting</a></li>
+<li><a class="" href="result-calculation-interpretation-reporting-1.html">Result Calculation, Interpretation, &amp; Reporting</a></li>
+<li><a class="" href="qc-pt.html">QC &amp; PT</a></li>
+<li><a class="" href="assay-controls.html">Assay Controls</a></li>
+<li><a class="" href="proficiency-testing.html">Proficiency Testing</a></li>
+<li><a class="" href="equipment-instrumentation-1.html">Equipment &amp; Instrumentation</a></li>
+<li><a class="" href="guidelines-regulations.html">Guidelines &amp; Regulations</a></li>
+<li><a class="" href="test-system-categories-1.html">Test System Categories</a></li>
+<li><a class="" href="regulations-standards-1.html">Regulations &amp; Standards</a></li>
+<li><a class="" href="personnel.html">Personnel</a></li>
+<li><a class="" href="continuing-education-1.html">Continuing Education</a></li>
+<li><a class="" href="competency.html">Competency</a></li>
+<li><a class="" href="safety.html">Safety</a></li>
+<li><a class="" href="hazardous-materials.html">Hazardous Materials</a></li>
+<li><a class="" href="biological.html">Biological</a></li>
+<li><a class="" href="chemical.html">Chemical</a></li>
+<li><a class="" href="laboratory-administration.html">Laboratory Administration</a></li>
+<li><a class="" href="financial-management-1.html">Financial Management</a></li>
+<li><a class="" href="budgets-1.html">Budgets</a></li>
+<li><a class="" href="capital-equipment.html">Capital Equipment</a></li>
+<li><a class="" href="cost-analysis-reimbursement-1.html">Cost Analysis &amp; Reimbursement</a></li>
+<li><a class="" href="purchasing-inventory-1.html">Purchasing &amp; Inventory</a></li>
+<li><a class="" href="operations-management-1.html">Operations Management</a></li>
+<li><a class="" href="laboratory-information-system.html">Laboratory Information System</a></li>
+<li><a class="" href="facilities-management-1.html">Facilities Management</a></li>
+<li><a class="" href="intrainterdepartmental-relations-1.html">Intra/Interdepartmental Relations</a></li>
+<li><a class="" href="personnel-management-1.html">Personnel Management</a></li>
+<li><a class="" href="motivation-1.html">Motivation</a></li>
+<li><a class="" href="staffing-productivity-1.html">Staffing &amp; Productivity</a></li>
+<li><a class="" href="counseling-disciplinary-action-1.html">Counseling &amp; Disciplinary Action</a></li>
+<li><a class="" href="quality-management-1.html">Quality Management</a></li>
+<li><a class="" href="advanced-statistical-analysis-1.html">Advanced Statistical Analysis</a></li>
+<li><a class="" href="assay-method-instrument-selection.html">Assay, Method, &amp; Instrument Selection</a></li>
+<li><a class="" href="assay-validation-verification.html">Assay Validation &amp; Verification</a></li>
+<li><a class="" href="quantitative-calculations-1.html">Quantitative Calculations</a></li>
 </ul>
 
         <div class="book-extra" style="display:none;">
@@ -149,16 +195,16 @@
 </h1>
 <p>While newer techniques like qPCR and sequencing have taken center stage for many applications, understanding <strong>Blotting and Probing</strong> is fundamental. It’s like learning classical mechanics before quantum physics – it lays the groundwork for how we detect specific nucleic acid sequences after they’ve been separated</p>
 <p>Think of it this way: You’ve run a gel (agarose or polyacrylamide) to separate a complex mixture of DNA or RNA fragments by size. Now you want to know, “Is my specific gene or sequence of interest present in this mess, and if so, which band is it?” That’s where blotting and probing come in</p>
-<div id="blotting-and-probing-finding-your-needle-in-the-haystack" class="section level2 unnumbered">
+<div id="blotting-probing-finding-your-needle-in-the-haystack" class="section level2 unnumbered">
 <h2>
-<strong>Blotting and Probing: Finding Your Needle in the Haystack</strong><a class="anchor" aria-label="anchor" href="#blotting-and-probing-finding-your-needle-in-the-haystack"><i class="fas fa-link"></i></a>
+<strong>Blotting &amp; Probing: Finding Your Needle in the Haystack</strong><a class="anchor" aria-label="anchor" href="#blotting-probing-finding-your-needle-in-the-haystack"><i class="fas fa-link"></i></a>
 </h2>
 <p>The overall process involves two main phases:</p>
 <ol style="list-style-type: decimal">
 <li>
-<strong>Blotting</strong> Transferring the separated nucleic acid fragments from the fragile gel onto a solid support membrane (making them accessible)</li>
+<strong>Blotting:</strong> Transferring the separated nucleic acid fragments from the fragile gel onto a solid support membrane (making them accessible)</li>
 <li>
-<strong>Probing (Hybridization)</strong> Using a labeled piece of nucleic acid (the probe), which has a sequence complementary to your target, to find and bind to that specific target sequence on the membrane</li>
+<strong>Probing (Hybridization):</strong> Using a labeled piece of nucleic acid (the probe), which has a sequence complementary to your target, to find and bind to that specific target sequence on the membrane</li>
 </ol>
 </div>
 <div id="the-blotting-process-moving-from-gel-to-membrane" class="section level2 unnumbered">
@@ -312,41 +358,7 @@
 <li>Northern blotting remains a gold standard for analyzing RNA transcript size and splice variants, though qPCR and RNA-Seq are often used for expression quantification</li>
 </ul>
 <p>Understanding blotting, hybridization, washing, and especially <strong>stringency</strong> provides fundamental insight into how we achieve specificity in nucleic acid detection, principles that also apply to techniques like microarrays and <em>in situ</em> hybridization. It’s all about getting that labeled probe to stick specifically to its target and then washing away everything else!</p>
-</div>
-<div id="key-terms-24" class="section level2 unnumbered">
-<h2>
-<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-24"><i class="fas fa-link"></i></a>
-</h2>
-<ul>
-<li>
-<strong>Blotting:</strong> The process of transferring separated macromolecules (DNA, RNA, or protein) from a gel onto a solid support membrane (e.g., nitrocellulose, nylon) while maintaining the separation pattern</li>
-<li>
-<strong>Probe:</strong> A labeled molecule (typically a single-stranded nucleic acid sequence - DNA, RNA, or oligonucleotide) that is complementary to a specific target sequence of interest. It is used to detect the presence of the target sequence through hybridization</li>
-<li>
-<strong>Hybridization (Nucleic Acid):</strong> The process by which two complementary single-stranded nucleic acid molecules (e.g., the probe and the target sequence on the membrane) anneal (bind) to each other through specific hydrogen bonding between base pairs (A-T/U, G-C)</li>
-<li>
-<strong>Target Sequence:</strong> The specific DNA or RNA sequence on the membrane that the probe is designed to detect</li>
-<li>
-<strong>Stringency:</strong> A measure of the reaction conditions (primarily temperature, salt concentration, and presence of denaturants like formamide) during hybridization and washing steps that determine the degree of complementarity required between the probe and target sequence for a stable duplex to form</li>
-<li>
-<strong>High Stringency Conditions:</strong> Experimental conditions (high temperature, low salt concentration) that require a high degree of base pairing complementarity for the probe to remain bound to the target. These conditions wash off non-specifically or partially matched probes, increasing specificity</li>
-<li>
-<strong>Low Stringency Conditions:</strong> Experimental conditions (lower temperature, higher salt concentration) that allow probes to bind to targets even with some degree of base pair mismatch. Used when searching for related but not identical sequences</li>
-<li>
-<strong>Washing (in Blotting):</strong> Post-hybridization steps involving rinsing the membrane with buffers of defined stringency to remove unbound and non-specifically bound probe, thereby reducing background noise and enhancing the specific signal from the probe bound to the target</li>
-<li>
-<strong>Membrane:</strong> The solid support (e.g., nitrocellulose, nylon) onto which nucleic acids are transferred from the gel during blotting. It provides a durable surface for hybridization and detection</li>
-<li>
-<strong>Fixation (Blotting):</strong> The process of permanently attaching the transferred nucleic acids to the membrane, typically by baking or UV crosslinking, to prevent them from washing off during subsequent probing steps</li>
-<li>
-<strong>Blocking (Prehybridization):</strong> Treating the membrane with blocking agents (e.g., Denhardt’s solution, salmon sperm DNA) before adding the probe to saturate non-specific binding sites on the membrane surface, thus preventing the probe from sticking randomly and reducing background signal</li>
-<li>
-<strong>Detection (Blotting):</strong> The method used to visualize where the labeled probe has bound to the target sequence on the membrane (e.g., autoradiography for radioactive probes, chemiluminescence or colorimetric methods for enzyme-labeled probes, fluorescence imaging for fluorescent probes)</li>
-<li>
-<strong>Southern Blot:</strong> A technique used to detect specific DNA sequences, involving separation of DNA fragments by electrophoresis, transfer to a membrane, and hybridization with a labeled probe</li>
-<li>
-<strong>Northern Blot:</strong> A technique used to detect specific RNA sequences (and analyze their size and abundance), involving separation of RNA fragments by electrophoresis under denaturing conditions, transfer to a membrane, and hybridization with a labeled probe</li>
-</ul>
+
 </div>
 </div>
 <!-- Scoll to TOC element -->
@@ -441,12 +453,11 @@
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#blotting-probing">Blotting &amp; Probing</a></li>
-<li><a class="nav-link" href="#blotting-and-probing-finding-your-needle-in-the-haystack">Blotting and Probing: Finding Your Needle in the Haystack</a></li>
+<li><a class="nav-link" href="#blotting-probing-finding-your-needle-in-the-haystack">Blotting &amp; Probing: Finding Your Needle in the Haystack</a></li>
 <li><a class="nav-link" href="#the-blotting-process-moving-from-gel-to-membrane">The Blotting Process: Moving from Gel to Membrane</a></li>
 <li><a class="nav-link" href="#the-probing-process-finding-the-target-with-hybridization">The Probing Process: Finding the Target with Hybridization</a></li>
 <li><a class="nav-link" href="#specific-blot-types">Specific Blot Types</a></li>
 <li><a class="nav-link" href="#clinical-relevance-summary">Clinical Relevance &amp; Summary</a></li>
-<li><a class="nav-link" href="#key-terms-24">Key Terms</a></li>
 </ul>
 
       <div class="book-extra">

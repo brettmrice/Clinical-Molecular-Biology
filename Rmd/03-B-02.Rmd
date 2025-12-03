@@ -23,17 +23,17 @@ Lung cancer is the poster child for molecularly-guided therapy. Before molecular
 *   ***KRAS*:** **Mutations** For a long time, finding a *KRAS* mutation was considered "undruggable" and was bad news. It predicted a patient would *not* respond to EGFR inhibitors. Recently, however, new drugs have been developed that can specifically target one of the most common *KRAS* mutations (G12C), turning this from a prognostic marker into an actionable target
 
 ### **Colorectal Cancer** {-}
-*   **"RAS Pathway" Mutations:** Mutations in the ***KRAS*** and ***NRAS*** genes are critical to test for. If a colorectal tumor has a mutation in either of these genes, it means the growth signaling pathway is already activated downstream of EGFR. Therefore, giving that patient an EGFR inhibitor drug would be like blocking a dam upstream when the flood is already happening downstream—it's completely ineffective. This is a classic example of using a molecular test to predict a *lack* of response
+*   **"RAS Pathway" Mutations:** Mutations in the ***KRAS*** and ***NRAS*** genes are critical to test for. If a colorectal tumor has a mutation in either of these genes, it means the growth signaling pathway is already activated downstream of EGFR. Therefore, giving that patient an EGFR inhibitor drug would be like blocking a dam upstream when the flood is already happening downstream - it's completely ineffective. This is a classic example of using a molecular test to predict a *lack* of response
 *   ***BRAF*:** **V600E Mutation** This specific mutation identifies a particularly aggressive subset of colon cancers but also provides a specific target for BRAF inhibitor drugs
 
 ### **Breast Cancer** {-}
-*   ***HER2 (ERBB2)*:** **Amplification** This is a classic example of a "gene amplification"—where the tumor makes dozens or even hundreds of extra copies of the *HER2* gene. This leads to a massive overproduction of the HER2 protein on the cell surface, driving aggressive growth. This is tested by **FISH** or **CISH** (looking for extra gene copies) or immunohistochemistry (IHC, looking for excess protein). Finding *HER2* amplification is crucial because it means the patient is eligible for the highly effective targeted drug trastuzumab (Herceptin)
+*   ***HER2 (ERBB2)*:** **Amplification** This is a classic example of a "gene amplification" - where the tumor makes dozens or even hundreds of extra copies of the *HER2* gene. This leads to a massive overproduction of the HER2 protein on the cell surface, driving aggressive growth. This is tested by **FISH** or **CISH** (looking for extra gene copies) or immunohistochemistry (IHC, looking for excess protein). Finding *HER2* amplification is crucial because it means the patient is eligible for the highly effective targeted drug trastuzumab (Herceptin)
 *   ***PIK3CA*:** **Mutations** These are common mutations in hormone receptor-positive breast cancer and are another example of a target for a specific class of inhibitor drugs
 
 ### **Melanoma** {-}
 *   ***BRAF*:** **V600E Mutation** About half of all melanomas have this specific activating mutation. The development of BRAF inhibitor drugs that target this exact mutation was a massive breakthrough, dramatically improving outcomes for patients with metastatic melanoma
 
-## **Beyond Single Genes: Immunotherapy and the Liquid Biopsy** {-}
+## **Beyond Single Genes: Immunotherapy & the Liquid Biopsy** {-}
 
 The field is constantly evolving. Two major advances are changing the game
 
@@ -48,13 +48,3 @@ Getting a tissue biopsy can be difficult and invasive. The **liquid biopsy** is 
 1.  Find initial actionable mutations when a tissue biopsy is not possible
 2.  Monitor treatment response (a dropping ctDNA level is a good sign)
 3.  Detect the emergence of new resistance mutations (like the *EGFR* T790M mutation) without needing a new invasive biopsy
-
-## **Key Terms** {-}
-
-*   **Targeted Therapy:** A type of cancer treatment that uses drugs designed to "target" specific genetic mutations, proteins, or other changes in cancer cells, leaving normal cells largely unharmed
-*   **Oncogene:** A gene that, when mutated or expressed at high levels, helps turn a normal cell into a cancer cell by promoting uncontrolled cell growth. Often called the "gas pedal" of the cell
-*   **Tumor Suppressor Gene:** A gene that protects a cell from becoming cancerous by controlling cell growth, repairing DNA, or initiating cell death. Its inactivation can lead to cancer; often called the "brakes" of the cell
-*   **Companion Diagnostic:** A molecular test used as a prerequisite to determine if a patient is eligible for a specific targeted therapy. The test and the drug are developed and approved together
-*   **Microsatellite Instability (MSI):** A condition of genetic hypermutability that results from a defective DNA mismatch repair system. Tumors with high MSI (MSI-H) are highly responsive to immunotherapy
-*   **Liquid Biopsy:** A test done on a sample of blood to look for cancer cells or for pieces of DNA from a tumor (**ctDNA**). It is a non-invasive alternative to a tissue biopsy
-*   **ctDNA (Circulating Tumor DNA):** Fragments of DNA originating from tumor cells that are found circulating in the bloodstream. They carry the same mutations as the tumor itself

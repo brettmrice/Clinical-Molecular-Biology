@@ -7,7 +7,7 @@
 <title>Multi-Locus Sequence Typing (MLST) | MB</title>
 <meta name="author" content="Brett M. Rice">
 <meta name="description" content="Let’s journey into the world of microbial forensics and epidemiology. Imagine there’s an outbreak of a nasty bacterial infection at a hospital. Identifying the bug as, say, Staphylococcus aureus...">
-<meta name="generator" content="bookdown 0.43 with bs4_book()">
+<meta name="generator" content="bookdown 0.45 with bs4_book()">
 <meta property="og:title" content="Multi-Locus Sequence Typing (MLST) | MB">
 <meta property="og:type" content="book">
 <meta property="og:description" content="Let’s journey into the world of microbial forensics and epidemiology. Imagine there’s an outbreak of a nasty bacterial infection at a hospital. Identifying the bug as, say, Staphylococcus aureus...">
@@ -87,7 +87,7 @@
 <li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
 <li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
 <li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
-<li><a class="" href="separation-and-detection.html">Separation and Detection</a></li>
+<li><a class="" href="separation-detection.html">Separation &amp; Detection</a></li>
 <li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
 <li><a class="" href="gel.html">Gel</a></li>
 <li><a class="" href="capillary.html">Capillary</a></li>
@@ -137,6 +137,52 @@
 <li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
 <li><a class="" href="engraftment-1.html">Engraftment</a></li>
 <li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+<li class="book-part">Laboratory Operations</li>
+<li><a class="" href="contamination.html">Contamination</a></li>
+<li><a class="" href="prevention-1.html">Prevention</a></li>
+<li><a class="" href="monitoring-detection-1.html">Monitoring &amp; Detection</a></li>
+<li><a class="" href="elimination-1.html">Elimination</a></li>
+<li><a class="" href="quality-assurance.html">Quality Assurance</a></li>
+<li><a class="" href="specimen-handling.html">Specimen Handling</a></li>
+<li><a class="" href="specimen-evaluation.html">Specimen Evaluation</a></li>
+<li><a class="" href="nucleic-acid-evaluation.html">Nucleic Acid Evaluation</a></li>
+<li><a class="" href="reagents.html">Reagents</a></li>
+<li><a class="" href="assays.html">Assays</a></li>
+<li><a class="" href="assay-troubleshooting-1.html">Assay Troubleshooting</a></li>
+<li><a class="" href="result-calculation-interpretation-reporting-1.html">Result Calculation, Interpretation, &amp; Reporting</a></li>
+<li><a class="" href="qc-pt.html">QC &amp; PT</a></li>
+<li><a class="" href="assay-controls.html">Assay Controls</a></li>
+<li><a class="" href="proficiency-testing.html">Proficiency Testing</a></li>
+<li><a class="" href="equipment-instrumentation-1.html">Equipment &amp; Instrumentation</a></li>
+<li><a class="" href="guidelines-regulations.html">Guidelines &amp; Regulations</a></li>
+<li><a class="" href="test-system-categories-1.html">Test System Categories</a></li>
+<li><a class="" href="regulations-standards-1.html">Regulations &amp; Standards</a></li>
+<li><a class="" href="personnel.html">Personnel</a></li>
+<li><a class="" href="continuing-education-1.html">Continuing Education</a></li>
+<li><a class="" href="competency.html">Competency</a></li>
+<li><a class="" href="safety.html">Safety</a></li>
+<li><a class="" href="hazardous-materials.html">Hazardous Materials</a></li>
+<li><a class="" href="biological.html">Biological</a></li>
+<li><a class="" href="chemical.html">Chemical</a></li>
+<li><a class="" href="laboratory-administration.html">Laboratory Administration</a></li>
+<li><a class="" href="financial-management-1.html">Financial Management</a></li>
+<li><a class="" href="budgets-1.html">Budgets</a></li>
+<li><a class="" href="capital-equipment.html">Capital Equipment</a></li>
+<li><a class="" href="cost-analysis-reimbursement-1.html">Cost Analysis &amp; Reimbursement</a></li>
+<li><a class="" href="purchasing-inventory-1.html">Purchasing &amp; Inventory</a></li>
+<li><a class="" href="operations-management-1.html">Operations Management</a></li>
+<li><a class="" href="laboratory-information-system.html">Laboratory Information System</a></li>
+<li><a class="" href="facilities-management-1.html">Facilities Management</a></li>
+<li><a class="" href="intrainterdepartmental-relations-1.html">Intra/Interdepartmental Relations</a></li>
+<li><a class="" href="personnel-management-1.html">Personnel Management</a></li>
+<li><a class="" href="motivation-1.html">Motivation</a></li>
+<li><a class="" href="staffing-productivity-1.html">Staffing &amp; Productivity</a></li>
+<li><a class="" href="counseling-disciplinary-action-1.html">Counseling &amp; Disciplinary Action</a></li>
+<li><a class="" href="quality-management-1.html">Quality Management</a></li>
+<li><a class="" href="advanced-statistical-analysis-1.html">Advanced Statistical Analysis</a></li>
+<li><a class="" href="assay-method-instrument-selection.html">Assay, Method, &amp; Instrument Selection</a></li>
+<li><a class="" href="assay-validation-verification.html">Assay Validation &amp; Verification</a></li>
+<li><a class="" href="quantitative-calculations-1.html">Quantitative Calculations</a></li>
 </ul>
 
         <div class="book-extra" style="display:none;">
@@ -160,7 +206,7 @@
 <li>
 <strong>Sequence Typing:</strong> We determine the exact DNA sequence of these gene fragments. Each unique sequence variant for a given gene is assigned an <strong>allele</strong> number. The combination of allele numbers across all the loci creates a unique “allelic profile,” which is then assigned a definitive <strong>Sequence Type (ST)</strong> number</li>
 <li>
-<strong>Housekeeping Genes:</strong> This is the key to why MLST works. We don’t just choose any genes. We choose housekeeping genes—genes that are essential for the bacterium’s basic survival (e.g., involved in metabolism or protein synthesis). These genes have two critical properties:
+<strong>Housekeeping Genes:</strong> This is the key to why laboratory scientistT works. We don’t just choose any genes. We choose housekeeping genes - genes that are essential for the bacterium’s basic survival (e.g., involved in metabolism or protein synthesis). These genes have two critical properties:
 <ol style="list-style-type: decimal">
 <li>They are <strong>conserved</strong>, meaning they are present in all strains of a species and evolve slowly</li>
 <li>They accumulate neutral sequence variations (polymorphisms) over time at a rate that is just right for distinguishing between different lineages or “clones”</li>
@@ -168,27 +214,27 @@
 </li>
 </ul>
 </div>
-<div id="the-mlst-workflow-from-bug-to-number" class="section level2 unnumbered">
+<div id="the-laboratory-scientistt-workflow-from-bug-to-number" class="section level2 unnumbered">
 <h2>
-<strong>The MLST Workflow: From Bug to Number</strong><a class="anchor" aria-label="anchor" href="#the-mlst-workflow-from-bug-to-number"><i class="fas fa-link"></i></a>
+<strong>The laboratory scientistT Workflow: From Bug to Number</strong><a class="anchor" aria-label="anchor" href="#the-laboratory-scientistt-workflow-from-bug-to-number"><i class="fas fa-link"></i></a>
 </h2>
 <p>The process is methodical and relies on a central, curated online database (like PubMLST) that stores all the known allele sequences and ST profiles for different organisms</p>
 <ol style="list-style-type: decimal">
 <li>
-<strong>Bacterial Isolate</strong> It all starts in the microbiology lab with a pure culture of the bacterium isolated from a patient</li>
+<strong>Bacterial Isolate:</strong> It all starts in the microbiology lab with a pure culture of the bacterium isolated from a patient</li>
 <li>
-<strong>PCR Amplification</strong> DNA is extracted from the bacteria. Then, a series of PCR reactions are performed to amplify a specific internal fragment (typically ~450-500 bp) of each of the chosen housekeeping genes</li>
+<strong>PCR Amplification:</strong> DNA is extracted from the bacteria. Then, a series of PCR reactions are performed to amplify a specific internal fragment (typically ~450-500 bp) of each of the chosen housekeeping genes</li>
 <li>
-<strong>DNA Sequencing</strong> Each of these PCR products is then sequenced, almost always using <strong>Sanger sequencing</strong>, to determine its exact nucleotide sequence</li>
+<strong>DNA Sequencing:</strong> Each of these PCR products is then sequenced, almost always using <strong>Sanger sequencing</strong>, to determine its exact nucleotide sequence</li>
 <li>
-<strong>Allele Assignment</strong> The sequence for each gene fragment is submitted to the central MLST database. The database compares the sequence to all known alleles for that gene and assigns it a corresponding allele number. If it’s a brand-new sequence variant, the database curator assigns it a new allele number</li>
+<strong>Allele Assignment:</strong> The sequence for each gene fragment is submitted to the central laboratory scientistT database. The database compares the sequence to all known alleles for that gene and assigns it a corresponding allele number. If it’s a brand-new sequence variant, the database curator assigns it a new allele number</li>
 <li>
-<strong>Determine the Sequence Type (ST)</strong> Once all genes have been assigned an allele number, the combination of these numbers (e.g., 3-4-1-7-12-2-9) forms the <strong>allelic profile</strong>. The database checks this specific profile and assigns it a definitive ST number (e.g., ST-5). This ST number is the strain’s final, unambiguous identifier</li>
+<strong>Determine the Sequence Type (ST):</strong> Once all genes have been assigned an allele number, the combination of these numbers (e.g., 3-4-1-7-12-2-9) forms the <strong>allelic profile</strong>. The database checks this specific profile and assigns it a definitive ST number (e.g., ST-5). This ST number is the strain’s final, unambiguous identifier</li>
 </ol>
 </div>
-<div id="interpreting-mlst-data-tracking-the-clones" class="section level2 unnumbered">
+<div id="interpreting-laboratory-scientistt-data-tracking-the-clones" class="section level2 unnumbered">
 <h2>
-<strong>Interpreting MLST Data: Tracking the Clones</strong><a class="anchor" aria-label="anchor" href="#interpreting-mlst-data-tracking-the-clones"><i class="fas fa-link"></i></a>
+<strong>Interpreting laboratory scientistT Data: Tracking the Clones</strong><a class="anchor" aria-label="anchor" href="#interpreting-laboratory-scientistt-data-tracking-the-clones"><i class="fas fa-link"></i></a>
 </h2>
 <p>The final ST number is a powerful piece of epidemiological data</p>
 <ul>
@@ -200,39 +246,19 @@
 <strong>Population Biology:</strong> By comparing allelic profiles, scientists can group related STs into <strong>clonal complexes</strong> and build evolutionary trees (phylogenies) to understand the population structure and evolutionary history of bacterial pathogens</li>
 </ul>
 </div>
-<div id="the-evolution-of-mlst" class="section level2 unnumbered">
+<div id="the-evolution-of-laboratory-scientistt" class="section level2 unnumbered">
 <h2>
-<strong>The Evolution of MLST</strong><a class="anchor" aria-label="anchor" href="#the-evolution-of-mlst"><i class="fas fa-link"></i></a>
+<strong>The Evolution of laboratory scientistT</strong><a class="anchor" aria-label="anchor" href="#the-evolution-of-laboratory-scientistt"><i class="fas fa-link"></i></a>
 </h2>
 <p>MLST was the gold standard for bacterial typing for many years due to its reproducibility and the portable nature of its data (an ST number is easy to share and compare). However, with the decreasing cost and increasing speed of sequencing, it is now being succeeded by <strong>Whole Genome Sequencing (WGS)</strong></p>
 <ul>
 <li>
-<strong>Whole Genome Sequencing (WGS):</strong> WGS provides the ultimate resolution by sequencing the entire bacterial genome. It can distinguish between strains that are identical by MLST</li>
+<strong>Whole Genome Sequencing (WGS):</strong> WGS provides the ultimate resolution by sequencing the entire bacterial genome. It can distinguish between strains that are identical by laboratory scientistT</li>
 <li>
-<strong>In Silico MLST:</strong> Today, many labs perform WGS on their isolates and then use bioinformatics software to <em>extract</em> the sequences of the 7 MLST housekeeping genes from the whole genome data. This allows them to determine the ST directly from the WGS data, providing a link between new, high-resolution data and the vast historical MLST databases that already exist</li>
+<strong>In Silico laboratory scientistT:</strong> Today, many labs perform WGS on their isolates and then use bioinformatics software to <em>extract</em> the sequences of the 7 laboratory scientistT housekeeping genes from the whole genome data. This allows them to determine the ST directly from the WGS data, providing a link between new, high-resolution data and the vast historical laboratory scientistT databases that already exist</li>
 </ul>
-<p>Even as WGS takes over, understanding MLST is essential because it established the fundamental principles of using standardized sequence data for large-scale epidemiological tracking</p>
-</div>
-<div id="key-terms-44" class="section level2 unnumbered">
-<h2>
-<strong>Key Terms</strong><a class="anchor" aria-label="anchor" href="#key-terms-44"><i class="fas fa-link"></i></a>
-</h2>
-<ul>
-<li>
-<strong>MLST (Multi-Locus Sequence Typing):</strong> A method for characterizing bacterial isolates by sequencing internal fragments of several housekeeping genes to generate a unique, portable identifier called a Sequence Type (ST)</li>
-<li>
-<strong>Housekeeping Genes:</strong> Genes that are essential for basic cellular function and are present in all strains of a species. They are chosen for MLST because they accumulate mutations at a slow, steady rate</li>
-<li>
-<strong>Allele (MLST):</strong> A specific, unique DNA sequence variant for a given housekeeping gene locus. Each unique allele is assigned an arbitrary number by a central database</li>
-<li>
-<strong>Allelic Profile:</strong> The specific combination of allele numbers for all of the housekeeping loci being analyzed (e.g., a string of 7 numbers)</li>
-<li>
-<strong>Sequence Type (ST):</strong> A number assigned to a unique allelic profile. It serves as the definitive, unambiguous identifier for a bacterial strain or clonal group</li>
-<li>
-<strong>Epidemiology:</strong> The branch of medicine that deals with the incidence, distribution, and possible control of diseases. MLST is a primary tool for molecular epidemiology</li>
-<li>
-<strong>Clonal Complex:</strong> A group of closely related STs that share a recent common ancestor, often differing at only one of the seven loci from a central, founding genotype</li>
-</ul>
+<p>Even as WGS takes over, understanding laboratory scientistT is essential because it established the fundamental principles of using standardized sequence data for large-scale epidemiological tracking</p>
+
 </div>
 </div>
 
@@ -331,10 +357,9 @@
       <ul class="nav navbar-nav">
 <li><a class="nav-link" href="#multi-locus-sequence-typing-mlst-1">Multi-Locus Sequence Typing (MLST)</a></li>
 <li><a class="nav-link" href="#the-principle-a-standardized-genetic-address">The Principle: A Standardized Genetic Address</a></li>
-<li><a class="nav-link" href="#the-mlst-workflow-from-bug-to-number">The MLST Workflow: From Bug to Number</a></li>
-<li><a class="nav-link" href="#interpreting-mlst-data-tracking-the-clones">Interpreting MLST Data: Tracking the Clones</a></li>
-<li><a class="nav-link" href="#the-evolution-of-mlst">The Evolution of MLST</a></li>
-<li><a class="nav-link" href="#key-terms-44">Key Terms</a></li>
+<li><a class="nav-link" href="#the-laboratory-scientistt-workflow-from-bug-to-number">The laboratory scientistT Workflow: From Bug to Number</a></li>
+<li><a class="nav-link" href="#interpreting-laboratory-scientistt-data-tracking-the-clones">Interpreting laboratory scientistT Data: Tracking the Clones</a></li>
+<li><a class="nav-link" href="#the-evolution-of-laboratory-scientistt">The Evolution of laboratory scientistT</a></li>
 </ul>
 
       <div class="book-extra">

@@ -1,0 +1,67 @@
+# Proficiency Testing {-}
+
+Proficiency Testing, also known as External Quality Assessment (EQA), is the ultimate validation of a laboratory’s accuracy. While internal Quality Control (QC) ensures that the daily run is stable, Proficiency Testing compares the laboratory’s results against those of peer laboratories nationwide to ensure the method is accurate (true). Under the Clinical Laboratory Improvement Amendments (CLIA), participation in a PT program is mandatory for all regulated analytes. It serves as a graded "final exam" for the laboratory, occurring periodically throughout the year
+
+## The Principle of Proficiency Testing {-}
+
+The fundamental goal of PT is to verify that the laboratory produces correct results on unknown specimens when utilizing its standard personnel, equipment, and procedures. It is a comprehensive system check that evaluates the pre-analytical (handling), analytical (testing), and post-analytical (reporting) phases
+
+*   **Approved Providers:** Laboratories must enroll in a PT program approved by CMS (Centers for Medicare & Medicaid Services). Common providers include the College of American Pathologists (CAP) and the American Proficiency Institute (API)
+*   **Peer Group Comparison:** The laboratory's results are not just compared to a "known" value but are statistically compared to a "Peer Group." The Peer Group consists of other laboratories using the exact same instrument, method, and reagents. This allows for the identification of method-specific biases (e.g., if one manufacturer’s PCR kit consistently yields lower viral loads than another)
+*   **Frequency:** For most regulated molecular analytes, PT events occur **three times per year**. Each event typically consists of 2 to 5 specimen challenges
+
+## The "Treat as Patient" Rule {-}
+
+The most critical regulatory requirement for PT is that **proficiency samples must be treated exactly like patient samples.** This ensures that the score reflects the laboratory’s routine performance, not its "best case" performance
+
+*   **Routine Workflow**
+    *   PT samples must be integrated into the regular workload. They should not be given special priority
+    *   They must be tested by the personnel who would normally run patient testing that day. It is a violation to assign PTs only to the Lead Laboratory scientist or Supervisor to ensure a perfect score. Staff must rotate through PT performance
+    *   The samples must be tested the same number of times as a patient. If patients are run in singlicate, the PT must be run in singlicate. Running the PT in duplicate/triplicate to "be sure" (when routine patients are not) is a violation
+*   **Prohibition on Inter-Laboratory Communication**
+    *   **Strict Ban:** It is strictly prohibited to discuss PT results or share data with another laboratory before the submission deadline
+    *   **PT Referral (The "Fatal Flaw"):** Sending a PT sample to another laboratory (e.g., a reference lab) for confirmation is the most severe violation under CLIA. This is viewed as cheating. **Consequence** Immediate revocation of the laboratory’s CLIA certificate and a ban on testing for at least two years. Even if the referral was accidental (e.g., an automated rule sent the sample out), the penalty applies
+
+## Scoring & Evaluation {-}
+
+Once results are submitted, the PT provider issues an evaluation report. The grading criteria depend on whether the molecular assay is quantitative (viral load) or qualitative (genotyping/detection)
+
+### Quantitative Grading (Target Values) {-}
+
+For quantitative assays (e.g., HIV-1 RNA, CMV DNA), the laboratory’s result is compared to the Peer Group Mean using the Standard Deviation Index (SDI)
+
+*   **SDI Calculation**
+    *   $\text{SDI} = \frac{\text{Your Result} - \text{Group Mean}}{\text{Group Standard Deviation}}$
+*   **Interpretation**
+    *   **SDI 0.0:** Perfect agreement with the mean
+    *   **SDI +/- 1.0:** Excellent performance
+    *   **SDI +/- 2.0:** Acceptable performance (within 2 standard deviations)
+    *   **SDI > 3.0:** Unacceptable result (Outlier)
+*   **Fixed Limits:** Some analytes are graded on fixed percentage criteria rather than SDI. For example, a result might be acceptable if it is within $\pm 0.3 \text{ Log}_{10}$ of the target value
+
+### Qualitative Grading (Consensus) {-}
+
+For "Detected/Not Detected" or Genotyping assays (e.g., Factor V Leiden, MRSA, SARS-CoV-2), grading is based on consensus
+
+*   **Consensus Requirement:** Usually, 80% or 90% of the peer group must agree on a result for it to be graded. If the sample was tricky and the peer group is split (e.g., 50% Positive / 50% Negative), the challenge is often ungrouped (not graded), and no penalty is applied
+*   **Grading:** If the consensus is "Detected" and the lab reports "Not Detected," it is a False Negative (0% score for that sample)
+
+## Performance Criteria & Remediation {-}
+
+Laboratories are graded on both the individual event and their cumulative performance over time. Failures trigger mandatory investigative steps
+
+*   **Satisfactory Performance:** Achieving a score of **80% or higher** for an analyte in a single event (e.g., getting 4 out of 5 samples correct)
+*   **Unsatisfactory Performance:** Scoring **< 80%** in a single event
+    *   **Action:** The laboratory must perform a **Root Cause Analysis (RCA)**. Was it a clerical error? A bad reagent lot? A pipetting error? The findings and corrective actions must be documented
+*   **Unsuccessful Performance (The "2 out of 3" Rule)**
+    *   Defined as having Unsatisfactory Performance (< 80%) in **2 out of 3 consecutive events**
+    *   **Consequence:** The laboratory is deemed "Unsuccessful." This is a critical regulatory breach. The lab may be required to **Cease Testing** for that analyte. Reinstatement requires demonstrating successful performance on two consecutive reinstatement PT runs and paying regulatory fines
+
+## Alternative Assessment Procedures (AAP) {-}
+
+Not all molecular analytes have commercially available Proficiency Testing kits, especially for Rare Diseases or Laboratory Developed Tests (LDTs) for obscure targets. In these cases, CLIA requires an "Alternative Assessment" at least twice per year
+
+*   **Split Sample Analysis:** The laboratory splits a patient sample. One aliquot is tested in-house, and the other is sent to a Reference Laboratory using a validated method. The results are compared for concordance
+*   **Inter-Laboratory Exchange:** Two laboratories performing the same rare test exchange blinded samples and compare results
+*   **Clinical Correlation:** For extremely rare conditions where no other lab tests are available, the laboratory may validate the result by comparing it with the patient's clinical diagnosis and outcome (chart review), though this is the least preferred method
+*   **Documentation:** Just like commercial PT, Alternative Assessments must be graded, reviewed by the Director, and documented with Pass/Fail status

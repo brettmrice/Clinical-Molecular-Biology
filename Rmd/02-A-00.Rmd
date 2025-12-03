@@ -67,10 +67,10 @@ These leverage robotics and often pre-packaged reagent kits to perform the isola
 
 *   **Cons**
     *   **High initial instrument cost.**
-    *   Often requires **specific, sometimes expensive, reagent kits** (can be "locked" systems)
+    *   Often requires **specific, sometimes expensive, reagent kits:** (can be "locked" systems)
     *   Less flexible for very small sample numbers or unusual sample types
-    *   Requires **maintenance, validation, and skilled troubleshooting** if issues arise
-    *   Potential for **batch effects** if an entire run fails
+    *   Requires **maintenance, validation, and skilled troubleshooting:** if issues arise
+    *   Potential for **batch effects:** if an entire run fails
 
 ##  **In the Clinical Molecular Lab** {-}
 
@@ -80,4 +80,4 @@ These leverage robotics and often pre-packaged reagent kits to perform the isola
     *   Validating automated methods
     *   Troubleshooting problematic samples
     *   Research and development
-    *   Training new technologists on the underlying principles
+    *   Training new laboratory scientists on the underlying principles

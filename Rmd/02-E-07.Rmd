@@ -1,10 +1,10 @@
 # Multiplex Ligation-Dependent Probe Amplification (MLPA) {-}
 
-**MLPA** is a highly sensitive and elegant technique used in the clinical lab to rapidly determine the copy number of specific DNA sequences. This is especially useful for detecting **copy number variations (CNVs)**, which are gains (duplications) or losses (deletions) of DNA regions, or for looking at the methylation status of a large number of targets simultaneously
+**MLPA:** is a highly sensitive and elegant technique used in the clinical lab to rapidly determine the copy number of specific DNA sequences. This is especially useful for detecting **copy number variations (CNVs)**, which are gains (duplications) or losses (deletions) of DNA regions, or for looking at the methylation status of a large number of targets simultaneously
 
 Think of MLPA as a specialized, sophisticated version of PCR. It allows you to analyze **50 to 60 targets in a single reaction**, making it incredibly efficient for diagnostics. It relies on three crucial components working in concert: ligation, amplification, and size separation
 
-## **The Core Principle: Counting DNA via Ligation and PCR** {-}
+## **The Core Principle: Counting DNA via Ligation & PCR** {-}
 
 MLPA's ingenious design allows it to measure the **quantity** of target DNA, rather than just its presence or absence. The key is to link two separate probe halves together only when both are perfectly hybridized to the target DNA. This linked sequence can then be amplified by PCR
 
@@ -30,11 +30,11 @@ Once the probes are ligated, they can be amplified using a **single, universal p
 
 *   All the different MLPA probes (even those targeting different genes) can be amplified by this one universal primer pair. This makes it a **multiplex PCR**
 
-### **4. Separation and Quantification** {-}
+### **4. Separation & Quantification** {-}
 
 The PCR products are then separated by size using **capillary electrophoresis (CE)**. Because each probe set has a unique-length stuffer sequence, the different ligated products (each representing a different gene target) will separate into distinct peaks
 
-*   The crucial insight: The **peak area** for each resulting PCR product is directly proportional to the amount of *starting* target DNA in the sample
+*   The crucial insight: The **peak area:** for each resulting PCR product is directly proportional to the amount of *starting* target DNA in the sample
 
 ## **Interpreting MLPA Results: The Copy Number** {-}
 
@@ -69,14 +69,3 @@ MLPA is a powerful tool for analyzing targeted gene sequences and detecting CNVs
 *   **Cannot Detect SNVs:** It detects CNVs (deletions/duplications) but generally cannot detect point mutations (SNVs) or indels unless the mutation falls directly at the probe ligation site
 *   **Requires Specific Probe Design:** Designing effective MLPA probe sets requires careful selection and validation
 *   **Artifacts:** Can be sensitive to differences in sample quality, temperature variations, and impurities
-
-## **Key Terms** {-}
-
-*   **MLPA (Multiplex Ligation-Dependent Probe Amplification):** A molecular technique that allows for the simultaneous detection and quantification of up to 60 different DNA sequences in a single reaction
-*   **Copy Number Variation (CNV):** A segment of DNA that is 1 kilobase (kb) or larger and is present in variable copy numbers in different individuals. MLPA is a key method for detecting CNVs (deletions or duplications)
-*   **Probe (MLPA):** A pair of two short oligonucleotides (Left and Right Probe Oligos) designed to bind adjacently to a specific target sequence
-*   **Ligation:** The crucial enzymatic process where DNA ligase joins the two separate MLPA probes together when they are hybridized adjacent to each other on the template DNA
-*   **Stuffer Sequence:** A DNA segment of unique, defined length included in each probe pair. This allows different targets to be separated and distinguished by size on capillary electrophoresis
-*   **Universal Primer:** A single pair of primers that can amplify all of the ligated MLPA probes, regardless of the target sequence, as long as they contain the universal primer binding sites
-*   **Electropherogram (MLPA):** The graphical output of the capillary electrophoresis run, showing distinct peaks for each target sequence; the height or area of the peak corresponds to the copy number of that target in the sample
-*   **Methylation-Sensitive MLPA (MS-MLPA):** A variant of MLPA used to detect the methylation status of DNA, typically in regions associated with specific genetic disorders or cancers, using methylation-sensitive restriction enzymes

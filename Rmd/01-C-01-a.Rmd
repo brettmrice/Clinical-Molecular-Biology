@@ -1,6 +1,6 @@
 # DNA {-}
 
-**DNA Polymerases** are the master builders of the DNA world. These enzymes are absolutely central to molecular biology and are indispensable tools – biochemical reagents – in the clinical molecular laboratory
+**DNA Polymerases:** are the master builders of the DNA world. These enzymes are absolutely central to molecular biology and are indispensable tools – biochemical reagents – in the clinical molecular laboratory
 
 Think of DNA polymerases as highly skilled, specialized molecular machines whose primary job is to synthesize DNA molecules from their building blocks (deoxyribonucleotides). They are essential for life (DNA replication) and essential for many of the techniques we perform daily in the lab
 
@@ -8,10 +8,10 @@ Think of DNA polymerases as highly skilled, specialized molecular machines whose
 
 The fundamental reaction catalyzed by ALL DNA polymerases is the addition of a deoxyribonucleotide (dNTP) to the 3'-hydroxyl (-OH) end of a pre-existing polynucleotide strand (a primer). This reaction forms a **phosphodiester bond**:
 
-1.  **Template Reading** The polymerase reads a template DNA strand to determine which nucleotide to add next (following Watson-Crick base pairing rules: A with T, G with C)
-2.  **Nucleotide Selection** It selects the complementary dNTP (dATP, dGTP, dCTP, or dTTP) from the surrounding environment
-3.  **Bond Formation** It catalyzes a nucleophilic attack by the 3'-OH group of the primer strand on the alpha-phosphate of the incoming dNTP. This forms a phosphodiester bond and releases pyrophosphate (PPi)
-4.  **Directionality** Synthesis ALWAYS proceeds in the **5' → 3' direction**. The polymerase moves along the template strand reading it in the 3' → 5' direction
+1.  **Template Reading:** The polymerase reads a template DNA strand to determine which nucleotide to add next (following Watson-Crick base pairing rules: A with T, G with C)
+2.  **Nucleotide Selection:** It selects the complementary dNTP (dATP, dGTP, dCTP, or dTTP) from the surrounding environment
+3.  **Bond Formation:** It catalyzes a nucleophilic attack by the 3'-OH group of the primer strand on the alpha-phosphate of the incoming dNTP. This forms a phosphodiester bond and releases pyrophosphate (PPi)
+4.  **Directionality:** Synthesis ALWAYS proceeds in the **5' → 3' direction**. The polymerase moves along the template strand reading it in the 3' → 5' direction
 
 ## **Essential Requirements for DNA Polymerase Activity** {-}
 
@@ -59,11 +59,11 @@ These are isolated from thermophilic bacteria or archaea that live in high-tempe
 *   ***Taq* Polymerase:** From *Thermus aquaticus*. The classic PCR enzyme
     *   Optimal temperature ~72°C
     *   **Lacks 3'→5' proofreading activity:** Relatively low fidelity (error rate ~1 in 10⁴-10⁵ bases). Suitable for routine diagnostic PCR where absolute sequence accuracy isn't paramount
-    *   Possesses **terminal transferase activity** Adds a non-template single Adenine ('A' overhang) to the 3' end of PCR products, useful for TA cloning
+    *   Possesses **terminal transferase activity:** Adds a non-template single Adenine ('A' overhang) to the 3' end of PCR products, useful for TA cloning
     *   Relatively high processivity and extension rate
 *   ***Pfu* Polymerase:** From *Pyrococcus furiosus*
     *   **Possesses 3'→5' proofreading activity:** High fidelity (error rate ~1 in 10⁶ bases). Preferred for applications requiring accurate sequences (cloning, sequencing)
-    *   Produces **blunt-ended** PCR products
+    *   Produces **blunt-ended:** PCR products
     *   Generally slower extension rate than *Taq*
 *   ***Vent*, *Deep Vent* Polymerases:** From *Thermococcus litoralis* and *Pyrococcus* species, respectively. Also high-fidelity, proofreading enzymes
 *   **Blends and Engineered Polymerases:** Many commercial polymerases are mixtures (e.g., *Taq* + a small amount of a proofreading enzyme) or genetically engineered versions designed to enhance specific properties:
@@ -99,21 +99,3 @@ DNA polymerases are the heart of many molecular diagnostic techniques:
 *   **Site-Directed Mutagenesis:** Creating specific DNA sequence changes using PCR with specialized primers and polymerases
 *   **Probe Labeling:** Incorporating labeled dNTPs into DNA probes for hybridization assays
 *   **Isothermal Amplification:** Techniques like LAMP use polymerases with specific properties (e.g., strand displacement)
-
-## **Key Terms** {-}
-
-*   **DNA Polymerase:** Enzyme that synthesizes DNA from a DNA template
-*   **Phosphodiester Bond:** Covalent bond linking nucleotides in a nucleic acid chain
-*   **Template:** The nucleic acid strand being read by the polymerase
-*   **Primer:** A short nucleic acid strand with a free 3'-OH, required to initiate synthesis
-*   **dNTPs (deoxyribonucleoside triphosphates):** The building blocks of DNA (dATP, dGTP, dCTP, dTTP)
-*   **5' → 3' Synthesis:** The direction in which new DNA strands are synthesized
-*   **Exonuclease:** Enzyme that removes nucleotides from the ends of a nucleic acid strand
-*   **3' → 5' Exonuclease Activity (Proofreading):** Removes mismatched nucleotides from the 3' growing end, increasing fidelity
-*   **5' → 3' Exonuclease Activity:** Removes nucleotides from the 5' end of a downstream strand
-*   **Fidelity:** The accuracy of DNA synthesis (low error rate)
-*   **Processivity:** The number of nucleotides incorporated before the polymerase dissociates from the template
-*   **Thermostable:** Able to withstand high temperatures without losing function
-*   ***Taq* Polymerase:** Common thermostable DNA polymerase used in PCR; lacks proofreading
-*   ***Pfu* Polymerase:** High-fidelity thermostable DNA polymerase used in PCR; has proofreading
-*   **Hot Start:** Modification preventing polymerase activity until high temperature activation, improving PCR specificity

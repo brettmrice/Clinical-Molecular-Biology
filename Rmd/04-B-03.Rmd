@@ -1,0 +1,87 @@
+# Assays {-}
+
+Before a molecular diagnostic test can be used to report patient results, the laboratory must prove that the assay works as intended. This process is strictly regulated by agencies such as CLIA (Clinical Laboratory Improvement Amendments) and CAP (College of American Pathologists). The rigor of this testing depends on the regulatory status of the assay (FDA-cleared vs. Laboratory Developed Test). The goal is to establish the performance characteristics - the specific metrics that define how accurate, precise, and sensitive the test is
+
+## Verification vs. Validation {-}
+
+While often used interchangeably in casual conversation, these terms have distinct regulatory meanings in the clinical laboratory. The path a laboratory takes depends on the source of the method
+
+*   **Verification (Performance Verification)**
+    *   **Applicability:** Used for **FDA-Cleared/Approved** In Vitro Diagnostic (IVD) kits that are used *strictly* according to the manufacturer's instructions without modification
+    *   **Goal:** To demonstrate that the laboratory can replicate the performance specifications established by the manufacturer. It is a "sanity check" to ensure the test works in *your* hands, with *your* pipettes, in *your* environment
+    *   **Requirements:** typically requires a smaller sample size (e.g., 20–40 samples) to verify Accuracy, Precision, and Reportable Range
+*   **Validation (Method Validation)**
+    *   **Applicability:** Required for **Laboratory Developed Tests (LDTs)**, "Home-brew" assays, or FDA-cleared kits that have been **modified** (e.g., using a different extraction platform, different sample type, or reduced reagent volumes)
+    *   **Goal:** To establish the performance specifications from scratch. The laboratory is essentially acting as the manufacturer
+    *   **Requirements:** A rigorous, extensive study requiring large sample sizes to establish Accuracy, Precision, Analytical Sensitivity, Analytical Specificity, Reportable Range, and Reference Intervals
+
+## Key Performance Characteristics {-}
+
+Whether performing a verification or a validation, specific metrics must be evaluated. These define the quality of the assay
+
+### Accuracy (Trueness) {-}
+
+Accuracy is the measure of how close a test result is to the "true" value. In molecular biology, "truth" is often determined by comparison to a reference method
+
+*   **Methodology:** Run a set of samples (positive and negative) on the new molecular assay and compare the results to a "Gold Standard" or an existing established method
+    *   **Correlation:** For quantitative tests (e.g., Viral Load), results are plotted on a linear regression graph ($y=mx+b$) to determine the correlation coefficient ($R^2$). An $R^2 > 0.95$ is typically required
+    *   **Concordance:** For qualitative tests (Pos/Neg), calculate the percent agreement (Concordance). If the new PCR test detects 19/20 positives found by the reference lab, the concordance is 95%
+*   **Discrepancy Resolution:** If the new test calls a sample "Positive" but the old test called it "Negative," a third "tie-breaker" method (often Sanger Sequencing) is used to determine which test was correct
+
+### Precision (Reproducibility) {-}
+
+Precision measures the ability of the assay to produce the same result repeatedly on the same sample, regardless of whether the result is correct. It assesses the "noise" or random error in the system
+
+*   **Intra-Run Precision (Repeatability):** Testing the same sample multiple times in the *same* run. This checks pipetting consistency and instrument stability
+*   **Inter-Run Precision (Reproducibility):** Testing the same sample on *different* days, by *different* laboratory scientists, using *different* reagent lots. This checks the robustness of the assay over time
+*   **Measurement**
+    *   For Quantitative assays, precision is expressed as the **Coefficient of Variation (%CV):** or Standard Deviation (SD). A lower %CV indicates higher precision
+    *   For Qualitative assays, precision is simply the consistency of the call (e.g., "The sample tested Positive 10 out of 10 times")
+
+### Analytical Sensitivity (Limit of Detection - LoD) {-}
+
+This is the lowest concentration of analyte (DNA/RNA) that can be detected with a specified degree of confidence (usually 95%). It answers the question: "How little virus can be there for the test to still turn positive?"
+
+*   **Determination:** Create a serial dilution of a known positive standard. Run replicates (e.g., 20 replicates) of each dilution
+*   **The 95% Cutoff:** The LoD is the concentration where 95% of the replicates test positive (i.e., 19 out of 20). Below this level, the test may become erratic (stochastic), sometimes missing the target
+*   **Clinical Relevance:** A low LoD is crucial for screening assays (e.g., blood bank HIV screening) or meningitis panels where pathogen levels may be very low
+
+### Analytical Specificity (Interference & Cross-Reactivity) {-}
+
+This measures the assay's ability to detect *only* the intended target and nothing else. It has two components:
+
+*   **Interfering Substances:** Testing the assay in the presence of common inhibitors to ensure they do not cause false negatives. Common inhibitors include:
+    *   Hemoglobin (from lysed blood)
+    *   Lipids (from lipemic plasma)
+    *   Bilirubin (icteric samples)
+    *   Exogenous substances (Heparin, Ethanol, glove powder)
+*   **Cross-Reactivity:** Testing the assay against organisms that are genetically similar or clinically related to ensure they do not cause false positives
+    *   *Example:* A SARS-CoV-2 assay must be tested against other coronaviruses (HKU1, OC43) and other respiratory viruses (Influenza, RSV) to prove it does not cross-react
+
+### Linearity & the AMR (Quantitative Assays Only) {-}
+
+For quantitative tests (e.g., HIV/HCV Viral Load), the lab must define the range in which the test is accurate without dilution
+
+*   **AMR (Analytical Measurement Range):** The range of values that the instrument can report directly. (e.g., 100 copies/mL to 10,000,000 copies/mL). Within this range, the relationship between signal and concentration is linear
+*   **CRR (Clinical Reportable Range):** This extends the AMR by allowing for dilutions. If a sample is >10,000,000, the lab can dilute it 1:10 and re-run it. The CRR is the AMR $\times$ the maximum validated dilution factor
+
+## Clinical Validity (Diagnostic Accuracy) {-}
+
+While Analytical Sensitivity deals with *molecules*, Clinical Sensitivity deals with *patients*. This data is usually established by the manufacturer during clinical trials but must be understood by the laboratory scientist
+
+*   **Clinical Sensitivity:** The probability that a person *with* the disease will test positive. (True Positives / (True Positives + False Negatives))
+*   **Clinical Specificity:** The probability that a person *without* the disease will test negative. (True Negatives / (True Negatives + False Positives))
+*   **PPV (Positive Predictive Value):** If the test is positive, how likely is it that the patient actually has the disease? This value is dependent on the prevalence of the disease in the population
+
+## Continuing Quality Assurance (Proficiency Testing) {-}
+
+Validation is not a one-time event. The laboratory must prove continuously that the validation holds true over time. This is achieved through Proficiency Testing (PT) or External Quality Assessment (EQA)
+
+*   **The Process**
+    *   An external agency (e.g., CAP, API) sends "blind" samples to the laboratory
+    *   The lab runs these samples exactly like patient samples (same staff, same reagents)
+    *   Results are submitted to the agency for grading
+*   **Grading and Remediation**
+    *   The results are compared to peer laboratories using the same method
+    *   **Passed:** The lab continues testing
+    *   **Failed:** If a lab fails PT (e.g., <80% accuracy), they must perform a Root Cause Analysis. Repeated failure (2 out of 3 events) can result in the lab losing its accreditation and being forced to "Cease Testing" for that analyte until the problem is fixed and the assay is re-validated

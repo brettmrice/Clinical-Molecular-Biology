@@ -1,6 +1,6 @@
 # Bioinformatics {-}
 
-**Bioinformatics**  lives at the intersection of biology, computer science, and statistics. But let's demystify it. In the clinical molecular lab, bioinformatics isn't about writing code from scratch; it's about using powerful software tools to transform the raw, chaotic output from a sequencer into a clear, accurate, and clinically actionable patient report
+**Bioinformatics:**  lives at the intersection of biology, computer science, and statistics. But let's demystify it. In the clinical molecular lab, bioinformatics isn't about writing code from scratch; it's about using powerful software tools to transform the raw, chaotic output from a sequencer into a clear, accurate, and clinically actionable patient report
 
 Think of it this way: a DNA sequencer produces the equivalent of a massive, unreadable text file containing millions or billions of A's, T's, C's, and G's. Bioinformatics is the set of tools and processes we use to read that file, find the spelling mistakes (variants), and look up what those mistakes mean in the medical dictionary
 
@@ -14,8 +14,8 @@ This happens right after the sequencing run finishes. The goal is to answer one 
 
 *   **Raw Data Format:** The sequencer spits out raw data in a **FASTQ file**. This file contains two key pieces of information for each short sequence "read":
     1.  The sequence of bases (e.g., ATTCGGTAC...)
-    2.  A **Phred Quality Score (Q-score)** for each base, indicating the probability that the base was called correctly. A high Q-score (e.g., Q30) means high confidence; a low score means the sequencer wasn't sure
-*   **What We Check:** The bioinformatics pipeline starts by generating QC reports. A technologist is often the first person to review these. We look for:
+    2.  A **Phred Quality Score (Q-score):** for each base, indicating the probability that the base was called correctly. A high Q-score (e.g., Q30) means high confidence; a low score means the sequencer wasn't sure
+*   **What We Check:** The bioinformatics pipeline starts by generating QC reports. A laboratory scientist is often the first person to review these. We look for:
     *   **High Average Quality Scores:** We want to see that most bases have a Q-score of 30 or higher (meaning a 1 in 1000 chance of being an error)
     *   **Sufficient Number of Reads:** Did the run produce enough data to adequately cover the genes we're interested in?
     *   **Adapter Contamination:** Are there leftover bits of sequencing adapters that need to be trimmed off?
@@ -53,7 +53,7 @@ A raw VCF file might contain thousands of variants, but most are benign or commo
     *   **Clinical Significance:** Has this variant been reported before as benign, pathogenic, or of uncertain significance? This information is pulled from databases like **ClinVar**
     *   **Functional Prediction:** In silico (computer-based) tools like SIFT and PolyPhen predict whether an amino acid change is likely to be damaging to the protein's function
 
-### **Step 5: Filtering, Review, and Reporting** {-}
+### **Step 5: Filtering, Review, & Reporting** {-}
 
 The final step is to filter the massively annotated list down to a handful of variants that are relevant to the patient's clinical picture
 
@@ -64,9 +64,9 @@ The final step is to filter the massively annotated list down to a handful of va
     *   Variants previously classified as pathogenic or likely pathogenic
 *   **The Result:** This process yields a short list of potentially significant variants. A trained molecular pathologist or geneticist then reviews this evidence to make a final interpretation, which is then written into the patient's report
 
-## **The Role of the Medical Laboratory Scientist in Bioinformatics** {-}
+## **The Role of the laboratory scientist in Bioinformatics** {-}
 
-As an entry-level MLS, you are not expected to be a bioinformatics programmer. However, you are a crucial user and first-line-of-defense for the bioinformatics pipeline. Your role includes:
+As an entry-level laboratory scientist, you are not expected to be a bioinformatics programmer. However, you are a crucial user and first-line-of-defense for the bioinformatics pipeline. Your role includes:
 
 *   **Initiating the Pipeline:** Loading the raw data from the sequencer and starting the analysis workflow on the lab's server or cloud platform
 *   **Monitoring QC:** Being the first person to look at the post-run QC reports (e.g., from FastQC or the instrument's software) to give a "go/no-go" for further analysis
@@ -75,19 +75,3 @@ As an entry-level MLS, you are not expected to be a bioinformatics programmer. H
 *   **Basic Troubleshooting:** Understanding the steps well enough to communicate a problem effectively to a bioinformatics specialist (e.g., "The alignment percentage for sample X was unusually low," or "The VCF file for this run is empty.")
 
 In short, bioinformatics is the essential final step that gives meaning to all the careful lab work of sample prep and sequencing. It's the sophisticated engine that turns a sea of letters into a diagnosis
-
-## **Key Terms** {-}
-
-*   **Bioinformatics:** The use of computational tools to acquire, store, analyze, and interpret biological data, especially large datasets like genomic sequences
-*   **FASTQ:** A text-based file format that stores both a nucleotide sequence and its corresponding quality scores. This is the raw output of most NGS platforms
-*   **Phred Quality Score (Q-score):** A numerical score assigned to each base in a sequence read that represents the estimated accuracy of that base call. Q30 is a common quality benchmark
-*   **Alignment (or Mapping):** The computational process of determining the original location of a DNA sequence read within a larger reference genome
-*   **Reference Genome:** A digitally assembled, high-quality "representative" genome sequence for a species (e.g., GRCh38/hg38 for humans) used as a standard for comparison
-*   **SAM/BAM File:** (Sequence Alignment/Map and its Binary version) File formats that store the results of aligning sequence reads to a reference genome
-*   **Variant Calling:** The process of identifying positions where the sequenced sample's DNA differs from the reference genome
-*   **VCF (Variant Call Format):** A standardized text file format for storing DNA sequence variations (SNPs, indels, etc.)
-*   **Annotation:** The process of adding relevant biological information to a list of variants, such as the gene affected, the predicted effect on the protein, population frequency, and known clinical significance
-*   **ClinVar:** A public, FDA-recognized archive that aggregates information about genomic variants and their relationship to human health
-*   **Allele Frequency:** A measure of how common a specific variant is in a given population
-*   **Indel:** A type of genetic variant characterized by the insertion or deletion of one or more nucleotides
-*   **SNP/SNV (Single Nucleotide Polymorphism/Variant):** A variation at a single position in a DNA sequence among individuals

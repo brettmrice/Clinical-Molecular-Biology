@@ -10,7 +10,7 @@ The laboratory methods to analyze these regions are highly specialized. Because 
 
 One of the defining features of many trinucleotide repeat disorders is a phenomenon called **anticipation**. This means that as the unstable repeat expands through successive generations, the disease tends to:
 
-*   Appear at an **earlier age** of onset
+*   Appear at an **earlier age:** of onset
 *   Present with **increased severity**
 
 This is a direct reflection of the molecular event: a larger repeat expansion typically correlates with a more severe disease course. A grandfather might have a small expansion and develop symptoms at age 60, his daughter might have a larger expansion and show signs at age 40, and his grandson could have a massive expansion and be severely affected in childhood. Our lab results provide the molecular explanation for this clinical observation
@@ -42,7 +42,7 @@ This is a progressive, fatal neurodegenerative disorder characterized by involun
     *   **Intermediate:** 27-35 repeats (not at risk, but children may be)
     *   **Reduced Penetrance:** 36-39 repeats (may or may not develop symptoms)
     *   **Full Penetrance:** >40 repeats (will develop Huntington Disease)
-*   **The Molecular Mechanism:** The CAG codon codes for the amino acid glutamine. The expansion leads to an abnormally long tract of glutamine residues (a "polyglutamine tract") in the huntingtin protein. This altered protein misfolds, clumps together, and is toxic to neurons, particularly in the striatum of the brain. This is a **toxic gain-of-function** mechanism—the abnormal protein actively causes damage
+*   **The Molecular Mechanism:** The CAG codon codes for the amino acid glutamine. The expansion leads to an abnormally long tract of glutamine residues (a "polyglutamine tract") in the huntingtin protein. This altered protein misfolds, clumps together, and is toxic to neurons, particularly in the striatum of the brain. This is a **toxic gain-of-function** mechanism - the abnormal protein actively causes damage
 
 ### **Myotonic Dystrophy Type 1 (DM1): A Toxic RNA Problem** {-}
 
@@ -50,13 +50,3 @@ This is the most common form of adult-onset muscular dystrophy, characterized by
 
 *   **The Gene and the Repeat:** An expanding **CTG** repeat in the 3' untranslated region (3' UTR) of the ***DMPK*** gene
 *   **The Molecular Mechanism:** Here, the problem is not the protein itself, but the messenger RNA (mRNA) transcript. The expanded CUG repeat in the mRNA creates an abnormal, sticky structure. This toxic RNA acts like a sponge, trapping and sequestering essential RNA-binding proteins in the nucleus. These trapped proteins are now unable to perform their normal jobs of splicing other critical mRNAs, leading to a cascade of problems across multiple body systems. It's a **toxic RNA gain-of-function** mechanism
-
-## **Key Terms** {-}
-
-*   **Trinucleotide Repeat Expansion:** A type of mutation where a sequence of three DNA nucleotides is unstable and repeats an excessive number of times, expanding in size from one generation to the next
-*   **Anticipation:** The clinical phenomenon in which the signs and symptoms of a genetic disorder become more severe and/or appear at an earlier age as it is passed from one generation to the next
-*   **Premutation:** An intermediate number of repeats that is unstable and at risk of expanding into a full mutation in offspring. It may also be associated with late-onset health risks for the carrier
-*   **Fragile X Syndrome:** The most common inherited cause of intellectual disability, caused by a CGG repeat expansion in the *FMR1* gene that leads to gene silencing
-*   **Huntington Disease:** A fatal neurodegenerative disorder caused by a CAG repeat expansion in the *HTT* gene, which creates a toxic polyglutamine protein
-*   **Myotonic Dystrophy:** A multi-systemic disorder caused by a CTG repeat expansion in the *DMPK* gene, which results in a toxic RNA that disrupts the function of other genes
-*   **Fragment Analysis:** A laboratory technique using capillary electrophoresis to precisely measure the size of PCR products. It is used to determine the exact number of repeats in normal and premutation-sized alleles

@@ -1,0 +1,69 @@
+# Biological {-}
+
+Safety in the molecular biology laboratory is governed by the principle that all human specimens are potentially infectious. While molecular diagnostics often deals with small volumes of lysed (non-infectious) material, the initial processing of raw samples (blood, bone marrow, sputum, CSF) presents a significant biohazard risk. The protection of laboratory personnel from Bloodborne Pathogens (BBP) and other infectious agents is achieved through a hierarchy of controls: Standard Precautions, Engineering Controls, and Work Practice Controls
+
+## Standard Precautions & PPE {-}
+
+The foundation of biological safety is the concept of **Standard Precautions** (formerly Universal Precautions), which mandates that all human blood, body fluids, and tissues be treated as if they are known to be infectious for HIV, Hepatitis B (HBV), and other bloodborne pathogens. This approach eliminates the need to know the specific infectious status of a patient before handling their sample
+
+*   **Personal Protective Equipment (PPE)**
+    *   **Gloves:** Must be worn at all times when handling specimens. Nitrile gloves are preferred over latex due to better chemical resistance and reduced allergy risk. Gloves must be changed immediately if torn or heavily contaminated and must never be worn outside the laboratory (e.g., in hallways or breakrooms)
+    *   **Laboratory Coats:** Fluid-resistant lab coats are required to protect skin and street clothes from splashes. In the molecular lab, coats are often color-coded or restricted to specific rooms (e.g., a specific coat for the Reagent Prep room vs. the Post-PCR room) to prevent amplicon migration, but their primary safety function is barrier protection. They must be buttoned completely
+    *   **Facial Protection:** If there is a risk of splashing or aerosol generation (e.g., opening a pressurized tube), safety goggles, a face shield, or a splash guard must be used. Standard prescription glasses are generally not considered sufficient eye protection without side shields
+
+## Engineering Controls: The Biological Safety Cabinet (BSC) {-}
+
+The primary engineering control for minimizing exposure to infectious aerosols is the **Class II Biological Safety Cabinet (BSC)**. It is critical to distinguish the BSC from a Laminar Flow Hood
+
+*   **Class II, Type A2 BSC (The Standard Clinical Hood)**
+    *   **Protection Profile:** Protects the **User** (from pathogens), the **Product** (from contamination), and the **Environment** (from exhaust)
+    *   **Airflow Mechanism**
+        1.  **Inflow:** Room air is drawn into the front grille, creating an "air curtain" that prevents pathogens from escaping the cabinet and reaching the user
+        2.  **Downflow:** HEPA-filtered air flows vertically down onto the work surface (laminar flow), protecting the specimen from room dust/DNA
+        3.  **Exhaust:** Air is passed through a HEPA filter before being recirculated into the room or vented outside
+*   **Safe Operation of the BSC**
+    *   **Sash Height:** The glass sash must be kept at the certified height (usually 8 or 10 inches). Raising it too high disables the alarm and breaks the inflow air velocity, allowing aerosols to escape
+    *   **Grille Obstruction:** Never cover the front or rear air grilles with pipette tip boxes, waste bags, or notebooks. Blocking these grilles disrupts the laminar flow, causing turbulence that can blow aerosols out toward the user
+    *   **Movement:** Move arms strictly in and out, perpendicular to the face of the hood. Rapid side-to-side movements create air currents that can pull aerosols out of the cabinet
+
+## Aerosol Minimization & Centrifugation {-}
+
+Aerosols are microscopic droplets of liquid that can carry infectious agents (e.g., *Mycobacterium tuberculosis* or *Neisseria meningitidis*) into the respiratory tract. Molecular workflows involve significant agitation, creating high aerosol risks
+
+*   **Centrifugation Safety**
+    *   **Sealed Carriers:** When spinning clinical specimens (blood, urine, sputum), always use centrifuges equipped with **sealed safety cups** or aerosol-tight rotors. If a tube breaks during a high-speed spin, the aerosols are contained within the cup
+    *   **Loading/Unloading:** Safety cups should be loaded and unloaded *inside* the Biological Safety Cabinet. If a tube has shattered, opening the cup on the open bench exposes the entire lab to the aerosol cloud
+*   **Tube Opening Technique**
+    *   "Popping" the cap off a microcentrifuge tube creates a micro-spray of contents. Tubes should be opened carefully using a distinct motion away from the face
+    *   Wait for the centrifuge to stop completely before opening the lid to allow aerosols to settle
+
+## Biological Waste Disposal {-}
+
+Proper segregation of waste is a legal requirement governed by OSHA and state regulations. Waste is categorized by its potential to cause injury or infection
+
+*   **Solid Biohazard Waste (Red Bags)**
+    *   **Contents:** Any non-sharp item contaminated with blood or body fluids. This includes gloves, plastic transfer pipettes, used microcentrifuge tubes, and contaminated paper towels
+    *   **Container:** Must be placed in a rigid, leak-proof container lined with a red biohazard bag labeled with the biohazard symbol. The lid must remain closed when not in active use to prevent spore dispersion
+*   **Sharps Waste**
+    *   **Definition:** Any object capable of puncturing the skin, regardless of whether it is contaminated. This includes needles, scalpel blades, glass slides, and glass Pasteur pipettes
+    *   **Container:** Rigid, puncture-resistant, leak-proof containers (usually red). They must be closed when 3/4 full. **Never** reach into a sharps container or attempt to force an item in
+    *   **Rule:** Never recap needles. Use the safety engineering device (sheath) immediately after use
+*   **Liquid Biohazard Waste**
+    *   **Contents:** Bulk blood, urine, or liquid media/buffers containing pathogens
+    *   **Treatment:** Liquid waste is typically treated with **Sodium Hypochlorite (Bleach)** to a final concentration of 10%. It must sit for a defined contact time (usually 30 minutes) before being poured down the sanitary sewer (sink), provided local water regulations permit it. Alternatively, it is solidified with a powder and disposed of as solid waste
+
+## The Guanidine-Bleach Hazard {-}
+
+A safety issue unique to molecular laboratories involves the chemical incompatibility between extraction reagents and disinfection protocols. This is the most critical chemical/biological overlap in the laboratory
+
+*   **The Hazard:** Most commercial nucleic acid extraction kits (lysis buffers) contain high concentrations of **Guanidine Thiocyanate** (a chaotropic salt used to denature proteins)
+*   **The Reaction:** Mixing Guanidine Thiocyanate with **Sodium Hypochlorite (Bleach)** releases **Hydrogen Cyanide** or **Cyanogen Chloride** gas. These gases are acutely toxic
+*   **The Protocol**
+    *   **NEVER:** pour lysis buffer waste into a sink or trap containing bleach
+    *   **Spill Cleanup:** If a spill involves lysis buffer, **do not** use bleach to disinfect the area initially. Wipe the spill with detergent/water to remove the guanidine, then follow up with bleach only after the salts are removed
+    *   **Waste Segregation:** Lysis buffer waste should often be collected in a separate chemical waste container (not the general bleach trap) for disposal by Environmental Health & Safety (EHS)
+
+## Decontamination Agents {-}
+
+*   **Sodium Hypochlorite (10% Bleach):** The most effective broad-spectrum disinfectant. It kills bacteria, viruses (including HIV/HBV), and destroys DNA. It is corrosive to metal and must be rinsed with water or ethanol
+*   **70% Ethanol/Isopropanol:** A good disinfectant for surfaces and safe for stainless steel. However, it evaporates quickly (short contact time) and is **not** effective against bacterial spores (like *C. difficile*) or non-enveloped viruses. It precipitates DNA but does not destroy it, so it is less effective for preventing amplicon contamination than bleach

@@ -10,21 +10,21 @@ MLST is a definitive method for characterizing bacterial isolates by sequencing 
 
 *   **Multi-Locus:** This means we look at multiple (usually 6 to 8) different gene locations ("loci") on the bacterial chromosome. Using multiple genes provides a robust and stable characterization. If we only looked at one gene, two unrelated strains might share the same sequence by chance
 *   **Sequence Typing:** We determine the exact DNA sequence of these gene fragments. Each unique sequence variant for a given gene is assigned an **allele** number. The combination of allele numbers across all the loci creates a unique "allelic profile," which is then assigned a definitive **Sequence Type (ST)** number
-*   **Housekeeping Genes:** This is the key to why MLST works. We don't just choose any genes. We choose housekeeping genes—genes that are essential for the bacterium's basic survival (e.g., involved in metabolism or protein synthesis). These genes have two critical properties:
+*   **Housekeeping Genes:** This is the key to why laboratory scientistT works. We don't just choose any genes. We choose housekeeping genes - genes that are essential for the bacterium's basic survival (e.g., involved in metabolism or protein synthesis). These genes have two critical properties:
     1.  They are **conserved**, meaning they are present in all strains of a species and evolve slowly
     2.  They accumulate neutral sequence variations (polymorphisms) over time at a rate that is just right for distinguishing between different lineages or "clones"
 
-## **The MLST Workflow: From Bug to Number** {-}
+## **The laboratory scientistT Workflow: From Bug to Number** {-}
 
 The process is methodical and relies on a central, curated online database (like PubMLST) that stores all the known allele sequences and ST profiles for different organisms
 
-1.  **Bacterial Isolate** It all starts in the microbiology lab with a pure culture of the bacterium isolated from a patient
-2.  **PCR Amplification** DNA is extracted from the bacteria. Then, a series of PCR reactions are performed to amplify a specific internal fragment (typically ~450-500 bp) of each of the chosen housekeeping genes
-3.  **DNA Sequencing** Each of these PCR products is then sequenced, almost always using **Sanger sequencing**, to determine its exact nucleotide sequence
-4.  **Allele Assignment** The sequence for each gene fragment is submitted to the central MLST database. The database compares the sequence to all known alleles for that gene and assigns it a corresponding allele number. If it's a brand-new sequence variant, the database curator assigns it a new allele number
-5.  **Determine the Sequence Type (ST)** Once all genes have been assigned an allele number, the combination of these numbers (e.g., 3-4-1-7-12-2-9) forms the **allelic profile**. The database checks this specific profile and assigns it a definitive ST number (e.g., ST-5). This ST number is the strain's final, unambiguous identifier
+1.  **Bacterial Isolate:** It all starts in the microbiology lab with a pure culture of the bacterium isolated from a patient
+2.  **PCR Amplification:** DNA is extracted from the bacteria. Then, a series of PCR reactions are performed to amplify a specific internal fragment (typically ~450-500 bp) of each of the chosen housekeeping genes
+3.  **DNA Sequencing:** Each of these PCR products is then sequenced, almost always using **Sanger sequencing**, to determine its exact nucleotide sequence
+4.  **Allele Assignment:** The sequence for each gene fragment is submitted to the central laboratory scientistT database. The database compares the sequence to all known alleles for that gene and assigns it a corresponding allele number. If it's a brand-new sequence variant, the database curator assigns it a new allele number
+5.  **Determine the Sequence Type (ST):** Once all genes have been assigned an allele number, the combination of these numbers (e.g., 3-4-1-7-12-2-9) forms the **allelic profile**. The database checks this specific profile and assigns it a definitive ST number (e.g., ST-5). This ST number is the strain's final, unambiguous identifier
 
-## **Interpreting MLST Data: Tracking the Clones** {-}
+## **Interpreting laboratory scientistT Data: Tracking the Clones** {-}
 
 The final ST number is a powerful piece of epidemiological data
 
@@ -32,21 +32,11 @@ The final ST number is a powerful piece of epidemiological data
 *   **Global Epidemiology:** Because the data is centralized and standardized, an ST-5 *Neisseria meningitidis* strain isolated in New York is the same as an ST-5 isolated in London. This allows public health labs to track the global spread of particularly virulent or antibiotic-resistant clones
 *   **Population Biology:** By comparing allelic profiles, scientists can group related STs into **clonal complexes** and build evolutionary trees (phylogenies) to understand the population structure and evolutionary history of bacterial pathogens
 
-## **The Evolution of MLST** {-}
+## **The Evolution of laboratory scientistT** {-}
 
 MLST was the gold standard for bacterial typing for many years due to its reproducibility and the portable nature of its data (an ST number is easy to share and compare). However, with the decreasing cost and increasing speed of sequencing, it is now being succeeded by **Whole Genome Sequencing (WGS)**
 
-*   **Whole Genome Sequencing (WGS):** WGS provides the ultimate resolution by sequencing the entire bacterial genome. It can distinguish between strains that are identical by MLST
-*   **In Silico MLST:** Today, many labs perform WGS on their isolates and then use bioinformatics software to *extract* the sequences of the 7 MLST housekeeping genes from the whole genome data. This allows them to determine the ST directly from the WGS data, providing a link between new, high-resolution data and the vast historical MLST databases that already exist
+*   **Whole Genome Sequencing (WGS):** WGS provides the ultimate resolution by sequencing the entire bacterial genome. It can distinguish between strains that are identical by laboratory scientistT
+*   **In Silico laboratory scientistT:** Today, many labs perform WGS on their isolates and then use bioinformatics software to *extract* the sequences of the 7 laboratory scientistT housekeeping genes from the whole genome data. This allows them to determine the ST directly from the WGS data, providing a link between new, high-resolution data and the vast historical laboratory scientistT databases that already exist
 
-Even as WGS takes over, understanding MLST is essential because it established the fundamental principles of using standardized sequence data for large-scale epidemiological tracking
-
-## **Key Terms** {-}
-
-*   **MLST (Multi-Locus Sequence Typing):** A method for characterizing bacterial isolates by sequencing internal fragments of several housekeeping genes to generate a unique, portable identifier called a Sequence Type (ST)
-*   **Housekeeping Genes:** Genes that are essential for basic cellular function and are present in all strains of a species. They are chosen for MLST because they accumulate mutations at a slow, steady rate
-*   **Allele (MLST):** A specific, unique DNA sequence variant for a given housekeeping gene locus. Each unique allele is assigned an arbitrary number by a central database
-*   **Allelic Profile:** The specific combination of allele numbers for all of the housekeeping loci being analyzed (e.g., a string of 7 numbers)
-*   **Sequence Type (ST):** A number assigned to a unique allelic profile. It serves as the definitive, unambiguous identifier for a bacterial strain or clonal group
-*   **Epidemiology:** The branch of medicine that deals with the incidence, distribution, and possible control of diseases. MLST is a primary tool for molecular epidemiology
-*   **Clonal Complex:** A group of closely related STs that share a recent common ancestor, often differing at only one of the seven loci from a central, founding genotype
+Even as WGS takes over, understanding laboratory scientistT is essential because it established the fundamental principles of using standardized sequence data for large-scale epidemiological tracking

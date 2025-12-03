@@ -1,0 +1,48 @@
+# Cost Analysis & Reimbursement {-}
+
+Financial viability in the molecular laboratory is determined by the relationship between the cost of generating a result and the payment received for that result. Unlike high-volume automated chemistry lines where reagents cost pennies, molecular diagnostics involves high-value reagents (enzymes, probes), complex manual labor, and expensive instrumentation. Therefore, granular cost analysis and a deep understanding of the reimbursement landscape are essential for laboratory administration to ensure the department remains solvent
+
+## Cost Analysis (Cost Accounting) {-}
+
+Cost analysis is the process of determining the actual expense required to produce one reportable patient result. This figure, known as the **Cost Per Test**, is the baseline metric used to set pricing, negotiate contracts, and determine if a test should be performed in-house or sent to a reference laboratory
+
+*   **Fixed vs. Variable Costs**
+    *   **Fixed Costs:** Expenses that remain constant regardless of the testing volume. Examples include the lease on a thermal cycler, the annual preventative maintenance contract, the Laboratory Director's stipend, accreditation fees (CAP/CLIA), and the base electricity/HVAC for the room. These costs are incurred even if the lab runs zero tests
+    *   **Variable Costs:** Expenses that fluctuate directly in proportion to the number of tests performed. Examples include extraction kits, PCR master mix, pipette tips, gloves, and spin columns. If testing volume doubles, these costs double
+*   **Direct vs. Indirect Costs**
+    *   **Direct Costs:** Expenses that can be specifically traced to a single test. This includes the laboratory scientist's hands-on labor time (minutes per run) and the specific reagents consumed
+    *   **Indirect Costs (Overhead):** Expenses that support the general operation of the facility but cannot be tied to a specific specimen. This includes administrative salaries, the Laboratory Information System (LIS) license, billing department services, and janitorial services. These are usually allocated to the test as a percentage "overhead" surcharge
+*   **The Impact of Batch Sizing (Molecular Efficiency)**
+    *   In molecular biology, the "Cost Per Test" is highly dependent on **Batch Efficiency**. Most assays require a Positive Control and a Negative Control (NTC) for every run, regardless of the number of patients
+    *   **Low Efficiency:** Running 1 Patient + 2 Controls = 3 reactions for 1 billable result. The patient sample must absorb the cost of the two control reactions
+    *   **High Efficiency:** Running 90 Patients + 2 Controls = 92 reactions for 90 billable results. The cost of the controls is distributed across 90 patients, significantly lowering the cost per test
+    *   *Administration Strategy:* To lower costs, labs often implement "batching schedules" (e.g., running HCV Viral Loads only on Tuesdays and Thursdays) to ensure runs are full
+
+## Reimbursement (Revenue Cycle) {-}
+
+Reimbursement refers to the payment the laboratory receives for its services. In the United States, this is a complex system involving government payers (Medicare/Medicaid) and private insurers. The amount billed (Gross Revenue) is rarely the amount collected (Net Revenue) due to contractual allowances
+
+*   **Coding Systems (The Language of Billing)**
+    *   **CPT Codes (Current Procedural Terminology):** Managed by the AMA, these 5-digit codes describe *what* service was performed. Molecular pathology uses the **81000** series. Codes are generally assigned based on the specific gene analyzed (Tier 1) or the methodology used (Tier 2)
+    *   **GSP Codes (Genomic Sequencing Procedures):** Used for Next-Generation Sequencing (NGS) panels that analyze multiple genes simultaneously (e.g., a Cystic Fibrosis panel). It is incorrect to bill separate CPT codes for every gene in a panel if a single panel code exists (this is known as "unbundling" and is considered fraud)
+    *   **PLA Codes (Proprietary Laboratory Analyses):** Specific codes assigned to proprietary tests (often LDTs) from a single laboratory, allowing payers to identify and reimburse high-value unique assays
+*   **ICD-10 and Medical Necessity**
+    *   While CPT codes describe *what* was done, ICD-10 codes describe *why* it was done (the diagnosis). Payers will only reimburse for tests deemed "Medically Necessary"
+    *   **Local Coverage Determination (LCD):** Medicare contractors publish lists of ICD-10 codes that justify a specific molecular test. If a physician orders a genetic test for a diagnosis not on the LCD list, the claim will be automatically denied
+    *   **ABN (Advance Beneficiary Notice):** If the lab expects Medicare to deny a test due to lack of medical necessity, the patient must sign an ABN *before* collection, agreeing to pay out-of-pocket if insurance declines
+*   **Prior Authorization (PA)**
+    *   Due to the high cost of molecular testing, many private insurers require Prior Authorization before the sample is tested. The lab must submit clinical notes proving the patient meets the criteria for the test. Failure to obtain PA results in a complete denial of payment that cannot be billed to the patient
+
+## Financial Metrics for Decision Making {-}
+
+Laboratory administrators use the relationship between Cost and Reimbursement to make strategic decisions
+
+*   **Break-Even Analysis**
+    *   This calculation determines the volume of testing required to cover all costs. It answers: "How many patient samples must we run to pay for the new $50,000 instrument?"
+    *   $\text{Break-Even Volume} = \frac{\text{Fixed Costs}}{\text{Reimbursement per Test} - \text{Variable Cost per Test}}$
+*   **Contribution Margin**
+    *   The profit made on a single test after variable costs are paid. ($\text{Reimbursement} - \text{Variable Costs}$). This "margin" contributes to paying off the fixed costs (overhead/salaries). Tests with high contribution margins (e.g., automated high-volume infectious disease PCR) often subsidize complex, low-volume tests (e.g., specialized genetic sequencing)
+*   **Make vs. Buy Decision (In-House vs. Reference Lab)**
+    *   Administrators must decide whether to validate a test in-house or send it out
+    *   **Send Out:** If the volume is low (< 5 per week), the cost of reagents, controls, and validation often exceeds the reimbursement. It is cheaper to pay a reference lab
+    *   **Bring In-House:** If volume increases to the point where the total reference lab bill exceeds the cost of leasing an instrument and buying reagents, the test is "insourced" to capture the revenue and improve turnaround time

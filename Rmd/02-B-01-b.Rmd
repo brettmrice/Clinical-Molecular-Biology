@@ -25,25 +25,25 @@ For separating DNA fragments *based on size* (like in sequencing or fragment ana
 
 An automated CE instrument typically includes:
 
-*   **Fused-Silica Capillary** The narrow tube where separation occurs. Often coated internally. Can be single or in an array (e.g., 4, 16, 48, 96 capillaries for higher throughput)
-*   **Buffer Reservoirs (Inlet & Outlet)** Vials containing the running buffer. The ends of the capillary are immersed in these. One also holds the sample for injection
-*   **Electrodes (Platinum)** Immersed in the buffer reservoirs to complete the electrical circuit
-*   **High-Voltage Power Supply** Provides the driving force (typically 10-30 kV)
-*   **Injection System** Introduces a tiny plug of the sample into the capillary. Common methods:
+*   **Fused-Silica Capillary:** The narrow tube where separation occurs. Often coated internally. Can be single or in an array (e.g., 4, 16, 48, 96 capillaries for higher throughput)
+*   **Buffer Reservoirs (Inlet & Outlet):** Vials containing the running buffer. The ends of the capillary are immersed in these. One also holds the sample for injection
+*   **Electrodes (Platinum):** Immersed in the buffer reservoirs to complete the electrical circuit
+*   **High-Voltage Power Supply:** Provides the driving force (typically 10-30 kV)
+*   **Injection System:** Introduces a tiny plug of the sample into the capillary. Common methods:
     *   **Electrokinetic Injection:** Briefly applying voltage while the capillary tip is in the sample vial. Preferentially loads ions based on their mobility
     *   **Hydrodynamic Injection:** Using pressure or vacuum to force a small volume of sample into the capillary
-*   **Detector** Positioned near the outlet end of the capillary to detect molecules as they pass by. For nucleic acids, this is almost always **Laser-Induced Fluorescence (LIF)**
-*   **Autosampler** Holds sample plates (e.g., 96-well) and buffer vials, moving them automatically to the capillary for injection
-*   **Temperature Control** Maintaining a stable temperature is crucial for reproducible migration times
-*   **Computer System** Controls the instrument, collects data, and performs analysis
+*   **Detector:** Positioned near the outlet end of the capillary to detect molecules as they pass by. For nucleic acids, this is almost always **Laser-Induced Fluorescence (LIF)**
+*   **Autosampler:** Holds sample plates (e.g., 96-well) and buffer vials, moving them automatically to the capillary for injection
+*   **Temperature Control:** Maintaining a stable temperature is crucial for reproducible migration times
+*   **Computer System:** Controls the instrument, collects data, and performs analysis
 
 ## **The Process: A Typical Run (CGE for DNA)** {-}
 
-1.  **Capillary Conditioning** The capillary is flushed with buffer and the polymer sieving matrix is pumped in
-2.  **Sample Injection** The autosampler moves a sample well to the capillary inlet. A small plug of the sample (containing fluorescently labeled DNA fragments) is injected (e.g., electrokinetically)
-3.  **Separation** High voltage is applied. DNA fragments migrate through the polymer matrix towards the positive electrode, separating by size (smaller fragments move faster)
-4.  **Detection** As the separated, fluorescently labeled fragments pass a small window in the capillary, a laser excites the fluorescent dyes attached to the DNA. The emitted light is captured by a detector (like a photomultiplier tube - PMT, or a CCD camera)
-5.  **Data Output** The detector signal is recorded over time, generating an **electropherogram** – a plot of fluorescence intensity versus migration time. Each peak represents a DNA fragment (or population of fragments) of a specific size
+1.  **Capillary Conditioning:** The capillary is flushed with buffer and the polymer sieving matrix is pumped in
+2.  **Sample Injection:** The autosampler moves a sample well to the capillary inlet. A small plug of the sample (containing fluorescently labeled DNA fragments) is injected (e.g., electrokinetically)
+3.  **Separation:** High voltage is applied. DNA fragments migrate through the polymer matrix towards the positive electrode, separating by size (smaller fragments move faster)
+4.  **Detection:** As the separated, fluorescently labeled fragments pass a small window in the capillary, a laser excites the fluorescent dyes attached to the DNA. The emitted light is captured by a detector (like a photomultiplier tube - PMT, or a CCD camera)
+5.  **Data Output:** The detector signal is recorded over time, generating an **electropherogram** – a plot of fluorescence intensity versus migration time. Each peak represents a DNA fragment (or population of fragments) of a specific size
 
 ## **Detection: Laser-Induced Fluorescence (LIF)** {-}
 
@@ -60,11 +60,11 @@ An automated CE instrument typically includes:
 
 CE has become the gold standard for:
 
-*   **Sanger Sequencing Fragment Analysis** After cycle sequencing, the fluorescently labeled extension products (differing by one base) are separated by CE with single-base resolution. The order of the colored peaks detected corresponds directly to the DNA sequence
-*   **Fragment Analysis** Precisely sizing fluorescently labeled PCR products. Crucial for:
+*   **Sanger Sequencing Fragment Analysis:** After cycle sequencing, the fluorescently labeled extension products (differing by one base) are separated by CE with single-base resolution. The order of the colored peaks detected corresponds directly to the DNA sequence
+*   **Fragment Analysis:** Precisely sizing fluorescently labeled PCR products. Crucial for:
     *   **Short Tandem Repeat (STR) Analysis:** Used in human identity testing, chimerism analysis (post-transplant monitoring), and cell line authentication. CE provides the high resolution needed to distinguish alleles that may differ by only a few base pairs
     *   **Multiplex Ligation-Dependent Probe Amplification (MLPA):** Sizing MLPA probes to detect copy number variations (deletions/duplications) in genes
-    *   Certain types of **mutation analysis** where insertions/deletions change fragment size
+    *   Certain types of **mutation analysis:** where insertions/deletions change fragment size
 
 ## **Advantages of Capillary Electrophoresis** {-}
 
@@ -97,16 +97,3 @@ CE has become the gold standard for:
 | **Detection**    | On-column LIF                       | Post-run Staining (e.g., EtBr, SYBR)  |
 | **Throughput**   | High (with arrays)                  | Batch processing (multiple lanes/gel) |
 | **Sample Volume**| Very Low (nL-µL injected)           | Low (µL loaded)                       |
-
-## **Key Terms** {-}
-
-*   **Capillary Electrophoresis (CE):** A separation technique that uses a narrow-bore fused-silica capillary tube and a high electric field to separate charged molecules based on their differential migration rates
-*   **Fused-Silica Capillary:** The thin, flexible glass (SiO₂) tube used in CE, typically with an inner diameter of 25-100 µm
-*   **Electroosmotic Flow (EOF):** The bulk flow of fluid towards the cathode (negative electrode) in a capillary, caused by the migration of positive ions from the buffer that accumulate near the negatively charged capillary wall under an electric field
-*   **Electrophoretic Mobility (µe):** The velocity of a charged particle per unit electric field strength, determined primarily by its charge-to-mass ratio and frictional drag
-*   **Sieving Matrix (in CE):** A solution of entangled polymers (e.g., linear polyacrylamide, POP™) filling the capillary, used specifically for separating macromolecules like DNA based on size. This mode is often called Capillary Gel Electrophoresis (CGE)
-*   **Reptation:** The snake-like movement of long polymer chains (like DNA) through the entangled mesh of a polymer sieving matrix during electrophoresis
-*   **Laser-Induced Fluorescence (LIF):** A highly sensitive detection method used in CE where a laser beam is focused on a small window of the capillary, exciting fluorescent dyes attached to the analyte molecules as they pass. The emitted fluorescence is detected and recorded
-*   **Electrokinetic Injection:** A common sample injection method in CE where voltage is briefly applied across the capillary while its inlet is immersed in the sample, causing ions to migrate into the capillary based on their electrophoretic mobility and the EOF
-*   **Electropherogram:** The graphical output of a CE separation, plotting detector response (e.g., fluorescence intensity) versus migration time. Peaks in the electropherogram represent separated analytes
-*   **Fragment Analysis (via CE):** The application of CE (specifically CGE with LIF detection) to precisely determine the size of fluorescently labeled DNA fragments, commonly used for STR analysis, MLPA, etc

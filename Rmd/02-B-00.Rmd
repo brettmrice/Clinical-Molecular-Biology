@@ -1,4 +1,4 @@
-# Separation and Detection {-}
+# Separation & Detection {-}
 
 Okay, let's tie together these crucial concepts that form a major part of the molecular diagnostics workflow. Think of it as a multi-stage process to find and identify a specific piece of genetic information within a complex biological sample
 

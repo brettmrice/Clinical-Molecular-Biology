@@ -1,6 +1,6 @@
 # Other Techniques {-}
 
-The field of clinical molecular biology utilizes a wide array of specialized techniques beyond the core workflows of PCR and sequencing. This diverse toolkit allows laboratory scientists to answer highly specific questions—from checking the quality of a reaction to identifying the source of a hospital outbreak. Each of the following methods solves a unique diagnostic puzzle, providing information that would be difficult or impossible to obtain otherwise
+The field of clinical molecular biology utilizes a wide array of specialized techniques beyond the core workflows of PCR and sequencing. This diverse toolkit allows laboratory scientists to answer highly specific questions - from checking the quality of a reaction to identifying the source of a hospital outbreak. Each of the following methods solves a unique diagnostic puzzle, providing information that would be difficult or impossible to obtain otherwise
 
 ##  **Melt-Curve Analysis** {-}
 

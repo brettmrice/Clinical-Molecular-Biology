@@ -1,6 +1,6 @@
 # In Situ Hybridization (ISH) {-}
 
-**In Situ Hybridization (ISH)** is a technique that's like a molecular GPS for the cell. Imagine you have methods like PCR or Southern blotting, which are fantastic, but they require you to first extract the nucleic acids from the cells. That's like taking all the books out of a library, grinding them up, and then figuring out if a specific sentence exists somewhere in the pulp
+**In Situ Hybridization (ISH):** is a technique that's like a molecular GPS for the cell. Imagine you have methods like PCR or Southern blotting, which are fantastic, but they require you to first extract the nucleic acids from the cells. That's like taking all the books out of a library, grinding them up, and then figuring out if a specific sentence exists somewhere in the pulp
 
 **In situ hybridization (ISH)**, on the other hand, lets us walk into the intact library, go to the right room (the cell), find the exact shelf (the chromosome), and put a glowing "sticky note" right on the book (the gene) we're looking for. The term "*in situ*" is Latin for "in its original place," and that's the magic of this technique: we are detecting DNA or RNA sequences right inside the cell or tissue, preserving the all-important morphological context
 
@@ -32,9 +32,9 @@ In the modern clinical lab, you'll primarily encounter two main "flavors" of ISH
 
 This is the workhorse of clinical cytogenetics and cancer diagnostics
 
-*   **The Label:** The probe is directly labeled with **fluorophores**—molecules that emit bright, colored light when excited by a laser. Different probes can be labeled with different colors (e.g., green, red, aqua, gold)
+*   **The Label:** The probe is directly labeled with **fluorophores** - molecules that emit bright, colored light when excited by a laser. Different probes can be labeled with different colors (e.g., green, red, aqua, gold)
 *   **Detection:** The slide is viewed under a specialized **fluorescence microscope** equipped with filters specific for each color
-*   **The Result:** A technologist sees colored dots, or "signals," within the cell nuclei. By counting the signals and observing their patterns, we can make a diagnosis
+*   **The Result:** A laboratory scientist sees colored dots, or "signals," within the cell nuclei. By counting the signals and observing their patterns, we can make a diagnosis
 *   **Clinical Applications**
     *   **Gene Amplification:** Detecting extra copies of an oncogene. The classic example is testing for **HER2 gene amplification** in breast cancer to guide Herceptin therapy. A normal cell has two red signals (HER2 gene) and two green signals (control centromere). A cancer cell might have 10, 20, or more red signals, indicating amplification
     *   **Gene Rearrangements (Translocations):** Using "break-apart" or "fusion" probes to detect chromosomal translocations that create cancer-causing fusion genes, like the **BCR-ABL1 fusion** in Chronic Myeloid Leukemia (CML)
@@ -46,20 +46,10 @@ CISH provides similar information to FISH but uses a different detection system 
 
 *   **The Label:** The probe is labeled with a **hapten** like biotin or digoxigenin (DIG). This is an indirect label
 *   **Detection:** An antibody or protein (e.g., anti-DIG or streptavidin) conjugated to an enzyme like **Horseradish Peroxidase (HRP)** is added. This enzyme then converts a colorless **chromogenic substrate** into a colored precipitate
-*   **The Result:** Instead of glowing dots, the technologist sees small, dark colored dots (often brown or blue) under a standard **bright-field microscope**
+*   **The Result:** Instead of glowing dots, the laboratory scientist sees small, dark colored dots (often brown or blue) under a standard **bright-field microscope**
 *   **Clinical Applications**
-    *   CISH is also commonly used for detecting **HER2 gene amplification** and other gene copy number changes
-    *   It is excellent for detecting certain viruses, like **HPV** or **EBV**, within tissue samples
+    *   CISH is also commonly used for detecting **HER2 gene amplification:** and other gene copy number changes
+    *   It is excellent for detecting certain viruses, like **HPV:** or **EBV**, within tissue samples
     *   **Advantage:** The colored signal is permanent, and slides can be archived and reviewed for years. The lab doesn't need an expensive fluorescence microscope
 
 In conclusion, ISH is a powerful technique that bridges the gap between classic histology and molecular diagnostics. It provides crucial genetic information while preserving the cellular landscape, allowing us to see exactly where the genetic action is happening
-
-## **Key Terms** {-}
-
-*   **In Situ Hybridization (ISH):** A technique used to detect and localize a specific DNA or RNA sequence directly within an intact cell or tissue section, preserving the morphological context
-*   **Probe:** A labeled, single-stranded nucleic acid molecule of a known sequence that is used to find and bind to its complementary target sequence
-*   **Target:** The specific DNA or RNA sequence within the patient's cells or tissue that the probe is designed to detect
-*   **Hybridization:** The process by which two complementary, single-stranded nucleic acid molecules (e.g., probe and target) anneal to form a stable double-stranded molecule through hydrogen bonding
-*   **Stringency:** The reaction conditions (primarily temperature and salt concentration) of post-hybridization washes that determine the specificity of probe binding. High stringency ensures only perfectly matched probes remain bound
-*   **FISH (Fluorescence In Situ Hybridization):** A type of ISH that uses probes labeled with fluorescent dyes (fluorophores), which are visualized as colored signals using a fluorescence microscope
-*   **CISH (Chromogenic In Situ Hybridization):** A type of ISH that uses an enzyme-based detection system to generate a colored, insoluble precipitate at the probe binding site, which is visualized with a standard bright-field microscope

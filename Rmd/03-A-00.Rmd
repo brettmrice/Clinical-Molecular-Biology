@@ -6,9 +6,9 @@ Let's zoom out and look at the big picture of how we use molecular testing to fi
 
 We can break down these applications into three fundamental questions:
 
-1.  **Is the pathogen present?** (Qualitative)
-2.  **If so, how much of it is there?** (Quantitative)
-3.  **And what are its specific genetic characteristics?** (Genotypic Characterization)
+1.  **Is the pathogen present?:** (Qualitative)
+2.  **If so, how much of it is there?:** (Quantitative)
+3.  **And what are its specific genetic characteristics?:** (Genotypic Characterization)
 
 Let's review how each of these plays a critical role in the clinical lab
 
@@ -25,7 +25,7 @@ This is the most common application in diagnostic molecular microbiology. The go
 
 ## **Quantitative Analysis: The "How Much is There?" Question** {-}
 
-This is the essential tool for managing chronic viral infections. Knowing the amount of a virus in a patient's blood—the **viral load**—is like getting a report on the size and activity of a fire. It tells clinicians if their "firefighting" efforts (antiviral therapy) are working
+This is the essential tool for managing chronic viral infections. Knowing the amount of a virus in a patient's blood - the **viral load** - is like getting a report on the size and activity of a fire. It tells clinicians if their "firefighting" efforts (antiviral therapy) are working
 
 *   **Purpose:** To establish a baseline of infection, monitor the effectiveness of antiviral therapy, and determine when a clinical goal, like a cure or long-term suppression, has been reached
 *   **Key Clinical Examples**

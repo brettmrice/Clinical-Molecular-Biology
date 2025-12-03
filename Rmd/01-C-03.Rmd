@@ -1,6 +1,6 @@
 # Reverse Rranscriptase {-}
 
-**Reverse Transcriptase (RT)** is a remarkable enzyme, famously employed by retroviruses like HIV, that flips the central dogma by synthesizing a DNA copy (cDNA) from an RNA template. This unique RNA-dependent DNA polymerase activity makes RT absolutely indispensable in the clinical molecular lab, enabling us to capture and analyze the information stored in RNA molecules – like viral genomes or gene expression levels – using robust DNA-based techniques such as PCR
+**Reverse Transcriptase (RT):** is a remarkable enzyme, famously employed by retroviruses like HIV, that flips the central dogma by synthesizing a DNA copy (cDNA) from an RNA template. This unique RNA-dependent DNA polymerase activity makes RT absolutely indispensable in the clinical molecular lab, enabling us to capture and analyze the information stored in RNA molecules – like viral genomes or gene expression levels – using robust DNA-based techniques such as PCR
 
 Think of it as a molecular "translator" or even a bit of a "molecular time machine" – it takes an RNA message and converts it back into the more stable, double-stranded DNA format
 
@@ -12,9 +12,9 @@ The defining characteristic of Reverse Transcriptase is its ability to synthesiz
 
 Most reverse transcriptases possess three distinct enzymatic activities, all working together to achieve RNA-to-dsDNA conversion:
 
-1.  **RNA-Dependent DNA Polymerase Activity** This is the primary function. It reads the RNA template (3' → 5') and synthesizes a complementary DNA strand (5' → 3') using dNTPs
-2.  **RNase H (Ribonuclease H) Activity** This activity specifically degrades the **RNA strand** within an **RNA:DNA hybrid** molecule. After the first cDNA strand is made, the original RNA template is mostly removed by this activity, allowing the second DNA strand to be synthesized
-3.  **DNA-Dependent DNA Polymerase Activity** Once the first cDNA strand is made and the RNA template is (mostly) removed, the enzyme uses the newly synthesized cDNA strand as a template to create the **second, complementary DNA strand**, resulting in a double-stranded cDNA molecule
+1.  **RNA-Dependent DNA Polymerase Activity:** This is the primary function. It reads the RNA template (3' → 5') and synthesizes a complementary DNA strand (5' → 3') using dNTPs
+2.  **RNase H (Ribonuclease H) Activity:** This activity specifically degrades the **RNA strand** within an **RNA:DNA hybrid** molecule. After the first cDNA strand is made, the original RNA template is mostly removed by this activity, allowing the second DNA strand to be synthesized
+3.  **DNA-Dependent DNA Polymerase Activity:** Once the first cDNA strand is made and the RNA template is (mostly) removed, the enzyme uses the newly synthesized cDNA strand as a template to create the **second, complementary DNA strand**, resulting in a double-stranded cDNA molecule
 
 ## **Biological Origin** {-}
 
@@ -73,19 +73,3 @@ Reverse transcriptase is absolutely indispensable in the clinical molecular lab,
 Remember the fundamental difference:
 *   **DNA Polymerase:** Uses DNA template → Makes DNA product
 *   **Reverse Transcriptase:** Uses **RNA** template → Makes **DNA** product (cDNA)
-
-## **Key Terms** {-}
-
-*   **Reverse Transcriptase (RT):** Enzyme synthesizing DNA from an RNA template
-*   **cDNA (Complementary DNA):** DNA molecule synthesized from an RNA template
-*   **RNA-Dependent DNA Polymerase:** The primary activity of RT
-*   **RNase H:** Activity that degrades RNA in RNA:DNA hybrids
-*   **DNA-Dependent DNA Polymerase:** RT activity synthesizing the second DNA strand
-*   **Retrovirus:** RNA virus using RT (e.g., HIV)
-*   **Oligo(dT) Primer:** Primer binding to poly(A) tails (for mRNA)
-*   **Random Primers:** Primers binding randomly to RNA
-*   **Gene-Specific Primer (GSP):** Primer binding to a specific RNA target sequence
-*   **RT-PCR (Reverse Transcription PCR):** Technique combining RT and PCR to detect/analyze RNA
-*   **RT-qPCR (Quantitative RT-PCR):** Technique combining RT and qPCR to quantify RNA
-*   **One-Step / Two-Step RT-PCR:** Different workflows for combining the RT and PCR reactions
-*   **Thermostability:** Ability of an enzyme to function at high temperatures

@@ -1,0 +1,85 @@
+# Reagents {-}
+
+Quality Assurance (QA) regarding laboratory reagents is the foundation of analytical accuracy. In molecular biology, reagents are often biologically active (enzymes) or chemically unstable (probes), requiring stricter handling protocols than standard clinical chemistry reagents. A failure in reagent quality inevitably leads to assay failure, necessitating a comprehensive system for selection, preparation, tracking, and disposal
+
+## Reagent Selection & Qualification {-}
+
+The selection of reagents is the first step in the QA process. Not all chemicals are created equal; the laboratory must verify that reagents are of sufficient purity to support enzymatic amplification without introducing contamination or inhibition
+
+*   **Grade and Purity:** Reagents used in molecular testing must be labeled **"Molecular Biology Grade"** or **"Nuclease-Free."** Standard chemical grades (e.g., technical grade) may contain trace amounts of DNases, RNases, or heavy metals that can degrade nucleic acids or inhibit DNA Polymerase
+*   **Commercial Status (IVD vs. RUO)**
+    *   **IVD (In Vitro Diagnostic):** FDA-cleared kits. These are preferred for clinical testing. The manufacturer guarantees the quality and performance. They must be used exactly as instructed; deviations effectively turn the assay into a "Laboratory Developed Test" (LDT)
+    *   **RUO (Research Use Only) / ASR (Analyte Specific Reagent):** These are raw materials (e.g., primers, probes) used to build LDTs. The laboratory assumes full responsibility for validating the performance and quality of these components
+*   **Lot-to-Lot Verification:** When changing reagent lots (e.g., a new batch of Master Mix or Extraction Buffer), a "crossover study" must be performed. The new lot is tested in parallel with the old lot using known positive and negative controls to ensure there is no shift in sensitivity (Ct values) or specificity
+
+## Reagent Preparation & Calculations {-}
+
+Preparation often involves diluting concentrated stocks to working concentrations. This requires precise pipetting and mathematical accuracy. Errors here are systemic, affecting every patient sample in the run
+
+### General Preparation Protocols {-}
+
+*   **Water Quality:** "Water" in a molecular lab always refers to Nuclease-Free, Deionized (DI), or DEPC-treated water. Tap water is never used due to the presence of chlorine (inhibitor) and bacterial nucleases
+*   **Environment:** Reagent preparation must occur strictly in the **"Clean Room" (Pre-PCR)**. Reagents should be thawed completely and vortexed (unless enzyme-sensitive) to ensure homogeneity before pipetting. Viscous reagents (like Glycerol or Tween) require reverse pipetting techniques
+
+### Laboratory Calculations {-}
+
+Medical Laboratory Scientists must be proficient in three primary types of calculations: Molarity, Dilution ($C_1V_1$), and Master Mix Volumes
+
+*   **Molarity ($M$):** Used when preparing buffers from dry chemicals
+    *   **Formula:**
+$$\text{Grams required} = \text{Molarity (mol/L)} \times \text{Molecular Weight (g/mol)} \times \text{Volume (L)}$$
+    *   *Example:* To make 0.5 Liters of 1M NaCl (MW = 58.44 g/mol):
+$$1 \text{ mol/L} \times 58.44 \text{ g/mol} \times 0.5 \text{ L} = 29.22 \text{ grams}$$
+*   **Dilution ($C_1V_1 = C_2V_2$):** Used to dilute a "Stock" solution to a "Working" concentration
+    *   **Formula:**
+$$(\text{Concentration}_{\text{start}} \times \text{Volume}_{\text{start}}) = (\text{Concentration}_{\text{end}} \times \text{Volume}_{\text{end}})$$
+    *   *Example:* You have a $100 \mu\text{M}$ stock of primer. You need $200 \mu\text{L}$ of a $20 \mu\text{M}$ working solution
+        $$100 \mu\text{M} \times V_1 = 20 \mu\text{M} \times 200 \mu\text{L}$$
+        $$V_1 = 4000 / 100$$
+        $$V_1 = 40 \mu\text{L}$$
+    *   *Action:* Add $40 \mu\text{L}$ of Stock Primer to $160 \mu\text{L}$ of water ($200 - 40$) to achieve the desired volume
+*   **Master Mix ($N+1$ Rule):** When preparing the reaction mix for a PCR run, you must account for pipetting loss (dead volume). Never calculate for the exact number of samples
+    *   **Formula:** 
+$$\text{Total Volume} = (\text{Volume per reaction}) \times (\text{Number of Samples} + \text{Controls} + \text{Overage})$$
+    *   **Standard Overage:** Usually $+1$ reaction for runs under 10 samples, or $+10\%$ for larger runs
+    *   *Example:* For 18 patients, 1 Positive Control, and 1 Negative Control (Total 20 tubes), calculate for **22 reactions:** to ensure the last tube is not short-filled
+
+## Storage & Stability {-}
+
+Nucleic acids and enzymes have distinct stability profiles. Improper storage leads to degradation (loss of signal) or evaporation (concentration changes)
+
+*   **Temperature Requirements**
+    *   **Ambient ($20^\circ\text{C}$ to $25^\circ\text{C}$):** Extraction buffers (lysis), silica spin columns. *Note: If lysis buffer contains precipitate, it may need warming.*
+    *   **Refrigerated ($2^\circ\text{C}$ to $8^\circ\text{C}$):** Resuspended primers (short term), fluorescent probes (protect from light), and some master mixes
+    *   **Freezer ($-20^\circ\text{C}$):** Enzymes (*Taq* Polymerase, Reverse Transcriptase), dNTPs, and resuspended DNA. *Note: Enzymes are often stored in glycerol to prevent freezing solid at -20°C; they remain viscous.*
+    *   **Ultra-Low ($-70^\circ\text{C}$):** RNA stocks, clinical specimens, and long-term reference strains
+*   **Aliquoting (The "Freeze-Thaw" Rule)**
+    *   Repeated freezing and thawing causes ice crystals to form, which physically shear DNA and denature enzymes
+    *   **Protocol:** Upon receiving a bulk reagent (e.g., a large tube of primers or dNTPs), immediately aliquot it into small, single-use or few-use volumes. If contamination occurs or the reagent degrades, only that single aliquot is lost, preserving the master stock
+*   **Light Sensitivity:** Fluorescent probes (TaqMan, FRET) are photosensitive. They must be stored in amber tubes or wrapped in foil. Extended exposure to light causes "photobleaching," resulting in low fluorescence intensity
+
+## Disposal {-}
+
+Waste disposal in molecular biology is complicated by the presence of hazardous chemicals mixed with biological agents. The waste stream depends on the specific reagents used
+
+*   **Biological Waste (Red Bag/Sharps):** Any reagent that has touched a patient specimen, and all post-PCR products (amplicons). Amplicons are not infectious, but they are an environmental contaminant to the lab; they must be sealed and incinerated or autoclaved
+*   **Chemical Hazards**
+    *   **Ethidium Bromide (EtBr):** Used in gel electrophoresis. It is a potent mutagen and potential carcinogen. Gels and running buffers containing EtBr must be segregated into specific chemical waste containers for incineration. They cannot be poured down the drain or thrown in regular trash
+    *   **Formamide:** A teratogen used in hybridization buffers. Must be disposed of as hazardous chemical waste
+*   **The Guanidine-Bleach Hazard**
+    *   **Critical Safety Note:** Extraction lysis buffers often contain **Guanidine Thiocyanate** (a chaotropic salt)
+    *   **Reaction:** If Guanidine Thiocyanate mixes with Sodium Hypochlorite (Bleach), it releases toxic **cyanide gas**
+    *   **Protocol:** Never pour lysis buffer waste into a bleach trap. Clean spills involving lysis buffer with detergent and water first, not bleach
+
+## Documentation {-}
+
+Regulatory agencies (CAP, CLIA, TJC) require complete traceability. If a patient result is questioned months later, the lab must be able to trace exactly which lot of primers and enzymes produced that result
+
+*   **Reagent Logs:** Every new reagent must be logged upon receipt. Data includes: Name, Manufacturer, Lot Number, Expiration Date, Date Received, and Date Opened
+*   **Labeling:** Any reagent prepared by the lab (e.g., a diluted primer or a poured gel) must be labeled with:
+    *   Content name and concentration
+    *   Date prepared
+    *   Expiration date (based on stability data)
+    *   Initials of the scientist who prepared it
+    *   Hazard warnings (if applicable)
+*   **Inventory Management:** Utilize the "First In, First Out" (FIFO) method. Older lots should be used before opening newer lots (provided they are not expired) to minimize waste

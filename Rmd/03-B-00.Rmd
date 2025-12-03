@@ -1,6 +1,6 @@
 # Oncology {-}
 
-Let's look at the big picture of molecular oncology. For decades, we defined cancer almost entirely by its location and appearance under a microscope—lung cancer, breast cancer, leukemia. But molecular diagnostics has given us a completely new, and profoundly more powerful, way to understand these diseases. We no longer just ask "Where is the cancer?"; we now ask, "**What is genetically *driving* the cancer?**"
+Let's look at the big picture of molecular oncology. For decades, we defined cancer almost entirely by its location and appearance under a microscope - lung cancer, breast cancer, leukemia. But molecular diagnostics has given us a completely new, and profoundly more powerful, way to understand these diseases. We no longer just ask "Where is the cancer?"; we now ask, "**What is genetically *driving* the cancer?**"
 
 The answers to that question guide everything from diagnosis and prognosis to personalized treatment and even family counseling. We can broadly divide our molecular investigation into two main strategies: decoding the cancer itself by looking at **somatic mutations**, and decoding the patient's inherited risk by looking for **germline mutations**
 
@@ -13,7 +13,7 @@ Somatic mutations are genetic changes that are *acquired* by a cell during a per
 In blood cancers, the driving mutation is often a single, powerful "smoking gun" event. Finding it is critical for diagnosis and for monitoring treatment
 
 *   **The Smoking Gun - Fusion Genes:** The classic example is **Chronic Myeloid Leukemia (CML)**. A translocation between chromosomes 9 and 22, **t(9;22)**, creates the **BCR-ABL1 fusion gene**. Detecting this fusion transcript via PCR is the definitive diagnosis. Even better, we can use quantitative PCR to measure the *amount* of this transcript to monitor how well a patient is responding to targeted drugs (like Gleevec). This "molecular load" tells us if the treatment is working long before a clinical relapse would occur
-*   **The Unique Fingerprint - Clonality:** To fight infections, your body makes millions of different B- and T-cells, each with a unique gene rearrangement in their antigen receptor genes—this is a healthy, **polyclonal** state. In a lymphoma or lymphocytic leukemia, a single cancerous cell starts to divide endlessly, creating a massive **monoclonal** population where every cell shares the same unique gene rearrangement. We use PCR to detect this single, dominant "fingerprint," which confirms a malignancy and can be used to track **Minimal Residual Disease (MRD)** after treatment
+*   **The Unique Fingerprint - Clonality:** To fight infections, your body makes millions of different B- and T-cells, each with a unique gene rearrangement in their antigen receptor genes - this is a healthy, **polyclonal** state. In a lymphoma or lymphocytic leukemia, a single cancerous cell starts to divide endlessly, creating a massive **monoclonal** population where every cell shares the same unique gene rearrangement. We use PCR to detect this single, dominant "fingerprint," which confirms a malignancy and can be used to track **Minimal Residual Disease (MRD)** after treatment
 
 ### **Solid Tumors** {-}
 

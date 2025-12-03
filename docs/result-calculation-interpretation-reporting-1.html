@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Result Calculation, Interpretation, &amp; Reporting | MB</title>
+<meta name="author" content="Brett M. Rice">
+<meta name="description" content="The final phase of the molecular workflow is the translation of raw data (fluorescence, band intensity, or sequence reads) into a clinically actionable result. This stage requires the laboratory...">
+<meta name="generator" content="bookdown 0.45 with bs4_book()">
+<meta property="og:title" content="Result Calculation, Interpretation, &amp; Reporting | MB">
+<meta property="og:type" content="book">
+<meta property="og:description" content="The final phase of the molecular workflow is the translation of raw data (fluorescence, band intensity, or sequence reads) into a clinically actionable result. This stage requires the laboratory...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Result Calculation, Interpretation, &amp; Reporting | MB">
+<meta name="twitter:description" content="The final phase of the molecular workflow is the translation of raw data (fluorescence, band intensity, or sequence reads) into a clinically actionable result. This stage requires the laboratory...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.9.0/transition.js"></script><script src="libs/bs3compat-0.9.0/tabs.js"></script><script src="libs/bs3compat-0.9.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><link rel="icon" type="image/png" href="imgs/favicon.png">
+<meta name="google-adsense-account" content="ca-pub-1344282930858290">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JERRQQFPF4"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JERRQQFPF4');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="toc.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Molecular Biology</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">About</a></li>
+<li><a class="" href="content-areas.html">Content Areas</a></li>
+<li><a class="" href="author.html">Author</a></li>
+<li><a class="" href="ascp-boc.html">ASCP BOC</a></li>
+<li><a class="" href="reading-list.html">Reading List</a></li>
+<li class="book-part">Molecular Science</li>
+<li><a class="" href="nucleic-acid-chemistry.html">Nucleic Acid Chemistry</a></li>
+<li><a class="" href="sugars.html">Sugars</a></li>
+<li><a class="" href="bases.html">Bases</a></li>
+<li><a class="" href="chemical-structure.html">Chemical Structure</a></li>
+<li><a class="" href="associated-proteins.html">Associated Proteins</a></li>
+<li><a class="" href="mutations.html">Mutations</a></li>
+<li><a class="" href="basic-molecular-theory.html">Basic Molecular Theory</a></li>
+<li><a class="" href="replication.html">Replication</a></li>
+<li><a class="" href="transcription.html">Transcription</a></li>
+<li><a class="" href="exons-introns-splicing.html">Exons, Introns, &amp; Splicing</a></li>
+<li><a class="" href="translation.html">Translation</a></li>
+<li><a class="" href="chromosome-structure.html">Chromosome Structure</a></li>
+<li><a class="" href="extrachromosomal-structure.html">Extrachromosomal Structure</a></li>
+<li><a class="" href="protein-structure.html">Protein Structure</a></li>
+<li><a class="" href="biochemical-reagents.html">Biochemical Reagents</a></li>
+<li><a class="" href="polymerase-enzymes.html">Polymerase Enzymes</a></li>
+<li><a class="" href="dna.html">DNA</a></li>
+<li><a class="" href="rna.html">RNA</a></li>
+<li><a class="" href="endo-exonucleases.html">Endo &amp; Exonucleases</a></li>
+<li><a class="" href="reverse-rranscriptase.html">Reverse Rranscriptase</a></li>
+<li><a class="" href="dna-ligase.html">DNA Ligase</a></li>
+<li><a class="" href="assay-development.html">Assay Development</a></li>
+<li><a class="" href="genetics.html">Genetics</a></li>
+<li><a class="" href="human.html">Human</a></li>
+<li><a class="" href="microbial.html">Microbial</a></li>
+<li class="book-part">Molecular Techniques</li>
+<li><a class="" href="nucleic-acid-isolation.html">Nucleic Acid Isolation</a></li>
+<li><a class="" href="automated-methods-1.html">Automated Methods</a></li>
+<li><a class="" href="manual-methods-1.html">Manual Methods</a></li>
+<li><a class="" href="separation-detection.html">Separation &amp; Detection</a></li>
+<li><a class="" href="electrophoresis.html">Electrophoresis</a></li>
+<li><a class="" href="gel.html">Gel</a></li>
+<li><a class="" href="capillary.html">Capillary</a></li>
+<li><a class="" href="blotting-probing.html">Blotting &amp; Probing</a></li>
+<li><a class="" href="probe-hybridization.html">Probe Hybridization</a></li>
+<li><a class="" href="nucleic-acid-purification.html">Nucleic Acid Purification</a></li>
+<li><a class="" href="probe-structure.html">Probe Structure</a></li>
+<li><a class="" href="nucleic-acid-amplification.html">Nucleic Acid Amplification</a></li>
+<li><a class="" href="pcr.html">PCR</a></li>
+<li><a class="" href="oligonucleotides.html">Oligonucleotides</a></li>
+<li><a class="" href="reaction-optimization.html">Reaction Optimization</a></li>
+<li><a class="" href="pcr-variations.html">PCR Variations</a></li>
+<li><a class="" href="other.html">Other</a></li>
+<li><a class="" href="sequencing.html">Sequencing</a></li>
+<li><a class="" href="sanger.html">Sanger</a></li>
+<li><a class="" href="next-generation.html">Next-Generation</a></li>
+<li><a class="" href="other-1.html">Other</a></li>
+<li><a class="" href="bioinformatics.html">Bioinformatics</a></li>
+<li><a class="" href="other-techniques.html">Other Techniques</a></li>
+<li><a class="" href="melt-curve-analysis-1.html">Melt-Curve Analysis</a></li>
+<li><a class="" href="nucleic-acid-labeling-1.html">Nucleic Acid Labeling</a></li>
+<li><a class="" href="in-situ-hybridization-ish-1.html">In Situ Hybridization (ISH)</a></li>
+<li><a class="" href="restriction-fragment-length-polymorphism-rflp-1.html">Restriction Fragment Length Polymorphism (RFLP)</a></li>
+<li><a class="" href="epigenetic-modification-detection-1.html">Epigenetic Modification Detection</a></li>
+<li><a class="" href="array-technology-1.html">Array Technology</a></li>
+<li><a class="" href="multiplex-ligation-dependent-probe-amplification-mlpa-1.html">Multiplex Ligation-Dependent Probe Amplification (MLPA)</a></li>
+<li><a class="" href="mass-spectrometry.html">Mass Spectrometry</a></li>
+<li><a class="" href="multi-locus-sequence-typing-mlst-1.html">Multi-Locus Sequence Typing (MLST)</a></li>
+<li class="book-part">Testing Applications</li>
+<li><a class="" href="infectious-disease.html">Infectious Disease</a></li>
+<li><a class="" href="qualitative-analysis.html">Qualitative Analysis</a></li>
+<li><a class="" href="quantitative-analysis.html">Quantitative Analysis</a></li>
+<li><a class="" href="genotypic-characterization.html">Genotypic Characterization</a></li>
+<li><a class="" href="oncology.html">Oncology</a></li>
+<li><a class="" href="leukemias-lymphomas-1.html">Leukemias &amp; Lymphomas</a></li>
+<li><a class="" href="solid-tumors-1.html">Solid Tumors</a></li>
+<li><a class="" href="hereditary-cancer-syndromes.html">Hereditary Cancer Syndromes</a></li>
+<li><a class="" href="genetics-1.html">Genetics</a></li>
+<li><a class="" href="hemoglobinopathies.html">Hemoglobinopathies</a></li>
+<li><a class="" href="coagulopathies.html">Coagulopathies</a></li>
+<li><a class="" href="trinucleotide-repeat-disorders.html">Trinucleotide Repeat Disorders</a></li>
+<li><a class="" href="single-gene-disorders.html">Single Gene Disorders</a></li>
+<li><a class="" href="epigenetic-disorders.html">Epigenetic Disorders</a></li>
+<li><a class="" href="mitochondrial-disorders.html">Mitochondrial Disorders</a></li>
+<li><a class="" href="other-2.html">Other</a></li>
+<li><a class="" href="histocompatibility-1.html">Histocompatibility</a></li>
+<li><a class="" href="genetic-identity-1.html">Genetic Identity</a></li>
+<li><a class="" href="engraftment-1.html">Engraftment</a></li>
+<li><a class="" href="pharmacogenomics.html">Pharmacogenomics</a></li>
+<li class="book-part">Laboratory Operations</li>
+<li><a class="" href="contamination.html">Contamination</a></li>
+<li><a class="" href="prevention-1.html">Prevention</a></li>
+<li><a class="" href="monitoring-detection-1.html">Monitoring &amp; Detection</a></li>
+<li><a class="" href="elimination-1.html">Elimination</a></li>
+<li><a class="" href="quality-assurance.html">Quality Assurance</a></li>
+<li><a class="" href="specimen-handling.html">Specimen Handling</a></li>
+<li><a class="" href="specimen-evaluation.html">Specimen Evaluation</a></li>
+<li><a class="" href="nucleic-acid-evaluation.html">Nucleic Acid Evaluation</a></li>
+<li><a class="" href="reagents.html">Reagents</a></li>
+<li><a class="" href="assays.html">Assays</a></li>
+<li><a class="" href="assay-troubleshooting-1.html">Assay Troubleshooting</a></li>
+<li><a class="active" href="result-calculation-interpretation-reporting-1.html">Result Calculation, Interpretation, &amp; Reporting</a></li>
+<li><a class="" href="qc-pt.html">QC &amp; PT</a></li>
+<li><a class="" href="assay-controls.html">Assay Controls</a></li>
+<li><a class="" href="proficiency-testing.html">Proficiency Testing</a></li>
+<li><a class="" href="equipment-instrumentation-1.html">Equipment &amp; Instrumentation</a></li>
+<li><a class="" href="guidelines-regulations.html">Guidelines &amp; Regulations</a></li>
+<li><a class="" href="test-system-categories-1.html">Test System Categories</a></li>
+<li><a class="" href="regulations-standards-1.html">Regulations &amp; Standards</a></li>
+<li><a class="" href="personnel.html">Personnel</a></li>
+<li><a class="" href="continuing-education-1.html">Continuing Education</a></li>
+<li><a class="" href="competency.html">Competency</a></li>
+<li><a class="" href="safety.html">Safety</a></li>
+<li><a class="" href="hazardous-materials.html">Hazardous Materials</a></li>
+<li><a class="" href="biological.html">Biological</a></li>
+<li><a class="" href="chemical.html">Chemical</a></li>
+<li><a class="" href="laboratory-administration.html">Laboratory Administration</a></li>
+<li><a class="" href="financial-management-1.html">Financial Management</a></li>
+<li><a class="" href="budgets-1.html">Budgets</a></li>
+<li><a class="" href="capital-equipment.html">Capital Equipment</a></li>
+<li><a class="" href="cost-analysis-reimbursement-1.html">Cost Analysis &amp; Reimbursement</a></li>
+<li><a class="" href="purchasing-inventory-1.html">Purchasing &amp; Inventory</a></li>
+<li><a class="" href="operations-management-1.html">Operations Management</a></li>
+<li><a class="" href="laboratory-information-system.html">Laboratory Information System</a></li>
+<li><a class="" href="facilities-management-1.html">Facilities Management</a></li>
+<li><a class="" href="intrainterdepartmental-relations-1.html">Intra/Interdepartmental Relations</a></li>
+<li><a class="" href="personnel-management-1.html">Personnel Management</a></li>
+<li><a class="" href="motivation-1.html">Motivation</a></li>
+<li><a class="" href="staffing-productivity-1.html">Staffing &amp; Productivity</a></li>
+<li><a class="" href="counseling-disciplinary-action-1.html">Counseling &amp; Disciplinary Action</a></li>
+<li><a class="" href="quality-management-1.html">Quality Management</a></li>
+<li><a class="" href="advanced-statistical-analysis-1.html">Advanced Statistical Analysis</a></li>
+<li><a class="" href="assay-method-instrument-selection.html">Assay, Method, &amp; Instrument Selection</a></li>
+<li><a class="" href="assay-validation-verification.html">Assay Validation &amp; Verification</a></li>
+<li><a class="" href="quantitative-calculations-1.html">Quantitative Calculations</a></li>
+</ul>
+
+        <div class="book-extra" style="display:none;">
+          <p><a id="book-repo" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="result-calculation-interpretation-reporting-1" class="section level1 unnumbered">
+<h1>Result Calculation, Interpretation, &amp; Reporting<a class="anchor" aria-label="anchor" href="#result-calculation-interpretation-reporting-1"><i class="fas fa-link"></i></a>
+</h1>
+<p>The final phase of the molecular workflow is the translation of raw data (fluorescence, band intensity, or sequence reads) into a clinically actionable result. This stage requires the laboratory scientist to move beyond wet-bench technique and apply statistical and clinical judgment. Quality Assurance (QA) in this phase ensures that the calculated values are accurate, the interpretation considers all control data, and the final report is clear, standardized, and legally defensible</p>
+<div id="result-calculation-quantitative-analysis" class="section level2 unnumbered">
+<h2>Result Calculation: Quantitative Analysis<a class="anchor" aria-label="anchor" href="#result-calculation-quantitative-analysis"><i class="fas fa-link"></i></a>
+</h2>
+<p>In quantitative assays (e.g., HIV-1, HCV, CMV Viral Loads), the laboratory must calculate the exact number of target molecules present. This is almost exclusively achieved using Real-Time PCR (qPCR) and the Standard Curve method</p>
+<ul>
+<li>
+<strong>The Crossing Threshold (Ct)</strong>
+<ul>
+<li>The raw data point in qPCR is the Ct value (also known as Cp or Cq). This is the cycle number at which the fluorescence of the sample exceeds the background threshold</li>
+<li>
+<strong>Relationship:</strong> There is an inverse relationship between the Ct value and the starting concentration. High viral loads amplify early (Low Ct, e.g., 15), while low viral loads amplify late (High Ct, e.g., 35)</li>
+</ul>
+</li>
+<li>
+<strong>The Standard Curve</strong>
+<ul>
+<li>To convert Ct to Concentration, the lab runs a set of standards with known concentrations (e.g., <span class="math inline">\(10^3, 10^4, 10^5\)</span> copies/mL)</li>
+<li>
+<strong>Regression Analysis:</strong> The instrument plots the Ct values (<span class="math inline">\(y\)</span>-axis) against the Logarithm of the Concentration (<span class="math inline">\(x\)</span>-axis). This generates a linear regression line: <span class="math inline">\(y = mx + b\)</span>
+</li>
+<li>
+<strong>Calculation:</strong> The patient’s Ct is plugged into this equation to solve for <span class="math inline">\(x\)</span> (Concentration)</li>
+</ul>
+</li>
+<li>
+<strong>Reaction Efficiency (<span class="math inline">\(E\)</span>)</strong>
+<ul>
+<li>The slope of the standard curve indicates the efficiency of the PCR. Ideally, the amount of DNA doubles every cycle (<span class="math inline">\(100\%\)</span> efficiency)</li>
+<li>
+<strong>Ideal Slope:</strong> <span class="math inline">\(-3.32\)</span> indicates <span class="math inline">\(100\%\)</span> efficiency</li>
+<li>
+<strong>QA Criteria:</strong> Slopes outside the range of <span class="math inline">\(-3.1\)</span> to <span class="math inline">\(-3.6\)</span> indicate a compromised reaction (e.g., pipetting errors in standards or expired reagents), and the calculated results may be inaccurate</li>
+</ul>
+</li>
+<li>
+<strong>Dilution Factors</strong>
+<ul>
+<li>If a sample is too concentrated (above the linear range) and requires manual dilution, the software result must be multiplied by the dilution factor</li>
+<li><span class="math inline">\(\text{Final Result} = \text{Instrument Result} \times \text{Dilution Factor}\)</span></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="result-interpretation-reading-the-signals" class="section level2 unnumbered">
+<h2>Result Interpretation: Reading the Signals<a class="anchor" aria-label="anchor" href="#result-interpretation-reading-the-signals"><i class="fas fa-link"></i></a>
+</h2>
+<p>The instrument software provides a preliminary call, but the scientist is responsible for the final interpretation. This involves reviewing the curve shape, the controls, and the validity of the data</p>
+<ul>
+<li>
+<strong>Qualitative Interpretation (Detected vs. Not Detected)</strong>
+<ul>
+<li>
+<strong>True Positive:</strong> The sample must display a sigmoidal (S-shaped) amplification curve that crosses the threshold. The Ct value must be within the valid range (e.g., <span class="math inline">\(&lt; 40\)</span> cycles)</li>
+<li>
+<strong>True Negative:</strong> No amplification curve is seen for the target, BUT the <strong>Internal Control (IC)</strong> must amplify. If the IC fails, the result is not “Negative”; it is “Invalid”</li>
+<li>
+<strong>The “Gray Zone” (Weak Positives):</strong> A sample with a very late Ct (e.g., 38 or 39) requires scrutiny. The scientist must check the curve shape. If it is jagged, linear, or drifting, it is likely background noise (artifact) rather than true amplification</li>
+</ul>
+</li>
+<li>
+<strong>Quantitative Interpretation (Ranges)</strong>
+<ul>
+<li>
+<strong>Within the AMR:</strong> Results falling within the Analytical Measurement Range (e.g., 100 to 10,000,000 IU/mL) are reported as the specific number calculated</li>
+<li>
+<strong>Above the AMR:</strong> Result is “<span class="math inline">\(&gt; 10,000,000\)</span>.” To get a specific number, the sample must be diluted and re-run</li>
+<li>
+<strong>Detected, but Below the LoD:</strong> If the assay detects the virus (curve is present), but the calculated value is lower than the Limit of Detection (e.g., calculated at 15 IU/mL when LoD is 20 IU/mL), the result is interpreted as “Detected, &lt; 20 IU/mL.” This informs the doctor that the virus is present, but at a level too low to accurately quantify</li>
+</ul>
+</li>
+<li>
+<strong>Genotyping/Mutation Analysis (Allelic Discrimination)</strong>
+<ul>
+<li>For assays detecting mutations (e.g., Factor V Leiden), results are interpreted based on fluorescence clusters</li>
+<li>
+<strong>Homozygous Wild Type:</strong> High signal in Channel A (Normal), No signal in Channel B (Mutant)</li>
+<li>
+<strong>Homozygous Mutant:</strong> No signal in Channel A, High signal in Channel B</li>
+<li>
+<strong>Heterozygous:</strong> Intermediate signals in both channels</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="reporting-protocols" class="section level2 unnumbered">
+<h2>Reporting Protocols<a class="anchor" aria-label="anchor" href="#reporting-protocols"><i class="fas fa-link"></i></a>
+</h2>
+<p>The laboratory report is the legal medical record. It must be standardized to prevent ambiguity. Molecular reporting often differs from chemistry reporting due to the complexity of the methodologies</p>
+<ul>
+<li>
+<strong>Nomenclature and Language</strong>
+<ul>
+<li>
+<strong>“Detected / Not Detected”:</strong> This is preferred over “Positive / Negative” in molecular diagnostics, as it strictly describes the analytical finding (presence of DNA) rather than a clinical diagnosis</li>
+<li>
+<strong>Units of Measure:</strong> Quantitative results must specify units
+<ul>
+<li>
+<strong>Copies/mL:</strong> The physical number of DNA/RNA molecules</li>
+<li>
+<strong>International Units (IU/mL):</strong> A standardized unit normalized against World Health Organization (WHO) standards. This allows results to be compared between different labs using different manufacturers. <em>Always prefer IU/mL when available</em>
+</li>
+</ul>
+</li>
+<li>
+<strong>Logarithmic Transformation:</strong> Physicians often monitor “Log Changes.” Reports may include the Log10 value alongside the absolute number (e.g., <span class="math inline">\(100,000 \text{ IU/mL} = 5.0 \text{ Log IU/mL}\)</span>)</li>
+</ul>
+</li>
+<li>
+<strong>Required Elements of the Report</strong>
+<ul>
+<li>
+<strong>Methodology:</strong> The report must state the method used (e.g., “Real-Time PCR”) and the specific limits of the assay (e.g., “Limit of Detection: 20 IU/mL”)</li>
+<li>
+<strong>Disclaimer (ASR/LDT):</strong> If the test uses Analyte Specific Reagents (ASR) or is a Laboratory Developed Test (LDT), a federally mandated disclaimer must be appended: <em>“This test was developed and its performance characteristics determined by [Lab Name]. It has not been cleared or approved by the FDA.”</em>
+</li>
+</ul>
+</li>
+<li>
+<strong>Critical Values</strong>
+<ul>
+<li>Certain molecular results are considered “Critical” and require immediate notification to the provider (documented read-back)</li>
+<li>
+<strong>Examples:</strong> Positive CSF (Meningitis) panel, Positive Blood Culture Identification (Sepsis), or detection of Select Agents (Bioterrorism organisms like <em>Francisella tularensis</em>)</li>
+</ul>
+</li>
+<li>
+<strong>Clinical Significance Comments</strong>
+<ul>
+<li>Molecular reports often include interpretive comments to aid the clinician</li>
+<li>
+<em>Example (Hepatitis C):</em> “A change in viral load of less than 0.5 Log10 is not considered biologically significant.”</li>
+<li>
+<em>Example (Pharmacogenetics):</em> “Patient is homozygous for CYP2C19*2. This genotype is associated with poor metabolism of Plavix.”</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- Scoll to TOC element -->
+<script defer>
+  // adjust TOC scroll to selected element/topic
+  function scroll_to_element() {
+    header_height = document.getElementsByTagName('header')[0].offsetHeight/2;
+    toc_element_position = document.querySelector('.book-toc > li > a.active').offsetTop;
+    if(document.querySelector('.book-toc > li > a.active').offsetLeft == 0) {
+      toc_element_position1 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetTop;
+      toc_element_position2 = document.querySelector('.book-toc > li > a.active').offsetParent.offsetHeight;
+      toc_element_position = toc_element_position1 + toc_element_position2;
+    }
+    document.getElementsByTagName('header')[0].scrollTo(0, toc_element_position - header_height, 'smooth');
+  }
+  window.onload = scroll_to_element();
+
+  // hide those labes that take up multiple lines
+  sections = [];
+  topics = [];
+  function hide_label() {
+    // sections
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          elem.classList
+          .contains('book-part')
+          ? sections.push(elem)
+          : '';
+      });
+
+    // topics
+    document
+      .querySelectorAll('.book-toc > li')
+      .forEach(elem => {
+        window
+          .getComputedStyle(elem)
+          .textTransform === "uppercase"
+          &&
+          !elem.classList
+          .contains('book-part')
+          ? topics.push(elem)
+          : '';
+      });
+  }
+  hide_label();
+  head = document.getElementsByTagName('header')[0];
+  head.addEventListener('scroll', () => {
+    // sections
+    count_sections = 0;
+    prev_sections_elem = '';
+    sections
+      .forEach((elem) => {
+      if(count_sections === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_sections = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_sections_elem.classList.add('hide_label');
+        } else {
+          prev_sections_elem.classList.remove('hide_label');
+        }
+      }
+      prev_sections_elem = elem;
+    });
+    // topics
+    count_topics = 0;
+    prev_topic_elem = '';
+    topics
+      .forEach((elem) => {
+      if(count_topics === 0) {
+        initial_y = elem.getBoundingClientRect().y + 20;
+        count_topics = 1;
+      } else {
+        if(elem.getBoundingClientRect().y < initial_y) {
+          prev_topic_elem.classList.add('hide_label');
+        } else {
+          prev_topic_elem.classList.remove('hide_label');
+        }
+      }
+      prev_topic_elem = elem;
+    });
+  });
+</script><div class="chapter-nav">
+<div class="prev"><a href="assay-troubleshooting-1.html">Assay Troubleshooting</a></div>
+<div class="next"><a href="qc-pt.html">QC &amp; PT</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#result-calculation-interpretation-reporting-1">Result Calculation, Interpretation, &amp; Reporting</a></li>
+<li><a class="nav-link" href="#result-calculation-quantitative-analysis">Result Calculation: Quantitative Analysis</a></li>
+<li><a class="nav-link" href="#result-interpretation-reading-the-signals">Result Interpretation: Reading the Signals</a></li>
+<li><a class="nav-link" href="#reporting-protocols">Reporting Protocols</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/blob/main/Rmd/04-B-05.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/brettmrice/Clinical-Molecular-Biology/blob/edit/main/Rmd/04-B-05.Rmd" target="_blank">Edit this page <i class="fab fa-github"></i></a></li>
+          <li><a id="buymeacoffee" href="https://buymeacoffee.com/bloodcellid" target="_blank">NEED Caffeine</a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

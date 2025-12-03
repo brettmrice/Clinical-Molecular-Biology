@@ -10,8 +10,8 @@ Here's a rundown of some key PCR variations crucial in the clinical molecular la
 *   **What it is:** A method to amplify **RNA** targets, not DNA
 *   **How it Differs:** It adds an initial step *before* standard PCR. The enzyme **Reverse Transcriptase (RT)** is used to synthesize a single strand of complementary DNA (cDNA) using the RNA molecule as a template. This cDNA then serves as the template for the subsequent standard PCR amplification using DNA polymerase (*Taq*)
 *   **Mechanism**
-    1.  **Reverse Transcription** Mix RNA template, reverse transcriptase enzyme, primers (can be random hexamers, oligo(dT) to bind poly-A tails of mRNA, or specific reverse primers), and dNTPs. Incubate at the optimal temperature for RT (~37-50°C) to create cDNA
-    2.  **PCR Amplification** Inactivate the RT (usually by heat), add *Taq* polymerase (if not already present in a one-step kit), forward primer, and perform standard PCR cycling (denature, anneal, extend) to amplify the cDNA
+    1.  **Reverse Transcription:** Mix RNA template, reverse transcriptase enzyme, primers (can be random hexamers, oligo(dT) to bind poly-A tails of mRNA, or specific reverse primers), and dNTPs. Incubate at the optimal temperature for RT (~37-50°C) to create cDNA
+    2.  **PCR Amplification:** Inactivate the RT (usually by heat), add *Taq* polymerase (if not already present in a one-step kit), forward primer, and perform standard PCR cycling (denature, anneal, extend) to amplify the cDNA
 *   **Why Use It? (Applications)**
     *   **Detecting RNA viruses:** Essential for viruses with RNA genomes (e.g., HIV, Hepatitis C, Influenza, SARS-CoV-2)
     *   **Gene Expression Analysis (mRNA quantification):** Measuring the amount of specific mRNA tells us how active a gene is. Often combined with real-time PCR (RT-qPCR)
@@ -37,8 +37,8 @@ Here's a rundown of some key PCR variations crucial in the clinical molecular la
 *   **What it is:** A highly sensitive PCR method involving **two sequential rounds** of amplification using **two different primer sets.**
 *   **How it Differs:** It's a two-stage process
 *   **Mechanism**
-    1.  **Round 1** Perform a standard PCR using an "outer" primer pair flanking the target region. This amplifies the target sequence along with potentially some non-specific products
-    2.  **Round 2** Take a small aliquot of the Round 1 product and use it as the template for a *second* PCR reaction. This second reaction uses an "inner" primer pair that binds *within* the sequence amplified by the outer primers
+    1.  **Round 1:** Perform a standard PCR using an "outer" primer pair flanking the target region. This amplifies the target sequence along with potentially some non-specific products
+    2.  **Round 2:** Take a small aliquot of the Round 1 product and use it as the template for a *second* PCR reaction. This second reaction uses an "inner" primer pair that binds *within* the sequence amplified by the outer primers
 *   **Why Use It? (Applications)**
     *   **Increased Sensitivity:** Can detect targets present in extremely low quantities (e.g., latent viral infections, rare sequences)
     *   **Increased Specificity:** The second round of amplification is highly specific because the inner primers will likely only find their binding sites on the correct product generated in the first round, not on any non-specific products from Round 1
@@ -83,20 +83,3 @@ Here's a rundown of some key PCR variations crucial in the clinical molecular la
     *   **SNP Genotyping:** Simple and cost-effective method for known variations
     *   **Detection of Known Mutations:** Identifying presence of specific disease-associated point mutations
 *   **Key Considerations:** Requires very careful primer design and stringent optimization of annealing temperature and MgCl₂ concentration to ensure specificity and prevent mis-priming from the mismatched primer
-
-## **Key Terms** {-}
-
-*   **Reverse Transcriptase (RT):** An enzyme that synthesizes DNA using an RNA template (RNA-dependent DNA polymerase)
-*   **cDNA (Complementary DNA):** DNA synthesized from an RNA template by reverse transcriptase
-*   **Real-Time PCR (qPCR):** PCR where product accumulation is monitored cycle-by-cycle using fluorescence
-*   **Quantification Cycle (Cq) / Threshold Cycle (Ct):** In qPCR, the cycle number at which fluorescence signal crosses a defined threshold above background
-*   **SYBR® Green I:** A fluorescent dye that binds non-specifically to double-stranded DNA, used in qPCR
-*   **Hydrolysis Probe (e.g., TaqMan®):** A target-specific oligonucleotide probe with a 5' fluorophore and 3' quencher, cleaved by Taq's 5'-exonuclease activity during extension to generate signal
-*   **Molecular Beacon:** A hairpin-shaped probe with a fluorophore and quencher; hybridization opens the hairpin, separating them and generating signal
-*   **Melt Curve Analysis:** A procedure after qPCR (usually with SYBR Green) where temperature is slowly increased to measure the dissociation (melting) temperature of the PCR products, used to assess specificity
-*   **Nested PCR:** A two-round PCR technique using outer and inner primer sets for increased sensitivity and specificity
-*   **Multiplex PCR:** Simultaneous amplification of multiple target sequences in a single reaction tube using multiple primer pairs
-*   **Allele-Specific PCR (AS-PCR / ARMS):** PCR using primers designed with their 3' end over a SNP/mutation site to selectively amplify only one allele
-*   **PCR Array:** High-throughput PCR format (e.g., multi-well plate, microfluidic card) with pre-dispensed primers for analyzing multiple targets from one sample simultaneously
-*   **One-Step RT-PCR:** Reverse transcription and PCR amplification occur sequentially in the same tube with a single reaction mix
-*   **Two-Step RT-PCR:** Reverse transcription is performed first, and then an aliquot of the resulting cDNA is used as the template in a separate PCR reaction

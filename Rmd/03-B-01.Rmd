@@ -10,7 +10,7 @@ We'll look at this in two major categories: finding the specific "smoking gun" m
 
 In many leukemias, the catastrophic event is a **chromosomal translocation**. This is when two different chromosomes break and accidentally swap pieces. When this happens, it can slam two previously unrelated genes together, creating a brand-new, abnormal hybrid gene called a **fusion gene**. This fusion gene often produces a fusion protein that acts like a gas pedal stuck to the floor, driving constant cell division
 
-### **The Poster Child: CML and the Philadelphia Chromosome** {-}
+### **The Poster Child: CML & the Philadelphia Chromosome** {-}
 *   **The Cancer:** Chronic Myeloid Leukemia (CML)
 *   **The Event:** A translocation between chromosome 9 and chromosome 22, written as **t(9;22)**
 *   **The Genes:** The *ABL1* gene from chromosome 9 fuses with the *BCR* gene on chromosome 22
@@ -21,14 +21,14 @@ In many leukemias, the catastrophic event is a **chromosomal translocation**. Th
 
 ### **Other Key Translocations** {-}
 *   **Acute Promyelocytic Leukemia (APL):** Caused by **t(15;17)**, which creates the **PML-RARA** fusion gene. This is another home-run for targeted therapy. The abnormal protein messes with retinoic acid signaling. The treatment? A form of Vitamin A called all-trans-retinoic acid (ATRA), which directly helps fix the protein's function. Detecting the *PML-RARA* transcript is crucial for diagnosis
-*   **Acute Lymphoblastic Leukemia (ALL):** Many different translocations can cause ALL. Identifying the specific fusion (e.g., t(12;21) in pediatric ALL, or even a Philadelphia chromosome-like translocation) is critical for **risk stratification**—determining if the patient has a good- or poor-prognosis version of the disease, which dictates the intensity of chemotherapy
+*   **Acute Lymphoblastic Leukemia (ALL):** Many different translocations can cause ALL. Identifying the specific fusion (e.g., t(12;21) in pediatric ALL, or even a Philadelphia chromosome-like translocation) is critical for **risk stratification** - determining if the patient has a good- or poor-prognosis version of the disease, which dictates the intensity of chemotherapy
 
 ## **Clonal Gene Rearrangements: The Unique Fingerprint** {-}
 
 This is a different, but equally clever, application. To understand it, we first have to appreciate a beautiful bit of normal biology
 
 *   **Normal Immunity:** Your body contains millions of different B-cells and T-cells (lymphocytes). Each one must recognize a different potential invader (a virus, bacterium, etc.). To create this incredible diversity, each developing lymphocyte shuffles the DNA of its antigen receptor genes (the **immunoglobulin/Ig genes** in B-cells, and **T-cell receptor/TCR genes** in T-cells). This process is called **V(D)J recombination**. The end result is a healthy, **polyclonal** population where almost every lymphocyte has its own unique gene rearrangement, like a crowd of people all speaking different languages
-*   **The Cancerous State:** What happens in a lymphoma or lymphocytic leukemia? A *single* B-cell or T-cell with one specific gene rearrangement becomes cancerous and starts dividing. All of its daughter cells are identical **clones**, and they all share the exact same unique rearranged Ig or TCR gene. This creates a **monoclonal** population—like a crowd where everyone is chanting the exact same phrase over and over
+*   **The Cancerous State:** What happens in a lymphoma or lymphocytic leukemia? A *single* B-cell or T-cell with one specific gene rearrangement becomes cancerous and starts dividing. All of its daughter cells are identical **clones**, and they all share the exact same unique rearranged Ig or TCR gene. This creates a **monoclonal** population - like a crowd where everyone is chanting the exact same phrase over and over
 
 ### **Molecular Detection of Clonality** {-}
 We design PCR primers that flank the rearranged region of the Ig or TCR genes. We run the PCR on DNA from the patient's blood or lymph node tissue
@@ -39,13 +39,3 @@ We design PCR primers that flank the rearranged region of the Ig or TCR genes. W
 ### **Clinical Uses of Clonality Testing** {-}
 *   **Diagnosis:** Helps a pathologist distinguish a malignant lymphoma from a benign, reactive process (like an infected lymph node) that might look similar under the microscope
 *   **Minimal Residual Disease (MRD) Monitoring:** This is a huge application. Once a patient is diagnosed, we can sequence their unique monoclonal "fingerprint." After treatment, we can use highly sensitive methods (like qPCR or Next-Generation Sequencing) with patient-specific primers to hunt for even a tiny number of remaining cancer cells. The re-emergence of that specific clonal peak is the earliest sign of relapse, often appearing months before a clinical relapse would be noticed
-
-## **Key Terms** {-}
-
-*   **Translocation:** A chromosomal abnormality where a piece of one chromosome breaks off and attaches to another chromosome. This can create disease-causing fusion genes
-*   **Fusion Gene:** An abnormal hybrid gene created by a translocation that joins two previously separate genes. The protein product of a fusion gene often drives uncontrolled cell growth (e.g., *BCR-ABL1*)
-*   **Philadelphia Chromosome (Ph):** The small, abnormal chromosome 22 that results from the t(9;22) translocation and contains the *BCR-ABL1* fusion gene. It is the hallmark of Chronic Myeloid Leukemia (CML)
-*   **Clonality:** A state in which a population of cells is derived from a single common ancestor. In oncology, detecting a monoclonal population of lymphocytes is evidence of a leukemia or lymphoma
-*   **Gene Rearrangement:** The normal physiological process (V(D)J recombination) by which developing B-cells and T-cells shuffle their antigen receptor genes (*Ig* and *TCR*) to create diversity. This process is exploited to detect clonality
-*   **Minimal Residual Disease (MRD):** The small number of cancer cells that remain in a patient during or after treatment when they are in clinical remission. Molecular detection of MRD is used to predict relapse
-*   **Polyclonal:** Describes a population of cells (e.g., lymphocytes) arising from many different ancestral cells, resulting in a wide variety of gene rearrangements. This is characteristic of a normal, healthy immune response

@@ -9,8 +9,8 @@ Think of the human genome as an enormous library of instruction manuals for buil
 This is the genetic lottery at its most straightforward
 
 *   **"Autosomal":** means the gene in question is on one of the non-sex chromosomes (autosomes 1-22)
-*   **"Recessive":** means that to have the disease, a person must inherit **two** faulty copies of the gene—one from each parent
-*   A **carrier** is an individual who has one normal copy and one faulty copy. They are generally healthy and asymptomatic because the one good copy is sufficient to produce enough functional protein to get the job done
+*   **"Recessive":** means that to have the disease, a person must inherit **two** faulty copies of the gene - one from each parent
+*   A **carrier:** is an individual who has one normal copy and one faulty copy. They are generally healthy and asymptomatic because the one good copy is sufficient to produce enough functional protein to get the job done
 *   The classic scenario we test for is when two carriers have children. For each pregnancy, there is a:
     *   25% chance the child will inherit two faulty copies and have the disease
     *   50% chance the child will inherit one faulty and one normal copy, becoming a carrier like their parents
@@ -52,16 +52,6 @@ This is the most common **lysosomal storage disease**
 *   **The Protein and its Function:** The *GBA* gene provides the instructions for an enzyme called glucocerebrosidase. This enzyme works in the lysosomes (the cell's recycling centers) to break down a fatty substance called glucocerebroside
 *   **The Molecular Defect:** In Gaucher disease, a mutated *GBA* gene leads to a deficient or non-functional enzyme. As a result, glucocerebroside isn't broken down and it accumulates to toxic levels within cells, particularly immune cells called macrophages. These engorged "Gaucher cells" build up in the spleen, liver, and bone marrow, causing organ enlargement, anemia, and bone pain
 *   **Molecular Testing Strategy:** Similar to CF, there are several mutations, with four or five being particularly common, especially in the Ashkenazi Jewish population where the disease has a much higher prevalence. Testing often involves:
-    *   An initial **enzyme activity test** from blood
-    *   Molecular testing using a **targeted panel** for the most common mutations
+    *   An initial **enzyme activity test:** from blood
+    *   Molecular testing using a **targeted panel:** for the most common mutations
     *   **Full gene sequencing:** for a definitive diagnosis if the panel is inconclusive
-
-## **Key Terms** {-}
-
-*   **Single-Gene Disorder:** A condition caused by a mutation in one single gene. Also known as a monogenic disorder
-*   **Autosomal Recessive Inheritance:** An inheritance pattern where an individual must inherit two copies of a mutated gene (one from each parent) to be affected by the disorder
-*   **Carrier:** An individual who has one normal and one mutated copy of a gene for a recessive disorder. They are typically asymptomatic but can pass the mutated gene to their children
-*   **Cystic Fibrosis (*CFTR*):** A disease caused by mutations in the *CFTR* gene, leading to defective chloride ion transport and the production of thick, sticky mucus in multiple organs
-*   **Hereditary Hemochromatosis (*HFE*):** A common disorder caused by specific mutations in the *HFE* gene, leading to excessive iron absorption and organ-damaging iron overload
-*   **Lysosomal Storage Disease:** A group of inherited metabolic disorders caused by defects in lysosomal function, leading to the accumulation of undigested substances in the cell. Gaucher disease is a classic example
-*   **Newborn Screening:** A public health program that tests infants shortly after birth for a list of serious but treatable conditions, including cystic fibrosis and certain other single-gene disorders

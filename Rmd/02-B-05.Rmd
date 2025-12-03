@@ -35,13 +35,13 @@ These probes are designed for use *during* PCR amplification, allowing us to mon
 ## **TaqMan® Probes (Hydrolysis Probes)** {-}
 
 *   **Structure:** A linear oligonucleotide probe designed to bind to a specific target sequence *between* the forward and reverse PCR primers. It has:
-    *   A **Reporter Fluorophore** covalently attached to the **5' end**
-    *   A **Quencher** covalently attached to the **3' end**
+    *   A **Reporter Fluorophore:** covalently attached to the **5' end**
+    *   A **Quencher:** covalently attached to the **3' end**
     *   (Often includes a minor groove binder (MGB) at the 3' end to increase Tm, allowing for shorter, more specific probes)
 *   **Mechanism of Action (Hydrolysis)**
     1.  In the intact probe, the Quencher is close enough to the Reporter to absorb its energy (via FRET or other quenching mechanisms), keeping fluorescence low
     2.  During PCR annealing, the TaqMan probe hybridizes to its target sequence on the template DNA
-    3.  During the extension phase, *Taq* polymerase synthesizes the new strand. When it encounters the bound probe, its **5' → 3' exonuclease activity** cleaves the probe
+    3.  During the extension phase, *Taq* polymerase synthesizes the new strand. When it encounters the bound probe, its **5' → 3' exonuclease activity:** cleaves the probe
     4.  This cleavage **separates the Reporter dye from the Quencher dye**
     5.  Freed from the Quencher's influence, the Reporter dye fluoresces when excited by the instrument's light source
     6.  The increase in fluorescence signal is directly proportional to the amount of PCR product generated
@@ -50,10 +50,10 @@ These probes are designed for use *during* PCR amplification, allowing us to mon
 ## **Molecular Beacons** {-}
 
 *   **Structure:** A single-stranded oligonucleotide probe designed with complementary sequences at its 5' and 3' ends, forcing it into a **stem-loop (hairpin) structure** in its free state
-    *   A **Reporter Fluorophore** is attached to one end (e.g., 5')
-    *   A **Quencher** is attached to the other end (e.g., 3')
-    *   The **loop** portion contains the sequence complementary to the target DNA
-    *   The **stem** is formed by the annealing of the complementary arm sequences at the ends
+    *   A **Reporter Fluorophore:** is attached to one end (e.g., 5')
+    *   A **Quencher:** is attached to the other end (e.g., 3')
+    *   The **loop:** portion contains the sequence complementary to the target DNA
+    *   The **stem:** is formed by the annealing of the complementary arm sequences at the ends
 *   **Mechanism of Action (Conformational Change)**
     1.  In the free state (no target present), the probe exists in the hairpin conformation. The stem keeps the Reporter and Quencher close together, resulting in efficient quenching and low fluorescence
     2.  During the PCR annealing step, if the target sequence is present, the loop sequence of the Molecular Beacon hybridizes to it
@@ -71,23 +71,23 @@ These probes are designed for use *during* PCR amplification, allowing us to mon
     1.  When the probes are free in solution or bound far apart, exciting the Donor fluorophore results only in its characteristic emission; little or no signal is detected from the Acceptor
     2.  During PCR annealing, both probes hybridize to their respective adjacent sites on the target DNA
     3.  This brings the Donor and Acceptor fluorophores into very close proximity (within FRET distance)
-    4.  Now, when the instrument's light source excites the **Donor** fluorophore, the energy is efficiently transferred via **FRET** to the **Acceptor** fluorophore
-    5.  The **Acceptor** fluorophore then emits light at its characteristic longer wavelength, and this is the signal that is detected
+    4.  Now, when the instrument's light source excites the **Donor:** fluorophore, the energy is efficiently transferred via **FRET** to the **Acceptor** fluorophore
+    5.  The **Acceptor:** fluorophore then emits light at its characteristic longer wavelength, and this is the signal that is detected
     6.  The intensity of the Acceptor fluorescence increases as more PCR product accumulates, allowing more probe pairs to bind adjacently
 *   **Key Feature:** Signal generation (Acceptor emission) depends on the *simultaneous hybridization of two adjacent probes*, bringing the Donor and Acceptor dyes close enough for FRET. Excellent for melt curve analysis after PCR
 
 ## **Scorpion® Probes** {-}
 
 *   **Structure:** A complex **unimolecular** probe that contains both the probe sequence and a PCR primer element, linked together
-    *   A **PCR Primer** at the 5' end
-    *   A **Stem-Loop structure** (similar to a Molecular Beacon) attached to the 3' end of the primer sequence, containing:
-        *   A **Fluorophore** (often within the loop or on one arm)
-        *   A **Quencher** (on the opposing arm)
+    *   A **PCR Primer:** at the 5' end
+    *   A **Stem-Loop structure:** (similar to a Molecular Beacon) attached to the 3' end of the primer sequence, containing:
+        *   A **Fluorophore:** (often within the loop or on one arm)
+        *   A **Quencher:** (on the opposing arm)
         *   A probe sequence within the loop/arms complementary to a target site *downstream* of the primer binding site on the *same* strand
-    *   A **PCR Blocker** element between the primer and the probe stem-loop. This prevents the polymerase from reading through and copying the probe sequence itself during PCR extension
+    *   A **PCR Blocker:** element between the primer and the probe stem-loop. This prevents the polymerase from reading through and copying the probe sequence itself during PCR extension
 *   **Mechanism of Action (Intramolecular Hybridization)**
     1.  In the initial PCR cycles, the Scorpion primer anneals and is extended by the polymerase. The probe portion remains in its quenched hairpin form
-    2.  After denaturation and during the subsequent annealing step, the probe sequence (which is now covalently tethered to the 5' end of the newly synthesized strand via the primer) hybridizes **intramolecularly** to the complementary target sequence that was just synthesized further down the same strand
+    2.  After denaturation and during the subsequent annealing step, the probe sequence (which is now covalently tethered to the 5' end of the newly synthesized strand via the primer) hybridizes **intramolecularly:** to the complementary target sequence that was just synthesized further down the same strand
     3.  This intramolecular binding opens the hairpin structure, **separating the Fluorophore from the Quencher**
     4.  Fluorescence signal increases as more product containing the incorporated Scorpion element is generated
 *   **Key Feature:** Signal generation involves an *intramolecular* hybridization event following primer incorporation. This is kinetically very fast
@@ -101,20 +101,3 @@ These probes are designed for use *during* PCR amplification, allowing us to mon
 | **Molecular Beacon**| Stem-loop; Fluor on one end, Quencher on other | Conformational change separates Fluor from Quencher | Fluorescence Increase      | Real-time qPCR (SNP), ISH             |
 | **FRET Probes**    | Two adjacent probes; 3'-Donor, 5'-Acceptor     | FRET occurs upon adjacent binding                | Acceptor Fluorescence Incr. | Real-time qPCR (SNP, Melt Curve)      |
 | **Scorpion®**      | Primer linked to stem-loop probe (F/Q)         | Intramolecular hybridization opens stem-loop     | Fluorescence Increase      | Real-time qPCR (Quantification, SNP)    |
-
-## **Key Terms** {-}
-
-*   **Probe:** A labeled nucleic acid strand used to detect a complementary target sequence via hybridization
-*   **Hybridization:** The process of a probe binding to its complementary target sequence through base pairing
-*   **Label:** A detectable molecule (radioisotope, hapten, enzyme, fluorophore) attached to a probe
-*   **Fluorophore:** A molecule that emits light (fluorescence) after absorbing light at a specific wavelength
-*   **Quencher:** A molecule that absorbs energy from a nearby fluorophore, preventing it from emitting light
-*   **FRET (Förster Resonance Energy Transfer):** Non-radiative energy transfer between a donor fluorophore and an acceptor molecule (quencher or another fluorophore) when in close proximity (1-10 nm)
-*   **TaqMan® Probe (Hydrolysis Probe):** A linear probe with 5'-Fluorophore and 3'-Quencher, cleaved by Taq polymerase's 5'-exonuclease activity during PCR extension, separating Fluorophore from Quencher and generating signal
-*   **Molecular Beacon:** A stem-loop (hairpin) structured probe with Fluorophore and Quencher on opposite ends of the stem. Hybridization to target opens the hairpin, separating Fluorophore from Quencher and generating signal
-*   **FRET Probes (Hybridization Probes):** A pair of probes binding adjacently; one carries a donor fluorophore, the other an acceptor. FRET occurs upon binding, generating signal (acceptor emission)
-*   **Scorpion® Probe:** A unimolecular probe covalently linked to a PCR primer. Contains a stem-loop structure with Fluorophore and Quencher. Intramolecular hybridization after primer extension opens the hairpin, generating signal
-*   **Stem-Loop Structure (Hairpin):** A secondary structure formed in single-stranded nucleic acids when complementary sequences within the strand anneal, forming a double-stranded stem and a single-stranded loop
-*   **5' → 3' Exonuclease Activity:** An enzymatic activity possessed by some DNA polymerases (like Taq) that allows them to degrade nucleic acid strands encountered ahead of the direction of synthesis. Crucial for TaqMan probes
-*   **Intramolecular:** Occurring within the same molecule
-*   **Intermolecular:** Occurring between different molecules

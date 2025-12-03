@@ -15,24 +15,24 @@ These are the enzymes that allow us to manipulate DNA and RNA in precise ways:
     *   **Endonucleases:** Cut *within* nucleic acid strands. Key reagents: **Restriction Enzymes** (recognize specific DNA sequences, vital for cloning, RFLP), **DNase I** (general DNA degradation, e.g., removing DNA from RNA samples), **RNases** (degrade RNA)
     *   **Exonucleases:** Remove nucleotides from the *ends* of nucleic acid strands. Key reagents: **Exonuclease I** (degrades single-stranded DNA, e.g., removing unused primers after PCR)
 *   **Reverse Transcriptase (RT) (The RNA-to-DNA Converter)**
-    *   Synthesizes **DNA** (cDNA) from an **RNA** template. **Requires a primer** (oligo(dT), random, or gene-specific). Key reagents: Engineered MMLV or AMV variants (often thermostable, RNase H minus). **Essential for analyzing RNA targets via RT-PCR/RT-qPCR** (e.g., RNA viruses, gene expression)
+    *   Synthesizes **DNA:** (cDNA) from an **RNA** template. **Requires a primer** (oligo(dT), random, or gene-specific). Key reagents: Engineered MMLV or AMV variants (often thermostable, RNase H minus). **Essential for analyzing RNA targets via RT-PCR/RT-qPCR** (e.g., RNA viruses, gene expression)
 *   **DNA Ligase (The Molecular Glue)**
-    *   Joins nicks or compatible ends in **double-stranded DNA** by forming a phosphodiester bond. Requires energy (ATP for T4 Ligase). Key reagent: **T4 DNA Ligase**. **Essential for molecular cloning (insert into vector) and NGS library preparation (adapter ligation).**
+    *   Joins nicks or compatible ends in **double-stranded DNA:** by forming a phosphodiester bond. Requires energy (ATP for T4 Ligase). Key reagent: **T4 DNA Ligase**. **Essential for molecular cloning (insert into vector) and NGS library preparation (adapter ligation).**
 
-## **Assay Development and Design (Using the Tools Effectively)** {-}
+## **Assay Development & Design (Using the Tools Effectively)** {-}
 
 This is the process of strategically combining these reagents and optimizing conditions to create a functional, reliable clinical test:
 
 *   **Goal:** To accurately, reliably, sensitively, and specifically detect or quantify a target nucleic acid (DNA/RNA sequence, mutation, pathogen) relevant to a clinical question
 *   **Process**
-    1.  **Define Need & Target** What analyte answers the clinical question? Is it DNA/RNA? What are its properties?
-    2.  **Choose Method** Select the core technology (PCR, qPCR, RT-qPCR, Sequencing, etc.) appropriate for the target and question
+    1.  **Define Need & Target:** What analyte answers the clinical question? Is it DNA/RNA? What are its properties?
+    2.  **Choose Method:** Select the core technology (PCR, qPCR, RT-qPCR, Sequencing, etc.) appropriate for the target and question
     3.  **Design Components**
         *   **Primers/Probes:** Design specific oligonucleotides based on target sequence, Tm, GC content, avoiding secondary structures/dimers
         *   **Select Enzymes:** Choose the right polymerase(s), RT, ligase, or nucleases based on required fidelity, thermostability, activity, and assay format
-    4.  **Optimize Conditions** Fine-tune parameters like annealing temperature, MgCl₂, enzyme/primer concentrations for optimal performance
-    5.  **Incorporate CONTROLS** Absolutely essential! Positive, Negative (NTC), and Internal Controls are needed to validate every run and ensure results are meaningful
-    6.  **Validate Performance** Rigorously test accuracy, precision, sensitivity (LoD), specificity, and reportable range according to regulatory guidelines (CLIA, CAP)
+    4.  **Optimize Conditions:** Fine-tune parameters like annealing temperature, MgCl₂, enzyme/primer concentrations for optimal performance
+    5.  **Incorporate CONTROLS:** Absolutely essential! Positive, Negative (NTC), and Internal Controls are needed to validate every run and ensure results are meaningful
+    6.  **Validate Performance:** Rigorously test accuracy, precision, sensitivity (LoD), specificity, and reportable range according to regulatory guidelines (CLIA, CAP)
 
 *   **Connecting Reagents to Assay Design:** The properties of the chosen reagents directly influence assay design and performance. For example:
     *   Using *Taq* polymerase (no proofreading) for PCR means the assay is good for detection but less suitable if the exact sequence of the product is needed later

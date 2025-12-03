@@ -1,6 +1,6 @@
 # PCR {-}
 
-**Oligonucleotide (Primer) Design & Preparation** and **PCR Reaction Optimization** are two processes intertwined and essential for achieving successful, reliable PCR amplification, especially in the clinical setting where accuracy is paramount
+**Oligonucleotide (Primer) Design & Preparation:** and **PCR Reaction Optimization** are two processes intertwined and essential for achieving successful, reliable PCR amplification, especially in the clinical setting where accuracy is paramount
 
 Think of it like planning a road trip:
 
@@ -9,7 +9,7 @@ Think of it like planning a road trip:
 
 ## **PCR: Primer Design & Prep + Reaction Optimization** {-}
 
-**Overall Goal** To specifically, efficiently, and reproducibly amplify a target DNA sequence from a complex background
+**Overall Goal:** To specifically, efficiently, and reproducibly amplify a target DNA sequence from a complex background
 
 ## **Primer Design & Preparation (Laying the Foundation)** {-}
 

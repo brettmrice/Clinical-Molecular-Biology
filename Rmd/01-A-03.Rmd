@@ -3,8 +3,8 @@
 The **Chemical Structure** of nucleic acids – built from nucleotides linked by phosphodiester bonds into a directional sugar-phosphate backbone with projecting bases – dictates their function. DNA's stable, antiparallel double helix with specific A-T/G-C pairing is ideal for information storage. RNA's single-stranded nature, ribose sugar, and U base allow it to adopt diverse structures for varied roles in gene expression and regulation. Grasping this structure is key to understanding how genetic information is stored, accessed, and analyzed in the clinical laboratory
 
 The chemical structure of nucleic acids ties together sugars and bases. Think of it like building with LEGOs:
-*   The **sugars** (deoxyribose/ribose) and **phosphates** are the standard connecting bricks that form the long chains
-*   The **bases** (A, T, G, C, U) are the special feature bricks that stick out and carry the unique information
+*   The **sugars:** (deoxyribose/ribose) and **phosphates** are the standard connecting bricks that form the long chains
+*   The **bases:** (A, T, G, C, U) are the special feature bricks that stick out and carry the unique information
 
 ## **The Monomer: Nucleotides** {-}
 
@@ -20,18 +20,18 @@ The fundamental repeating unit of both DNA and RNA is the **nucleotide**. Each n
 
 This is the key to forming the long polymer chains of DNA and RNA. Nucleotides are linked together by **phosphodiester bonds**. Here's how it works:
 
-*   The **phosphate group** attached to the **5' carbon** of one nucleotide forms a covalent bond with the **hydroxyl (-OH) group** on the **3' carbon** of the *previous* nucleotide's sugar
+*   The **phosphate group:** attached to the **5' carbon** of one nucleotide forms a covalent bond with the **hydroxyl (-OH) group** on the **3' carbon** of the *previous* nucleotide's sugar
 *   This reaction releases a water molecule (pyrophosphate, actually, which then hydrolyzes)
-*   The result is a **sugar-phosphate-sugar-phosphate** chain, forming the **backbone** of the nucleic acid strand
+*   The result is a **sugar-phosphate-sugar-phosphate:** chain, forming the **backbone** of the nucleic acid strand
 *   The nitrogenous bases project outwards from this backbone
-*   Crucially, the phosphate groups in the backbone carry a **negative charge** at physiological pH. This makes DNA and RNA acidic molecules (hence "nucleic *acid*") and is vital for many lab techniques (like electrophoresis!)
+*   Crucially, the phosphate groups in the backbone carry a **negative charge:** at physiological pH. This makes DNA and RNA acidic molecules (hence "nucleic *acid*") and is vital for many lab techniques (like electrophoresis!)
 
-## **Directionality: The 5' and 3' Ends** {-}
+## **Directionality: The 5' & 3' Ends** {-}
 
 The formation of the phosphodiester bond creates an inherent **directionality** in the nucleic acid strand:
 
-*   One end of the strand will have a free phosphate group attached to the 5' carbon of the terminal sugar. This is called the **5' end** (five-prime end)
-*   The other end of the strand will have a free hydroxyl (-OH) group on the 3' carbon of the terminal sugar. This is called the **3' end** (three-prime end)
+*   One end of the strand will have a free phosphate group attached to the 5' carbon of the terminal sugar. This is called the **5' end:** (five-prime end)
+*   The other end of the strand will have a free hydroxyl (-OH) group on the 3' carbon of the terminal sugar. This is called the **3' end:** (three-prime end)
 *   By convention, nucleic acid sequences are always written and read from **5' to 3'**. This directionality is critical for processes like DNA replication and transcription, as enzymes involved (polymerases) typically synthesize new strands in the 5' to 3' direction
 
 ## **DNA Structure: The Double Helix** {-}
@@ -41,8 +41,8 @@ DNA usually exists as a **double helix**, famously described by Watson and Crick
 *   **Two Strands:** Two separate polynucleotide chains (sugar-phosphate backbones) are wound around each other
 *   **Antiparallel:** The two strands run in opposite directions. If one strand runs 5' to 3' top-to-bottom, the complementary strand runs 3' to 5' top-to-bottom. (Think of two lanes of a highway going in opposite directions)
 *   **Complementary Base Pairing:** The strands are held together by specific **hydrogen bonds** between the bases projecting inwards:
-    *   Adenine (A) pairs with Thymine (T) via **two** hydrogen bonds
-    *   Guanine (G) pairs with Cytosine (C) via **three** hydrogen bonds
+    *   Adenine (A) pairs with Thymine (T) via **two:** hydrogen bonds
+    *   Guanine (G) pairs with Cytosine (C) via **three:** hydrogen bonds
     *   This A=T and G≡C specificity ensures that the sequence of one strand dictates the sequence of the other
 *   **Helical Shape:** The structure twists into a right-handed helix (most commonly the **B-form DNA**)
 *   **Major and Minor Grooves:** The twisting creates two grooves on the surface of the helix. The **major groove** is wider, and the **minor groove** is narrower. These grooves are important because they expose the edges of the base pairs, allowing proteins (like transcription factors) to recognize specific DNA sequences without unwinding the helix
@@ -72,20 +72,3 @@ Understanding the chemical structure is fundamental to virtually everything we d
 *   **Electrophoresis:** The uniform negative charge of the sugar-phosphate backbone allows DNA and RNA fragments to migrate through a gel matrix towards the positive electrode, separating primarily based on size
 *   **Restriction Enzyme Digestion:** These enzymes recognize specific short DNA sequences (determined by the bases) and cut the phosphodiester backbone at precise locations
 *   **Drug Design:** Many drugs target nucleic acid structure or enzymes that interact with them (e.g., intercalating agents that slip between base pairs, or drugs that inhibit polymerases)
-
-## **Key Terms** {-}
-
-*   **Nucleotide:** The monomer unit of nucleic acids, consisting of a nitrogenous base, a pentose sugar (deoxyribose or ribose), and one or more phosphate groups
-*   **Phosphodiester Bond:** The covalent bond linking adjacent nucleotides in a nucleic acid strand. It connects the 5' phosphate group of one nucleotide to the 3' hydroxyl group of the previous nucleotide's sugar
-*   **Sugar-Phosphate Backbone:** The repeating chain of alternating sugar and phosphate units formed by phosphodiester bonds in a nucleic acid strand. The bases project from this backbone
-*   **N-Glycosidic Bond:** The covalent bond linking the nitrogenous base to the 1' carbon of the pentose sugar
-*   **Directionality (5' to 3'):** The intrinsic orientation of a nucleic acid strand, defined by the phosphodiester linkages, resulting in distinct 5' (phosphate) and 3' (hydroxyl) ends. Sequences are read 5' to 3'
-*   **5' End:** The end of a nucleic acid strand terminating with a phosphate group attached to the 5' carbon of the terminal sugar
-*   **3' End:** The end of a nucleic acid strand terminating with a hydroxyl group attached to the 3' carbon of the terminal sugar. Site of nucleotide addition during synthesis
-*   **Double Helix:** The typical secondary structure of DNA, consisting of two antiparallel polynucleotide strands wound around a central axis, held together by complementary base pairing
-*   **Antiparallel:** The orientation of the two strands in a DNA double helix, where one strand runs 5' to 3' and the complementary strand runs 3' to 5'
-*   **Complementary Base Pairing:** Specific hydrogen bonding between A and T (or U) and between G and C in nucleic acids
-*   **Hydrogen Bond:** Weak electrostatic attraction holding complementary base pairs together. Two bonds between A-T/U, three bonds between G-C
-*   **Major Groove / Minor Groove:** The two distinct grooves winding along the surface of the DNA double helix, formed by the arrangement of the sugar-phosphate backbones. Sites for protein-DNA interactions
-*   **Secondary Structure (RNA):** Local folding patterns of an RNA molecule, such as hairpins, loops, and bulges, formed by intramolecular base pairing
-*   **Tertiary Structure (RNA):** The overall three-dimensional shape of an RNA molecule, resulting from interactions between secondary structural elements

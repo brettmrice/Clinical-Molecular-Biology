@@ -1,6 +1,6 @@
 # Assay Development {-}
 
-**Assay Development and Design** is where we move from understanding the individual biochemical reagents (like polymerases, nucleases, ligases) to strategically *using* them to create a reliable test that answers a specific clinical question. Assay development is an iterative process, often requiring cycles of design, testing, optimization, and validation, all underpinned by a solid understanding of the biochemical reagents involved and the molecular biology principles at play
+**Assay Development and Design:** is where we move from understanding the individual biochemical reagents (like polymerases, nucleases, ligases) to strategically *using* them to create a reliable test that answers a specific clinical question. Assay development is an iterative process, often requiring cycles of design, testing, optimization, and validation, all underpinned by a solid understanding of the biochemical reagents involved and the molecular biology principles at play
 
 Think of it like designing a recipe. You know what ingredients you have (the biochemical reagents), and you know what final dish you want (a specific diagnostic result). Assay development is figuring out the exact recipe – the right combination of ingredients, the precise steps, cooking times, temperatures, and importantly, how to know if you actually made the dish correctly and consistently every time!
 
@@ -15,7 +15,7 @@ The ultimate aim is to develop a molecular assay that is:
 *   **Clinically Relevant:** Provides useful information for patient diagnosis, prognosis, or treatment monitoring
 *   **Practical:** Feasible to perform within the constraints of a clinical lab (cost, time, workflow, equipment)
 
-## **Key Stages and Considerations in Assay Development & Design** {-}
+## **Key Stages & Considerations in Assay Development & Design** {-}
 
 ### **1. Defining the Clinical Need & Target Selection** {-}
 
@@ -73,7 +73,7 @@ Fine-tuning the "recipe" to get the best performance:
 *   **Enzyme Concentration:** Affects reaction speed and cost
 *   **Cycling Times/Temperatures:** Ensuring complete denaturation, sufficient annealing/extension time
 
-### **5. Designing and Incorporating Controls** {-}
+### **5. Designing & Incorporating Controls** {-}
 
 Controls are NON-NEGOTIABLE in a clinical assay. They ensure the assay ran correctly and the results are valid:
 
@@ -83,7 +83,7 @@ Controls are NON-NEGOTIABLE in a clinical assay. They ensure the assay ran corre
 *   **(Optional) Calibrators/Standards:** Known quantities of the target used to generate a standard curve for quantitative assays (qPCR)
 *   **(Optional) Uracil-N-Glycosylase (UNG) System:** Used with dUTP instead of dTTP during PCR. UNG enzyme added before PCR degrades any contaminating PCR products from previous runs (which contain dU), preventing carryover contamination
 
-### **6. Validation and Performance Verification** {-}
+### **6. Validation & Performance Verification** {-}
 
 Before clinical use, assays (especially lab-developed tests - LDTs) must undergo rigorous validation to demonstrate they meet performance requirements (following guidelines like CLIA, CAP, ISO):
 
@@ -94,7 +94,7 @@ Before clinical use, assays (especially lab-developed tests - LDTs) must undergo
 *   **Reportable Range:** The range of analyte concentrations over which the assay is accurate and precise (for quantitative assays)
 *   **Robustness:** How well the assay performs under slightly varied conditions
 
-### **7. Implementation and Quality Management** {-}
+### **7. Implementation & Quality Management** {-}
 
 *   **Standard Operating Procedures (SOPs):** Detailed, step-by-step instructions
 *   **Quality Control (QC):** Running controls with every batch of patient samples
@@ -110,16 +110,3 @@ The choice and quality of biochemical reagents are paramount:
 *   **dNTP/NTP quality:** impacts synthesis
 *   **Buffer composition:** affects enzyme activity and stringency
 *   Careful reagent handling and storage are crucial to prevent degradation or contamination
-
-##  **Key Terms** {-}
-
-*   **Analyte:** The specific substance or target molecule (e.g., a particular DNA sequence, RNA transcript, mutation, pathogen nucleic acid) that the assay is designed to detect or measure in a patient sample
-*   **Limit of Detection (LoD):** The lowest concentration or amount of the analyte that can be reliably detected by the assay with a defined level of confidence (often 95%), distinguishing it from zero or background noise. It represents the analytical sensitivity of the assay
-*   **Analytical Specificity:** The ability of the assay to measure exclusively the intended analyte, without interference from other related or unrelated substances potentially present in the sample (e.g., closely related organisms, homologous host genes, sample matrix components). This includes assessing cross-reactivity
-*   **Accuracy:** The degree of closeness between the result obtained by the assay and the true or accepted reference value for the analyte. It reflects the lack of systematic error
-*   **Precision:** The degree of agreement among independent measurements of the same sample when the assay procedure is applied repeatedly under stipulated conditions. It reflects random error and is often expressed as repeatability (intra-assay) and reproducibility (inter-assay)
-*   **Primer/Probe Design:** The process of creating specific oligonucleotide sequences (primers for amplification, probes for detection) that will bind uniquely and efficiently to the target analyte sequence under the assay conditions, crucial for specificity and sensitivity
-*   **Internal Control (IC):** A non-target nucleic acid sequence added to each sample before processing, or an endogenous housekeeping gene, used to monitor the entire assay process (including sample extraction, amplification, and detection) for potential failures or inhibition. Essential for validating negative results
-*   **Validation:** The comprehensive process of evaluating an assay's performance characteristics (accuracy, precision, sensitivity, specificity, reportable range, etc.) to ensure it is suitable for its intended clinical purpose, following established regulatory or laboratory guidelines (e.g., CLIA, CAP)
-*   **Optimization:** The systematic process of adjusting assay parameters (e.g., primer/probe concentrations, enzyme concentrations, annealing temperature, cycling times, buffer components like MgCl₂) to achieve the best possible performance in terms of sensitivity, specificity, and reliability
-*   **Reportable Range:** For quantitative assays, the span of analyte concentrations over which the method has been validated to perform with acceptable accuracy, precision, and linearity. Results outside this range cannot be reliably reported without dilution or qualification

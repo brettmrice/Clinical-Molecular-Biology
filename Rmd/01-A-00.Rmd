@@ -20,16 +20,16 @@ Here's the core components of **Nucleic Acid Chemistry**:
 *   **Pyrimidines (Single Ring):** Cytosine (C), Thymine (T), and Uracil (U). *(Remember: **CUT** the **PY**)*
 *   **DNA uses A, G, C, T.**
 *   **RNA uses A, G, C, U.:** (Uracil replaces Thymine)
-*   The magic is in **complementary base pairing** via hydrogen bonds: **A pairs with T (in DNA) or U (in RNA)** (2 H-bonds), and **G pairs with C** (3 H-bonds). This is the foundation of the double helix and information transfer
+*   The magic is in **complementary base pairing:** via hydrogen bonds: **A pairs with T (in DNA) or U (in RNA)** (2 H-bonds), and **G pairs with C** (3 H-bonds). This is the foundation of the double helix and information transfer
 
 ##  **Chemical Structure (Putting it Together)** {-}
 *   **Nucleotides:** (Base + Sugar + Phosphate) are the monomers
-*   They link via **phosphodiester bonds** between the 5' phosphate of one nucleotide and the 3' hydroxyl of the next sugar, forming the **sugar-phosphate backbone**
+*   They link via **phosphodiester bonds:** between the 5' phosphate of one nucleotide and the 3' hydroxyl of the next sugar, forming the **sugar-phosphate backbone**
 *   This creates **directionality (5' to 3')**, which is critical for reading and synthesizing nucleic acids
 *   **DNA:** typically forms a stable, **antiparallel double helix** held together by base pairing
 *   **RNA:** is usually **single-stranded** but can fold into complex 3D shapes due to its flexibility and self-complementarity, allowing for diverse functions
 
-##  **Associated Proteins (The Managers and Workers)** {-}
+##  **Associated Proteins (The Managers & Workers)** {-}
 *   Nucleic acids rarely exist alone; they are constantly interacting with proteins
 *   **Histones:** package eukaryotic DNA into compact chromatin
 *   **Enzymes:** are crucial:
@@ -44,8 +44,8 @@ Here's the core components of **Nucleic Acid Chemistry**:
 ##  **Mutations (Changes to the Blueprint)** {-}
 *   Any change in the nucleotide sequence is a **mutation**
 *   **Point Mutations:** Single base changes (substitutions) or single base insertions/deletions (indels)
-    *   Substitutions can be **silent** (no amino acid change), **missense** (different amino acid), or **nonsense** (creates a STOP codon)
-    *   Indels often cause **frameshifts** if not in multiples of three, drastically altering the protein sequence
+    *   Substitutions can be **silent:** (no amino acid change), **missense** (different amino acid), or **nonsense** (creates a STOP codon)
+    *   Indels often cause **frameshifts:** if not in multiples of three, drastically altering the protein sequence
 *   **Larger Mutations:** Deletions, insertions, duplications, inversions, translocations of larger DNA segments
-*   Mutations can arise **spontaneously** (e.g., replication errors) or be **induced** by mutagens (chemicals, radiation)
+*   Mutations can arise **spontaneously:** (e.g., replication errors) or be **induced** by mutagens (chemicals, radiation)
 *   They are the source of genetic variation but also the cause of many genetic diseases and cancer. Detecting specific mutations is a cornerstone of clinical molecular diagnostics

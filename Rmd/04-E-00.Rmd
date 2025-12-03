@@ -1,0 +1,31 @@
+# Safety {-}
+
+Safety in the Molecular Biology laboratory requires a dual-threat approach. Laboratory scientists must simultaneously manage the biological risks inherent to clinical specimens (infectious agents) and the chemical risks inherent to molecular reagents (mutagens, neurotoxins, and volatiles). Strict adherence to **OSHA** regulations, **Standard Precautions**, and proper waste segregation is essential to prevent exposure incidents and environmental contamination
+
+## Biological Safety {-}
+
+The primary biological risk in molecular diagnostics is the generation of infectious aerosols during the vigorous processing (vortexing, pipetting, centrifuging) of raw specimens like blood, bone marrow, and cerebrospinal fluid
+
+*   **Handling & Engineering Controls**
+    *   **Standard Precautions:** All specimens must be treated as if potentially infectious for HIV, Hepatitis B, and other bloodborne pathogens. **Nitrile gloves** and fluid-resistant laboratory coats are mandatory
+    *   **Biological Safety Cabinet (BSC):** The **Class II, Type A2 BSC** is the primary containment device. It utilizes HEPA filters and air curtains to protect the **User**, the **Product**, and the **Environment**
+        *   *Critical Usage:* Never block the front or rear grilles with equipment. Maintain the sash at the certified height. Do not use volatile toxic chemicals in a standard BSC, as air is recirculated back into the cabinet
+    *   **Centrifugation:** To prevent aerosol release during high-speed spins, specimens should be centrifuged in **sealed safety cups** or aerosol-tight rotors. Cups should only be opened inside the BSC
+*   **Disposal Protocols**
+    *   **Solid Waste:** Contaminated items (gloves, tubes, pipettes) are disposed of in **Red Biohazard Bags**
+    *   **Sharps:** Needles, slides, and scalpel blades must be placed in rigid, puncture-resistant containers. **Never recap needles**
+    *   **Liquid Waste:** Generally decontaminated with **10% Sodium Hypochlorite (Bleach)** for a defined contact time before disposal. *Exception:* See Chemical Incompatibility below
+
+## Chemical Safety {-}
+
+Molecular workflows utilize distinct hazardous chemicals that differ from routine clinical chemistry, including DNA-binding dyes and chaotropic salts. Personnel must have access to **Safety Data Sheets (SDS)** and use **GHS-labeled** secondary containers
+
+*   **Specific Hazards & Handling**
+    *   **Ethidium Bromide (EtBr):** A DNA intercalating agent and potent **mutagen**. It requires Nitrile gloves (latex is permeable) and must be disposed of via incineration or charcoal filtration. It cannot be poured down the sink
+    *   **Phenol/Chloroform:** Used for organic extraction. Phenol causes severe chemical burns (anesthetic effect); Chloroform is a volatile neurotoxin. These must be handled in a **Chemical Fume Hood** (vented outside), never a Biological Safety Cabinet
+    *   **Acrylamide:** A neurotoxin in its liquid monomer state. A dust mask is required when weighing the powder
+*   **The Guanidine-Bleach Hazard**
+    *   **Critical Safety Rule:** Many lysis buffers contain **Guanidine Thiocyanate**. If mixed with **Bleach**, this generates toxic **Cyanide Gas**
+    *   **Disposal:** Lysis buffer waste must be collected separately from general bleach waste or neutralized according to specific non-bleach protocols
+*   **Storage**
+    *   Chemicals must be segregated by compatibility: **Acids:** away from **Bases**; **Oxidizers** away from **Flammables**; and **Volatiles** in vented cabinets

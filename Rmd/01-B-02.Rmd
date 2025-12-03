@@ -12,12 +12,12 @@ Transcription synthesizes an RNA molecule whose sequence is complementary to one
 *   **Product:** The resulting RNA molecule (the **transcript**) has a sequence nearly identical to the *other* DNA strand (the **coding strand** or **sense strand**), except that **Uracil (U)** replaces Thymine (T)
 *   **Selectivity:** Unlike replication which copies everything, transcription is highly selective. Only specific genes or groups of genes are transcribed at any given time, depending on the cell's needs
 
-## **The Key Players: Enzymes and Sequences** {-}
+## **The Key Players: Enzymes & Sequences** {-}
 
 *   **RNA Polymerase:** The star enzyme of transcription. This multi-subunit enzyme does the heavy lifting:
     *   Recognizes and binds to specific DNA sequences (promoters) that signal the start of a gene
     *   Unwinds a short section of the DNA double helix to expose the template strand
-    *   Synthesizes the RNA strand in the **5' to 3' direction**, reading the DNA template strand in the **3' to 5'** direction
+    *   Synthesizes the RNA strand in the **5' to 3' direction**, reading the DNA template strand in the **3' to 5':** direction
     *   Uses ribonucleoside triphosphates (**ATP, UTP, CTP, GTP**) as substrates, adding complementary bases (U pairs with A, A with T, C with G, G with C)
     *   **Does NOT require a primer:** to start synthesis (unlike DNA polymerase)
     *   Recognizes termination signals to stop transcription
@@ -92,23 +92,3 @@ Transcription is central to many diagnostic and research applications:
 *   **Understanding Disease Mechanisms:** Mutations affecting promoters, enhancers, or splicing signals can disrupt proper transcription or RNA processing, leading to disease (e.g., some thalassemias)
 *   **Antimicrobial/Anticancer Drugs:** Some antibiotics (like Rifampicin) target bacterial RNA polymerase. Some cancer therapies aim to disrupt transcription processes vital for tumor growth
 *   **Forensics/Identity Testing:** While mainly DNA-based, RNA profiling can sometimes provide information about tissue origin or time since deposition
-
-## **Key Terms** {-}
-
-*   **Transcription:** Synthesis of RNA from a DNA template
-*   **RNA Polymerase:** The enzyme responsible for transcription
-*   **Template Strand (Antisense Strand):** The DNA strand read by RNA polymerase (3' to 5')
-*   **Coding Strand (Sense Strand):** The DNA strand whose sequence matches the RNA transcript (except T for U)
-*   **Transcript:** The RNA molecule produced during transcription
-*   **Promoter:** DNA sequence signaling the start site for transcription; binding site for RNA polymerase
-*   **Terminator:** DNA sequence signaling the end of transcription
-*   **Transcription Factors:** Proteins that regulate transcription initiation and rate
-*   **mRNA (Messenger RNA):** RNA that carries the code for protein synthesis
-*   **rRNA (Ribosomal RNA):** Structural and catalytic RNA in ribosomes
-*   **tRNA (Transfer RNA):** Adapter RNA in protein synthesis
-*   **Splicing:** Removal of introns and joining of exons in eukaryotic pre-mRNA
-*   **Intron:** Non-coding sequence removed from pre-mRNA
-*   **Exon:** Coding sequence retained in mature mRNA
-*   **5' Cap:** Modified guanine nucleotide added to the 5' end of eukaryotic mRNA
-*   **Poly(A) Tail:** String of adenine nucleotides added to the 3' end of eukaryotic mRNA
-*   **Gene Expression:** The process by which information from a gene is used to synthesize a functional product (RNA or protein)

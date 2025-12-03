@@ -2,23 +2,23 @@
 
 Let's shift gears from diagnosing disease to answering a more fundamental question: **"Whose DNA is this?"** This is the realm of genetic identity testing, a powerful application of molecular biology that acts as the ultimate biological barcode
 
-Unlike most of the testing we've discussed, we are not looking for a specific gene that *causes* a disease. Instead, we are exploiting the natural, harmless variations in our DNA that make each of us unique. Specifically, we focus on non-coding regions of our DNA—the so-called "junk DNA"—that are highly variable between individuals. This allows us to create a DNA profile, or "genetic fingerprint," that is statistically unique to one person out of billions
+Unlike most of the testing we've discussed, we are not looking for a specific gene that *causes* a disease. Instead, we are exploiting the natural, harmless variations in our DNA that make each of us unique. Specifically, we focus on non-coding regions of our DNA - the so-called "junk DNA" - that are highly variable between individuals. This allows us to create a DNA profile, or "genetic fingerprint," that is statistically unique to one person out of billions
 
 This technology has famous applications in forensics, but its role within the clinical and reference laboratory is just as critical for ensuring patient safety and providing definitive answers in complex family relationship cases
 
 ## **The Technology: Short Tandem Repeats (STRs)** {-}
 
-The workhorse technology for genetic identity is the analysis of **Short Tandem Repeats (STRs)**. Imagine a section of your DNA where a short sequence of nucleotides (usually 4) is repeated over and over, like a stutter: GATA GATA GATA GATA..
+The workhorse technology for genetic identity is the analysis of **Short Tandem Repeats (STRs)**. Imagine a section of your DNA where a short sequence of nucleotides (usually 4) is repeated over and over, like a stutter: GATA GATA GATA GATA.
 
 *   The sequence itself (GATA) is the same for everyone at that specific location, or **locus**
-*   The "magic" is that the **number of times** it repeats is highly variable in the population. You might have 10 GATA repeats at a particular locus, while someone else has 15
+*   The "magic" is that the **number of times:** it repeats is highly variable in the population. You might have 10 GATA repeats at a particular locus, while someone else has 15
 *   You inherit one copy of each STR locus from your mother and one from your father. So, at a single locus, you will have two alleles (two numbers of repeats), which can be the same (**homozygous**, e.g., 10,10) or different (**heterozygous**, e.g., 10,15)
 
 To create a DNA profile, the lab uses **multiplex PCR** to amplify a panel of ~20 different STR loci simultaneously. Each primer is labeled with a different fluorescent dye. These amplified, fluorescent fragments are then separated by size with incredible precision using **capillary electrophoresis (fragment analysis)**. The result is a unique numerical profile for an individual (e.g., Locus 1: 10,15; Locus 2: 7,9; Locus 3: 21,21; etc.). The probability of two unrelated people having the exact same profile across all 20+ loci is infinitesimally small, often less than one in a quintillion
 
 ## **Applications of Genetic Identity Testing** {-}
 
-### **Specimen Identification and Provenance** {-}
+### **Specimen Identification & Provenance** {-}
 
 This is arguably the most important and direct application within the clinical laboratory. Mistakes in specimen labeling or handling can have catastrophic consequences for patient diagnosis and treatment. STR analysis provides an undeniable way to confirm that a sample truly belongs to a specific patient. This is often called "specimen provenance testing"
 
@@ -30,23 +30,13 @@ This is arguably the most important and direct application within the clinical l
 This is the classic "who is the father?" test. The principle is based on simple Mendelian inheritance. For every STR locus, a child must have inherited one allele from their biological mother and one from their biological father. The lab generates STR profiles for the child, the mother, and the alleged father
 
 *   For each locus, we first identify the allele the child inherited from the mother
-*   The other allele the child has **must** have come from the biological father
+*   The other allele the child has **must:** have come from the biological father
 *   If, at every single locus, the alleged father possesses the required allele, he is "included" as the biological father with a very high degree of probability (often >99.99%). If there are multiple mismatches where he does not have an allele that he could have passed to the child, he is "excluded" as the biological father
 
 ### **Forensic Science** {-}
 
 This is the most well-known application. A DNA profile is generated from biological evidence left at a crime scene (blood, semen, hair, etc.) and compared to the DNA profile of a suspect
 
-*   **Match:** If the profiles are identical, it places the suspect's DNA at the scene. The strength of this evidence is conveyed by the **random match probability**—the statistical likelihood that a random, unrelated person would also match the evidence profile
+*   **Match:** If the profiles are identical, it places the suspect's DNA at the scene. The strength of this evidence is conveyed by the **random match probability** - the statistical likelihood that a random, unrelated person would also match the evidence profile
 *   **Exclusion:** If the profiles do not match, the suspect is excluded as the source of the evidence
 *   **CODIS (Combined DNA Index System):** This is the national DNA database maintained by the FBI. Crime scene profiles can be searched against the database to find potential suspects, and profiles of convicted offenders are stored to link them to future or past crimes
-
-## **Key Terms** {-}
-
-*   **Short Tandem Repeat (STR):** A region of DNA composed of a short sequence (typically 2-6 base pairs) that is repeated multiple times. The number of repeats at a given locus is highly variable among individuals
-*   **Locus:** A specific, physical location on a chromosome. In identity testing, this refers to the location of a particular STR
-*   **Allele:** In the context of STRs, the "allele" is defined by the number of repeats a person has at a specific locus (e.g., "16" is an allele at the D8S1179 locus)
-*   **DNA Profile:** The unique combination of alleles across multiple STR loci for an individual, used as a genetic fingerprint
-*   **Fragment Analysis:** The laboratory technique, using capillary electrophoresis, that separates DNA fragments by size with single-base-pair resolution. It is used to determine the alleles (repeat numbers) at each STR locus
-*   **CODIS (Combined DNA Index System):** The FBI's national database that stores DNA profiles from crime scenes, convicted offenders, and missing persons
-*   **Random Match Probability (RMP):** The statistic that estimates the frequency of a specific DNA profile in the general population; it represents the chance that a random, unrelated person would share the same genetic profile

@@ -4,12 +4,12 @@ While newer techniques like qPCR and sequencing have taken center stage for many
 
 Think of it this way: You've run a gel (agarose or polyacrylamide) to separate a complex mixture of DNA or RNA fragments by size. Now you want to know, "Is my specific gene or sequence of interest present in this mess, and if so, which band is it?" That's where blotting and probing come in
 
-## **Blotting and Probing: Finding Your Needle in the Haystack** {-}
+## **Blotting & Probing: Finding Your Needle in the Haystack** {-}
 
 The overall process involves two main phases:
 
-1.  **Blotting** Transferring the separated nucleic acid fragments from the fragile gel onto a solid support membrane (making them accessible)
-2.  **Probing (Hybridization)** Using a labeled piece of nucleic acid (the probe), which has a sequence complementary to your target, to find and bind to that specific target sequence on the membrane
+1.  **Blotting:** Transferring the separated nucleic acid fragments from the fragile gel onto a solid support membrane (making them accessible)
+2.  **Probing (Hybridization):** Using a labeled piece of nucleic acid (the probe), which has a sequence complementary to your target, to find and bind to that specific target sequence on the membrane
 
 ## **The Blotting Process: Moving from Gel to Membrane** {-}
 
@@ -76,20 +76,3 @@ While time-consuming and labor-intensive compared to PCR-based methods, blotting
 *   Northern blotting remains a gold standard for analyzing RNA transcript size and splice variants, though qPCR and RNA-Seq are often used for expression quantification
 
 Understanding blotting, hybridization, washing, and especially **stringency** provides fundamental insight into how we achieve specificity in nucleic acid detection, principles that also apply to techniques like microarrays and *in situ* hybridization. It's all about getting that labeled probe to stick specifically to its target and then washing away everything else!
-
-## **Key Terms** {-}
-
-*   **Blotting:** The process of transferring separated macromolecules (DNA, RNA, or protein) from a gel onto a solid support membrane (e.g., nitrocellulose, nylon) while maintaining the separation pattern
-*   **Probe:** A labeled molecule (typically a single-stranded nucleic acid sequence - DNA, RNA, or oligonucleotide) that is complementary to a specific target sequence of interest. It is used to detect the presence of the target sequence through hybridization
-*   **Hybridization (Nucleic Acid):** The process by which two complementary single-stranded nucleic acid molecules (e.g., the probe and the target sequence on the membrane) anneal (bind) to each other through specific hydrogen bonding between base pairs (A-T/U, G-C)
-*   **Target Sequence:** The specific DNA or RNA sequence on the membrane that the probe is designed to detect
-*   **Stringency:** A measure of the reaction conditions (primarily temperature, salt concentration, and presence of denaturants like formamide) during hybridization and washing steps that determine the degree of complementarity required between the probe and target sequence for a stable duplex to form
-*   **High Stringency Conditions:** Experimental conditions (high temperature, low salt concentration) that require a high degree of base pairing complementarity for the probe to remain bound to the target. These conditions wash off non-specifically or partially matched probes, increasing specificity
-*   **Low Stringency Conditions:** Experimental conditions (lower temperature, higher salt concentration) that allow probes to bind to targets even with some degree of base pair mismatch. Used when searching for related but not identical sequences
-*   **Washing (in Blotting):** Post-hybridization steps involving rinsing the membrane with buffers of defined stringency to remove unbound and non-specifically bound probe, thereby reducing background noise and enhancing the specific signal from the probe bound to the target
-*   **Membrane:** The solid support (e.g., nitrocellulose, nylon) onto which nucleic acids are transferred from the gel during blotting. It provides a durable surface for hybridization and detection
-*   **Fixation (Blotting):** The process of permanently attaching the transferred nucleic acids to the membrane, typically by baking or UV crosslinking, to prevent them from washing off during subsequent probing steps
-*   **Blocking (Prehybridization):** Treating the membrane with blocking agents (e.g., Denhardt's solution, salmon sperm DNA) before adding the probe to saturate non-specific binding sites on the membrane surface, thus preventing the probe from sticking randomly and reducing background signal
-*   **Detection (Blotting):** The method used to visualize where the labeled probe has bound to the target sequence on the membrane (e.g., autoradiography for radioactive probes, chemiluminescence or colorimetric methods for enzyme-labeled probes, fluorescence imaging for fluorescent probes)
-*   **Southern Blot:** A technique used to detect specific DNA sequences, involving separation of DNA fragments by electrophoresis, transfer to a membrane, and hybridization with a labeled probe
-*   **Northern Blot:** A technique used to detect specific RNA sequences (and analyze their size and abundance), involving separation of RNA fragments by electrophoresis under denaturing conditions, transfer to a membrane, and hybridization with a labeled probe

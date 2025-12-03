@@ -1,0 +1,100 @@
+# Equipment & Instrumentation {-}
+
+In a molecular diagnostic laboratory, the reliability of a patient result is directly tied to the performance of the equipment used to generate it. Unlike manual methods where the laboratory scientist's hand skills are the primary variable, molecular methods rely heavily on the precise heating, cooling, spinning, and optical detection of automated systems. Quality Assurance (QA) for equipment involves a lifecycle approach: Validation (Installation), Calibration (Accuracy Check), Maintenance (Preventative Care), and Troubleshooting (Repair)
+
+## Thermal Cyclers (PCR Machines) {-}
+
+The thermal cycler is the workhorse of the molecular lab. Its primary function is to rapidly and precisely change the temperature of the reaction mixture to facilitate denaturation, annealing, and extension
+
+*   **Principle:** Modern cyclers use the **Peltier Effect**. When an electric current flows through a junction of two different semiconductors, heat is absorbed at one side and released at the other. By reversing the current, the block can switch rapidly between heating and cooling. Real-time cyclers (qPCR) add an optical system (LED or Halogen lamp + Camera/Detector) to excite fluorophores and detect emission during the run
+*   **Calibration & Verification**
+    *   **Temperature Verification:** Performed semi-annually or annually using an external NIST-traceable probe (a "thermistor"). The probe is placed in specific wells (corners and center) to measure:
+        *   **Accuracy:** Does the block actually reach 95.0°C when set to 95.0°C? (Allowable drift is usually $\pm 0.5^\circ\text{C}$)
+        *   **Uniformity:** Is the temperature identical across the entire block? If the edge wells are cooler than the center, patients in those wells may fail (Edge Effect)
+    *   **Optical Calibration (qPCR):** The camera requires "Background" and "Pure Dye" calibrations. This teaches the instrument to subtract ambient noise and allows it to distinguish between overlapping dye spectra (e.g., separating FAM from VIC)
+*   **Maintenance**
+    *   **Block Cleaning:** The metal wells must be kept free of dust, oil, or spilled PCR reagents. Dirt acts as an insulator, preventing proper heat transfer to the tube. Wells are typically cleaned with a swab and methanol or isopropanol
+    *   **Self-Tests:** Most instruments run a "System Check" on startup to verify lamp intensity and memory integrity
+*   **Troubleshooting**
+    *   **Evaporation (The Edge Effect):** If the heated lid is not functioning or not tight, liquid evaporates and condenses on the cap. This changes the salt concentration of the mix, inhibiting the reaction. This is often seen as failed reactions in the corner wells
+    *   **Ramp Rate Failure:** If the Peltier units degrade, the machine may not heat/cool fast enough. This can lead to non-specific amplification because the reaction spends too much time in intermediate temperatures
+
+## Pipettes (Micropipettes) {-}
+
+Pipettes are the primary source of volumetric accuracy. In molecular biology, handling microliter ($\mu\text{L}$) volumes requires precision, as slight errors in primer or template volume can drastically alter amplification efficiency
+
+*   **Principle:** Most molecular pipettes use **Air Displacement**. A piston moves within a cylinder, displacing a specific volume of air. When the piston moves up, the vacuum pulls the equivalent volume of liquid into the tip. **Positive Displacement** pipettes (where the piston touches the liquid) are used for viscous fluids
+*   **Calibration (Gravimetric Analysis)**
+    *   The "Gold Standard" for calibration is weighing distilled water on a specialized analytical balance
+    *   **Calculation:** Since $1 \mu\text{L}$ of water weighs $1 \text{mg}$ (at standard temp/pressure), the mass is converted to volume. This is usually performed quarterly or semi-annually
+    *   **Accuracy vs. Precision:** The pipette is checked at 100% and 10% of its volume. It must be accurate (mean volume is correct) and precise (low standard deviation between replicates)
+*   **Maintenance**
+    *   **Seal Replacement:** The internal O-rings and seals degrade over time or if harsh chemicals are aspirated. Leaking seals lead to under-pipetting
+    *   **Decontamination:** Pipette barrels should be regularly wiped with 10% bleach or DNA removal agents to prevent cross-contamination
+*   **Troubleshooting**
+    *   **Droplet Formation:** If liquid drips from the tip, it indicates a leak in the air seal (bad O-ring) or that the tip is not seated properly
+    *   **Splash-Up:** If liquid enters the barrel (contamination), the pipette must be disassembled and cleaned immediately. Using filtered tips prevents this
+
+## Centrifuges {-}
+
+Centrifuges are essential for separating plasma/serum, pelleting nucleic acids during ethanol precipitation, and spinning down droplets before PCR
+
+*   **Principle:** Uses centrifugal force to separate substances by density. The force is generated by a spinning rotor
+    *   **RPM vs. RCF:** Rotational speed (RPM) is less relevant than Relative Centrifugal Force (RCF or $g$-force). $RCF = 1.118 \times 10^{-5} \times r \times (RPM)^2$. Because radius ($r$) varies between machines, protocols should always specify $g$-force, not RPM
+*   **Calibration**
+    *   **Tachometer Check:** An external tachometer (strobe light or laser) is used annually to verify that the digital RPM display matches the actual rotor speed
+    *   **Timer Check:** A stopwatch verifies the cycle time
+*   **Maintenance**
+    *   **Rotor Inspection:** Metal rotors can suffer from "stress corrosion." Micro-cracks can lead to catastrophic failure (explosion) at high speeds. Rotors should be inspected for pitting and cleaned with mild detergent (never harsh acids/bases)
+    *   **Aerosol Containment:** Buckets and rotors often have O-ring lids ("Bio-Seals"). These must be greased and checked to ensure that if a tube breaks, the infectious aerosols are contained within the rotor
+*   **Troubleshooting**
+    *   **Vibration:** Usually caused by an unbalanced load. Tubes must be placed symmetrically by mass. Even a small weight difference at 15,000 RPM creates significant force
+
+## Biological Safety Cabinets (BSCs) & Hoods {-}
+
+These provide the primary engineering control for safety (protecting the user from pathogens) and contamination control (protecting the reagents from the user)
+
+*   **Principle (Class II Type A2):** The standard BSC uses **HEPA (High Efficiency Particulate Air)** filters. Air is drawn in from the front (creating an air curtain to protect the user), passed through a HEPA filter, and forced downward (laminar flow) to protect the work surface. Exhaust air is HEPA filtered before leaving the cabinet
+*   **Certification (Validation)**
+    *   Must be certified **Annually:** by an external professional
+    *   **Tests:** Inflow velocity (intake speed), Downflow velocity (laminar air speed), and HEPA filter integrity (leak scan to ensure no holes in the filter)
+*   **Maintenance & Protocol**
+    *   **UV Lights:** Many hoods have UV lamps for decontamination. These bulbs lose germicidal intensity over time and must be checked with a UV meter. They should be wiped specifically with ethanol to remove dust that blocks UV radiation
+    *   **Airflow:** Never block the front or rear grilles with notebooks or pipette tip boxes. This disrupts the laminar flow and compromises safety
+*   **Troubleshooting**
+    *   **Alarms:** If the sash is raised too high, the alarm sounds because the inflow velocity is insufficient to protect the user. Lower the sash to the proper level
+
+## Spectrophotometers & Fluorometers {-}
+
+Used for quantifying DNA/RNA yield and purity
+
+*   **Principle**
+    *   **Spectrophotometer:** Measures light absorbance (Beer-Lambert Law). Light is passed through the sample, and the amount absorbed is inversely proportional to the amount transmitted
+    *   **Fluorometer:** Excites the sample with a specific wavelength and measures the emitted light. Requires a fluorescent dye
+*   **Calibration**
+    *   **Wavelength Accuracy:** Verified using standard filters (e.g., Holmium oxide or Didymium glass) that have known absorbance peaks
+    *   **Photometric Linearity:** Verified using neutral density filters to ensure the detector responds linearly as concentration increases
+*   **Maintenance**
+    *   **Cuvette Cleaning** Dirty optical surfaces are the #1 cause of error. Wipe the outside of cuvettes with lint-free tissue (Kimwipe)
+    *   **Bulb Life:** Deuterium (UV) and Tungsten (Visible) bulbs have finite lifespans. Dim bulbs result in noisy/drifting data
+*   **Troubleshooting**
+    *   **Negative Readings:** Usually caused by improper "Blanking." The blank must contain the exact buffer used to elute the DNA. If the blank is "dirtier" than the sample, the reading will be negative
+
+## Cold Storage (Refrigerators & Freezers) {-}
+
+Reagents and specimens are temperature-labile. A freezer failure can result in the loss of thousands of dollars of reagents and irreplaceable patient samples
+
+*   **Monitoring:** Temperatures must be monitored continuously (24/7), ideally with a digital recording system
+*   **Validation:** Use NIST-traceable thermometers (typically in a glycol solution to mimic liquid temperature rather than air temperature). Thermometers must be calibrated annually
+*   **Maintenance**
+    *   **Defrosting:** Ice buildup acts as an insulator, causing the compressor to work harder and creating temperature fluctuations
+    *   **Seal Check:** The "Dollar Bill Test" (close the door on a dollar bill; if you can pull it out easily, the gasket is bad) ensures the door seals tight
+*   **Troubleshooting:** If the temperature drifts, check the condenser coils for dust accumulation (vacuum them) before calling for repair
+
+## Equipment Validation Framework (IQ/OQ/PQ) {-}
+
+When new equipment is purchased, it must undergo a formal validation process before being used for patient testing. This is required by CLIA and CAP
+
+*   **IQ (Installation Qualification):** Verification that the instrument is installed correctly. (e.g., Is the electrical supply correct? Is the bench stable? Is the software installed?)
+*   **OQ (Operational Qualification):** Verification that the instrument functions according to manufacturer specs. (e.g., Does the centrifuge reach 10,000 RPM? Does the thermal cycler reach 95°C? Does the UV light turn on?)
+*   **PQ (Performance Qualification):** Verification that the instrument works *for your specific application*. (e.g., Running known positive and negative patient samples to prove the new thermal cycler produces the same results as the old one)
